@@ -1,0 +1,32 @@
+@base          <bdg:UT4CZ42297_009_0001> .
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT4CZ42297_009_0001 {
+    bda:UT4CZ42297_009_0001
+        a                   adm:AdminData ;
+        :isRoot             true ;
+        adm:adminAbout      bdr:UT4CZ42297_009_0001 ;
+        adm:gitPath         "15/UT4CZ42297_009_0001.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT4CZ42297_009_0001 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:UT4CZ42297_009_0001
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "བླ་མའི་ནོར་སྒྲུབ་པདྨ་རྒྱལ་པོ་ལས།ཆོས་སྡེ་ཡོངས་རྫོགས་ཀྱི་ཐེམ་བྱང་བཞུགས་སོ།ཨོཾ་སྭ་སྟི།སྤྲུལ་པའི་གཏེར་ཆེན་རྩ་གསུམ་གླིང་པ་ཡི། །བཀའ་ག"@bo ;
+        :eTextInInstance    bdr:W4CZ42297 ;
+        :eTextInVolume      9 ;
+        :eTextSourcePath    "TulkuSangag/Namchak/rtfs/volume-0009/09_NOR-DRUB__pod_TA.rtf" ;
+        :eTextVolumeIndex   1 ;
+        :isRoot             true .
+}

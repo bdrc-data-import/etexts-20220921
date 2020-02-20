@@ -1,0 +1,32 @@
+@base          <bdg:UT10736_019_0020> .
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT10736_019_0020 {
+    bda:UT10736_019_0020
+        a                   adm:AdminData ;
+        :isRoot             true ;
+        adm:adminAbout      bdr:UT10736_019_0020 ;
+        adm:gitPath         "70/UT10736_019_0020.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT10736_019_0020 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:UT10736_019_0020
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །སྙན་རྒྱུད་ལས་མཁའ་འགྲོའི་གསང་སྒྲོག་བདེ་བ་ཆེན་པོའི་ཁྲིད་ཡིག་བཞུགས། །"@bo ;
+        :eTextInInstance    bdr:IE10736 ;
+        :eTextInVolume      19 ;
+        :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/19_dza/19_26_dza_snyan-rgyud-las-mkhaq-qgroqi-gsang-sgrog-bde-ba-chen-poqi-khrid-yig.rtf" ;
+        :eTextVolumeIndex   20 ;
+        :isRoot             true .
+}

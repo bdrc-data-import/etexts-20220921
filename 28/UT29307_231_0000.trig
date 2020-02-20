@@ -1,0 +1,31 @@
+@base          <bdg:UT29307_231_0000> .
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT29307_231_0000 {
+    bda:UT29307_231_0000
+        a                   adm:AdminData ;
+        :isRoot             true ;
+        adm:adminAbout      bdr:UT29307_231_0000 ;
+        adm:gitPath         "28/UT29307_231_0000.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT29307_231_0000 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:UT29307_231_0000
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །ཉམས་ལེན་ཟབ་མོའི་རིམ་པ་རྣམས། །གསལ་འདེབས་ཏིང་འཛིན་གོང་འཕེལ་བཞུགས། །ན་མོ་གུ་རུ་བུདྡྷ་དྷྭ་ཛ་ཡེ།བསླུ་མེད་བླ་མ་དཀོན་མཆོག་རྣམ་ག"@bo ;
+        :eTextInInstance    bdr:IE29307 ;
+        :eTextIsVolume      231 ;
+        :eTextSourcePath    "GuruLamaWorks/Precious-and-Rare-Disk-01-20130424/rtfs/4_AMAI/AMAI231_ཉམས་ལེན་ཟབ་མོའི་རིམ་པ་རྣམས་གསལ་འདེབས་པ།.rtf" ;
+        :isRoot             true .
+}

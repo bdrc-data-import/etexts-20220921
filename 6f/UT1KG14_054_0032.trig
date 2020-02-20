@@ -1,0 +1,32 @@
+@base          <bdg:UT1KG14_054_0032> .
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT1KG14_054_0032 {
+    bda:UT1KG14_054_0032
+        a                   adm:AdminData ;
+        :isRoot             true ;
+        adm:adminAbout      bdr:UT1KG14_054_0032 ;
+        adm:gitPath         "6f/UT1KG14_054_0032.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT1KG14_054_0032 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:UT1KG14_054_0032
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །འཇམ་དཔལ་ཕ་རོལ་རྒོལ་འཇོམས་གླང་རུ་མའི་ཟིན་བྲིས་ཁྱབ་འཇུག་མཚོན་ཆའི་འཁོར་ལོ་ཞེས་བྱ་བ་བཞུགས་སོ། །"@bo ;
+        :eTextInInstance    bdr:IE1KG14 ;
+        :eTextInVolume      54 ;
+        :eTextSourcePath    "Shechen/Rinchen-Terdzod-Shechen-vols-01-54/rtfs/54-YI/TERDZO-YI-P31.rtf" ;
+        :eTextVolumeIndex   32 ;
+        :isRoot             true .
+}

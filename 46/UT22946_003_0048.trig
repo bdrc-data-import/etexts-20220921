@@ -1,0 +1,32 @@
+@base          <bdg:UT22946_003_0048> .
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT22946_003_0048 {
+    bda:UT22946_003_0048
+        a                   adm:AdminData ;
+        :isRoot             true ;
+        adm:adminAbout      bdr:UT22946_003_0048 ;
+        adm:gitPath         "46/UT22946_003_0048.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT22946_003_0048 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:UT22946_003_0048
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༼༦༥༡༽སྒྲོལ་མ་ནན་མ་ལས་སྣ་ཚོགས་པའི་དཔའ་མོ་གཅིག་པར་སྒྲུབ་པ་ནི།དུར་ཁྲོད་དམ་རྟེན་ཆོད་རྟེན་དྲུང་ངམ་ཆུ་བོའི་འགྲམ་དུ་རོ་སོལ་གྱི་སྟེགས་དབ"@bo ;
+        :eTextInInstance    bdr:IE22946 ;
+        :eTextInVolume      3 ;
+        :eTextSourcePath    "PalriParkhang/W22946-mkhan-po-ngag-dbang-dpal-bzang-_ngaga/rtfs/NGAGA-vol-3-GA/ga_0651-0662_pecha.rtf" ;
+        :eTextVolumeIndex   48 ;
+        :isRoot             true .
+}

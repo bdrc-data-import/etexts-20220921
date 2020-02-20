@@ -1,0 +1,32 @@
+@base          <bdg:UT3JT13366_008_0004> .
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT3JT13366_008_0004 {
+    bda:UT3JT13366_008_0004
+        a                   adm:AdminData ;
+        :isRoot             true ;
+        adm:adminAbout      bdr:UT3JT13366_008_0004 ;
+        adm:gitPath         "27/UT3JT13366_008_0004.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT3JT13366_008_0004 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:UT3JT13366_008_0004
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "ཅན་ལ་སྙིང་རྗེའི་སྟོབས་ལྡན་པས་ཕྱག་རྒྱ་ལ་བརྟེན་ཏེ།བྱང་ཆུབ་ཀྱི་སེམས་ཀྱིས་སློབ་མ་ལ་དབང་བསྐུར་ཏེ།དེའང་ཕྱག་རྒྱའི་རིམ་པ་ནི།གང་ཡང་རུང་བ་"@bo ;
+        :eTextInInstance    bdr:W3JT13366 ;
+        :eTextInVolume      8 ;
+        :eTextSourcePath    "KarmaDelek/sa-skya-bkaq-qbum/rtfs/volume_008/volume_008_070.rtf" ;
+        :eTextVolumeIndex   4 ;
+        :isRoot             true .
+}

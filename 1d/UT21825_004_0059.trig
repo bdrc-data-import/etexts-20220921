@@ -1,0 +1,32 @@
+@base          <bdg:UT21825_004_0059> .
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT21825_004_0059 {
+    bda:UT21825_004_0059
+        a                   adm:AdminData ;
+        :isRoot             true ;
+        adm:adminAbout      bdr:UT21825_004_0059 ;
+        adm:gitPath         "1d/UT21825_004_0059.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT21825_004_0059 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:UT21825_004_0059
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༼༦༣༽འཇམ་དཔལ་གཤིན་རྗེ་འཆི་བདག་ཟིལ་གནོན་ལ།སེམས་བསྐྱེད་སྡོམ་ཆོགབརྒྱུད་འདེབས།རང་གི་སྙིང་གའི༴འདི་དང་འགུགས་པ་བཅས་ལ་ཁ་སྒྱུར།ཕྱག་རྒྱ་ཟིལ"@bo ;
+        :eTextInInstance    bdr:IE21825 ;
+        :eTextInVolume      4 ;
+        :eTextSourcePath    "PalriParkhang/W21825-bkaq-qbum-pad-nor-02-thub-bstan-chos-kyi-glang-po/rtfs/04-penor-kabum-nga/penor-kabum-nga-063-068.rtf" ;
+        :eTextVolumeIndex   59 ;
+        :isRoot             true .
+}

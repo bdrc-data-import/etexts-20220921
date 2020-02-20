@@ -1,0 +1,32 @@
+@base          <bdg:UT3JT13304_001_0035> .
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT3JT13304_001_0035 {
+    bda:UT3JT13304_001_0035
+        a                   adm:AdminData ;
+        :isRoot             true ;
+        adm:adminAbout      bdr:UT3JT13304_001_0035 ;
+        adm:gitPath         "49/UT3JT13304_001_0035.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT3JT13304_001_0035 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:UT3JT13304_001_0035
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །བྱང་ཆུབ་སེམས་དཔའི་སྤྱོད་པ་ལ་འཇུག་པའི་འགྲེལ་པ་ལེགས་པར་བཤད་པའི་རྒྱ་མཚོ་ཞེས་བྱ་བ་བཞུགས་སོ། །བྱང་ཆུབ་སེམས་དཔའི་སྤྱོད་པ་ལ་འཇུག"@bo ;
+        :eTextInInstance    bdr:W3JT13304 ;
+        :eTextInVolume      1 ;
+        :eTextSourcePath    "GuruLamaWorks/PARCHIN/rtfs/volume-001/100PARCHIN.rtf" ;
+        :eTextVolumeIndex   35 ;
+        :isRoot             true .
+}

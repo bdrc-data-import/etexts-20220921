@@ -1,0 +1,32 @@
+@base          <bdg:UT1KG3815_001_0001> .
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT1KG3815_001_0001 {
+    bda:UT1KG3815_001_0001
+        a                   adm:AdminData ;
+        :isRoot             true ;
+        adm:adminAbout      bdr:UT1KG3815_001_0001 ;
+        adm:gitPath         "db/UT1KG3815_001_0001.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT1KG3815_001_0001 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:UT1KG3815_001_0001
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །རྒྱལ་བའི་དབང་པོ་དཔལ་ཀརྨ་པ་སྐུ་འཕྲེང་བཅུ་དྲུག་པ་ཚུན་རིམ་པར་བྱོན་པའི་རྣམ་ཐར་ཕྱོགས་བསྒྲིགས།མཛད་པ་པོ།༧སྐྱབས་རྗེ་མཁན་ཆེན་ཁྲ་འགུ"@bo ;
+        :eTextInInstance    bdr:IE1KG3815 ;
+        :eTextInVolume      1 ;
+        :eTextSourcePath    "VajraVidya/Thrangu_Karmapa_biographies/rtfs/volume-001/Thrangu_Karmapa_bios.rtf" ;
+        :eTextVolumeIndex   1 ;
+        :isRoot             true .
+}

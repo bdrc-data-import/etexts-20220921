@@ -1,0 +1,32 @@
+@base          <bdg:UT2DB16428_003_0005> .
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT2DB16428_003_0005 {
+    bda:UT2DB16428_003_0005
+        a                   adm:AdminData ;
+        :isRoot             true ;
+        adm:adminAbout      bdr:UT2DB16428_003_0005 ;
+        adm:gitPath         "ad/UT2DB16428_003_0005.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT2DB16428_003_0005 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:UT2DB16428_003_0005
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "མེ་ལོང་ནང་གི་གཟུགས་བརྙན་དང་སྔོན་པོ་ལ་སོགས་པ་སྣང་བ་ལྟར་མ་གྲུབ་པར་མཚུངས་པར་བཞེད་ཅིང་ཟླ་བ་གཉིས་སྣང་གི་དབང་ཤེས་དང༌།ཚུར་མཐོང་གི་སྔོན་"@bo ;
+        :eTextInInstance    bdr:IE2DB16428 ;
+        :eTextInVolume      3 ;
+        :eTextSourcePath    "KarmaDelek/sung-thor-bu _blo-gros-rin-chen-seng-ge_gung-ru-rgyal-mtshan-bzang-po-chos-skor/rtfs/volume_003/volume_003_016.rtf" ;
+        :eTextVolumeIndex   5 ;
+        :isRoot             true .
+}

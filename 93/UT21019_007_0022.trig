@@ -1,0 +1,32 @@
+@base          <bdg:UT21019_007_0022> .
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT21019_007_0022 {
+    bda:UT21019_007_0022
+        a                   adm:AdminData ;
+        :isRoot             true ;
+        adm:adminAbout      bdr:UT21019_007_0022 ;
+        adm:gitPath         "93/UT21019_007_0022.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT21019_007_0022 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:UT21019_007_0022
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "གཅོད་ཡུལ་བདུད་རྩི་ཀུན་ཁྱབ་ཀྱི་ངག་འདོན་བཞུགས་སོ།༤༠༤༽ཕཊཿརང་ཉིད་ཀྱི་སྤྱི་བོར་དྲིན་ཅན་རྗེ། །སངས་རྒྱས་ཀྱི་ཁྱབ་བདག་བླ་མ་མཆོག་།བྱིན་རླ"@bo ;
+        :eTextInInstance    bdr:IE21019 ;
+        :eTextInVolume      7 ;
+        :eTextSourcePath    "PalriParkhang/W21019-rtse-le-sna-tshogs-rang-grol/rtfs/Tseley-Natsog-Rangdrol-Volume-7/Volume-7-Tsele-_403-406_.rtf" ;
+        :eTextVolumeIndex   22 ;
+        :isRoot             true .
+}

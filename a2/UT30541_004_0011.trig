@@ -1,0 +1,32 @@
+@base          <bdg:UT30541_004_0011> .
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT30541_004_0011 {
+    bda:UT30541_004_0011
+        a                   adm:AdminData ;
+        :isRoot             true ;
+        adm:adminAbout      bdr:UT30541_004_0011 ;
+        adm:gitPath         "a2/UT30541_004_0011.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT30541_004_0011 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:UT30541_004_0011
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །ཐམས་ཅད་མཁྱེན་པ་རིན་པོ་ཆེ་རང་བྱུང་རྡོ་རྗེ་རྣམ་པར་ཐར་པ་ཚིགས་སུ་བཅད་པ་བཞུགས་པའི་དབུ་ཕྱོགས་ལགས་སོ། །"@bo ;
+        :eTextInInstance    bdr:IE30541 ;
+        :eTextInVolume      4 ;
+        :eTextSourcePath    "DharmaDownload/Karmapa-03/rtfs/04_3rd-karmapa-text_tdoc_nga/04_10_nga_thams-cad-mkhyen-pa-rin-po-che-rang-byung-rdo-rje-rnam-par-thar-pa-tshigs-su-cad-pa.rtf" ;
+        :eTextVolumeIndex   11 ;
+        :isRoot             true .
+}

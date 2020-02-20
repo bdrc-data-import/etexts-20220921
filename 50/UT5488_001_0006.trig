@@ -1,0 +1,32 @@
+@base          <bdg:UT5488_001_0006> .
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT5488_001_0006 {
+    bda:UT5488_001_0006
+        a                   adm:AdminData ;
+        :isRoot             true ;
+        adm:adminAbout      bdr:UT5488_001_0006 ;
+        adm:gitPath         "50/UT5488_001_0006.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT5488_001_0006 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:UT5488_001_0006
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །དེ་ལྟར་ཆོས་དཀར་མཐའ་དག་གི་གཞི་མ་ལྷག་པའི་ཚུལ་ཁྲིམས་ལ་ལེགས་པར་གནས་པའི་གང་ཟག་དེས།ཐར་པ་དང་ཐམས་ཅད་མཁྱེན་པའི་ལམ་ཕྱིན་ཅི་མ་ལོག་པར་"@bo ;
+        :eTextInInstance    bdr:IE5488 ;
+        :eTextInVolume      1 ;
+        :eTextSourcePath    "DharmaDownload/shes-bya-kun-khyab/rtfs/SK_Tdoc/06_Sheja-Kunchab.rtf" ;
+        :eTextVolumeIndex   6 ;
+        :isRoot             true .
+}

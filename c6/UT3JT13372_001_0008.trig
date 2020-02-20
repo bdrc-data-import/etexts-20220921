@@ -1,0 +1,32 @@
+@base          <bdg:UT3JT13372_001_0008> .
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT3JT13372_001_0008 {
+    bda:UT3JT13372_001_0008
+        a                   adm:AdminData ;
+        :isRoot             true ;
+        adm:adminAbout      bdr:UT3JT13372_001_0008 ;
+        adm:gitPath         "c6/UT3JT13372_001_0008.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT3JT13372_001_0008 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:UT3JT13372_001_0008
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "ད་ནི་སེམས་བསྐྱེད་པ་བདུན་པའི་དབང་དུ་བྱས་ནས་བཤད་པ།"@bo ;
+        :eTextInInstance    bdr:W3JT13372 ;
+        :eTextInVolume      1 ;
+        :eTextSourcePath    "VajraVidya/Jugpa_Raggdrel/rtfs/volume-001/Uma_Jugpa_Rangdrel_07.rtf" ;
+        :eTextVolumeIndex   8 ;
+        :isRoot             true .
+}

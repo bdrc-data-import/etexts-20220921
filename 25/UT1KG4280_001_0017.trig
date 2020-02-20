@@ -1,0 +1,32 @@
+@base          <bdg:UT1KG4280_001_0017> .
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:UT1KG4280_001_0017 {
+    bda:UT1KG4280_001_0017
+        a                   adm:AdminData ;
+        :isRoot             true ;
+        adm:adminAbout      bdr:UT1KG4280_001_0017 ;
+        adm:gitPath         "25/UT1KG4280_001_0017.trig" ;
+        adm:gitRepo         bda:GR0002 ;
+        adm:graphId         bdg:UT1KG4280_001_0017 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:UT1KG4280_001_0017
+        a                   :EtextNonPaginated ;
+        skos:prefLabel      "༄༅། །གཏོར་བསྔོས་ཁྱེར་བདེའི་རིགས་རྣམས་ཕྱོགས་གཅིག་ཏུ་བསྡེབས་པ་ཕྲིན་ལས་བདུད་རྩིའི་གཏེར་མཛོད་ཅེས་བྱ་བ་བཞུགས་སོ། །"@bo ;
+        :eTextInInstance    bdr:IE1KG4280 ;
+        :eTextInVolume      1 ;
+        :eTextSourcePath    "DharmaDownload/Situpa-09-sung-bum/rtfs/AHA/017_9th-Situ-Kabum_AHA_gtor-bsngos-phrin-las-bdud-rtsiqi-gter-mdzod.rtf" ;
+        :eTextVolumeIndex   17 ;
+        :isRoot             true .
+}
