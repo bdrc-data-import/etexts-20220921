@@ -16,14 +16,56 @@ bdg:UT10736_011_0018 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT10736_011_0018 ;
+        adm:facetIndex      11 ;
         adm:gitPath         "76/UT10736_011_0018.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT10736_011_0018 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP34E4565DE6FB1089
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP4B2B4687A1B50075
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP5F81988F21E93016
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP655933BE1E4193FB
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP80400AEAB7DB0F20
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPCBDCCC4270270D7B
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPD7CE57289F8D12B1
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EPE08BD3C093A16653
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EPEC54F133240836CE
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPF6816D3FB2A603B7
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
     bdr:UT10736_011_0018
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །ཡི་གེ་དྲུག་པའི་རིག་སྔགས་ཆེན་མོའི་སྒྲུབ་ཐབས་གསེར་གྱི་འཕྲེང་བ་ཞེས་བྱ་བ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP34E4565DE6FB1089 , bdr:EP4B2B4687A1B50075 , bdr:EP5F81988F21E93016 , bdr:EP655933BE1E4193FB , bdr:EP80400AEAB7DB0F20 , bdr:EPCBDCCC4270270D7B , bdr:EPD7CE57289F8D12B1 , bdr:EPE08BD3C093A16653 , bdr:EPEC54F133240836CE , bdr:EPF6816D3FB2A603B7 ;
         :eTextInInstance    bdr:IE10736 ;
         :eTextInVolume      11 ;
         :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/11_da/11_16_da_yi-ge-drug-paqi-rig-sngags-chen-moqi-sgrub-thabs-gser-gyi-qphreng-ba.rtf" ;

@@ -16,14 +16,36 @@ bdg:UT23605_002_0007 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_002_0007 ;
+        adm:facetIndex      6 ;
         adm:gitPath         "f9/UT23605_002_0007.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_002_0007 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP2B0B8C68710E306E
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP600B056A49D4B261
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPAEBBBFA22322F9B9
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPC17B15613AC4C054
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPF7514A3ABADBEEF7
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT23605_002_0007
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༨༡༽༄༅། །གླིང་བཞི་རྒྱན་གྱི་མཎྜལ་བཞུགས་སོ། །། །"@bo ;
+        :eTextHasPage       bdr:EP2B0B8C68710E306E , bdr:EP600B056A49D4B261 , bdr:EPAEBBBFA22322F9B9 , bdr:EPC17B15613AC4C054 , bdr:EPF7514A3ABADBEEF7 ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      2 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/02_gdams-ngag-mdzod_kha/02_06_gling-bzhi-rgyan-gyi-maNDala.rtf" ;

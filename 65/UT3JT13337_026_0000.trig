@@ -16,14 +16,36 @@ bdg:UT3JT13337_026_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13337_026_0000 ;
+        adm:facetIndex      6 ;
         adm:gitPath         "65/UT3JT13337_026_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13337_026_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP26081CD7E17A1EA5
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP46C8438073B2236E
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP5C06DBA737023BF3
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPB6E17AC1CB6CBA76
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPEE2290FD3B9CD068
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT3JT13337_026_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅།ལྷ་མོ་བུ་རྫི་མའི་རྟེན་མདོས་བཞུགས་སོ༔"@bo ;
+        :eTextHasPage       bdr:EP26081CD7E17A1EA5 , bdr:EP46C8438073B2236E , bdr:EP5C06DBA737023BF3 , bdr:EPB6E17AC1CB6CBA76 , bdr:EPEE2290FD3B9CD068 ;
         :eTextInInstance    bdr:IE3JT13337 ;
         :eTextIsVolume      26 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/P0025_Tobum_tdoc/032-bu-rzi-ma.rtf" ;

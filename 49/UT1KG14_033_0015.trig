@@ -16,14 +16,52 @@ bdg:UT1KG14_033_0015 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1KG14_033_0015 ;
+        adm:facetIndex      10 ;
         adm:gitPath         "49/UT1KG14_033_0015.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1KG14_033_0015 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP1085995140FD01D6
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP17690719F1F65B42
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP1790FEB2A3F3498B
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP7BEA743BC7F8D59F
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP9A8B73CCBFB96D11
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPCB067AA26E0691AA
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPCF98D35EEA7C070F
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPE51E47544D8E170C
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPFD4110C9C4BA2650
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
     bdr:UT1KG14_033_0015
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །མཁའ་འགྲོའི་སྙན་བརྒྱུད་ཟབ་མོ་ལས་རྫོགས་རིམ་བསྐྱེད་རྫོགས་གཉིས་མེད་ཀྱི་ཁྲིད་ཡིག་ཟིན་བྲིས་ཚེ་གཅིག་ཟུང་འཇུག་འགྲུབ་པའི་ཉེ་ལམ་བཞུག"@bo ;
+        :eTextHasPage       bdr:EP1085995140FD01D6 , bdr:EP17690719F1F65B42 , bdr:EP1790FEB2A3F3498B , bdr:EP7BEA743BC7F8D59F , bdr:EP9A8B73CCBFB96D11 , bdr:EPCB067AA26E0691AA , bdr:EPCF98D35EEA7C070F , bdr:EPE51E47544D8E170C , bdr:EPFD4110C9C4BA2650 ;
         :eTextInInstance    bdr:IE1KG14 ;
         :eTextInVolume      33 ;
         :eTextSourcePath    "Shechen/Rinchen-Terdzod-Shechen-vols-01-54/rtfs/33-GI/TERDZO-GI-P14.rtf" ;

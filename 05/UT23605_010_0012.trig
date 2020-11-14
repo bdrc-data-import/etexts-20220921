@@ -16,14 +16,44 @@ bdg:UT23605_010_0012 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_010_0012 ;
+        adm:facetIndex      8 ;
         adm:gitPath         "05/UT23605_010_0012.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_010_0012 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP81920C42EF3E0FA0
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPA47ABF6425D1CEA9
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPB13AAF0890F4F6C3
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPBB6A9F1E42E2F7E4
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPBD8FA5250294DB8B
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPE95E7195D7FE356C
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPEB4FED7CA62B73A7
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT23605_010_0012
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༡༣༡༽༄༅། །བླ་མ་ཕྱི་ནང་གསང་བར་སྒྲུབ་པའི་གཞུང་བཞུགས་སོ། །། །"@bo ;
+        :eTextHasPage       bdr:EP81920C42EF3E0FA0 , bdr:EPA47ABF6425D1CEA9 , bdr:EPB13AAF0890F4F6C3 , bdr:EPBB6A9F1E42E2F7E4 , bdr:EPBD8FA5250294DB8B , bdr:EPE95E7195D7FE356C , bdr:EPEB4FED7CA62B73A7 ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      10 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/10_gdams-ngag-mdzod_tha/10_11_bla-ma-phyi-nang-gsang-bar-sgrub-paqi-gzhung.rtf" ;

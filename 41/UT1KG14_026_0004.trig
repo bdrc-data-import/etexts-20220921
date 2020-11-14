@@ -16,14 +16,56 @@ bdg:UT1KG14_026_0004 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1KG14_026_0004 ;
+        adm:facetIndex      11 ;
         adm:gitPath         "41/UT1KG14_026_0004.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1KG14_026_0004 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP087AC8B59CA7A557
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP1A6C32CC71767748
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP3AAFB6F261CF3CD4
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP5CFC5EB411D69D52
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP71F21D102F86E08E
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP73D992FF4D20CBDB
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP8DA1C3F7ACED780C
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPA92BEEB19BC17942
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPB2037E09D00F3721
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPEC74F0AB405AC5C3
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
     bdr:UT1KG14_026_0004
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅༔རྟ་མགྲིན་དྲེགས་པ་དབང་སྡུད་ཀྱི་སྒྲུབ་ཐབས་བཞུགས་སོ༔"@bo ;
+        :eTextHasPage       bdr:EP087AC8B59CA7A557 , bdr:EP1A6C32CC71767748 , bdr:EP3AAFB6F261CF3CD4 , bdr:EP5CFC5EB411D69D52 , bdr:EP71F21D102F86E08E , bdr:EP73D992FF4D20CBDB , bdr:EP8DA1C3F7ACED780C , bdr:EPA92BEEB19BC17942 , bdr:EPB2037E09D00F3721 , bdr:EPEC74F0AB405AC5C3 ;
         :eTextInInstance    bdr:IE1KG14 ;
         :eTextInVolume      26 ;
         :eTextSourcePath    "Shechen/Rinchen-Terdzod-Shechen-vols-01-54/rtfs/26-LA/TERDZO-LA-P03.rtf" ;

@@ -16,14 +16,44 @@ bdg:UT21888_003_0010 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT21888_003_0010 ;
+        adm:facetIndex      8 ;
         adm:gitPath         "78/UT21888_003_0010.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT21888_003_0010 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP06681FB9F0722169
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP4A1097EB87FD12EB
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP6E197646717C116D
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP930FED51CBA6CF88
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPAD194C24C17C5C2B
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPCA39F9F957AD6BF5
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPFEC7C7FA47B1158D
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
     bdr:UT21888_003_0010
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༡༦༩༽ཆོས་ཉིད་མཁའ་འགྲོའི་ཐུགས་ཏིག་ལས༔ཡེ་ཤེས་མཁའ་འགྲོའི་མེ་མཆོད་དངོས་གྲུབ་བང་མཛོད་བཞུགས༔ན་མོ་གུ་རུ་པདྨ་ཀཱ་ར་ཡེ༔སྐུ་གསུམ་ལྷུན་གྲུབ་ར"@bo ;
+        :eTextHasPage       bdr:EP06681FB9F0722169 , bdr:EP4A1097EB87FD12EB , bdr:EP6E197646717C116D , bdr:EP930FED51CBA6CF88 , bdr:EPAD194C24C17C5C2B , bdr:EPCA39F9F957AD6BF5 , bdr:EPFEC7C7FA47B1158D ;
         :eTextInInstance    bdr:IE21888 ;
         :eTextInVolume      3 ;
         :eTextSourcePath    "PalriParkhang/W21888-se-ra-mkhaq-qgro-bkaq-qbum/rtfs/3-Ma-Serakhagro-Kabum/Ma-Serakhagro-169-178.rtf" ;

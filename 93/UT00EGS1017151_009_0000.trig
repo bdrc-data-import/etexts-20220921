@@ -16,14 +16,28 @@ bdg:UT00EGS1017151_009_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT00EGS1017151_009_0000 ;
+        adm:facetIndex      4 ;
         adm:gitPath         "93/UT00EGS1017151_009_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT00EGS1017151_009_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0A27A7855E98252E
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP8FB7894339582CF5
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPECCF535D04CAE31D
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT00EGS1017151_009_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼ཀ༽༄༅། །རྡོ་རྗེ་གུར་གྱི་བཤད་པའི་ཆིངས་བཞུགས།ཨོཾ་དཔལ་རྡོ་རྗེ་མཁའ་འགྲོ་ལ་ཕྱག་འཚལ་ལོ། །དེ་ལ་ཐོག་མར་སྒྲུབ་པ་པོ་རྟེན་གྱི་གང་ཟག་རྡོ་ར"@bo ;
+        :eTextHasPage       bdr:EP0A27A7855E98252E , bdr:EP8FB7894339582CF5 , bdr:EPECCF535D04CAE31D ;
         :eTextInInstance    bdr:IE00EGS1017151 ;
         :eTextIsVolume      9 ;
         :eTextSourcePath    "GuruLamaWorks/For-Conversion-Disk-01-20130424/rtfs/SA-KABUM/SKYA009.rtf" ;

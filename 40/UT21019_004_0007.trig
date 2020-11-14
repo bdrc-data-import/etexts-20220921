@@ -16,14 +16,24 @@ bdg:UT21019_004_0007 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT21019_004_0007 ;
+        adm:facetIndex      3 ;
         adm:gitPath         "40/UT21019_004_0007.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT21019_004_0007 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP9DC8173D9EC270AA
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPCC4B5B46CCE63166
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT21019_004_0007
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅།འདིར་རྗེ་སྣ་ཚོགས་རང་གྲོལ་གྱི་བཀའ་འབུམ་ཆོས་ཚན་གྱི་རྣམ་གྲངས་ཇི་ལྟར་བཞུགས་པའི་རིམ་པ་བཀོད་པར་གླེགས་བམ།ང༽པ་ལ།གཞན་བསྐུལ་"@bo ;
+        :eTextHasPage       bdr:EP9DC8173D9EC270AA , bdr:EPCC4B5B46CCE63166 ;
         :eTextInInstance    bdr:IE21019 ;
         :eTextInVolume      4 ;
         :eTextSourcePath    "PalriParkhang/W21019-rtse-le-sna-tshogs-rang-grol/rtfs/Tseley-Natsog-Rangdrol-Volume-4/Volume-4-Tsele-Karchak.rtf" ;

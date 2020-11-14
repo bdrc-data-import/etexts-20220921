@@ -16,14 +16,36 @@ bdg:UT00EGS1017151_127_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT00EGS1017151_127_0000 ;
+        adm:facetIndex      6 ;
         adm:gitPath         "d3/UT00EGS1017151_127_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT00EGS1017151_127_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP2CBC0EB302F0BAA3
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP5FBAE2F7F98E5194
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP7055C2DA65FC1280
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPD66C510B5E2F9B64
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPDB3809FA780646C6
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
     bdr:UT00EGS1017151_127_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼ཇ༽༄༅། །བདེ་མཆོག་ནག་པོ་པའི་དཀྱིལ་ཆོག་ས་བཅད་འཁྲུགས་ཅན་བཞུགས། །༄༅། །ཨོཾ་རྗེ་བཙུན་བླ་མ་རྣམས་ལ་ཕྱག་འཚལ་ལོ། །སློབ་དཔོན་སྤྱོད་པ་བས"@bo ;
+        :eTextHasPage       bdr:EP2CBC0EB302F0BAA3 , bdr:EP5FBAE2F7F98E5194 , bdr:EP7055C2DA65FC1280 , bdr:EPD66C510B5E2F9B64 , bdr:EPDB3809FA780646C6 ;
         :eTextInInstance    bdr:IE00EGS1017151 ;
         :eTextIsVolume      127 ;
         :eTextSourcePath    "GuruLamaWorks/For-Conversion-Disk-01-20130424/rtfs/SA-KABUM/SKYA122.rtf" ;

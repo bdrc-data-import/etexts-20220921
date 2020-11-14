@@ -16,14 +16,44 @@ bdg:UT10736_018_0026 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT10736_018_0026 ;
+        adm:facetIndex      8 ;
         adm:gitPath         "e5/UT10736_018_0026.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT10736_018_0026 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP01344822A2E5018C
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP1B459072947F48C3
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP371699EE3C1D0C7C
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP50A7397E3208AE1B
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP8A06A0ACC605C9CA
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP98E5305C81A15274
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPF8B664C78CB5DBC6
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
     bdr:UT10736_018_0026
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །རྣམ་ཐོས་སྲས་ཀྱི་མཆོད་སྤྲིན་འདོད་དགུའི་ཆར་འབེབས་ཞེས་བྱ་བ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP01344822A2E5018C , bdr:EP1B459072947F48C3 , bdr:EP371699EE3C1D0C7C , bdr:EP50A7397E3208AE1B , bdr:EP8A06A0ACC605C9CA , bdr:EP98E5305C81A15274 , bdr:EPF8B664C78CB5DBC6 ;
         :eTextInInstance    bdr:IE10736 ;
         :eTextInVolume      18 ;
         :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/18_tsha/18_29_tsha_rnam-thos-sras-kyi-mchod-sprin-qdod-dguqi-char-qbebs.rtf" ;

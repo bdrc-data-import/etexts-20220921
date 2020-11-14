@@ -16,14 +16,32 @@ bdg:UT21825_004_0060 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT21825_004_0060 ;
+        adm:facetIndex      5 ;
         adm:gitPath         "26/UT21825_004_0060.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT21825_004_0060 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP9152E376405CB9BA
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPC3AF2B3E0A9B43AF
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPC8D2D69B56705EB3
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPCEEC12182F25BBC2
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT21825_004_0060
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༦༩༽རྟ་མགྲིན་ཁམས་གསུམ་རོལ་པ་ལ།སེམས་བསྐྱེད་སྡོམ་ཆོགབརྒྱུད་འདེབས།རང་གི་སྙིང་གའི༴འདི་དང་འགུགས་པ་ལ།དབང་ཆེན་རྟ་མཆོག་རོལ་པའི༴ཁ་སྒྱུར།སྐ"@bo ;
+        :eTextHasPage       bdr:EP9152E376405CB9BA , bdr:EPC3AF2B3E0A9B43AF , bdr:EPC8D2D69B56705EB3 , bdr:EPCEEC12182F25BBC2 ;
         :eTextInInstance    bdr:IE21825 ;
         :eTextInVolume      4 ;
         :eTextSourcePath    "PalriParkhang/W21825-bkaq-qbum-pad-nor-02-thub-bstan-chos-kyi-glang-po/rtfs/04-penor-kabum-nga/penor-kabum-nga-069-072.rtf" ;

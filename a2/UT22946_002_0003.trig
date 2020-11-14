@@ -16,14 +16,52 @@ bdg:UT22946_002_0003 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT22946_002_0003 ;
+        adm:facetIndex      10 ;
         adm:gitPath         "a2/UT22946_002_0003.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT22946_002_0003 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0557F89955022DE6
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP2FF11320D745AE32
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP3BDED1CBA58416D6
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP4091ABCF426FE421
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP5C9F7DFD41CBC4CB
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP6A047E3B134FBF86
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP98BDDB5B39D27A20
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPD85F23E366D18D69
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPEDEC7EFA8DC34588
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
     bdr:UT22946_002_0003
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༡༽ཆོ་གའི་སྔོན་འགྲོ་རྣམས་གྲུབ་ནས།མཁའ་འགྲོ་སྙིང་ཐིག་གསོལ་་་་་་་་་་་རྗེས།མཁའ་འགྲོའི་ལས་བྱང་གི་ལྷན་ཐབས་མཇེས་རྒྱན་བཞུགས་སོ།རིགས་ལྔ་ར"@bo ;
+        :eTextHasPage       bdr:EP0557F89955022DE6 , bdr:EP2FF11320D745AE32 , bdr:EP3BDED1CBA58416D6 , bdr:EP4091ABCF426FE421 , bdr:EP5C9F7DFD41CBC4CB , bdr:EP6A047E3B134FBF86 , bdr:EP98BDDB5B39D27A20 , bdr:EPD85F23E366D18D69 , bdr:EPEDEC7EFA8DC34588 ;
         :eTextInInstance    bdr:IE22946 ;
         :eTextInVolume      2 ;
         :eTextSourcePath    "PalriParkhang/W22946-mkhan-po-ngag-dbang-dpal-bzang-_ngaga/rtfs/NGAGA-vol-2-KHA/C-KHANDOqI-NGON-DO.rtf" ;

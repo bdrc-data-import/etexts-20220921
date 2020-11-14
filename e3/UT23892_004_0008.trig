@@ -16,14 +16,60 @@ bdg:UT23892_004_0008 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23892_004_0008 ;
+        adm:facetIndex      12 ;
         adm:gitPath         "e3/UT23892_004_0008.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23892_004_0008 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP16DF9C03EE3B81A7
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP50FD6ECABE1F10CD
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EP7C3453F53FBB576F
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP7E8F9E1575266DDD
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPA3E410E3E7ACF43A
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPA6A3C7703FD69431
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPADC3995413CF172A
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPAF68EB4577151A22
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPE313B71242B5505B
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPE9C72C8A8ADD31CA
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EPF01B6BC0822B27CE
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
     bdr:UT23892_004_0008
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །དམ་ཆོས་དགོངས་པ་གཅིག་པའི་ཁོག་དབུབ་སའི་དོན་བསྡུས་པ་བཞུགས་སོ། །།སྲིད་གསུམ་འཁོར་བ་སྟོངས་པར་མ་གྱུར་ཚེ། །མཁའ་མཉམ་འགྲོ་བའི་སྐྱབ"@bo ;
+        :eTextHasPage       bdr:EP16DF9C03EE3B81A7 , bdr:EP50FD6ECABE1F10CD , bdr:EP7C3453F53FBB576F , bdr:EP7E8F9E1575266DDD , bdr:EPA3E410E3E7ACF43A , bdr:EPA6A3C7703FD69431 , bdr:EPADC3995413CF172A , bdr:EPAF68EB4577151A22 , bdr:EPE313B71242B5505B , bdr:EPE9C72C8A8ADD31CA , bdr:EPF01B6BC0822B27CE ;
         :eTextInInstance    bdr:IE23892 ;
         :eTextInVolume      4 ;
         :eTextSourcePath    "DrikungChetsang/6_KUNRIN/rtfs/volume-004/NGA-KA1.001.rtf" ;

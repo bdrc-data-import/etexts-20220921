@@ -16,14 +16,52 @@ bdg:UT3JT13373_001_0011 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13373_001_0011 ;
+        adm:facetIndex      10 ;
         adm:gitPath         "64/UT3JT13373_001_0011.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13373_001_0011 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP2E3CFE0925EF56C2
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP3B09FC0E7372D84B
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP3CD672DE7CC459A3
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP6E570362113A621D
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP8F1B5CC56EE5C619
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP961EEFD3B6D4EA3F
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPCED5C2B43F85BD58
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPCFCE8D6FAEA90070
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPE5675081DC37C6D7
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT3JT13373_001_0011
         a                   :EtextNonPaginated ;
         skos:prefLabel      "རིན་པོ་ཆེ་སྤོམ་བྲག་པའི་ལོ་རྒྱུས།"@bo ;
+        :eTextHasPage       bdr:EP2E3CFE0925EF56C2 , bdr:EP3B09FC0E7372D84B , bdr:EP3CD672DE7CC459A3 , bdr:EP6E570362113A621D , bdr:EP8F1B5CC56EE5C619 , bdr:EP961EEFD3B6D4EA3F , bdr:EPCED5C2B43F85BD58 , bdr:EPCFCE8D6FAEA90070 , bdr:EPE5675081DC37C6D7 ;
         :eTextInInstance    bdr:IE3JT13373 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "VajraVidya/Kagyu_Sertreng/rtfs/volume-001/09_Pomdrakpa.rtf" ;

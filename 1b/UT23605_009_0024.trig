@@ -16,14 +16,64 @@ bdg:UT23605_009_0024 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_009_0024 ;
+        adm:facetIndex      13 ;
         adm:gitPath         "1b/UT23605_009_0024.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_009_0024 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP2490EDBB473AF162
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP37E12E83BB1DBE1B
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP3F97C73C599D24A6
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP58AC509E6F7D6291
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP67E3A7350A7ACD3A
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP8698CE014210392A
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EP86D251A10CB6D777
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP9073FE7EB6A641C7
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP9AD9DB2E70477A08
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPA0060BDF92EAA38E
+        a                   :EtextPage ;
+        :seqNum             12 .
+    
+    bdr:EPE7D517DEDF3C2F18
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPF1FBEE4FB6BED309
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
     bdr:UT23605_009_0024
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༤༥༥༽༄༅། །ཉམས་རྟོགས་ནོར་བུའི་འབྱུང་གནས་ལྔ་ལྡན་ཁྲིད་ཡིག་རྒྱ་མཚོ་ལྟ་བུ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP2490EDBB473AF162 , bdr:EP37E12E83BB1DBE1B , bdr:EP3F97C73C599D24A6 , bdr:EP58AC509E6F7D6291 , bdr:EP67E3A7350A7ACD3A , bdr:EP8698CE014210392A , bdr:EP86D251A10CB6D777 , bdr:EP9073FE7EB6A641C7 , bdr:EP9AD9DB2E70477A08 , bdr:EPA0060BDF92EAA38E , bdr:EPE7D517DEDF3C2F18 , bdr:EPF1FBEE4FB6BED309 ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      9 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/09_gdams-ngag-mdzod_ta/09_23_nyams-rtogs-nor-buqi-qbyung-gnas-lnga-ldan-khrid-yig-rgya-mtsho-lta-bu.rtf" ;

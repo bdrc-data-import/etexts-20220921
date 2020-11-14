@@ -16,14 +16,40 @@ bdg:UT23892_003_0005 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23892_003_0005 ;
+        adm:facetIndex      7 ;
         adm:gitPath         "7c/UT23892_003_0005.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23892_003_0005 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0D84DA0E5F5E0E83
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP0E260959DCEBC115
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP1CC0D788043C5D9E
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP5A403FB0AC8BC688
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP6F2013C874A1A7CB
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPDB4DFEB95ADA2A4C
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
     bdr:UT23892_003_0005
         a                   :EtextNonPaginated ;
         skos:prefLabel      "། །རྒྱལ་དབང་ཀུན་དགའ་རིན་ཆེན་གྱི་རྟོགས་པ་བརྗོད་པ་ངོ་མཚར་རྒྱ་མཚོ་ཞེས་བྱ་བ་བཞུགས་སོ། །༄༅། །ན་མོ་དྷརྨཱ་ཡ།བྷ་ཊཱ་རཱ་ཀ་ཨཱ་ནནྡ་རཏྣ་ཤྲ"@bo ;
+        :eTextHasPage       bdr:EP0D84DA0E5F5E0E83 , bdr:EP0E260959DCEBC115 , bdr:EP1CC0D788043C5D9E , bdr:EP5A403FB0AC8BC688 , bdr:EP6F2013C874A1A7CB , bdr:EPDB4DFEB95ADA2A4C ;
         :eTextInInstance    bdr:IE23892 ;
         :eTextInVolume      3 ;
         :eTextSourcePath    "DrikungChetsang/6_KUNRIN/rtfs/volume-003/GA-CHA1.006.rtf" ;

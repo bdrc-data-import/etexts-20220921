@@ -16,14 +16,48 @@ bdg:UT10736_003_0002 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT10736_003_0002 ;
+        adm:facetIndex      9 ;
         adm:gitPath         "a0/UT10736_003_0002.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT10736_003_0002 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP25EC26AE731716A3
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP5A2BE259A988EE6D
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP6B78F0E410652C48
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP78122E23E57C27A6
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP8EAE032441421A36
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPBAABC26C4BA76DA6
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPDA7FDA5800AF8075
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPF806A9BDDA71A6C7
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
     bdr:UT10736_003_0002
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༡ན༡༽༄༅། །རྗེ་བཙུན་མཐུ་སྟོབས་ཞབས་ཀྱི་རྣམ་པར་ཐར་པ་ངོ་མཚར་གྱི་རྨ་བྱ་རྣམ་པར་རྩེ་བ་ཞེས་བྱ་བ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP25EC26AE731716A3 , bdr:EP5A2BE259A988EE6D , bdr:EP6B78F0E410652C48 , bdr:EP78122E23E57C27A6 , bdr:EP8EAE032441421A36 , bdr:EPBAABC26C4BA76DA6 , bdr:EPDA7FDA5800AF8075 , bdr:EPF806A9BDDA71A6C7 ;
         :eTextInInstance    bdr:IE10736 ;
         :eTextInVolume      3 ;
         :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/03_ga/03_02_ga_rje-btsun-mthu-stobs-zhabs-kyi-rnam-par-thar-pa-ngo-mtshar-gyi-rma-bya-rnam-par-rtse-ba.rtf" ;

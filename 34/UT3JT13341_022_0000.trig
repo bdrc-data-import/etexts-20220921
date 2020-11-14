@@ -16,14 +16,40 @@ bdg:UT3JT13341_022_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13341_022_0000 ;
+        adm:facetIndex      7 ;
         adm:gitPath         "34/UT3JT13341_022_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13341_022_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP056077339292BAA4
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP18AB0A67F1341436
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP261C62859358BE46
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP55BAFB7A5AE791EC
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP8DB62A8A67287F4E
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPC485F6B0D25F9143
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
     bdr:UT3JT13341_022_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "བཀའ་རྫོགས་པ་ཆེན་པོ་ཡང་ཟབ་དཀོན་མཆོག་སྤྱི་འདུས་ཀྱི་ཕྲིན་ལས་རང་གཞུང་བཞུགས་སོ༔ལེའུ་དང་པོ་ནི།ཐེམ་ཡིག་ལག་ལེན་ངོ་སྤྲོད་ཀྱི༔སྐལ་ལྡན་མྱུར"@bo ;
+        :eTextHasPage       bdr:EP056077339292BAA4 , bdr:EP18AB0A67F1341436 , bdr:EP261C62859358BE46 , bdr:EP55BAFB7A5AE791EC , bdr:EP8DB62A8A67287F4E , bdr:EPC485F6B0D25F9143 ;
         :eTextInInstance    bdr:IE3JT13341 ;
         :eTextIsVolume      22 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/Taksham-Chochod_tdoc/021_dkon-mchog-spyi-qdus.rtf" ;

@@ -16,14 +16,20 @@ bdg:UT3JT13327_007_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13327_007_0000 ;
+        adm:facetIndex      2 ;
         adm:gitPath         "bc/UT3JT13327_007_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13327_007_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP01B5CD398E9A66BC
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT3JT13327_007_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "བདེ་སྨོན་བསྡུས་པ་ནི།ཨེ་མ་ཧོ༔ངོ་མཚར་སངས་རྒྱས་སྣང་བ་མཐའ་ཡས་དང་༔གཡས་སུ་ཇོ་བོ་ཐུགས་རྗེ་ཆེན་པོ་དང་༔གཡོན་དུ་སེམས་དཔའ་མཐུ་ཆེན་ཐོབ་རྣམས་"@bo ;
+        :eTextHasPage       bdr:EP01B5CD398E9A66BC ;
         :eTextInInstance    bdr:IE3JT13327 ;
         :eTextIsVolume      7 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/Chenzezig_Tdoc/007_Demon-duepa.rtf" ;

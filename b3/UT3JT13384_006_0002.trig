@@ -16,14 +16,52 @@ bdg:UT3JT13384_006_0002 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13384_006_0002 ;
+        adm:facetIndex      10 ;
         adm:gitPath         "b3/UT3JT13384_006_0002.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13384_006_0002 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP1CA51ED7D4E1048C
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP6230F51EEEFBA025
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP64F1EC066D63565D
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP8D85675A52EF306B
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP9C0F3AD1BDDD1015
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPAB77AE22E0C1ABE5
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPB4D60BC3B06D002A
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPC6ECD860C436DFE8
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPF4BBE6FFB16FA443
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT3JT13384_006_0002
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །དྲང་སྲོང་ཁྲོས་པའི་གཏོར་བཟློག་བཅུད་ཕུར་བཞུགས་སོ། །ན་མོ་གུ་རུ་རི་ཥི་ཀྲོ་དྷཱ་ཡ།འདིར་མན་ངག་ཟབ་མོའི་ཆོས་སྡེ་རིག་པ་འཛིན་པའི་སྙི"@bo ;
+        :eTextHasPage       bdr:EP1CA51ED7D4E1048C , bdr:EP6230F51EEEFBA025 , bdr:EP64F1EC066D63565D , bdr:EP8D85675A52EF306B , bdr:EP9C0F3AD1BDDD1015 , bdr:EPAB77AE22E0C1ABE5 , bdr:EPB4D60BC3B06D002A , bdr:EPC6ECD860C436DFE8 , bdr:EPF4BBE6FFB16FA443 ;
         :eTextInInstance    bdr:IE3JT13384 ;
         :eTextInVolume      6 ;
         :eTextSourcePath    "Various/gsung_qbum_mkhyen_brtseqi_dbang_po_UT2MS24768/rtfs/volume-006/6-10.rtf" ;

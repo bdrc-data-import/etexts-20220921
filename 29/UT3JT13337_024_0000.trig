@@ -16,14 +16,28 @@ bdg:UT3JT13337_024_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13337_024_0000 ;
+        adm:facetIndex      4 ;
         adm:gitPath         "29/UT3JT13337_024_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13337_024_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP9C57B4B673E958EC
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPA8A23EDBDF8B1267
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPE867599B4877FE63
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT3JT13337_024_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "གཅོད་ལུགས་ཉེར་མཁོ་ཆངས་བུ་བརྒྱ་རྩའི་ཕྱག་ལེན་ཁྲིགས་ཆགས་སུ་བཀོད་པ་བཞུགས་སོ། །ན་མོ་པྲཛྙཱ་པཱ་ར་མི་ཏ་ཡེ།ཡུམ་ཆེན་མཁའ་འགྲོའི་ཚོགས་ལ་ཕྱག"@bo ;
+        :eTextHasPage       bdr:EP9C57B4B673E958EC , bdr:EPA8A23EDBDF8B1267 , bdr:EPE867599B4877FE63 ;
         :eTextInInstance    bdr:IE3JT13337 ;
         :eTextIsVolume      24 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/P0025_Tobum_tdoc/030-chang-bu-brgya-rtsa.rtf" ;

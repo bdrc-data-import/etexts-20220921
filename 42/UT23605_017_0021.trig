@@ -16,14 +16,44 @@ bdg:UT23605_017_0021 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_017_0021 ;
+        adm:facetIndex      8 ;
         adm:gitPath         "42/UT23605_017_0021.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_017_0021 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP02C60F56C3F9FAC7
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP23A9B9052C39337D
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP281D557E9BBD5F5B
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP9647BCD00ED0D706
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP978950C3BB33FA26
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPB2DB17099B06E039
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPFEE593E0DD41E4B3
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT23605_017_0021
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༣༡༡༽༄༅། །ཆུའི་བཅུད་ལེན་གྱི་གདམས་པ་འཆི་མེད་རིག་འཛིན་སྒྲུབ་བའི་ཆུ་རྒྱུན་ཞེས་བྱ་བ་བཞུགས་སོ། །། །"@bo ;
+        :eTextHasPage       bdr:EP02C60F56C3F9FAC7 , bdr:EP23A9B9052C39337D , bdr:EP281D557E9BBD5F5B , bdr:EP9647BCD00ED0D706 , bdr:EP978950C3BB33FA26 , bdr:EPB2DB17099B06E039 , bdr:EPFEE593E0DD41E4B3 ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      17 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/17_gdams-ngag-mdzod_tsa/17_20_chuqi-bcud-len-gyi-gdams-pa-qchi-med-rig-qdzin-sgrub-baqi-chu-rgyun.rtf" ;

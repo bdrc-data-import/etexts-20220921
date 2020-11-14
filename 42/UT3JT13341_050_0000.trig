@@ -16,14 +16,28 @@ bdg:UT3JT13341_050_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13341_050_0000 ;
+        adm:facetIndex      4 ;
         adm:gitPath         "42/UT3JT13341_050_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13341_050_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0DD848507A937CBA
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP71C46B4483FE0C8D
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP822FBDACC8697C88
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT3JT13341_050_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "འཕགས་པ་བྱམས་པའི་སྨོན་ལམ་གྱི་རྒྱལ་པོ་བཞུགས་སོ། །རྒྱ་གར་སྐད་དུ།ཨཱརྻ་མཻ་ཏྲཱི་པྲ་ཎི་དྷཱ་ན་རཱ་ཛ།བོད་སྐད་དུ།འཕགས་པ་བྱམས་པའི་སྨོན་ལམ་ག"@bo ;
+        :eTextHasPage       bdr:EP0DD848507A937CBA , bdr:EP71C46B4483FE0C8D , bdr:EP822FBDACC8697C88 ;
         :eTextInInstance    bdr:IE3JT13341 ;
         :eTextIsVolume      50 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/Taksham-Chochod_tdoc/039_byams-smon.rtf" ;

@@ -16,14 +16,44 @@ bdg:UT3JT13343_003_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13343_003_0000 ;
+        adm:facetIndex      8 ;
         adm:gitPath         "69/UT3JT13343_003_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13343_003_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0BE7BE2348774D79
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP23A3DF062018F9BB
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP3E9E5D03E7CA4502
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP56B49D2C8ACEBBD5
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP689CFC1DD2411AF5
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP75D002935EF6406D
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP82457B96B5EF47F1
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT3JT13343_003_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "མགོན་པོའི་ཚོགས་མཆོད་ཟུར་འཁོལ་བཞུགས།ཚོགས་རྫས་བྱིན་གྱིས་བརླབ་པ་ནི།ཨོཾ་ཨཱ་བིགྷྣཱནྟ་ཀྲི་ཏ་ཧཱུྃ་ཕཊ།ཨོཾ་སྭ་བྷཱ་ཝ་ཤུདྡྷཿསརྦ་དྷརྨ་སྭ་བྷཱ"@bo ;
+        :eTextHasPage       bdr:EP0BE7BE2348774D79 , bdr:EP23A3DF062018F9BB , bdr:EP3E9E5D03E7CA4502 , bdr:EP56B49D2C8ACEBBD5 , bdr:EP689CFC1DD2411AF5 , bdr:EP75D002935EF6406D , bdr:EP82457B96B5EF47F1 ;
         :eTextInInstance    bdr:IE3JT13343 ;
         :eTextIsVolume      3 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/Tsendring_tdoc/003_Tsokdue.rtf" ;

@@ -16,14 +16,60 @@ bdg:UT00EGS1017151_027_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT00EGS1017151_027_0000 ;
+        adm:facetIndex      12 ;
         adm:gitPath         "57/UT00EGS1017151_027_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT00EGS1017151_027_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0A6F9E9E081F8207
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP4504791CDBBC8593
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP54DA0525D8AC73D3
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EP69AABDA777FB69F0
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP6FC120DAA2007B3F
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP7304BBAC7A9D53C6
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP97978F3CF7FAD57C
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPA69BF09FECDC7DFC
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EPADC09ACBF65A50BE
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPE62EC2F604F2C9C3
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPFA2832749FB1CFDC
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
     bdr:UT00EGS1017151_027_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼ཁ༽༄༅། །གསང་བ་དེ་ཁོ་ན་ཉིད་ཀྱི་དོན་གྱི་ཆ་བླ་མའི་གསུང་གནང་བ་བྲིས་པ་བཞུགས། །༄༅། །བླ་མ་དམ་པའི་ཞབས་ལ་སྤྱི་བོས་གུས་པར་ཕྱག་འཚལ་ལོ།"@bo ;
+        :eTextHasPage       bdr:EP0A6F9E9E081F8207 , bdr:EP4504791CDBBC8593 , bdr:EP54DA0525D8AC73D3 , bdr:EP69AABDA777FB69F0 , bdr:EP6FC120DAA2007B3F , bdr:EP7304BBAC7A9D53C6 , bdr:EP97978F3CF7FAD57C , bdr:EPA69BF09FECDC7DFC , bdr:EPADC09ACBF65A50BE , bdr:EPE62EC2F604F2C9C3 , bdr:EPFA2832749FB1CFDC ;
         :eTextInInstance    bdr:IE00EGS1017151 ;
         :eTextIsVolume      27 ;
         :eTextSourcePath    "GuruLamaWorks/For-Conversion-Disk-01-20130424/rtfs/SA-KABUM/SKYA027.rtf" ;

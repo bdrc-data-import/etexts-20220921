@@ -16,14 +16,44 @@ bdg:UT10736_019_0001 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT10736_019_0001 ;
+        adm:facetIndex      8 ;
         adm:gitPath         "81/UT10736_019_0001.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT10736_019_0001 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP2B6DF0A2C7F9FD90
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP611333771E6CB651
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP8798AD8E5C3DE223
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP99F2814610BC8AAD
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP9C01A7428D46957B
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPA6AB5EA1BDEFAFA7
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPDF44267D9E4F2D1F
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
     bdr:UT10736_019_0001
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༡ན༡༽༄༅། །དཔལ་ལྡན་དུད་སོལ་ལྷ་མོའི་གཏོར་ཆོག་མདོར་བསྡུས་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP2B6DF0A2C7F9FD90 , bdr:EP611333771E6CB651 , bdr:EP8798AD8E5C3DE223 , bdr:EP99F2814610BC8AAD , bdr:EP9C01A7428D46957B , bdr:EPA6AB5EA1BDEFAFA7 , bdr:EPDF44267D9E4F2D1F ;
         :eTextInInstance    bdr:IE10736 ;
         :eTextInVolume      19 ;
         :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/19_dza/19_01_dza_dpal-ldan-dud-sol-lha-moqi-gtor-chog-mdor-bsdus.rtf" ;

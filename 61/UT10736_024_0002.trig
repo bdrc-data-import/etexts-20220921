@@ -16,14 +16,40 @@ bdg:UT10736_024_0002 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT10736_024_0002 ;
+        adm:facetIndex      7 ;
         adm:gitPath         "61/UT10736_024_0002.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT10736_024_0002 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0A3206DB476662B0
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP82B3D37A8B230B98
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPAFCCF82A682C6016
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPB7370F4B817BA516
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPDA8DAFEA9D0F7691
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPE3B70B386F1EF302
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
     bdr:UT10736_024_0002
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །ཏི་པུས་མཛད་པ་རོ་སྙོམས་སྐོར་དྲུག་གི་རྩ་ཚིག་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP0A3206DB476662B0 , bdr:EP82B3D37A8B230B98 , bdr:EPAFCCF82A682C6016 , bdr:EPB7370F4B817BA516 , bdr:EPDA8DAFEA9D0F7691 , bdr:EPE3B70B386F1EF302 ;
         :eTextInInstance    bdr:IE10736 ;
         :eTextInVolume      24 ;
         :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/24_ya/24_02_ya_1_ti-pus-mdzad-pa-ro-snyoms-skor-drug-gi-rtsa-tshig.rtf" ;

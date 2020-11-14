@@ -16,14 +16,36 @@ bdg:UT10736_015_0010 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT10736_015_0010 ;
+        adm:facetIndex      6 ;
         adm:gitPath         "0e/UT10736_015_0010.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT10736_015_0010 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP1C6EA22BAE639B07
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP7F66DF9392A8FE60
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPA3E3D6E7C00C2F11
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPA48DD2BD9C8BDCF8
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPEDA814620401702E
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT10736_015_0010
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །དཔལ་འཁོར་ལོ་སྡོམ་པ་ལྷན་ཅིག་སྐྱེས་པའི་སྒྲུབ་ཐབས་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP1C6EA22BAE639B07 , bdr:EP7F66DF9392A8FE60 , bdr:EPA3E3D6E7C00C2F11 , bdr:EPA48DD2BD9C8BDCF8 , bdr:EPEDA814620401702E ;
         :eTextInInstance    bdr:IE10736 ;
         :eTextInVolume      15 ;
         :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/15_ba/15_08_ba_dpal-qkhor-lo-sdom-pa-lhan-cig-skyes-paqi-sgrub-thabs.rtf" ;

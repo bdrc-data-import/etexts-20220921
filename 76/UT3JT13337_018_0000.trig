@@ -16,14 +16,20 @@ bdg:UT3JT13337_018_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13337_018_0000 ;
+        adm:facetIndex      2 ;
         adm:gitPath         "76/UT3JT13337_018_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13337_018_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP7DBF416A9B9A8A54
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT3JT13337_018_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "ཀྱཻ།ཉོན་ཅིག་བླ་ཁྱེར་སྲོག་བདག་རྣམས། །གླུད་མདོས་དམ་པ་འདི་བཞེས་ལ། །སྦྱིན་པའི་བདག་པོ་འདི་ཉིད་ཀྱི། །བླ་སྲོག་བརྐུས་པ་ཚུར་སྤྲོད་ལ།"@bo ;
+        :eTextHasPage       bdr:EP7DBF416A9B9A8A54 ;
         :eTextInInstance    bdr:IE3JT13337 ;
         :eTextIsVolume      18 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/P0025_Tobum_tdoc/025-bgegs-bskred.rtf" ;

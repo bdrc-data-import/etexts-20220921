@@ -16,14 +16,36 @@ bdg:UT3JT13309_008_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13309_008_0000 ;
+        adm:facetIndex      6 ;
         adm:gitPath         "82/UT3JT13309_008_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13309_008_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP7AD8E9180A97A163
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPB558B3A34D797DB4
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPC0B8E575F4A27FD0
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPD6D5C7E68246F153
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPF3C4719C681E22EF
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT3JT13309_008_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །དཔལ་ལྡན་དུས་འཁོར་ལ་མཁས་པ་རེད་མདའ་བ་ཆེན་པོ་སོགས་ཀྱིས་རྩོད་པའི་ལན་རྩོད་བཟློག་ཏུ་གྲགས་པ་ལ་བཞུགས་སོ། །ན་མོ་གུ་རུ་ཤྲཱི་ཀ་ལ་ཙཀྲ"@bo ;
+        :eTextHasPage       bdr:EP7AD8E9180A97A163 , bdr:EPB558B3A34D797DB4 , bdr:EPC0B8E575F4A27FD0 , bdr:EPD6D5C7E68246F153 , bdr:EPF3C4719C681E22EF ;
         :eTextInInstance    bdr:IE3JT13309 ;
         :eTextIsVolume      8 ;
         :eTextSourcePath    "GuruLamaWorks/Precious-and-Rare-Disk-01-20130424/rtfs/12_TAGT/TAGT008_དུས་འཁོར་རྩོད་ལན་རྩོད་བཟློག་ཏུ་གྲགས་པ.rtf" ;

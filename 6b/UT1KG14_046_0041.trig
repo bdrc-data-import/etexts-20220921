@@ -16,14 +16,52 @@ bdg:UT1KG14_046_0041 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1KG14_046_0041 ;
+        adm:facetIndex      10 ;
         adm:gitPath         "6b/UT1KG14_046_0041.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1KG14_046_0041 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP04C2514CFA614DF2
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP42278D7AF2466D09
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP424EAA913108AA5C
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP744DFBE28E9AA95A
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP94280A3C6E800EF7
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPA0BC4E4752C8E5D6
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPBA0C55627D252156
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPD6AF75E0FD9BE8F0
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPE14E0745FB5ED832
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
     bdr:UT1KG14_046_0041
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །གཏུམ་པོ་དྲེགས་པ་ཀུན་འདུལ་ལས།ཁྱུང་སྒྲུབ་གདུག་པ་ཀུན་འཇོམས་ཀྱི་དབང་བསྐུར་གདོན་འདུལ་གློག་གི་མེ་ལྕེ་ཞེས་བྱ་བ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP04C2514CFA614DF2 , bdr:EP42278D7AF2466D09 , bdr:EP424EAA913108AA5C , bdr:EP744DFBE28E9AA95A , bdr:EP94280A3C6E800EF7 , bdr:EPA0BC4E4752C8E5D6 , bdr:EPBA0C55627D252156 , bdr:EPD6AF75E0FD9BE8F0 , bdr:EPE14E0745FB5ED832 ;
         :eTextInInstance    bdr:IE1KG14 ;
         :eTextInVolume      46 ;
         :eTextSourcePath    "Shechen/Rinchen-Terdzod-Shechen-vols-01-54/rtfs/46-MI/TERDZO-MI-P40.rtf" ;

@@ -16,14 +16,32 @@ bdg:UT1KG4280_002_0013 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1KG4280_002_0013 ;
+        adm:facetIndex      5 ;
         adm:gitPath         "90/UT1KG4280_002_0013.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1KG4280_002_0013 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP4A62D91389D603D5
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP5E6DF7243BD57A08
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPA63C959229297A84
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPD9C77B1E08B52EA9
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT1KG4280_002_0013
         a                   :EtextNonPaginated ;
         skos:prefLabel      "ན་མོ་བུདྡྷ་བཛྲ་དྷ་ར་ཡེ།ཟག་བྲལ་རང་བཞིན་འདུས་མ་བྱས་པ་དོན་དམ་ཆོས་ཉིད་ལྷུན་གྲུབ་འགྱུར་བ་མེད་པའི་རྩལ་དང་མདངས། །ཟག་བཅས་འགྲོ་བའི་འདུས་"@bo ;
+        :eTextHasPage       bdr:EP4A62D91389D603D5 , bdr:EP5E6DF7243BD57A08 , bdr:EPA63C959229297A84 , bdr:EPD9C77B1E08B52EA9 ;
         :eTextInInstance    bdr:IE1KG4280 ;
         :eTextInVolume      2 ;
         :eTextSourcePath    "DharmaDownload/Situpa-09-sung-bum/rtfs/HUNG/013_9th-Situ-Kabum_HUNG_par-byang-smon-tshig.rtf" ;

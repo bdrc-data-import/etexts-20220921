@@ -16,14 +16,32 @@ bdg:UT3JT13373_001_0001 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13373_001_0001 ;
+        adm:facetIndex      5 ;
         adm:gitPath         "bb/UT3JT13373_001_0001.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13373_001_0001 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP076DB3D4C76DA792
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP405B3A201B638246
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP84949DFC0A5EFA85
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP9AF571CF4F9F68FF
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT3JT13373_001_0001
         a                   :EtextNonPaginated ;
         skos:prefLabel      "ཨོཾ་སྭསྟི། །ཚེ་ལུས་གཅིག་གིས་རྡོ་རྗེ་འཆང་གི་ས། །"@bo ;
+        :eTextHasPage       bdr:EP076DB3D4C76DA792 , bdr:EP405B3A201B638246 , bdr:EP84949DFC0A5EFA85 , bdr:EP9AF571CF4F9F68FF ;
         :eTextInInstance    bdr:IE3JT13373 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "VajraVidya/Kagyu_Sertreng/rtfs/volume-001/00_rinpoche_sngon_brjod.rtf" ;

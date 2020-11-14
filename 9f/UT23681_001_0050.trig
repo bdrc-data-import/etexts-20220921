@@ -16,14 +16,60 @@ bdg:UT23681_001_0050 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23681_001_0050 ;
+        adm:facetIndex      12 ;
         adm:gitPath         "9f/UT23681_001_0050.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23681_001_0050 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP073BDD62BE590B55
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP1C9A53F72858E9F5
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP1D7FE5482643A468
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP28304B347230B4CA
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP5BCA2A5F96C00915
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP84220544DE7772F4
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP8A446E89E8E8EA4D
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EP928D54B6E6C33F76
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPAA44C3E1E1B46DA9
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPC5D4E511C4EC6A36
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPDDCA1488FE528541
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
     bdr:UT23681_001_0050
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼ཁ༽༄༅། །ཤེས་རབ་ཀྱི་ལྷ་རྣམས་ཀྱི་རྗེས་གནང་སྐབས་སུ་གླེང་བར་འོས་པའི་གཏམ་ཉུང་ངུ་བདུད་རྩིའི་དབྱངས་སྙན་ཅེས་བྱ་བ་བཞུགས་སོ། །ཨོཾ་སྭ་སྟི"@bo ;
+        :eTextHasPage       bdr:EP073BDD62BE590B55 , bdr:EP1C9A53F72858E9F5 , bdr:EP1D7FE5482643A468 , bdr:EP28304B347230B4CA , bdr:EP5BCA2A5F96C00915 , bdr:EP84220544DE7772F4 , bdr:EP8A446E89E8E8EA4D , bdr:EP928D54B6E6C33F76 , bdr:EPAA44C3E1E1B46DA9 , bdr:EPC5D4E511C4EC6A36 , bdr:EPDDCA1488FE528541 ;
         :eTextInInstance    bdr:IE23681 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "GuruLamaWorks/Drub-thab-kuntu/rtfs/volume-001-014/DBTU050.rtf" ;

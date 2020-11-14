@@ -16,14 +16,52 @@ bdg:UT1KG5988_001_0113 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1KG5988_001_0113 ;
+        adm:facetIndex      10 ;
         adm:gitPath         "58/UT1KG5988_001_0113.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1KG5988_001_0113 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP12B94D29F48D181B
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP1D4D126073ECF8A0
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP33C889763FC981C7
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP51DF4B5C9428D4DC
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP616339CE29ECB0B1
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP6E66CA9CDCC12750
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP7E4F25F546C8ADE2
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP8B1FC5763E662008
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP9C6F383FD32F9C88
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
     bdr:UT1KG5988_001_0113
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །སྨན་བླའི་མདོ་ཆོག་གི་སྙིང་པོ་བསྡུས་པ་ཡིད་བཞིན་ནོར་བུ་ཞེས་བྱ་བ་བཞུགས་སོ། །། །"@bo ;
+        :eTextHasPage       bdr:EP12B94D29F48D181B , bdr:EP1D4D126073ECF8A0 , bdr:EP33C889763FC981C7 , bdr:EP51DF4B5C9428D4DC , bdr:EP616339CE29ECB0B1 , bdr:EP6E66CA9CDCC12750 , bdr:EP7E4F25F546C8ADE2 , bdr:EP8B1FC5763E662008 , bdr:EP9C6F383FD32F9C88 ;
         :eTextInInstance    bdr:IE1KG5988 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "DharmaDownload/Kagyur-Zungdue/rtfs/volume-001/114_sman-blaqi-mdo-chog.rtf" ;

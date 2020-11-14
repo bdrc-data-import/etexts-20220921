@@ -16,14 +16,24 @@ bdg:UT3JT13333_001_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13333_001_0000 ;
+        adm:facetIndex      3 ;
         adm:gitPath         "2e/UT3JT13333_001_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13333_001_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP29C9C2BCD14C7372
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP34E3A20726FC8FB8
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT3JT13333_001_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "ན་མོ་ལོ་ཀེ་ཤྭ་རཱ་ཡ།སྤྱི་གཙུག་པད་ཟླའི་གདན་སྟེང་དུ། །དུས་གསུམ་སངས་རྒྱས་འདུས་པའི་སྐུ། །དཔལ་ལྡན་བླ་མ་འོད་དཔག་མེད། །བཀའ་བརྒྱུད་བླ་"@bo ;
+        :eTextHasPage       bdr:EP29C9C2BCD14C7372 , bdr:EP34E3A20726FC8FB8 ;
         :eTextInInstance    bdr:IE3JT13333 ;
         :eTextIsVolume      1 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/P0009_Gyaljam_tdoc/01_gyalwa-gyamtso_gyudeb.rtf" ;

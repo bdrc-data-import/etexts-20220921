@@ -16,14 +16,64 @@ bdg:UT22082_012_0030 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT22082_012_0030 ;
+        adm:facetIndex      13 ;
         adm:gitPath         "96/UT22082_012_0030.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT22082_012_0030 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP12D660D05CE4B71F
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP28ECD030BCC40D23
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP50FBCC27AA896EF0
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP7C2A96EA6C6A5413
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP945164F47C8C6758
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP958A37386FD97C1B
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPC84987BF120EA931
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPCF02E4DCFB673C20
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EPDAC45A3C023ABD33
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EPE60AD03EB5DC3C8F
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPEFE6AB3A4E431758
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EPF3176BEFD0174350
+        a                   :EtextPage ;
+        :seqNum             12 .
+    
     bdr:UT22082_012_0030
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །རྒོལ་ངན་འཇོམས་པ་ལུང་རིགས་ཉི་མའི་སྣང་བ་ཞེས་བྱ་བ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP12D660D05CE4B71F , bdr:EP28ECD030BCC40D23 , bdr:EP50FBCC27AA896EF0 , bdr:EP7C2A96EA6C6A5413 , bdr:EP945164F47C8C6758 , bdr:EP958A37386FD97C1B , bdr:EPC84987BF120EA931 , bdr:EPCF02E4DCFB673C20 , bdr:EPDAC45A3C023ABD33 , bdr:EPE60AD03EB5DC3C8F , bdr:EPEFE6AB3A4E431758 , bdr:EPF3176BEFD0174350 ;
         :eTextInInstance    bdr:IE22082 ;
         :eTextInVolume      12 ;
         :eTextSourcePath    "DrikungChetsang/7__KUNKHYEN/rtfs/volume-012/9NA.TA.rtf" ;

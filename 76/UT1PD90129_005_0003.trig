@@ -16,14 +16,72 @@ bdg:UT1PD90129_005_0003 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1PD90129_005_0003 ;
+        adm:facetIndex      15 ;
         adm:gitPath         "76/UT1PD90129_005_0003.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1PD90129_005_0003 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP05748BC6FD4DCFB2
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EP0841247EB999BCCE
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP3D13E5EC28CEDFAE
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP79D83211BC200A83
+        a                   :EtextPage ;
+        :seqNum             12 .
+    
+    bdr:EP7D57D5E18CC726E1
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP858DDD96EFD49BE0
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP8F225ADD27D729A7
+        a                   :EtextPage ;
+        :seqNum             14 .
+    
+    bdr:EP8FBCC16C0EA01144
+        a                   :EtextPage ;
+        :seqNum             13 .
+    
+    bdr:EP9B7CB70BF0771916
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EPA074970BD6932A4C
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPC9AE33A842032D13
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPE3856C3C41D033FB
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPE7A75073F83F0765
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPFF9046D3987366E2
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
     bdr:UT1PD90129_005_0003
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །ཉམས་ལེན་སྤྱི་ལ་ཉེ་བར་མཁོ་བའི་དོགས་དཔྱོད་སོམ་ཉི་སེལ་བྱེད་ཅེས་བྱ་བ་བཞུགས།"@bo ;
+        :eTextHasPage       bdr:EP05748BC6FD4DCFB2 , bdr:EP0841247EB999BCCE , bdr:EP3D13E5EC28CEDFAE , bdr:EP79D83211BC200A83 , bdr:EP7D57D5E18CC726E1 , bdr:EP858DDD96EFD49BE0 , bdr:EP8F225ADD27D729A7 , bdr:EP8FBCC16C0EA01144 , bdr:EP9B7CB70BF0771916 , bdr:EPA074970BD6932A4C , bdr:EPC9AE33A842032D13 , bdr:EPE3856C3C41D033FB , bdr:EPE7A75073F83F0765 , bdr:EPFF9046D3987366E2 ;
         :eTextInInstance    bdr:IE1PD90129 ;
         :eTextInVolume      5 ;
         :eTextSourcePath    "KarmaDelek/co-ne-grags-pa-bshad-sgrub-gsung-qbum/rtfs/volume_005/volume_005_103.rtf" ;

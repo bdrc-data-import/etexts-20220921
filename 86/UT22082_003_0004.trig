@@ -16,14 +16,24 @@ bdg:UT22082_003_0004 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT22082_003_0004 ;
+        adm:facetIndex      3 ;
         adm:gitPath         "86/UT22082_003_0004.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT22082_003_0004 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP3C275E6E9258D0F0
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPA4B930C71F6AB4FD
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT22082_003_0004
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །ཀུན་མཁྱེན་རིག་པ་འཛིན་པ་ཆེན་པོ་ཆོས་ཀྱི་གྲགས་པའི་གསུང་འབུམ་༼ག༽པའི་དཀར་ཆག།"@bo ;
+        :eTextHasPage       bdr:EP3C275E6E9258D0F0 , bdr:EPA4B930C71F6AB4FD ;
         :eTextInInstance    bdr:IE22082 ;
         :eTextInVolume      3 ;
         :eTextSourcePath    "DrikungChetsang/7__KUNKHYEN/rtfs/volume-003/KARCHOK.GA.rtf" ;

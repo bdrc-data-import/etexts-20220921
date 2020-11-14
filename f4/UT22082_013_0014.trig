@@ -16,14 +16,64 @@ bdg:UT22082_013_0014 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT22082_013_0014 ;
+        adm:facetIndex      13 ;
         adm:gitPath         "f4/UT22082_013_0014.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT22082_013_0014 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP15C1B7D2BA6284F7
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP321FAB49A982A060
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP37E70EF820C1A6DA
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP6F1A127F23DF0F5D
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP735E513166097E00
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EP94F16BF3AD530B65
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPA0F0113453EC8013
+        a                   :EtextPage ;
+        :seqNum             12 .
+    
+    bdr:EPBC803BA57665C0EC
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EPC43E3E21FD60B59A
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPCEE95009B259CA7F
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EPD58063CFAB5F35BE
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPDDCD043BB129E651
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
     bdr:UT22082_013_0014
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །ཕྱག་རྒྱ་ཆེན་པོ་ལྔ་ལྡན་གྱི་ཁྲིད་ཀྱི་མན་ངག་རྡོ་རྗེའི་ཚིག་རྐང་ཞེས་བྱ་བ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP15C1B7D2BA6284F7 , bdr:EP321FAB49A982A060 , bdr:EP37E70EF820C1A6DA , bdr:EP6F1A127F23DF0F5D , bdr:EP735E513166097E00 , bdr:EP94F16BF3AD530B65 , bdr:EPA0F0113453EC8013 , bdr:EPBC803BA57665C0EC , bdr:EPC43E3E21FD60B59A , bdr:EPCEE95009B259CA7F , bdr:EPD58063CFAB5F35BE , bdr:EPDDCD043BB129E651 ;
         :eTextInInstance    bdr:IE22082 ;
         :eTextInVolume      13 ;
         :eTextSourcePath    "DrikungChetsang/7__KUNKHYEN/rtfs/volume-013/3PA.GA.rtf" ;

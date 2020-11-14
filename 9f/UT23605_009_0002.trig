@@ -16,14 +16,72 @@ bdg:UT23605_009_0002 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_009_0002 ;
+        adm:facetIndex      15 ;
         adm:gitPath         "9f/UT23605_009_0002.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_009_0002 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP1B58E092F504D6E4
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EP4F8CE20C996EA61D
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP605BE0AA6B79D506
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP60D9478F2247BDCD
+        a                   :EtextPage ;
+        :seqNum             14 .
+    
+    bdr:EP66320F515D4C0BBF
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP7A01767EB9F2412A
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP83B34C5B1BD7AF73
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP86AEA6A530891E0F
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP934784D892C5C842
+        a                   :EtextPage ;
+        :seqNum             12 .
+    
+    bdr:EPDEBDAA95A5FF34F2
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EPF0A4615CF11BDEEF
+        a                   :EtextPage ;
+        :seqNum             13 .
+    
+    bdr:EPF814A6F4F4A920E9
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPF8BCC2EBEE902C27
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPFE69CE85B08010FD
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
     bdr:UT23605_009_0002
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༡༽༄༅། །ཕྱག་རྒྱ་ཆེན་པོ་ལྷན་ཅིག་སྐྱེས་སྦྱོར་གྱི་ཁྲིད་ཡིག་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP1B58E092F504D6E4 , bdr:EP4F8CE20C996EA61D , bdr:EP605BE0AA6B79D506 , bdr:EP60D9478F2247BDCD , bdr:EP66320F515D4C0BBF , bdr:EP7A01767EB9F2412A , bdr:EP83B34C5B1BD7AF73 , bdr:EP86AEA6A530891E0F , bdr:EP934784D892C5C842 , bdr:EPDEBDAA95A5FF34F2 , bdr:EPF0A4615CF11BDEEF , bdr:EPF814A6F4F4A920E9 , bdr:EPF8BCC2EBEE902C27 , bdr:EPFE69CE85B08010FD ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      9 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/09_gdams-ngag-mdzod_ta/09_01_phyag-rgya-chen-po-lhan-cig-skyes-sbyor-gyi-khrid-yig.rtf" ;

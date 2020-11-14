@@ -16,14 +16,44 @@ bdg:UT1PD105884_008_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1PD105884_008_0000 ;
+        adm:facetIndex      8 ;
         adm:gitPath         "7a/UT1PD105884_008_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1PD105884_008_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP119426C4539640DD
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP198D8D8FF7D6468A
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP475FD256A6E15976
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP6C14670AB7E874EA
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP9B21B78B3AF4F2AF
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPA4FFDBD41AF1D613
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPC1DB1E3657FC590B
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
     bdr:UT1PD105884_008_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །གཉལ་སྟོན་དཔལ་འབྱོར་ལྷུན་གྲུབ་ཀྱི་མཛད་རྣམ་མདོར་བསྡུས་བཞུགས།"@bo ;
+        :eTextHasPage       bdr:EP119426C4539640DD , bdr:EP198D8D8FF7D6468A , bdr:EP475FD256A6E15976 , bdr:EP6C14670AB7E874EA , bdr:EP9B21B78B3AF4F2AF , bdr:EPA4FFDBD41AF1D613 , bdr:EPC1DB1E3657FC590B ;
         :eTextInInstance    bdr:IE1PD105884 ;
         :eTextIsVolume      8 ;
         :eTextSourcePath    "KarmaDelek/rgyal-sras-thogs-med-P1830-chos-skor/rtfs/volume_011/volume_011_110.rtf" ;

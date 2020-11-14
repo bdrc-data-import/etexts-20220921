@@ -16,14 +16,36 @@ bdg:UT3JT13339_001_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13339_001_0000 ;
+        adm:facetIndex      6 ;
         adm:gitPath         "f9/UT3JT13339_001_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13339_001_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP3D7396FE5C218C02
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP57EAC5CD955FFEE5
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP79F25393A31CA4B0
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPD195E1217B8C163B
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPD65D53EC1525289B
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
     bdr:UT3JT13339_001_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "མདོས་བྱིན་བརླབས་དང་ལྷན་ཐབས་བཅས་པ་བཞུགས་སོ༔བདག་ལྷར་གསལ་བའི་ཐུགས་ཀའི་ཧཱུཾ་ལས་ཡི་གེ་རཾ་ཡཾ་ཁཾ་གསུམ་སྤྲོས་ཏེ༔ཧཱུཾ་ལས་རཾ་འཕྲོས་པས་རཾ་འ"@bo ;
+        :eTextHasPage       bdr:EP3D7396FE5C218C02 , bdr:EP57EAC5CD955FFEE5 , bdr:EP79F25393A31CA4B0 , bdr:EPD195E1217B8C163B , bdr:EPD65D53EC1525289B ;
         :eTextInInstance    bdr:IE3JT13339 ;
         :eTextIsVolume      1 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/P0029_Jabzhi_tdoc/dho-zhinlab.rtf" ;

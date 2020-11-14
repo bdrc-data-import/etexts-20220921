@@ -16,14 +16,32 @@ bdg:UT23605_002_0016 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_002_0016 ;
+        adm:facetIndex      5 ;
         adm:gitPath         "4a/UT23605_002_0016.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_002_0016 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP5D4464271BD440F4
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP7E2D7ABA4B935888
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP860738A36E8D183B
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP91D04AF2AA9DC3D6
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT23605_002_0016
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༣༧༡༽༄༅། །སེམས་ཉིད་རང་གྲོལ་གྱི་གསོལ་འདེབས་བཞུགས་སོ།ནམ་མཁའི་གནས་སུ་ནམ་མཁའ་གང་བ་ཡི། །བླ་མ་ཡི་དམ་མཁའ་འགྲོའི་ཚོགས་རྣམས་དང༌། །སངས་"@bo ;
+        :eTextHasPage       bdr:EP5D4464271BD440F4 , bdr:EP7E2D7ABA4B935888 , bdr:EP860738A36E8D183B , bdr:EP91D04AF2AA9DC3D6 ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      2 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/02_gdams-ngag-mdzod_kha/02_15_smes-nyid-rang-grol-gyi-gsol-qdebs.rtf" ;

@@ -16,14 +16,76 @@ bdg:UT22920_007_0001 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT22920_007_0001 ;
+        adm:facetIndex      16 ;
         adm:gitPath         "f1/UT22920_007_0001.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT22920_007_0001 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP04ECDB5F2612437E
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP0D374DFC84F911A2
+        a                   :EtextPage ;
+        :seqNum             14 .
+    
+    bdr:EP1B2301EBA5B964C6
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP2C7299C6B7ACCF27
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP536BFC956B0F3D86
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP54DD732B12AA67FA
+        a                   :EtextPage ;
+        :seqNum             12 .
+    
+    bdr:EP7434B34213C3E997
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP7B5F4DBA3053C211
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP84A213BC229FF805
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP85C5807145496BDC
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EP8F8B0FB9CD46C52E
+        a                   :EtextPage ;
+        :seqNum             15 .
+    
+    bdr:EP9BFDACE2C22A6EA5
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EPC3B14B0E7D8A4A71
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EPCA5B252BCA0A4F9B
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPFD00D786535A9E9B
+        a                   :EtextPage ;
+        :seqNum             13 .
+    
     bdr:UT22920_007_0001
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །གནས་ལུགས་རིན་པོ་ཆེའི་མཛོད་ཅེས་བྱ་བ་བཞུགས། །"@bo ;
+        :eTextHasPage       bdr:EP04ECDB5F2612437E , bdr:EP0D374DFC84F911A2 , bdr:EP1B2301EBA5B964C6 , bdr:EP2C7299C6B7ACCF27 , bdr:EP536BFC956B0F3D86 , bdr:EP54DD732B12AA67FA , bdr:EP7434B34213C3E997 , bdr:EP7B5F4DBA3053C211 , bdr:EP84A213BC229FF805 , bdr:EP85C5807145496BDC , bdr:EP8F8B0FB9CD46C52E , bdr:EP9BFDACE2C22A6EA5 , bdr:EPC3B14B0E7D8A4A71 , bdr:EPCA5B252BCA0A4F9B , bdr:EPFD00D786535A9E9B ;
         :eTextInInstance    bdr:IE22920 ;
         :eTextInVolume      7 ;
         :eTextSourcePath    "DharmaDownload/mdzod-bdun/rtfs/volume-007/07_1_gnas-lugs-mdzod_tsawa.rtf" ;

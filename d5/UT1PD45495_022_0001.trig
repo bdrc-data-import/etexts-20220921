@@ -16,14 +16,60 @@ bdg:UT1PD45495_022_0001 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1PD45495_022_0001 ;
+        adm:facetIndex      12 ;
         adm:gitPath         "d5/UT1PD45495_022_0001.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1PD45495_022_0001 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP51A71651389C97BD
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EP6BB52AEE8453F7D8
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP8F454D6FE27242DE
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP9F6ECF628574A71A
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP9F894A01DFBD5C87
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPB22710C4E06EEB80
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPB2C09ED42EF3728E
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPBBF0B55F0ADBCCF2
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EPD7BEC61066E1BD0D
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPF50B9F59FE73225B
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EPFB1CBD7DD8EC7F63
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT1PD45495_022_0001
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །དཔལ་མཧཱ་མཱ་ཡའི་དཀྱིལ་འཁོར་གྱི་སྒྲུབ་ཐབས་རིན་ཆེན་མྱུ་གུ་ཞེས་བྱ་བ་བཞུགས།"@bo ;
+        :eTextHasPage       bdr:EP51A71651389C97BD , bdr:EP6BB52AEE8453F7D8 , bdr:EP8F454D6FE27242DE , bdr:EP9F6ECF628574A71A , bdr:EP9F894A01DFBD5C87 , bdr:EPB22710C4E06EEB80 , bdr:EPB2C09ED42EF3728E , bdr:EPBBF0B55F0ADBCCF2 , bdr:EPD7BEC61066E1BD0D , bdr:EPF50B9F59FE73225B , bdr:EPFB1CBD7DD8EC7F63 ;
         :eTextInInstance    bdr:IE1PD45495 ;
         :eTextInVolume      22 ;
         :eTextSourcePath    "KarmaDelek/taranatha-gsung-qbum/rtfs/volume_022/volume_022_189.rtf" ;

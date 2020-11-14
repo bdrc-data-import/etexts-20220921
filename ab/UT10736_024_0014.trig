@@ -16,14 +16,48 @@ bdg:UT10736_024_0014 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT10736_024_0014 ;
+        adm:facetIndex      9 ;
         adm:gitPath         "ab/UT10736_024_0014.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT10736_024_0014 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP45E4B5239E41EE0A
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP56C9489A155921DC
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP62C317E94F2E0156
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP9267B8C6F33F417A
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPB0BC619083BAA6D3
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPB2819DA03644959B
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPBD8B13349753F04A
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPCA139758307F8ED7
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
     bdr:UT10736_024_0014
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །དཔལ་རི་པདྨ་འོད་དུ་བགྲོད་པའི་སྨོན་ལམ་གདུང་ཤུགས་ཀྱི་གློག་འཕྲེང་ཞེས་བྱ་བ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP45E4B5239E41EE0A , bdr:EP56C9489A155921DC , bdr:EP62C317E94F2E0156 , bdr:EP9267B8C6F33F417A , bdr:EPB0BC619083BAA6D3 , bdr:EPB2819DA03644959B , bdr:EPBD8B13349753F04A , bdr:EPCA139758307F8ED7 ;
         :eTextInInstance    bdr:IE10736 ;
         :eTextInVolume      24 ;
         :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/24_ya/24_13_ya_dpal-ri-padma-qod-du-bgrod-paqi-smon-lam-gdung-shugs-kyi-glog-qphreng.rtf" ;

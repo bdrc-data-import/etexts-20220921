@@ -16,14 +16,52 @@ bdg:UT21888_001_0065 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT21888_001_0065 ;
+        adm:facetIndex      10 ;
         adm:gitPath         "56/UT21888_001_0065.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT21888_001_0065 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0EF4AC2E282D0498
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP1C124EEA5D3C7D79
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP46054300C641A099
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP84299AC5880EA22C
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EPA601059ECC386D85
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPC8F94E87419C3B7D
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPD8C9130BDA07A917
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPE0165D8586E303B1
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPE0248B5ACC9D695F
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT21888_001_0065
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༧༽ཆོས་ཉིད་མཁའ་འགྲོའི་གསང་མཛོད་ལས༔ཀ་ལ་པིངྐའི་སྒྲ་ཚིག་མཁའ་འགྲོའི་ཞལ་ཆེམས་ཡང་བྱང་གབ་ཐིག་སྙིང་པོ་བཞུགས་སོ༔༨༽ས་མ་ཡ༔དུས་རེ་ཞིག་གི་ཚེ་ར"@bo ;
+        :eTextHasPage       bdr:EP0EF4AC2E282D0498 , bdr:EP1C124EEA5D3C7D79 , bdr:EP46054300C641A099 , bdr:EP84299AC5880EA22C , bdr:EPA601059ECC386D85 , bdr:EPC8F94E87419C3B7D , bdr:EPD8C9130BDA07A917 , bdr:EPE0165D8586E303B1 , bdr:EPE0248B5ACC9D695F ;
         :eTextInInstance    bdr:IE21888 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "PalriParkhang/W21888-se-ra-mkhaq-qgro-bkaq-qbum/rtfs/1-A-Serakhagro-Kabum/A-Serakhagro7-22.rtf" ;

@@ -16,14 +16,20 @@ bdg:UT3JT13348_013_0001 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13348_013_0001 ;
+        adm:facetIndex      2 ;
         adm:gitPath         "ca/UT3JT13348_013_0001.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13348_013_0001 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP23CC689D6B781600
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT3JT13348_013_0001
         a                   :EtextNonPaginated ;
         skos:prefLabel      "སྐྱོབ་པ་འཇིག་རྟེན་གསུམ་མགོན་གྱི་ཕྱིའི་བཀའ་འབུམ་པོད་དྲུགནང་གི་ཟབ་ཆོས་པོད་གསུམ།ཁ་སྐོང་པོད་གསུམ།ཤིན་ཏུ་བཀའ་རྒྱ་ཆེ་བའི་གསང་བའི་ཟབ་ཆོ"@bo ;
+        :eTextHasPage       bdr:EP23CC689D6B781600 ;
         :eTextInInstance    bdr:IE3JT13348 ;
         :eTextInVolume      13 ;
         :eTextSourcePath    "DrikungChetsang/2_KYOPA/rtfs/volume-013/1.rtf" ;

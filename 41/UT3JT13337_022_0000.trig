@@ -16,14 +16,52 @@ bdg:UT3JT13337_022_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13337_022_0000 ;
+        adm:facetIndex      10 ;
         adm:gitPath         "41/UT3JT13337_022_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13337_022_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP34661972ECECE273
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP5EB24DDBA5D8E780
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP6C458DD2CACBD85E
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP7EFC05439B0532E0
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP98BA0E5534B4B7D1
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPA688469AF24DD644
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPACF9CE08A3835C1F
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPC7095CD3708AD698
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPF767B51406366800
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT3JT13337_022_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅།ཀློང་ཆེན་སྙིང་གི་ཐིག་ལེ་ལས༔གཅོད་ཡུལ་མཁའ་འགྲོའི་གད་རྒྱང་བཞུགས༔"@bo ;
+        :eTextHasPage       bdr:EP34661972ECECE273 , bdr:EP5EB24DDBA5D8E780 , bdr:EP6C458DD2CACBD85E , bdr:EP7EFC05439B0532E0 , bdr:EP98BA0E5534B4B7D1 , bdr:EPA688469AF24DD644 , bdr:EPACF9CE08A3835C1F , bdr:EPC7095CD3708AD698 , bdr:EPF767B51406366800 ;
         :eTextInInstance    bdr:IE3JT13337 ;
         :eTextIsVolume      22 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/P0025_Tobum_tdoc/029-mkha-qgro-gad-rgyan.rtf" ;

@@ -16,14 +16,32 @@ bdg:UT3JT13384_005_0041 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13384_005_0041 ;
+        adm:facetIndex      5 ;
         adm:gitPath         "c5/UT3JT13384_005_0041.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13384_005_0041 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP8F537953EC623816
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPAB4C0582FC73D175
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPD245A895B5D2FD6E
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPD2881FBDE122DD30
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT3JT13384_005_0041
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །སྤྲུལ་པའི་གཏེར་ཆེན་མཆོག་གྱུར་བདེ་ཆེན་གླིང་པའི་རྣམ་ཐར་གསོལ་འདེབས་བཀྲ་ཤིས་འཁྱིལ་པའི་དབྱངས་སྙན་ཅེས་བྱ་བ་བཞུགས་སོ། །ཀུན་ཁྱབ་བ"@bo ;
+        :eTextHasPage       bdr:EP8F537953EC623816 , bdr:EPAB4C0582FC73D175 , bdr:EPD245A895B5D2FD6E , bdr:EPD2881FBDE122DD30 ;
         :eTextInInstance    bdr:IE3JT13384 ;
         :eTextInVolume      5 ;
         :eTextSourcePath    "Various/gsung_qbum_mkhyen_brtseqi_dbang_po_UT2MS24768/rtfs/volume-005/5-8.rtf" ;

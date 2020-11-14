@@ -16,14 +16,36 @@ bdg:UT30541_010_0016 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT30541_010_0016 ;
+        adm:facetIndex      6 ;
         adm:gitPath         "e3/UT30541_010_0016.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT30541_010_0016 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP35AC5DC415779910
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP38857B097699467F
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP44ACDBCB860B0D40
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP6103D76776DD9A10
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPDE2BAA7BC851037C
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
     bdr:UT30541_010_0016
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །ཡུལ་ཉི་ཤུ་རྩ་བཞིའི་བཤད་པའོ། །མཆན་འདི་རྣམས་ནང་དུ་ལུས་ལ་སྦྱར་བའོ། །"@bo ;
+        :eTextHasPage       bdr:EP35AC5DC415779910 , bdr:EP38857B097699467F , bdr:EP44ACDBCB860B0D40 , bdr:EP6103D76776DD9A10 , bdr:EPDE2BAA7BC851037C ;
         :eTextInInstance    bdr:IE30541 ;
         :eTextInVolume      10 ;
         :eTextSourcePath    "DharmaDownload/Karmapa-03/rtfs/10_3rd-karmapa-text_tdoc_tha/10_15_tha_yul-nyi-shu-rtsa-bzhiqi-bshad-pa.rtf" ;

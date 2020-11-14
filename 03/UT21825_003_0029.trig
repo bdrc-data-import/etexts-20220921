@@ -16,14 +16,56 @@ bdg:UT21825_003_0029 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT21825_003_0029 ;
+        adm:facetIndex      11 ;
         adm:gitPath         "03/UT21825_003_0029.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT21825_003_0029 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0105FAFC45AB228B
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP0E7FE18753A5D947
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP226CE361B7C99C26
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP4AB6923230ECF4F5
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP54D9BC864972E1FF
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP5E71ACECDB3067A6
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP61C5B486AC8008E8
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP859EFB4CEAD9DDCA
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP9EABA3046F70F64E
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPDB6F195C50173A33
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
     bdr:UT21825_003_0029
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༥༥༩༽༄༅།འདུལ་བ་གྲི་ཡི་ཟིན་བྲིས་འདོན་བདེར་བཀོད་པ་བཞུགས་སོ༌། །"@bo ;
+        :eTextHasPage       bdr:EP0105FAFC45AB228B , bdr:EP0E7FE18753A5D947 , bdr:EP226CE361B7C99C26 , bdr:EP4AB6923230ECF4F5 , bdr:EP54D9BC864972E1FF , bdr:EP5E71ACECDB3067A6 , bdr:EP61C5B486AC8008E8 , bdr:EP859EFB4CEAD9DDCA , bdr:EP9EABA3046F70F64E , bdr:EPDB6F195C50173A33 ;
         :eTextInInstance    bdr:IE21825 ;
         :eTextInVolume      3 ;
         :eTextSourcePath    "PalriParkhang/W21825-bkaq-qbum-pad-nor-02-thub-bstan-chos-kyi-glang-po/rtfs/03-penor-kabum-ga/penor-kabum-Ga-0559-572.rtf" ;

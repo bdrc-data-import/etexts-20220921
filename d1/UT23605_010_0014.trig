@@ -16,14 +16,48 @@ bdg:UT23605_010_0014 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_010_0014 ;
+        adm:facetIndex      9 ;
         adm:gitPath         "d1/UT23605_010_0014.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_010_0014 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP1762A8D461201E33
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP4677A29173A7D2A1
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP7D4E61480C74D893
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP962D114F36D33013
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPB8EB943747EC4639
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPC4C7284527443DAC
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPC5A40985BA59ED69
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPF3740E7AD6727435
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
     bdr:UT23605_010_0014
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༡༦༣༽༄༅། །ལམ་ཟབ་ཐུན་མོང་མ་ཡིན་པའི་ཁྲིད་རིམ་སྙིང་པོ་བཞུགས་སོ། །། །"@bo ;
+        :eTextHasPage       bdr:EP1762A8D461201E33 , bdr:EP4677A29173A7D2A1 , bdr:EP7D4E61480C74D893 , bdr:EP962D114F36D33013 , bdr:EPB8EB943747EC4639 , bdr:EPC4C7284527443DAC , bdr:EPC5A40985BA59ED69 , bdr:EPF3740E7AD6727435 ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      10 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/10_gdams-ngag-mdzod_tha/10_13_lam-zab-thun-mong-ma-yin-paqi-khrid-rim-snying-po.rtf" ;

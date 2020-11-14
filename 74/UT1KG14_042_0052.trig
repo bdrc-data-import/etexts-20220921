@@ -16,14 +16,64 @@ bdg:UT1KG14_042_0052 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1KG14_042_0052 ;
+        adm:facetIndex      13 ;
         adm:gitPath         "74/UT1KG14_042_0052.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1KG14_042_0052 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP018AC8FB8AE6F2AA
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP0EE260C684671338
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP1B142DDFF6838ECD
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP440625B6F0650905
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP65ED69C9BEC7CCD2
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP94A10EFD9BD3D958
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP951EF2A37B38E167
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP98903A47D345ACB7
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP9F420BFE613314F1
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EPAE1B502A4B71FBDF
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPBB671D67AC61E206
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPFCA1DAEBBA80C22C
+        a                   :EtextPage ;
+        :seqNum             12 .
+    
     bdr:UT1KG14_042_0052
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༁ྃ༔བླ་མ་དགོངས་པ་འདུས་པ་ལས༔སྔགས་འབུམ་དགོས་འདོད་ཀུན་འབྱུང་གི་རིམ་པ་བཞུགས་སོ༔"@bo ;
+        :eTextHasPage       bdr:EP018AC8FB8AE6F2AA , bdr:EP0EE260C684671338 , bdr:EP1B142DDFF6838ECD , bdr:EP440625B6F0650905 , bdr:EP65ED69C9BEC7CCD2 , bdr:EP94A10EFD9BD3D958 , bdr:EP951EF2A37B38E167 , bdr:EP98903A47D345ACB7 , bdr:EP9F420BFE613314F1 , bdr:EPAE1B502A4B71FBDF , bdr:EPBB671D67AC61E206 , bdr:EPFCA1DAEBBA80C22C ;
         :eTextInInstance    bdr:IE1KG14 ;
         :eTextInVolume      42 ;
         :eTextSourcePath    "Shechen/Rinchen-Terdzod-Shechen-vols-01-54/rtfs/42-NI/Terzod-ni-P51.rtf" ;

@@ -16,14 +16,56 @@ bdg:UT21825_003_0001 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT21825_003_0001 ;
+        adm:facetIndex      11 ;
         adm:gitPath         "e3/UT21825_003_0001.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT21825_003_0001 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP1D09F118F38FE771
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP212D5E870AA363C5
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP38D4A9445943833F
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP44261D6503746899
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP51003172C7464DAE
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP57661DCC68AA034E
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP78F09C469E5CB817
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP890939553D73CC25
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPCE242C930F1200CB
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPE941932257656061
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
     bdr:UT21825_003_0001
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༡༽༄༅།གནམ་ཆོས་ཐུགས་ཀྱི་གཏེར་ཁ་སྙན་བརྒྱུད་ཟབ་མོའི་སྐོར་ལས་བླ་མ་དྲག་པོ་བཛྲ་ཀི་ལ་ཡའི་ཕྲིན་ལས་དངོས་གྲུབ་ཆར་འབེབས་བཞུགས།༢༽༄༅།རྒྱལ་ཀུན་"@bo ;
+        :eTextHasPage       bdr:EP1D09F118F38FE771 , bdr:EP212D5E870AA363C5 , bdr:EP38D4A9445943833F , bdr:EP44261D6503746899 , bdr:EP51003172C7464DAE , bdr:EP57661DCC68AA034E , bdr:EP78F09C469E5CB817 , bdr:EP890939553D73CC25 , bdr:EPCE242C930F1200CB , bdr:EPE941932257656061 ;
         :eTextInInstance    bdr:IE21825 ;
         :eTextInVolume      3 ;
         :eTextSourcePath    "PalriParkhang/W21825-bkaq-qbum-pad-nor-02-thub-bstan-chos-kyi-glang-po/rtfs/03-penor-kabum-ga/Penor-Kabum-Ga-01-16.rtf" ;

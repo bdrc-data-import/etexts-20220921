@@ -16,14 +16,60 @@ bdg:UT3JT13302_010_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13302_010_0000 ;
+        adm:facetIndex      12 ;
         adm:gitPath         "ee/UT3JT13302_010_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13302_010_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0147D5F1DBCED92E
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP17D72BD64DEC6E03
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP27370253FC3C0F53
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP50683A6050C52368
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP60ED5CBE7B372DEB
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP742F20132CDEDDCB
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP75567744816763D7
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP90973378FF147DC5
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EPB54C8577410F6E6D
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPB93BEB9C91AB71EF
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPD205539857A77DA7
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT3JT13302_010_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །གསུང་ངག་རིན་པོ་ཆེ་བརྒྱུད་པ་གསུམ་འདུས་ཀྱི་བླ་མ་ལ་གསོལ་བ་འདེབས་པ་ལམ་རིམ་སྨོན་ལམ་དང་བཅས་པ་བཞུགས་སོ། །༈།ན་མོ་གུ་རུ་བྷྱཿཀུན་བཟ"@bo ;
+        :eTextHasPage       bdr:EP0147D5F1DBCED92E , bdr:EP17D72BD64DEC6E03 , bdr:EP27370253FC3C0F53 , bdr:EP50683A6050C52368 , bdr:EP60ED5CBE7B372DEB , bdr:EP742F20132CDEDDCB , bdr:EP75567744816763D7 , bdr:EP90973378FF147DC5 , bdr:EPB54C8577410F6E6D , bdr:EPB93BEB9C91AB71EF , bdr:EPD205539857A77DA7 ;
         :eTextInInstance    bdr:IE3JT13302 ;
         :eTextIsVolume      10 ;
         :eTextSourcePath    "GuruLamaWorks/For-Conversion-Disk-01-20130424/rtfs/KHADON/KHAD010.rtf" ;

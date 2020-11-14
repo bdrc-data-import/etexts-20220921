@@ -16,14 +16,28 @@ bdg:UT23785_001_0004 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23785_001_0004 ;
+        adm:facetIndex      4 ;
         adm:gitPath         "f5/UT23785_001_0004.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23785_001_0004 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP399BD00E25C46B37
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP4E5D1AA12FF475BC
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPE2EFC4FFE682924F
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT23785_001_0004
         a                   :EtextNonPaginated ;
         skos:prefLabel      "ཐམས་ཅད་མཁྱེན་པ་སྤྱན་སྔ་གྲགས་པ་འབྱུང་གནས་ནི།ཡོངས་སུ་གྲགས་པའི་འབྲི་གུང་སྤྱན་སྔ་རྣམ་གཉིས་ལས།དེ་ཡང་བོད་མིའུ་གདུང་དྲུག་ཅེས་པའི་ཡ་གྱལ་"@bo ;
+        :eTextHasPage       bdr:EP399BD00E25C46B37 , bdr:EP4E5D1AA12FF475BC , bdr:EPE2EFC4FFE682924F ;
         :eTextInInstance    bdr:IE23785 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "DrikungChetsang/5_DRAGJUNG/rtfs/volume-001/LINGOD_0.rtf" ;

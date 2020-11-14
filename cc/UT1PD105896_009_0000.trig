@@ -16,14 +16,56 @@ bdg:UT1PD105896_009_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1PD105896_009_0000 ;
+        adm:facetIndex      11 ;
         adm:gitPath         "cc/UT1PD105896_009_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1PD105896_009_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP1B56C2420F066EDF
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP457D7E34AC1A1678
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP569235C985392AD0
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP5E1886CBCF2F2B27
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP90E261C45E95362D
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPAC56E88C06E55DDD
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPDAE12974135BBB6A
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EPDDA9480DF793F90B
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPED8D78FCD36F59A3
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPFE0B7A36C73800A9
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT1PD105896_009_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "རྩོམ་པ་པོའི་རྣམ་ཐར་མདོར་བསྡུས།"@bo ;
+        :eTextHasPage       bdr:EP1B56C2420F066EDF , bdr:EP457D7E34AC1A1678 , bdr:EP569235C985392AD0 , bdr:EP5E1886CBCF2F2B27 , bdr:EP90E261C45E95362D , bdr:EPAC56E88C06E55DDD , bdr:EPDAE12974135BBB6A , bdr:EPDDA9480DF793F90B , bdr:EPED8D78FCD36F59A3 , bdr:EPFE0B7A36C73800A9 ;
         :eTextInInstance    bdr:IE1PD105896 ;
         :eTextIsVolume      9 ;
         :eTextSourcePath    "KarmaDelek/rgyal-sras-thogs-med-P1830-chos-skor/rtfs/volume_007/volume_007_051.rtf" ;

@@ -16,14 +16,56 @@ bdg:UT22082_011_0045 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT22082_011_0045 ;
+        adm:facetIndex      11 ;
         adm:gitPath         "34/UT22082_011_0045.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT22082_011_0045 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP29BA4F583F6126F9
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP41A6A5C867A6FDD8
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP47956347DEEEDAFF
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPA2F6EACE4B81EEFC
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPAB35C260D534D87D
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPAF007292CE307B95
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EPBA85FA7AB45EFDEF
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPEDF8B7DEEFFE7F9E
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EPF03219256442B3E1
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPFD6A7BE05EA19D5E
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
     bdr:UT22082_011_0045
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །ཕྱག་རྒྱ་ཟིལ་གནོན་ཞི་བར་སྒྲུབ་པའི་ཐབས་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP29BA4F583F6126F9 , bdr:EP41A6A5C867A6FDD8 , bdr:EP47956347DEEEDAFF , bdr:EPA2F6EACE4B81EEFC , bdr:EPAB35C260D534D87D , bdr:EPAF007292CE307B95 , bdr:EPBA85FA7AB45EFDEF , bdr:EPEDF8B7DEEFFE7F9E , bdr:EPF03219256442B3E1 , bdr:EPFD6A7BE05EA19D5E ;
         :eTextInInstance    bdr:IE22082 ;
         :eTextInVolume      11 ;
         :eTextSourcePath    "DrikungChetsang/7__KUNKHYEN/rtfs/volume-011/5DA.CA.rtf" ;

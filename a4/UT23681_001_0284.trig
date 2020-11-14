@@ -16,14 +16,56 @@ bdg:UT23681_001_0284 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23681_001_0284 ;
+        adm:facetIndex      11 ;
         adm:gitPath         "a4/UT23681_001_0284.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23681_001_0284 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0C025728ADCDB5E8
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP24278BD82AE77D00
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP35CA0419AA54A940
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP63E04AE329E3C5DE
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP6B4B110EACDFD131
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP9D3B2E65274FA71F
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPA2EA86AAC7031602
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPA68F7FB5CF870BF4
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPC96F65D98B5E0928
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPD711283C57045AF9
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT23681_001_0284
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼ཐ༽༄༅། །སཱཙྪ་འདེབས་པའི་ཆོ་ག་དགེ་ཚོགས་རྒྱ་མཚོ་འཕེལ་བའི་ཟླ་བ་ཞེས་བྱ་བ་བཞུགས་སོ། །༄༅། །གང་ཕྱིར་གུས་པ་རེ་ཡང་ལྷུར་བླངས་པས། །དཔག་ཡ"@bo ;
+        :eTextHasPage       bdr:EP0C025728ADCDB5E8 , bdr:EP24278BD82AE77D00 , bdr:EP35CA0419AA54A940 , bdr:EP63E04AE329E3C5DE , bdr:EP6B4B110EACDFD131 , bdr:EP9D3B2E65274FA71F , bdr:EPA2EA86AAC7031602 , bdr:EPA68F7FB5CF870BF4 , bdr:EPC96F65D98B5E0928 , bdr:EPD711283C57045AF9 ;
         :eTextInInstance    bdr:IE23681 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "GuruLamaWorks/Drub-thab-kuntu/rtfs/volume-001-014/DBTU284.rtf" ;

@@ -16,14 +16,40 @@ bdg:UT23605_009_0012 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_009_0012 ;
+        adm:facetIndex      7 ;
         adm:gitPath         "30/UT23605_009_0012.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_009_0012 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP455C323B4804374B
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP554B9C9B876538CD
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP5B09BED1EBC490D7
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP8F59EEB3FCFB65E2
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPEB5CE8FAFE77A732
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPFC5FF05F86089160
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
     bdr:UT23605_009_0012
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༢༤༧༽༄༅། །རྫོགས་པའི་སངས་རྒྱས་དཔལ་ཀརྨ་པའི་ཟབ་ཆོས་སྐུ་གསུམ་ངོ་སྤྲོད་ཀྱི་གདམས་པ་ཞེས་བྱ་བ་བཞུགས་སོ། །། །"@bo ;
+        :eTextHasPage       bdr:EP455C323B4804374B , bdr:EP554B9C9B876538CD , bdr:EP5B09BED1EBC490D7 , bdr:EP8F59EEB3FCFB65E2 , bdr:EPEB5CE8FAFE77A732 , bdr:EPFC5FF05F86089160 ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      9 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/09_gdams-ngag-mdzod_ta/09_11_rdzogs-paqi-sangs-rgyas-dpal-karma-paqi-zab-chos-sku-gsum-ngo-sprod-kyi-gdams-pa.rtf" ;

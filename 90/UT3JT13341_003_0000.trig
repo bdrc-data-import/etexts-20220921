@@ -16,14 +16,32 @@ bdg:UT3JT13341_003_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13341_003_0000 ;
+        adm:facetIndex      5 ;
         adm:gitPath         "90/UT3JT13341_003_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13341_003_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP291E9F26F253ADAD
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP5C231FA715B7A4AF
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP8D1263707B91E29E
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPF9C38093255FDB5C
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT3JT13341_003_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "རྡོ་རྗེ་རྣམ་པར་འཇོམས་པའི་གཟུངས་བཞུགས་སོ། །རྒྱ་གར་སྐད་དུ།བཛྲ་བི་དཱ་ར་ན་མ་དྷཱ་ར་ཎི།བོད་སྐད་དུ།རྡོ་རྗེ་རྣམ་པར་འཇོམས་པ་ཞེས་བྱ་བའི་ག"@bo ;
+        :eTextHasPage       bdr:EP291E9F26F253ADAD , bdr:EP5C231FA715B7A4AF , bdr:EP8D1263707B91E29E , bdr:EPF9C38093255FDB5C ;
         :eTextInInstance    bdr:IE3JT13341 ;
         :eTextIsVolume      3 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/Taksham-Chochod_tdoc/002_rdo-rje-rnam-qjoms.rtf" ;

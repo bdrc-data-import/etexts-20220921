@@ -16,14 +16,52 @@ bdg:UT3JT13325_002_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13325_002_0000 ;
+        adm:facetIndex      10 ;
         adm:gitPath         "b2/UT3JT13325_002_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13325_002_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP1533322C4E2DD6C5
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP62C151578225BB6B
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP83E9DFD63365F8DB
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP9BF95103B5B4852A
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPB15DD92947AD8C96
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPB86D42CCA3043D51
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EPB95C046B61B54FF6
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPC789ACC3D4CE9E04
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPD17C00A35DD85D77
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
     bdr:UT3JT13325_002_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །ཆོས་རྗེ་དྭགས་པོ་ལྷ་རྗེའི་གསུང༌།ཕྱག་རྒྱ་ཆེན་པོ་གསལ་བྱེད་ཀྱི་མན་ངག་བཞུགས། །"@bo ;
+        :eTextHasPage       bdr:EP1533322C4E2DD6C5 , bdr:EP62C151578225BB6B , bdr:EP83E9DFD63365F8DB , bdr:EP9BF95103B5B4852A , bdr:EPB15DD92947AD8C96 , bdr:EPB86D42CCA3043D51 , bdr:EPB95C046B61B54FF6 , bdr:EPC789ACC3D4CE9E04 , bdr:EPD17C00A35DD85D77 ;
         :eTextInInstance    bdr:IE3JT13325 ;
         :eTextIsVolume      2 ;
         :eTextSourcePath    "DharmaDownload/Mahamudra/rtfs/03_dakpo/302.rtf" ;

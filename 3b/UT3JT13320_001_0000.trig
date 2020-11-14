@@ -16,14 +16,76 @@ bdg:UT3JT13320_001_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13320_001_0000 ;
+        adm:facetIndex      16 ;
         adm:gitPath         "3b/UT3JT13320_001_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13320_001_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0E22446332F10823
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP38AE8F080932E44F
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP395AECFBA8C75423
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EP4F102C3BAC9D4069
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP56040D8BF2D4FAA7
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP58FA861B01327096
+        a                   :EtextPage ;
+        :seqNum             13 .
+    
+    bdr:EP59BE0CA2EAB6BA70
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP81955A57B5D0FE8A
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP8554459C329ABA7D
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP97E1077D841915CA
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPAA9B698E34D2943C
+        a                   :EtextPage ;
+        :seqNum             15 .
+    
+    bdr:EPAECBE9563095D2B5
+        a                   :EtextPage ;
+        :seqNum             14 .
+    
+    bdr:EPC78E2F70546B91B4
+        a                   :EtextPage ;
+        :seqNum             12 .
+    
+    bdr:EPD408552097535CD9
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EPE56D3A999635858F
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
     bdr:UT3JT13320_001_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །སྔོན་འགྲོའི་ཟིན་བྲིས་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP0E22446332F10823 , bdr:EP38AE8F080932E44F , bdr:EP395AECFBA8C75423 , bdr:EP4F102C3BAC9D4069 , bdr:EP56040D8BF2D4FAA7 , bdr:EP58FA861B01327096 , bdr:EP59BE0CA2EAB6BA70 , bdr:EP81955A57B5D0FE8A , bdr:EP8554459C329ABA7D , bdr:EP97E1077D841915CA , bdr:EPAA9B698E34D2943C , bdr:EPAECBE9563095D2B5 , bdr:EPC78E2F70546B91B4 , bdr:EPD408552097535CD9 , bdr:EPE56D3A999635858F ;
         :eTextInInstance    bdr:IE3JT13320 ;
         :eTextIsVolume      1 ;
         :eTextSourcePath    "DharmaDownload/Mahamudra/rtfs/02_mahamudra-ngondro/02.rtf" ;

@@ -16,14 +16,24 @@ bdg:UT3JT13330_005_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13330_005_0000 ;
+        adm:facetIndex      3 ;
         adm:gitPath         "34/UT3JT13330_005_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13330_005_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP27B8A0DEDAB870E1
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP59BA51DC76F29B85
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT3JT13330_005_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "གཙུག་ཏོར་དྲི་མེད་གཟུངས་རིང་ནི།ན་མཿསརྦ་ཏཐཱ་ག་ཏཱ་ནཱཾ།ཨོཾ་མ་ཧཱ་ཙིནྟཱ་མ་ཎི་ཛྭ་ལ་ན་སཱ་ག་ར་གམྦྷཱིརེ།ཨཱ་ཀརྵ་ཡ།ཨཱ་ཀརྵ་ཡ།ཨཱ་ཡུནྡྷར།ཨཱ་ཡུན"@bo ;
+        :eTextHasPage       bdr:EP27B8A0DEDAB870E1 , bdr:EP59BA51DC76F29B85 ;
         :eTextInInstance    bdr:IE3JT13330 ;
         :eTextIsVolume      5 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/P0004_Drimay-Namnyi_Tdoc/Tsugtor-drimey.rtf" ;

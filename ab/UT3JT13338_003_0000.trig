@@ -16,14 +16,36 @@ bdg:UT3JT13338_003_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13338_003_0000 ;
+        adm:facetIndex      6 ;
         adm:gitPath         "ab/UT3JT13338_003_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13338_003_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP2F412E6624753AB1
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP3E8D25AE121D9D2A
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPB7B71196F34EF63B
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPE889EF07FE770ACE
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPFD7BB3287DF2CE27
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
     bdr:UT3JT13338_003_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "རིན་ཆེན་སེམས་དེ་གཟུང་བར་བྱ་བའི་ཕྱིར། །དེ་བཞིན་གཤེགས་པ་རྣམས་དང་དམ་པའི་ཆོས། །དཀོན་མཆོག་དྲི་མ་མེད་དང་སངས་རྒྱས་སྲས། །ཡོན་ཏན་རྒྱ་མ"@bo ;
+        :eTextHasPage       bdr:EP2F412E6624753AB1 , bdr:EP3E8D25AE121D9D2A , bdr:EPB7B71196F34EF63B , bdr:EPE889EF07FE770ACE , bdr:EPFD7BB3287DF2CE27 ;
         :eTextInInstance    bdr:IE3JT13338 ;
         :eTextIsVolume      3 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/P0028_KagyuGurtso_tdoc/003_mchod-bstod.rtf" ;

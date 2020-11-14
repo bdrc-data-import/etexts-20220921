@@ -16,14 +16,44 @@ bdg:UT3JT13356_018_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13356_018_0000 ;
+        adm:facetIndex      8 ;
         adm:gitPath         "e2/UT3JT13356_018_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13356_018_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP265DAD36DADBE180
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP41DF9C5295C2F034
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP65501CC5B07F677F
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP7CC20812CE114765
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPA8BA14F41967751B
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPCDB925404582210A
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPFA1482DAED5D923C
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
     bdr:UT3JT13356_018_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །ལྷ་བཞི་དྲིལ་སྒྲུབ་ཀྱི་བྱིན་རླབས་དང་ཉམས་སུ་བླང་ཚུལ་བཞུགས་སོ། །ཕན་དང་བདེ་བའི་དབང་ཕྱུག་སྐྱེ་དགུའི་སྐྱབས། །འགྲོ་འདིའི་བདེ་སྐ"@bo ;
+        :eTextHasPage       bdr:EP265DAD36DADBE180 , bdr:EP41DF9C5295C2F034 , bdr:EP65501CC5B07F677F , bdr:EP7CC20812CE114765 , bdr:EPA8BA14F41967751B , bdr:EPCDB925404582210A , bdr:EPFA1482DAED5D923C ;
         :eTextInInstance    bdr:IE3JT13356 ;
         :eTextIsVolume      18 ;
         :eTextSourcePath    "GuruLamaWorks/Precious-and-Rare-Disk-01-20130424/rtfs/23_NEGU/NEGU018_ལྷ་བཞི་དྲིལ་སྒྲུབ་ཀྱི་བྱིན་རླབས་དང་ཉམས་སུ་བླང་ཚུལ།.rtf" ;

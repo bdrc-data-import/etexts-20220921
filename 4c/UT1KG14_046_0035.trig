@@ -16,14 +16,44 @@ bdg:UT1KG14_046_0035 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1KG14_046_0035 ;
+        adm:facetIndex      8 ;
         adm:gitPath         "4c/UT1KG14_046_0035.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1KG14_046_0035 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP1BEF13879B1A9E6F
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP1EEEF42EBDB6CAFC
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP4B6B500A66D9C1AA
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPBA11572B83623D33
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPD285162874965A89
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPF72FF0079E7491F7
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPFD381E0D9D5D22BE
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
     bdr:UT1KG14_046_0035
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༁ྃ༔གུ་རུ་ཞི་དྲག་གི་ཆ་ལག་ཁྱུང་ཆེན་རིགས་ལྔའི་སྒྲུབ་ཐབས་གདུག་པ་ཀུན་འདུལ་བཞུགས་སོ༔"@bo ;
+        :eTextHasPage       bdr:EP1BEF13879B1A9E6F , bdr:EP1EEEF42EBDB6CAFC , bdr:EP4B6B500A66D9C1AA , bdr:EPBA11572B83623D33 , bdr:EPD285162874965A89 , bdr:EPF72FF0079E7491F7 , bdr:EPFD381E0D9D5D22BE ;
         :eTextInInstance    bdr:IE1KG14 ;
         :eTextInVolume      46 ;
         :eTextSourcePath    "Shechen/Rinchen-Terdzod-Shechen-vols-01-54/rtfs/46-MI/TERDZO-MI-P34.rtf" ;

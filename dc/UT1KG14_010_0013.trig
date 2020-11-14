@@ -16,14 +16,52 @@ bdg:UT1KG14_010_0013 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1KG14_010_0013 ;
+        adm:facetIndex      10 ;
         adm:gitPath         "dc/UT1KG14_010_0013.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1KG14_010_0013 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP2499432EE0088466
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP3A3242BED9C7D6AE
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP7A4459D7480EBD01
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP7E986354CAE6B24A
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP845F897DE88945B6
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP95F8573E767CD69B
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP9E3E29FCE42627D7
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPA6203A8FBB90C46B
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPF61EEF0185D2740B
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
     bdr:UT1KG14_010_0013
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །དམ་ཆོས་སྙིང་པོ་སྐོར་ལྔ་ལས།བླ་མ་དགོངས་འདུས་སྙིང་པོའི་སྨིན་བྱེད་བཀླག་ཆོག་ཏུ་བཀོད་པ་བྱིན་རླབས་ཡང་སྙིང་ཞེས་བྱ་བ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP2499432EE0088466 , bdr:EP3A3242BED9C7D6AE , bdr:EP7A4459D7480EBD01 , bdr:EP7E986354CAE6B24A , bdr:EP845F897DE88945B6 , bdr:EP95F8573E767CD69B , bdr:EP9E3E29FCE42627D7 , bdr:EPA6203A8FBB90C46B , bdr:EPF61EEF0185D2740B ;
         :eTextInInstance    bdr:IE1KG14 ;
         :eTextInVolume      10 ;
         :eTextSourcePath    "Shechen/Rinchen-Terdzod-Shechen-vols-01-54/rtfs/10-THA/Terdzo-tha.P12.rtf" ;

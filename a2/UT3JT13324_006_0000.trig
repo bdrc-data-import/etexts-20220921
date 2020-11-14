@@ -16,14 +16,32 @@ bdg:UT3JT13324_006_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13324_006_0000 ;
+        adm:facetIndex      5 ;
         adm:gitPath         "a2/UT3JT13324_006_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13324_006_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP511205DD66A6777D
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPA205065E4FF93976
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPC4C70932159835C7
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPE14F0B8C93D22C2E
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT3JT13324_006_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༁ྃ༔བདེ་ཆེན་ཞིང་སྒྲུབ་ཀྱི་བཀའ་སྲུང་གསོལ་མཆོད་བཀྲིགས་ཆགས་སུ་བྲིས་པ་བཞུགས་སོ༔"@bo ;
+        :eTextHasPage       bdr:EP511205DD66A6777D , bdr:EPA205065E4FF93976 , bdr:EPC4C70932159835C7 , bdr:EPE14F0B8C93D22C2E ;
         :eTextInInstance    bdr:IE3JT13324 ;
         :eTextIsVolume      6 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/Amitabha-tdoc/006_Amitabha_Zhingchong.rtf" ;

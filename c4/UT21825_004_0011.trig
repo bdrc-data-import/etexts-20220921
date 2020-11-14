@@ -16,14 +16,40 @@ bdg:UT21825_004_0011 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT21825_004_0011 ;
+        adm:facetIndex      7 ;
         adm:gitPath         "c4/UT21825_004_0011.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT21825_004_0011 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP17193D74DD46688A
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP254193988DC686A2
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP45FC0EFD7A513F6B
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP9E22687BA3096DBA
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPA08C0878DE41C5C2
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPC3EDDBC432102BA8
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT21825_004_0011
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༢༣༩༽༄༅།རྡོར་སེམས་ཐུགས་ཀྱི་སྒྲུབ་པའི་སྙེན་པའི་ཁ་སྐོང་དུ་སྦྱིན་སྲེག་བྱ་བར་འདོད་པས།ཐོག་མར་གང་དུ་བྱ་བར་ས་མཆོག་མདོར་བསྡུས་པ་ནི།དཀར་གཏ"@bo ;
+        :eTextHasPage       bdr:EP17193D74DD46688A , bdr:EP254193988DC686A2 , bdr:EP45FC0EFD7A513F6B , bdr:EP9E22687BA3096DBA , bdr:EPA08C0878DE41C5C2 , bdr:EPC3EDDBC432102BA8 ;
         :eTextInInstance    bdr:IE21825 ;
         :eTextInVolume      4 ;
         :eTextSourcePath    "PalriParkhang/W21825-bkaq-qbum-pad-nor-02-thub-bstan-chos-kyi-glang-po/rtfs/04-penor-kabum-nga/Penor-Kabum-nga-0239-244.rtf" ;

@@ -16,14 +16,44 @@ bdg:UT10736_012_0019 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT10736_012_0019 ;
+        adm:facetIndex      8 ;
         adm:gitPath         "59/UT10736_012_0019.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT10736_012_0019 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP00F44B305E036A98
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP5A30DDB4EDF5E7D8
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP7999561F84563A08
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP946AF8B9E96D2601
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP9966A7B3FE21653B
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPCFA96EC5CA526BAD
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPE3AACB2C0A0A15EC
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
     bdr:UT10736_012_0019
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །ན་མཿམཆོད་པ་དག་པ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP00F44B305E036A98 , bdr:EP5A30DDB4EDF5E7D8 , bdr:EP7999561F84563A08 , bdr:EP946AF8B9E96D2601 , bdr:EP9966A7B3FE21653B , bdr:EPCFA96EC5CA526BAD , bdr:EPE3AACB2C0A0A15EC ;
         :eTextInInstance    bdr:IE10736 ;
         :eTextInVolume      12 ;
         :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/12_na/12_20_na_na-maH-mchod-pa-dag-pa.rtf" ;

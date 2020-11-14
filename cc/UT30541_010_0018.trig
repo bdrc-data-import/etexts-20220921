@@ -16,14 +16,72 @@ bdg:UT30541_010_0018 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT30541_010_0018 ;
+        adm:facetIndex      15 ;
         adm:gitPath         "cc/UT30541_010_0018.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT30541_010_0018 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP176A6C76D1CB5348
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP2054DEE3C5148DAB
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP28DE1C5EDB5AA08C
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP403CB3F80FC8BADB
+        a                   :EtextPage ;
+        :seqNum             12 .
+    
+    bdr:EP4AD5D9B52CAE094B
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP7EAB4899AD20213E
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP9381C4FC1142468E
+        a                   :EtextPage ;
+        :seqNum             13 .
+    
+    bdr:EP9A6D5F84E44C8135
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPA48A23401B2208C1
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPAA7C05BD9C187F41
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EPB14B5FB42FCBA841
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EPC9CC46238E6B6F9C
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPCB193EABD287DE1C
+        a                   :EtextPage ;
+        :seqNum             14 .
+    
+    bdr:EPF46EC19F7DE96604
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
     bdr:UT30541_010_0018
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །འཁོར་ལོ་ལྔ་མ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP176A6C76D1CB5348 , bdr:EP2054DEE3C5148DAB , bdr:EP28DE1C5EDB5AA08C , bdr:EP403CB3F80FC8BADB , bdr:EP4AD5D9B52CAE094B , bdr:EP7EAB4899AD20213E , bdr:EP9381C4FC1142468E , bdr:EP9A6D5F84E44C8135 , bdr:EPA48A23401B2208C1 , bdr:EPAA7C05BD9C187F41 , bdr:EPB14B5FB42FCBA841 , bdr:EPC9CC46238E6B6F9C , bdr:EPCB193EABD287DE1C , bdr:EPF46EC19F7DE96604 ;
         :eTextInInstance    bdr:IE30541 ;
         :eTextInVolume      10 ;
         :eTextSourcePath    "DharmaDownload/Karmapa-03/rtfs/10_3rd-karmapa-text_tdoc_tha/10_17_tha_qkhor-lo-lnga-ma.rtf" ;

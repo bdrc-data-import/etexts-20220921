@@ -16,14 +16,32 @@ bdg:UT10736_018_0008 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT10736_018_0008 ;
+        adm:facetIndex      5 ;
         adm:gitPath         "cb/UT10736_018_0008.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT10736_018_0008 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP960881F6027CA3EA
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPB52D6E248D033B72
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPC9D9D0B585A10AF2
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPFD0F2D9D2D765283
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT10736_018_0008
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །ཞི་བའི་བསྟོད་བསྐུལ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP960881F6027CA3EA , bdr:EPB52D6E248D033B72 , bdr:EPC9D9D0B585A10AF2 , bdr:EPFD0F2D9D2D765283 ;
         :eTextInInstance    bdr:IE10736 ;
         :eTextInVolume      18 ;
         :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/18_tsha/18_08_tsha_zhi-baqi-bstod-bskul.rtf" ;

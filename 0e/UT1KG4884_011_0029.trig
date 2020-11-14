@@ -16,14 +16,40 @@ bdg:UT1KG4884_011_0029 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1KG4884_011_0029 ;
+        adm:facetIndex      7 ;
         adm:gitPath         "0e/UT1KG4884_011_0029.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1KG4884_011_0029 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP8F484A559AFFA005
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPACF1A6FBEC9493AE
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPE28BBE470AA83F85
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPF352F8549D90710E
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPF6248EF628DBB446
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPF91012B9641FDAF3
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
     bdr:UT1KG4884_011_0029
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །གདམས་ཁྲིད་དོན་གྱི་མདོ་ཆིངས་བཞུགས་སོ། །གདམས་ཁྲིད་དོན་གྱི་མདོ་ཆིངས་ཞེས་བྱ་བ།དཔལ་ཀུན་ཏུ་བཟང་པོ་ལ་ཕྱག་འཚལ་ལོ། །དངོས་གྲུབ་ཆར་"@bo ;
+        :eTextHasPage       bdr:EP8F484A559AFFA005 , bdr:EPACF1A6FBEC9493AE , bdr:EPE28BBE470AA83F85 , bdr:EPF352F8549D90710E , bdr:EPF6248EF628DBB446 , bdr:EPF91012B9641FDAF3 ;
         :eTextInInstance    bdr:IE1KG4884 ;
         :eTextInVolume      11 ;
         :eTextSourcePath    "KarmaDelek/klong-chen-rab-byams-gung-qbum/rtfs/volume_011/volume_011_365.rtf" ;

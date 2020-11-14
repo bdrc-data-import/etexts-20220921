@@ -16,14 +16,40 @@ bdg:UT21888_003_0002 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT21888_003_0002 ;
+        adm:facetIndex      7 ;
         adm:gitPath         "06/UT21888_003_0002.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT21888_003_0002 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EPA52D0EC91E783967
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPB86B6E40E753CC08
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPE0D6831A189F5834
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPE1A46C3107966BF8
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPEC2240021C7626F4
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPFB2C0C7A886C1E2F
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
     bdr:UT21888_003_0002
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༡༠༣༽ཆོས་ཉིད་མཁའ་འགྲོའི་ཐུགས་ཐིག་ལས༔ཕུར་པའི་དྲག་བཟློག་སྤུ་གྲིའི་འཁོར་ལོ་བཞུགས༔༡༠༤༽ན་མོ་གུ་རུ་པདྨ་ཀཱ་ར་ཡེ༔དཔལ་ཆེན་ཧེ་རུ་ཀ་ལ་གུས་པས"@bo ;
+        :eTextHasPage       bdr:EPA52D0EC91E783967 , bdr:EPB86B6E40E753CC08 , bdr:EPE0D6831A189F5834 , bdr:EPE1A46C3107966BF8 , bdr:EPEC2240021C7626F4 , bdr:EPFB2C0C7A886C1E2F ;
         :eTextInInstance    bdr:IE21888 ;
         :eTextInVolume      3 ;
         :eTextSourcePath    "PalriParkhang/W21888-se-ra-mkhaq-qgro-bkaq-qbum/rtfs/3-Ma-Serakhagro-Kabum/Ma-Serakhagro-103-112.rtf" ;

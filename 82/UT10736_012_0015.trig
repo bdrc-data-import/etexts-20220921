@@ -16,14 +16,28 @@ bdg:UT10736_012_0015 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT10736_012_0015 ;
+        adm:facetIndex      4 ;
         adm:gitPath         "82/UT10736_012_0015.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT10736_012_0015 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP69ABCC307E8E10E0
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPB2F8BE7D46AC12F2
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPE425639A06EE90ED
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT10736_012_0015
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༡ན༡༽༄༅། །རྗེ་དྲུང་འགྱུར་མེད་ཀྱི་དྲིས་ལན་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP69ABCC307E8E10E0 , bdr:EPB2F8BE7D46AC12F2 , bdr:EPE425639A06EE90ED ;
         :eTextInInstance    bdr:IE10736 ;
         :eTextInVolume      12 ;
         :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/12_na/12_15_na_rje-drung-qgyur-med-kyi-dris-lan.rtf" ;

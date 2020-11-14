@@ -16,14 +16,36 @@ bdg:UT3JT13337_025_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13337_025_0000 ;
+        adm:facetIndex      6 ;
         adm:gitPath         "b5/UT3JT13337_025_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13337_025_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP2A47D992E321FDAD
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP5CA9F34550C2004D
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP6540E52E61257C35
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP6A2F27CF0705635E
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP9D2C4769F072C09F
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT3JT13337_025_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "གསང་བདག་དྲེགས་པ་འདུལ་བྱེད་ལས་ཚོགས་དམ་སྲིའི་གླུད་མདོས་ཞེས་བྱ་བ་བཞུགས་སོ༔"@bo ;
+        :eTextHasPage       bdr:EP2A47D992E321FDAD , bdr:EP5CA9F34550C2004D , bdr:EP6540E52E61257C35 , bdr:EP6A2F27CF0705635E , bdr:EP9D2C4769F072C09F ;
         :eTextInInstance    bdr:IE3JT13337 ;
         :eTextIsVolume      25 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/P0025_Tobum_tdoc/031-damsri-gludmdos.rtf" ;

@@ -16,14 +16,52 @@ bdg:UT10736_010_0009 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT10736_010_0009 ;
+        adm:facetIndex      10 ;
         adm:gitPath         "4d/UT10736_010_0009.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT10736_010_0009 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0AFFFD45E6387DFC
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP1D0231159B9EA1D9
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP32ADE98EC84E9773
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP418991E25AFB678A
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP4A44B6B74DBA7DE8
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP55F5CFE25AF3D794
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP7155159AFED62B21
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPE48AD1CAD00C11B2
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPF77805B53342994C
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
     bdr:UT10736_010_0009
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །ལམ་ཟབ་ཐུན་མོང་མ་ཡིན་པའི་ཁྲིད་རིམ་སྙིང་པོ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP0AFFFD45E6387DFC , bdr:EP1D0231159B9EA1D9 , bdr:EP32ADE98EC84E9773 , bdr:EP418991E25AFB678A , bdr:EP4A44B6B74DBA7DE8 , bdr:EP55F5CFE25AF3D794 , bdr:EP7155159AFED62B21 , bdr:EPE48AD1CAD00C11B2 , bdr:EPF77805B53342994C ;
         :eTextInInstance    bdr:IE10736 ;
         :eTextInVolume      10 ;
         :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/10_tha/10_14_tha_lam-zab-thun-mong-ma-yin-paqi-khrid-rim-snying-po.rtf" ;

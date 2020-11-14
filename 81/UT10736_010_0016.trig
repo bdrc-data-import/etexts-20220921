@@ -16,14 +16,28 @@ bdg:UT10736_010_0016 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT10736_010_0016 ;
+        adm:facetIndex      4 ;
         adm:gitPath         "81/UT10736_010_0016.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT10736_010_0016 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP7EF945EEABECE46C
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP8A6B243623F4B3CD
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPEBC9FF58C7222E20
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT10736_010_0016
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །ལམ་ཟབ་ཀྱི་དཔེ་རྫི་ཞེས་ཀུན་མཁྱེན་དཔེ་ཐོ་གྲགས་པའོ། །སྲིད་པའི་འཁྲི་ཤིང་དུམ་བུར་གཅོད་པའི་ཕྱིར། །རྡོ་རྗེ་ཐེག་པའི་རྣོ་ངར་ཀུན་བ"@bo ;
+        :eTextHasPage       bdr:EP7EF945EEABECE46C , bdr:EP8A6B243623F4B3CD , bdr:EPEBC9FF58C7222E20 ;
         :eTextInInstance    bdr:IE10736 ;
         :eTextInVolume      10 ;
         :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/10_tha/10_21_tha_lam-zab-kyi-dpe-rdzi-zhes-kun-mkhyen-dpe-tho-grags-pa.rtf" ;

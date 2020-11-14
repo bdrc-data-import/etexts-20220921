@@ -16,14 +16,60 @@ bdg:UT3JT13384_003_0002 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13384_003_0002 ;
+        adm:facetIndex      12 ;
         adm:gitPath         "51/UT3JT13384_003_0002.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13384_003_0002 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP1251E8C25A7C1397
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP252F9B7499EEA485
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP4D7F8E06B96D371C
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EP77B7472BD86AB57B
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPA7827C1A2302A8DF
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPAEC0C08303C9B11E
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EPAFF8E8500E57A5AD
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPBA2F5B47AF8B415F
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPBF006525BD4F9C8F
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPD5D462ACB94E9B44
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPF338402E2DFC973F
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
     bdr:UT3JT13384_003_0002
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༁ྃ༔རྩ་གསུམ་སྤྱི་འདུས་སྙིང་ཏིག་ལས༔ཕྲིན་ལས་ཡེ་ཤེས་ལམ་བཟང་བཞུགས༔"@bo ;
+        :eTextHasPage       bdr:EP1251E8C25A7C1397 , bdr:EP252F9B7499EEA485 , bdr:EP4D7F8E06B96D371C , bdr:EP77B7472BD86AB57B , bdr:EPA7827C1A2302A8DF , bdr:EPAEC0C08303C9B11E , bdr:EPAFF8E8500E57A5AD , bdr:EPBA2F5B47AF8B415F , bdr:EPBF006525BD4F9C8F , bdr:EPD5D462ACB94E9B44 , bdr:EPF338402E2DFC973F ;
         :eTextInInstance    bdr:IE3JT13384 ;
         :eTextInVolume      3 ;
         :eTextSourcePath    "Various/gsung_qbum_mkhyen_brtseqi_dbang_po_UT2MS24768/rtfs/volume-003/3-10.rtf" ;

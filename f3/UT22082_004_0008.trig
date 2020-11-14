@@ -16,14 +16,56 @@ bdg:UT22082_004_0008 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT22082_004_0008 ;
+        adm:facetIndex      11 ;
         adm:gitPath         "f3/UT22082_004_0008.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT22082_004_0008 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP362691F2855E7EF7
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP3997A09A891D8ACF
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP55ED0C7DCD0FE61E
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP5DF507590FA4F933
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP61E9336E32005EE3
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP8F80560EF7F32266
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPB1F3A92DE4A22480
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPB446759834800E64
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPD803747FAAA369BE
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPE8E5830A96BE5FA1
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
     bdr:UT22082_004_0008
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །བསྟན་སྲུང་ཆོས་ཀྱི་སྒྲོལ་མའི་གླང་པོའི་ཆོ་ག་བཟང་ངན་བརྟག་པ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP362691F2855E7EF7 , bdr:EP3997A09A891D8ACF , bdr:EP55ED0C7DCD0FE61E , bdr:EP5DF507590FA4F933 , bdr:EP61E9336E32005EE3 , bdr:EP8F80560EF7F32266 , bdr:EPB1F3A92DE4A22480 , bdr:EPB446759834800E64 , bdr:EPD803747FAAA369BE , bdr:EPE8E5830A96BE5FA1 ;
         :eTextInInstance    bdr:IE22082 ;
         :eTextInVolume      4 ;
         :eTextSourcePath    "DrikungChetsang/7__KUNKHYEN/rtfs/volume-004/17NGA.TS.rtf" ;

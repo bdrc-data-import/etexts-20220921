@@ -16,14 +16,32 @@ bdg:UT23605_004_0017 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_004_0017 ;
+        adm:facetIndex      5 ;
         adm:gitPath         "bf/UT23605_004_0017.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_004_0017 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP06FD41E11E154A8B
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP4A01A8423D4D46E8
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP4AA93E5470D4181D
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPBA6825F95281AD91
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT23605_004_0017
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༤༣༥༽༄༅། །ལམ་གྱི་གཙོ་བོ་རྣམ་གསུམ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP06FD41E11E154A8B , bdr:EP4A01A8423D4D46E8 , bdr:EP4AA93E5470D4181D , bdr:EPBA6825F95281AD91 ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      4 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/04_gdams-ngag-mdzod_nga/04_16_lam-gyi-gtso-bo-rnam-gsum.rtf" ;

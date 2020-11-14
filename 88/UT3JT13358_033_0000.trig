@@ -16,14 +16,52 @@ bdg:UT3JT13358_033_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13358_033_0000 ;
+        adm:facetIndex      10 ;
         adm:gitPath         "88/UT3JT13358_033_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13358_033_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0D3BA6026566F78E
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP21E5419F77D338A2
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP3039AA452BC19DEA
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP3CB2977365AEA991
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP576461C816F2F137
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP9A6940E03628C0E8
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPBF6C92FB6E82FA04
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPCED4BF30752199B5
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPF34A794EB149EA2A
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
     bdr:UT3JT13358_033_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །རྒྱ་གར་སྐད་དུ།དྷརྨ་དྷཱ་ཏུ་སྟ་བཾ།བོད་སྐད་དུ།ཆོས་ཀྱི་དབྱིངས་སུ་བསྟོད་པ།འཕགས་པ་འཇམ་དཔལ་གཞོན་ནུར་གྱུར་པ་ལ་ཕྱག་འཚལ་ལོ། །གང་ཞིག"@bo ;
+        :eTextHasPage       bdr:EP0D3BA6026566F78E , bdr:EP21E5419F77D338A2 , bdr:EP3039AA452BC19DEA , bdr:EP3CB2977365AEA991 , bdr:EP576461C816F2F137 , bdr:EP9A6940E03628C0E8 , bdr:EPBF6C92FB6E82FA04 , bdr:EPCED4BF30752199B5 , bdr:EPF34A794EB149EA2A ;
         :eTextInInstance    bdr:IE3JT13358 ;
         :eTextIsVolume      33 ;
         :eTextSourcePath    "GuruLamaWorks/Precious-and-Rare-Disk-01-20130424/rtfs/25_ZTSA/ZTSA033_ཆོས་དབྱིངས་བསྟོད་པ།.rtf" ;

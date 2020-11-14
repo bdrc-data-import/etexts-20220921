@@ -16,14 +16,44 @@ bdg:UT1KG5988_001_0036 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1KG5988_001_0036 ;
+        adm:facetIndex      8 ;
         adm:gitPath         "e9/UT1KG5988_001_0036.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1KG5988_001_0036 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP4AA631C77E24F3F2
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP5FD99E9B46221218
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP7D92E78C224285BB
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP9137854763D948BE
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPC7F588D2A39E4A6A
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPCE3A8DEB9179A553
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPF99043CFE7D78CCF
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
     bdr:UT1KG5988_001_0036
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །ཤླཽ་ཀ་བརྒྱ་ལོབ་པ་དང༌།སྟོང་ཕྲག་ཉི་ཤུ་ལྔ་པ།སྟོང་ཕྲག་བརྒྱ་པ།བརྒྱད་སྟོང་པ།ཕ་རོལ་ཏུ་ཕྱིན་པ་དྲུག་ཁག་གཉིས་བཅས་གཟུང་བར་འགྱུར་བའི་ག"@bo ;
+        :eTextHasPage       bdr:EP4AA631C77E24F3F2 , bdr:EP5FD99E9B46221218 , bdr:EP7D92E78C224285BB , bdr:EP9137854763D948BE , bdr:EPC7F588D2A39E4A6A , bdr:EPCE3A8DEB9179A553 , bdr:EPF99043CFE7D78CCF ;
         :eTextInInstance    bdr:IE1KG5988 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "DharmaDownload/Kagyur-Zungdue/rtfs/volume-001/037_Sho-lo-ka-brgya-slob-pa-etc.rtf" ;

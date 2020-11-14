@@ -16,14 +16,52 @@ bdg:UT1KG4280_001_0005 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1KG4280_001_0005 ;
+        adm:facetIndex      10 ;
         adm:gitPath         "c8/UT1KG4280_001_0005.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1KG4280_001_0005 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP293395C40A9354DE
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP31EDF6F5F1CA4CEA
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP3B43348F4BAB7CF6
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP4061C443F49460D3
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP662F05DE3EC1C43A
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP945B46D05CF6A9CE
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP9E5EBD2936249A64
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPBA33D0D744BB9885
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPE9F8153B9B77881E
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
     bdr:UT1KG4280_001_0005
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །སྒྲོལ་མ་ཕྱག་འཚལ་ཉི་ཤུ་རྩ་གཅིག་གི་བསྟོད་པའི་རྣམ་བཤད་གསལ་བའི་འོད་ཟེར་ཞེས་བྱ་བ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP293395C40A9354DE , bdr:EP31EDF6F5F1CA4CEA , bdr:EP3B43348F4BAB7CF6 , bdr:EP4061C443F49460D3 , bdr:EP662F05DE3EC1C43A , bdr:EP945B46D05CF6A9CE , bdr:EP9E5EBD2936249A64 , bdr:EPBA33D0D744BB9885 , bdr:EPE9F8153B9B77881E ;
         :eTextInInstance    bdr:IE1KG4280 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "DharmaDownload/Situpa-09-sung-bum/rtfs/AHA/005_9th-Situ-Kabum_AHA_sgrol-bstod-rnam-bshad-gsal-baqi-qod-zer.rtf" ;

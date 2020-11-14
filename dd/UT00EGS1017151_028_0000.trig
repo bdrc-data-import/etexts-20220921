@@ -16,14 +16,60 @@ bdg:UT00EGS1017151_028_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT00EGS1017151_028_0000 ;
+        adm:facetIndex      12 ;
         adm:gitPath         "dd/UT00EGS1017151_028_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT00EGS1017151_028_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP020BA65C35E284F3
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP175A41D1BEADB8A4
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP31CBEA5EB47E4B49
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP3D4D9CEE2BE6613E
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP4A236E5FE054301B
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EPAB6DAC2B47D177AD
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPADF5069365E6DD93
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPB39A01F8B247B052
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPBB7F7F4ACBDC6151
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPC8D8E011F0022853
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EPECA5FD40B0915BA5
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
     bdr:UT00EGS1017151_028_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼ཁ༽༄༅། །ཨོ་ལ་པ་ཏིའི་རྣམ་བཤད་བཞུགས། །ན་མ་ཤྲཱི་ཙཀྲ་སམྦ་ར་མཎྜ་ལཱ་ཡ།རྗེ་བཙུན་བླ་མ་དམ་པའི་ཞབས་པ་གུས་པས་ཕྱག་འཚལ་ལོ། །ཨོ་ལ་པ་ཏི་སྟེ་"@bo ;
+        :eTextHasPage       bdr:EP020BA65C35E284F3 , bdr:EP175A41D1BEADB8A4 , bdr:EP31CBEA5EB47E4B49 , bdr:EP3D4D9CEE2BE6613E , bdr:EP4A236E5FE054301B , bdr:EPAB6DAC2B47D177AD , bdr:EPADF5069365E6DD93 , bdr:EPB39A01F8B247B052 , bdr:EPBB7F7F4ACBDC6151 , bdr:EPC8D8E011F0022853 , bdr:EPECA5FD40B0915BA5 ;
         :eTextInInstance    bdr:IE00EGS1017151 ;
         :eTextIsVolume      28 ;
         :eTextSourcePath    "GuruLamaWorks/For-Conversion-Disk-01-20130424/rtfs/SA-KABUM/SKYA028.rtf" ;

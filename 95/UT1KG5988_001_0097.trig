@@ -16,14 +16,32 @@ bdg:UT1KG5988_001_0097 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1KG5988_001_0097 ;
+        adm:facetIndex      5 ;
         adm:gitPath         "95/UT1KG5988_001_0097.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1KG5988_001_0097 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP215A12FDD3D51A35
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP4B467FB7D1A5A856
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPB7AAA1663D4D0E15
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPF26340FA48A12586
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT1KG5988_001_0097
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །གཟའི་ནད་རབ་ཏུ་ཞི་བར་བྱེད་པའི་གཟུངས་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP215A12FDD3D51A35 , bdr:EP4B467FB7D1A5A856 , bdr:EPB7AAA1663D4D0E15 , bdr:EPF26340FA48A12586 ;
         :eTextInInstance    bdr:IE1KG5988 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "DharmaDownload/Kagyur-Zungdue/rtfs/volume-001/098_gzaqi-nad-rab-tu-zhi-bar-byed-pa.rtf" ;

@@ -16,14 +16,32 @@ bdg:UT1KG14_049_0001 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1KG14_049_0001 ;
+        adm:facetIndex      5 ;
         adm:gitPath         "23/UT1KG14_049_0001.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1KG14_049_0001 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP281075D7AF89F1E3
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP5B7C79D022182A59
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPD9F7CA2FFA13DA47
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPE2345DC909CD5CEE
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
     bdr:UT1KG14_049_0001
         a                   :EtextNonPaginated ;
         skos:prefLabel      "གཏེར་མཛོད།ཛི༽པ་ལ།ལོང་པོ་གྲུབ་ཐོབ་བཀྲ་ཤིས་ཚེ་བརྟན་གྱི་ཚེ་སྒྲུབ་རྡོ་རྗེའི་སྙིང་པོ་ལྡེབ།༥དབང་ཆོག་ལྡེབ།༤ཟུར་མཁར་དྲི་མེད་གླིང་པའི་རྡོ"@bo ;
+        :eTextHasPage       bdr:EP281075D7AF89F1E3 , bdr:EP5B7C79D022182A59 , bdr:EPD9F7CA2FFA13DA47 , bdr:EPE2345DC909CD5CEE ;
         :eTextInInstance    bdr:IE1KG14 ;
         :eTextInVolume      49 ;
         :eTextSourcePath    "Shechen/Rinchen-Terdzod-Shechen-vols-01-54/rtfs/49-DZI/TERDZO-DZI-P00-KARCHAK.rtf" ;

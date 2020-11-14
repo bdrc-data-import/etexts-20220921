@@ -16,14 +16,60 @@ bdg:UT10736_012_0011 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT10736_012_0011 ;
+        adm:facetIndex      12 ;
         adm:gitPath         "ab/UT10736_012_0011.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT10736_012_0011 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0F5D5D79A7418769
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP11C3C90EADD7C938
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP3A42065FFC2D9E56
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP4D27D1DCDCE20449
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP54DA04F7D3E6738F
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP6C1BB6AF369C0505
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EPCC91DD857564EFC9
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPDF1C24D5A3CF53BD
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPE3E335280F61B01F
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EPE437CA08321A03D4
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPE54B6D612C4A9176
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
     bdr:UT10736_012_0011
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༡ན༡༽༄༅། །གསང་བ་མཛོད་ཀྱི་འགྲེལ་པ་སྙིང་པོ་རྣམ་པར་བཤད་པ་ཞེས་བྱ་བ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP0F5D5D79A7418769 , bdr:EP11C3C90EADD7C938 , bdr:EP3A42065FFC2D9E56 , bdr:EP4D27D1DCDCE20449 , bdr:EP54DA04F7D3E6738F , bdr:EP6C1BB6AF369C0505 , bdr:EPCC91DD857564EFC9 , bdr:EPDF1C24D5A3CF53BD , bdr:EPE3E335280F61B01F , bdr:EPE437CA08321A03D4 , bdr:EPE54B6D612C4A9176 ;
         :eTextInInstance    bdr:IE10736 ;
         :eTextInVolume      12 ;
         :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/12_na/12_11_na_gsang-ba-mdzod-kyi-qgrel-pa-snying-po-rnam-par-bshad-pa.rtf" ;

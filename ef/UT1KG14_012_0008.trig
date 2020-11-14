@@ -16,14 +16,68 @@ bdg:UT1KG14_012_0008 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1KG14_012_0008 ;
+        adm:facetIndex      14 ;
         adm:gitPath         "ef/UT1KG14_012_0008.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1KG14_012_0008 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP19620B45E9695A63
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP3CEB106829D41DA2
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP55358BECE736F9ED
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP6802524FD8137902
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP6B4D6C4678B3FCCC
+        a                   :EtextPage ;
+        :seqNum             13 .
+    
+    bdr:EPA100D56AB613A3ED
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EPA775251360FFBC95
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPAF9D700FC294DD9F
+        a                   :EtextPage ;
+        :seqNum             12 .
+    
+    bdr:EPBE445D3B9AAE0631
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EPC59E74A2928D4293
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPC7687EFFA8644AA6
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EPEC59699E8CEA16B1
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPFF1D283A6CDA07EF
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
     bdr:UT1KG14_012_0008
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅༔ཐུགས་སྒྲུབ་ཧཱུྃ་སྒྲུབ་ཀྱི་མདུན་བསྐྱེད་བཞུགས་སོ༔"@bo ;
+        :eTextHasPage       bdr:EP19620B45E9695A63 , bdr:EP3CEB106829D41DA2 , bdr:EP55358BECE736F9ED , bdr:EP6802524FD8137902 , bdr:EP6B4D6C4678B3FCCC , bdr:EPA100D56AB613A3ED , bdr:EPA775251360FFBC95 , bdr:EPAF9D700FC294DD9F , bdr:EPBE445D3B9AAE0631 , bdr:EPC59E74A2928D4293 , bdr:EPC7687EFFA8644AA6 , bdr:EPEC59699E8CEA16B1 , bdr:EPFF1D283A6CDA07EF ;
         :eTextInInstance    bdr:IE1KG14 ;
         :eTextInVolume      12 ;
         :eTextSourcePath    "Shechen/Rinchen-Terdzod-Shechen-vols-01-54/rtfs/12-NA/Terdzo-NA.P07.rtf" ;

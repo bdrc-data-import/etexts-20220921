@@ -16,14 +16,52 @@ bdg:UT22082_006_0008 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT22082_006_0008 ;
+        adm:facetIndex      10 ;
         adm:gitPath         "28/UT22082_006_0008.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT22082_006_0008 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP23718AFA88C85456
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP368E0C6FD9F6E988
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP3CD6D4077DD170B4
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP427435655E9D1DF3
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP5875F3FB888C33E2
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP8EFC14B327E9977A
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP94D77B37B4175146
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EPC926EC04738B1737
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPF60356667A606B0B
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
     bdr:UT22082_006_0008
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །བདེ་མགོན་གྱི་ལས་རིམ་གསལ་བྱེད་སྒྲོན་མེའི་ལྷན་ཐབས་བསྙེན་སྒྲུབ་ཀྱི་མན་ངག་བཞུགས་སོ། །བླ་མ་དང་ནི་ལྷག་པའི་ལྷར། །གུས་བཏུད་བདེ་མ"@bo ;
+        :eTextHasPage       bdr:EP23718AFA88C85456 , bdr:EP368E0C6FD9F6E988 , bdr:EP3CD6D4077DD170B4 , bdr:EP427435655E9D1DF3 , bdr:EP5875F3FB888C33E2 , bdr:EP8EFC14B327E9977A , bdr:EP94D77B37B4175146 , bdr:EPC926EC04738B1737 , bdr:EPF60356667A606B0B ;
         :eTextInInstance    bdr:IE22082 ;
         :eTextInVolume      6 ;
         :eTextSourcePath    "DrikungChetsang/7__KUNKHYEN/rtfs/volume-006/17CHA.TS.rtf" ;

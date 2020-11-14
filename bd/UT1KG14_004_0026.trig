@@ -16,14 +16,52 @@ bdg:UT1KG14_004_0026 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1KG14_004_0026 ;
+        adm:facetIndex      10 ;
         adm:gitPath         "bd/UT1KG14_004_0026.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1KG14_004_0026 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP06E1274BB26F53A4
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP123BC865A2AFF823
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP24315A1C7619BA95
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP3B0F64E2C68AD416
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP40C46CCEB58090D4
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP4A45E2B8261CF137
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPA53DEC1CA9E41D00
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPDA62F8E07D2F92A3
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPFE284CE041891A66
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
     bdr:UT1KG14_004_0026
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །ཀར་ལུགས་ཚེ་དཔག་མེད་རྩ་གསུམ་དྲིལ་སྒྲུབ་ཀྱི་བསྐྱེད་རྫོགས་དམིགས་རིམ་གསལ་བར་བཀོད་པ་དངོས་གྲུབ་དཔལ་འབར་ཞེས་བྱ་བ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP06E1274BB26F53A4 , bdr:EP123BC865A2AFF823 , bdr:EP24315A1C7619BA95 , bdr:EP3B0F64E2C68AD416 , bdr:EP40C46CCEB58090D4 , bdr:EP4A45E2B8261CF137 , bdr:EPA53DEC1CA9E41D00 , bdr:EPDA62F8E07D2F92A3 , bdr:EPFE284CE041891A66 ;
         :eTextInInstance    bdr:IE1KG14 ;
         :eTextInVolume      4 ;
         :eTextSourcePath    "Shechen/Rinchen-Terdzod-Shechen-vols-01-54/rtfs/04-NGA/Terdzo-nga.-P-25.rtf" ;

@@ -16,14 +16,60 @@ bdg:UT23605_010_0020 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_010_0020 ;
+        adm:facetIndex      12 ;
         adm:gitPath         "5e/UT23605_010_0020.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_010_0020 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP036D0C8BDC165B97
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP1EA84A192DA4AE3B
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP29388F978FF90DFB
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EP61C25F1950BED1D8
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP67BF7834D4FC52C3
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP9615F998A1E7A9CF
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP9B3436DBB7BB4492
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPA44AD6CD2ED53CA0
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPD438F61E211A4D80
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EPE322A730EAC01E95
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPE473AFB798A7E780
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
     bdr:UT23605_010_0020
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༢༩༧༽༄༅། །ཕྱག་རྒྱ་ཆེན་པོ་ལྷན་ཅིག་སྐྱེས་སྦྱོར་གྱི་ཏིང་ངེ་འཛིན་གྱི་དབང་ཟབ་མོ་བཞུགས་སོ། །འབར་བའི་ཕྱག་ཆེན།"@bo ;
+        :eTextHasPage       bdr:EP036D0C8BDC165B97 , bdr:EP1EA84A192DA4AE3B , bdr:EP29388F978FF90DFB , bdr:EP61C25F1950BED1D8 , bdr:EP67BF7834D4FC52C3 , bdr:EP9615F998A1E7A9CF , bdr:EP9B3436DBB7BB4492 , bdr:EPA44AD6CD2ED53CA0 , bdr:EPD438F61E211A4D80 , bdr:EPE322A730EAC01E95 , bdr:EPE473AFB798A7E780 ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      10 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/10_gdams-ngag-mdzod_tha/10_19_phyag-rgya-chen-po-lhan-cig-skyes-sbyor-gyi-ting-nge-qdzin-gyi-dbang-zab-mo.rtf" ;

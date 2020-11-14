@@ -16,14 +16,56 @@ bdg:UT23605_019_0001 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_019_0001 ;
+        adm:facetIndex      11 ;
         adm:gitPath         "37/UT23605_019_0001.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_019_0001 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP08C504670E0A6D00
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP15A8F9BBD41F344C
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP2E9817370EE8469E
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP325727B33BCACC26
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP47543C7780AC556B
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP513ED8EB6CD06702
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP9EA9E58CC085CC6E
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EPCAEF9C8376EA4CD0
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPD31DDCD93B4E25BB
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPDC738A424ED849EE
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
     bdr:UT23605_019_0001
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །བོད་ཡུལ་སྒྲུབ་བརྒྱུད་ཤིང་རྟ་ཆེན་པོ་བརྒྱད་ཀྱི་བྱུང་བ་བརྗོད་པ་ལ་གཉིས།མདོར་བསྟན་པ་དང༌།རྒྱས་པར་བཤད་པའོ། །དང་པོ་ནི།"@bo ;
+        :eTextHasPage       bdr:EP08C504670E0A6D00 , bdr:EP15A8F9BBD41F344C , bdr:EP2E9817370EE8469E , bdr:EP325727B33BCACC26 , bdr:EP47543C7780AC556B , bdr:EP513ED8EB6CD06702 , bdr:EP9EA9E58CC085CC6E , bdr:EPCAEF9C8376EA4CD0 , bdr:EPD31DDCD93B4E25BB , bdr:EPDC738A424ED849EE ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      19 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/History/01_Nyingma.rtf" ;

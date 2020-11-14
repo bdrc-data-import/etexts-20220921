@@ -16,14 +16,44 @@ bdg:UT23605_014_0017 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_014_0017 ;
+        adm:facetIndex      8 ;
         adm:gitPath         "67/UT23605_014_0017.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_014_0017 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP197541557D0BD11E
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP1B8732C3AA4B5388
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP1C83F9D636EF42B7
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPA448E00BBF76DAF0
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPC872958B5C7FD748
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPDB02108E91BA0FB2
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPFC1470023C25DB44
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
     bdr:UT23605_014_0017
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༣༥༣༽༄༅། །གཅོད་ཡུལ་རྒྱ་མཚོའི་སྙིང་པོ་སྟན་ཐོག་གཅིག་ཏུ་ཉམས་སུ་ལེན་པའི་ཚུལ་ཟབ་མོའི་ཡང་ཞུན་ཅེས་བྱ་བ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP197541557D0BD11E , bdr:EP1B8732C3AA4B5388 , bdr:EP1C83F9D636EF42B7 , bdr:EPA448E00BBF76DAF0 , bdr:EPC872958B5C7FD748 , bdr:EPDB02108E91BA0FB2 , bdr:EPFC1470023C25DB44 ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      14 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/14_gdams-ngag-mdzod_pha/14_16_~1.rtf" ;

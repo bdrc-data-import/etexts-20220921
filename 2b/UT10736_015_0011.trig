@@ -16,14 +16,52 @@ bdg:UT10736_015_0011 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT10736_015_0011 ;
+        adm:facetIndex      10 ;
         adm:gitPath         "2b/UT10736_015_0011.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT10736_015_0011 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0D069FB8DB280AB8
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP16291FA2B501AFEF
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP333FD00F33487AD5
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP4DDD59EE63CD5D4C
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP8514CC58C62BC63B
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPACF2BA169345115D
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPAFB052E96C1735D2
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPB5F4F2F951A7AB54
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPE32B9EE4791F4538
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT10736_015_0011
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །སྲིད་གསུམ་དབང་དུ་བྱེད་པའི་ཞགས་པ་བདེ་མཆོག་དམར་པོ་འདོད་པའི་རྒྱལ་པོའི་མན་ངག་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP0D069FB8DB280AB8 , bdr:EP16291FA2B501AFEF , bdr:EP333FD00F33487AD5 , bdr:EP4DDD59EE63CD5D4C , bdr:EP8514CC58C62BC63B , bdr:EPACF2BA169345115D , bdr:EPAFB052E96C1735D2 , bdr:EPB5F4F2F951A7AB54 , bdr:EPE32B9EE4791F4538 ;
         :eTextInInstance    bdr:IE10736 ;
         :eTextInVolume      15 ;
         :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/15_ba/15_09_ba_srid-gsum-dbang-du-byed-paqi-zhags-pa-bde-mchog-dmar-po-qdod-paqi-rgyal-poqi-man-ngag.rtf" ;

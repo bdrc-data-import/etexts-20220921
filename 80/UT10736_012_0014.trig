@@ -16,14 +16,60 @@ bdg:UT10736_012_0014 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT10736_012_0014 ;
+        adm:facetIndex      12 ;
         adm:gitPath         "80/UT10736_012_0014.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT10736_012_0014 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP12925BDFF395252C
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP5C1F865A3394E420
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP719042A4BE097F07
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP75CAE7FD338E8D32
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP7B941AF4408A6B2E
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP840C87D8D3898BA8
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP930603D806941845
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EPA622CD85B3016453
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPD3C9D0538C5AA0A5
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EPD6F69133BCBCD64C
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EPEE1507E62521C945
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
     bdr:UT10736_012_0014
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༡ན༡༽༄༅། །བཤེས་གཉེན་རྣམ་རྒྱལ་གྲགས་པའི་དྲིས་ལན་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP12925BDFF395252C , bdr:EP5C1F865A3394E420 , bdr:EP719042A4BE097F07 , bdr:EP75CAE7FD338E8D32 , bdr:EP7B941AF4408A6B2E , bdr:EP840C87D8D3898BA8 , bdr:EP930603D806941845 , bdr:EPA622CD85B3016453 , bdr:EPD3C9D0538C5AA0A5 , bdr:EPD6F69133BCBCD64C , bdr:EPEE1507E62521C945 ;
         :eTextInInstance    bdr:IE10736 ;
         :eTextInVolume      12 ;
         :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/12_na/12_14_na_bshes-gnyen-rnam-rgyal-grags-paqi-dris-lan.rtf" ;

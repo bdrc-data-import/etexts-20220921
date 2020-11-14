@@ -16,14 +16,60 @@ bdg:UT23605_004_0025 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_004_0025 ;
+        adm:facetIndex      12 ;
         adm:gitPath         "ce/UT23605_004_0025.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_004_0025 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP00D57D5664FBC946
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP00EB58DB7EE34889
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP38DF01B531FB3E03
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EP565F3CAC37CFB850
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP688034E3D8898E77
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP78E73BA9504312AA
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP894788F5899E8891
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPC83493F1783445B0
+        a                   :EtextPage ;
+        :seqNum             12 .
+    
+    bdr:EPF03998EA7AAFA91B
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPF2CECC4F32233B79
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPFE9007DD007E0BC2
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT23605_004_0025
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༦༢༧༽༄༅། །དཔལ་ལྡན་མར་མེ་མཛད་ཀྱི་བསྟན་སྲུང་ཁྱད་པར་དུ་འཕགས་པ་མགོན་པོ་གྲི་གུག་མའི་སྒྲུབ་ཐབས་རྗེས་གནང་དང་བཅས་པ་གདུག་པ་ཀུན་འཇོམས་ཞེས"@bo ;
+        :eTextHasPage       bdr:EP00D57D5664FBC946 , bdr:EP00EB58DB7EE34889 , bdr:EP38DF01B531FB3E03 , bdr:EP565F3CAC37CFB850 , bdr:EP688034E3D8898E77 , bdr:EP78E73BA9504312AA , bdr:EP894788F5899E8891 , bdr:EPC83493F1783445B0 , bdr:EPF03998EA7AAFA91B , bdr:EPF2CECC4F32233B79 , bdr:EPFE9007DD007E0BC2 ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      4 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/04_gdams-ngag-mdzod_nga/04_24_~1.rtf" ;

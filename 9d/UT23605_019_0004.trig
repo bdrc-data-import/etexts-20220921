@@ -16,14 +16,52 @@ bdg:UT23605_019_0004 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_019_0004 ;
+        adm:facetIndex      10 ;
         adm:gitPath         "9d/UT23605_019_0004.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_019_0004 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0AFDE62A2B869DFB
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP0E759812495627FB
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP1280C26635DEC2F4
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP1C1D5FBA7931EB62
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP9468E78FF234358B
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPB000A78CA3512A66
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPB414347D2E26599A
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPC82BD73247C22930
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPD538AE78FA5F5303
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT23605_019_0004
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །བཞི་པ་མངའ་བདག་མར་པའི་བཀའ་བརྒྱུད་ཀྱི་རིང་ལུགས་འཆད་པ་ལ་གཉིས།ལུགས་སྲོལ་ངོས་བཟུང་བ།བརྒྱུད་པའི་རྣམ་གྲངས་སོ་སོར་བཤད་པའོ། །དང་པོ"@bo ;
+        :eTextHasPage       bdr:EP0AFDE62A2B869DFB , bdr:EP0E759812495627FB , bdr:EP1280C26635DEC2F4 , bdr:EP1C1D5FBA7931EB62 , bdr:EP9468E78FF234358B , bdr:EPB000A78CA3512A66 , bdr:EPB414347D2E26599A , bdr:EPC82BD73247C22930 , bdr:EPD538AE78FA5F5303 ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      19 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/History/04_Kagyu.rtf" ;

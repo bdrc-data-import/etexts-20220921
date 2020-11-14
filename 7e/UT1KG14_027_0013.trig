@@ -16,14 +16,52 @@ bdg:UT1KG14_027_0013 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1KG14_027_0013 ;
+        adm:facetIndex      10 ;
         adm:gitPath         "7e/UT1KG14_027_0013.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1KG14_027_0013 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP01BCD39C139F0AA6
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP27B84FF8FB9065FE
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP6F3BBCEA32AEEA51
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP86D57388E2CB2FDE
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP86DB9E164411ADF1
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP967E577FEB338211
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPBBFAB187E124C498
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPE3D93771FE2088D9
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPFF6F68F4BAFF3A28
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
     bdr:UT1KG14_027_0013
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །གསང་ཐིག་སྐོར་གསུམ་ལས་རྡོར་སེམས་ཕྱག་རྒྱ་གཅིག་པའི་བུམ་དབང་གི་ཆོ་ག་ཞི་བའི་ཐིག་ལེ་ཞེས་བྱ་བ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP01BCD39C139F0AA6 , bdr:EP27B84FF8FB9065FE , bdr:EP6F3BBCEA32AEEA51 , bdr:EP86D57388E2CB2FDE , bdr:EP86DB9E164411ADF1 , bdr:EP967E577FEB338211 , bdr:EPBBFAB187E124C498 , bdr:EPE3D93771FE2088D9 , bdr:EPFF6F68F4BAFF3A28 ;
         :eTextInInstance    bdr:IE1KG14 ;
         :eTextInVolume      27 ;
         :eTextSourcePath    "Shechen/Rinchen-Terdzod-Shechen-vols-01-54/rtfs/27-SHA/Terzod-sha-P12.rtf" ;

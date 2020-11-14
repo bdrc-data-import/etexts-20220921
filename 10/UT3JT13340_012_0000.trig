@@ -16,14 +16,28 @@ bdg:UT3JT13340_012_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13340_012_0000 ;
+        adm:facetIndex      4 ;
         adm:gitPath         "10/UT3JT13340_012_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13340_012_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP2DF259142FB720B2
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP45DB315DEE20B307
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP9FB45B547788E866
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT3JT13340_012_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "ཟབ་ཆོས་ཞི་ཁྲོ་དགོངས་པ་རང་གྲོལ་ལས༔སྐུ་གསུམ་གསོལ་འདེབས་ཀློང་ཡངས་རང་གྲོལ་ཞེས་བྱ་བ་བཞུགས་སོ༔ཨོཾ་ཨཱཿཧཱུྃ༔རྣམ་དག་ཆོས་དབྱིངས་ཁྱབ་བརྡལ་ཀ"@bo ;
+        :eTextHasPage       bdr:EP2DF259142FB720B2 , bdr:EP45DB315DEE20B307 , bdr:EP9FB45B547788E866 ;
         :eTextInInstance    bdr:IE3JT13340 ;
         :eTextIsVolume      12 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/P0033_Karling-Zhithro/02-kusum-gsolqdebs.rtf" ;

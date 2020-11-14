@@ -16,14 +16,52 @@ bdg:UT10736_024_0004 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT10736_024_0004 ;
+        adm:facetIndex      10 ;
         adm:gitPath         "48/UT10736_024_0004.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT10736_024_0004 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP2BF150D1EFB37088
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP2D296F35F6AE1EDC
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP4110AD05AE84A774
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP51B2CFAA2766A516
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP5FCBBCC4106F98DC
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP73A15A8DB8400762
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP746C36E131DC512F
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP93878FB8E3DC0C63
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPD449BB4F094E31B0
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT10736_024_0004
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །རོ་སྙོམས་ངེས་པ་ཅན་འཆད་ཐབས་འགྲོ་མགོན་ཞལ་གྱི་ལུང་ཞེས་བྱ་བ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP2BF150D1EFB37088 , bdr:EP2D296F35F6AE1EDC , bdr:EP4110AD05AE84A774 , bdr:EP51B2CFAA2766A516 , bdr:EP5FCBBCC4106F98DC , bdr:EP73A15A8DB8400762 , bdr:EP746C36E131DC512F , bdr:EP93878FB8E3DC0C63 , bdr:EPD449BB4F094E31B0 ;
         :eTextInInstance    bdr:IE10736 ;
         :eTextInVolume      24 ;
         :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/24_ya/24_03_ya_tilliqi-gsang-tshig.rtf" ;

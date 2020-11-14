@@ -16,14 +16,44 @@ bdg:UT2DB4577_001_0025 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT2DB4577_001_0025 ;
+        adm:facetIndex      8 ;
         adm:gitPath         "2d/UT2DB4577_001_0025.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT2DB4577_001_0025 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP18D576A70351A1FE
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP403D3E39777F69A3
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP5C1E3D8D38AE8C72
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP72D3A4A045B7D769
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP9CE6A523B5139C82
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPD6137147B69223C4
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPEE2BF45414F5DABB
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
     bdr:UT2DB4577_001_0025
         a                   :EtextNonPaginated ;
         skos:prefLabel      "གནོད་སྦྱིན་སྤྲུལ་པ་རྣམ་རྒྱལ་གླིང་པའི་བྱོན་ཚུལ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP18D576A70351A1FE , bdr:EP403D3E39777F69A3 , bdr:EP5C1E3D8D38AE8C72 , bdr:EP72D3A4A045B7D769 , bdr:EP9CE6A523B5139C82 , bdr:EPD6137147B69223C4 , bdr:EPEE2BF45414F5DABB ;
         :eTextInInstance    bdr:IE2DB4577 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "KarmaDelek/gsung-qbum _shes-rab-rin-chen/rtfs/volume_001/volume_001_025.rtf" ;

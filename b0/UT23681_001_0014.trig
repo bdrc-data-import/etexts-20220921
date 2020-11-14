@@ -16,14 +16,48 @@ bdg:UT23681_001_0014 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23681_001_0014 ;
+        adm:facetIndex      9 ;
         adm:gitPath         "b0/UT23681_001_0014.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23681_001_0014 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0643337BE7EB95DF
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP0AD71A7B10AA2990
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP2B077796DF5F9EA2
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP4AB2BA0211C778D4
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP595D6B5F0E951E4A
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP97CD4068F0E23424
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPAAFC29E2F19B0593
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPE2EFA4C8EEB8A1A0
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT23681_001_0014
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼ཀ༽༄༅། །སྒྲ་མི་སྙན་གྱི་ཚེ་སྒྲུབ་ཟབ་མོའི་སྐོར་རྣམས་བཞུགས་སོ། །ཉེ་བརྒྱུད་དག་སྣང༌། །༄༅། །དེ་ཡང་ཆུ་མོ་གླང་ལོ་ཧོར་ཟླ་ལྔ་པའི་ཚེས་བ"@bo ;
+        :eTextHasPage       bdr:EP0643337BE7EB95DF , bdr:EP0AD71A7B10AA2990 , bdr:EP2B077796DF5F9EA2 , bdr:EP4AB2BA0211C778D4 , bdr:EP595D6B5F0E951E4A , bdr:EP97CD4068F0E23424 , bdr:EPAAFC29E2F19B0593 , bdr:EPE2EFA4C8EEB8A1A0 ;
         :eTextInInstance    bdr:IE23681 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "GuruLamaWorks/Drub-thab-kuntu/rtfs/volume-001-014/DBTU014.rtf" ;

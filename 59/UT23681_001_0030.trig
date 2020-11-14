@@ -16,14 +16,52 @@ bdg:UT23681_001_0030 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23681_001_0030 ;
+        adm:facetIndex      10 ;
         adm:gitPath         "59/UT23681_001_0030.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23681_001_0030 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP6399C0B74B69402F
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP6F104CB4E9D3995F
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP8AE0E6CCE0B48F0F
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP9A28F9531A467DFB
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPA635D42608AAC283
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPCBDA47368B151696
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPDBA271E88A6A81F3
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPDD2AED6096BACA4F
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPF040B4448DC0BD23
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT23681_001_0030
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼ཁ༽༄༅། །འཇམ་དཔལ་དབྱངས་ཀྱི་སྒོམ་བཟླས་འཕགས་པ་བཞད་པའི་རོལ་གར་ཞེས་བྱ་བ་བཞུགས་སོ། །༄༅། །མཐའ་ཀླས་རྒྱལ་བའི་མཁྱེན་པ་རྒྱ་མཚོའི་འཇིང༌།"@bo ;
+        :eTextHasPage       bdr:EP6399C0B74B69402F , bdr:EP6F104CB4E9D3995F , bdr:EP8AE0E6CCE0B48F0F , bdr:EP9A28F9531A467DFB , bdr:EPA635D42608AAC283 , bdr:EPCBDA47368B151696 , bdr:EPDBA271E88A6A81F3 , bdr:EPDD2AED6096BACA4F , bdr:EPF040B4448DC0BD23 ;
         :eTextInInstance    bdr:IE23681 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "GuruLamaWorks/Drub-thab-kuntu/rtfs/volume-001-014/DBTU030.rtf" ;

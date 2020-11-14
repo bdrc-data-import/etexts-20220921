@@ -16,14 +16,64 @@ bdg:UT23605_015_0012 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_015_0012 ;
+        adm:facetIndex      13 ;
         adm:gitPath         "a6/UT23605_015_0012.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_015_0012 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP022FE00115F919F9
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP048135639889C073
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP069DA590FB8DDFFD
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP2EAFE6DF5EA6150A
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP3D612433963FA442
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP64A90AEFB2C558A6
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP6F74F327079F83B8
+        a                   :EtextPage ;
+        :seqNum             12 .
+    
+    bdr:EP700AE37055C2EA24
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EPAAD2AFF201850CD2
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPB272175EA4587A98
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPBE8E57D104A758BA
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EPBFE098601D2D36A7
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT23605_015_0012
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༣༣༡༽༄༅། །དཔལ་དུས་ཀྱི་འཁོར་ལོའི་སྦྱོར་དྲུག་གི་སྔོན་འགྲོ་ཆོས་སྤྱོད་ཀྱི་ངག་འདོན་ཟུང་འཇུག་ཐེམ་སྐས་ཞེས་བྱ་བ་བཞུགས་སོ། །། །"@bo ;
+        :eTextHasPage       bdr:EP022FE00115F919F9 , bdr:EP048135639889C073 , bdr:EP069DA590FB8DDFFD , bdr:EP2EAFE6DF5EA6150A , bdr:EP3D612433963FA442 , bdr:EP64A90AEFB2C558A6 , bdr:EP6F74F327079F83B8 , bdr:EP700AE37055C2EA24 , bdr:EPAAD2AFF201850CD2 , bdr:EPB272175EA4587A98 , bdr:EPBE8E57D104A758BA , bdr:EPBFE098601D2D36A7 ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      15 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/15_gdams-ngag-mdzod_ba/15_11_~1.rtf" ;

@@ -16,14 +16,36 @@ bdg:UT30541_011_0004 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT30541_011_0004 ;
+        adm:facetIndex      6 ;
         adm:gitPath         "0b/UT30541_011_0004.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT30541_011_0004 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP8D37CE513DEA3452
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPB104555304945B5C
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPD8182030EBF32123
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPE1EA64F650269C22
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPE235E540BA035660
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
     bdr:UT30541_011_0004
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །སྤྱིར་སྒོམ་ཆོས་རྗེ་རང་བྱུང་རིན་པོ་ཆེའི་ཟིན་ཐུན་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP8D37CE513DEA3452 , bdr:EPB104555304945B5C , bdr:EPD8182030EBF32123 , bdr:EPE1EA64F650269C22 , bdr:EPE235E540BA035660 ;
         :eTextInInstance    bdr:IE30541 ;
         :eTextInVolume      11 ;
         :eTextSourcePath    "DharmaDownload/Karmapa-03/rtfs/11_3rd-karmapa-text_tdoc_Aa/11_03_Aa_spyir-sgom-chos-rje-rang-byung-rin-po-cheqi-zin-thun.rtf" ;

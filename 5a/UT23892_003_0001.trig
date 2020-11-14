@@ -16,14 +16,24 @@ bdg:UT23892_003_0001 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23892_003_0001 ;
+        adm:facetIndex      3 ;
         adm:gitPath         "5a/UT23892_003_0001.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23892_003_0001 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP702B16C345DAAA30
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPD4355E1EE7BBF554
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT23892_003_0001
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །ཆོས་ཀྱི་རྗེ་རྒྱལ་དབང་ཐམས་ཅད་མཁྱེན་པ་ཀུན་དགའ་རིན་ཆེན་གྱི་གསུང་འབུམ་པོད་༼ག༽པའི་དཀར་ཆག་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP702B16C345DAAA30 , bdr:EPD4355E1EE7BBF554 ;
         :eTextInInstance    bdr:IE23892 ;
         :eTextInVolume      3 ;
         :eTextSourcePath    "DrikungChetsang/6_KUNRIN/rtfs/volume-003/003.rtf" ;

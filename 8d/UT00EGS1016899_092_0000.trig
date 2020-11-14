@@ -16,14 +16,48 @@ bdg:UT00EGS1016899_092_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT00EGS1016899_092_0000 ;
+        adm:facetIndex      9 ;
         adm:gitPath         "8d/UT00EGS1016899_092_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT00EGS1016899_092_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP091A991F1E61F497
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP7A50459135C5A502
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP7E7EB3109E682F90
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPA2FFCBC66BF1121B
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPC8E05FDC0B9461A7
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPD7479FCC9CD1FFDB
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPEF7C85ABAFBE0B4F
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPF1615B89479FAD4B
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT00EGS1016899_092_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼ཙ༽༄༅། །ཡིད་ལུས་རྣམ་གསུམ་གྱི་དྲིས་ལན་བཞུགས་སོ། །ཨོཾ་སྭསྟི།ཆོས་ཀྱི་སྐུ་མངའ་སྲས་བཅས་དང༌། །ཕྱག་འོས་ཀུན་ལ་ཕྱག་བྱས་ནས། །ཡིད་ལུས་ར"@bo ;
+        :eTextHasPage       bdr:EP091A991F1E61F497 , bdr:EP7A50459135C5A502 , bdr:EP7E7EB3109E682F90 , bdr:EPA2FFCBC66BF1121B , bdr:EPC8E05FDC0B9461A7 , bdr:EPD7479FCC9CD1FFDB , bdr:EPEF7C85ABAFBE0B4F , bdr:EPF1615B89479FAD4B ;
         :eTextInInstance    bdr:IE00EGS1016899 ;
         :eTextIsVolume      92 ;
         :eTextSourcePath    "GuruLamaWorks/For-Conversion-Disk-01-20130424/rtfs/SHAKCHOG/SHAK086.rtf" ;

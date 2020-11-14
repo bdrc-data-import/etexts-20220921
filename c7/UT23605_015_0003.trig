@@ -16,14 +16,56 @@ bdg:UT23605_015_0003 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_015_0003 ;
+        adm:facetIndex      11 ;
         adm:gitPath         "c7/UT23605_015_0003.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_015_0003 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP12F0546390FBED22
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP3BB0CED4CA8485DA
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP3F09DD8431648ED2
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP51D84DCC042D75A3
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP76EE513FD2111AC0
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP7DE3418DC326DEDC
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP82AF30250C5C9CDE
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP9A1000BFD5E8B2DC
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPA0411EA311F20E97
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPF71FD5C0562601FB
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT23605_015_0003
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༡༥༽༄༅། །དཔལ་དུས་ཀྱི་འཁོར་ལོའི་རྣལ་འབྱོར་ཡན་ལག་དྲུག་གི་འགྲེལ་པ་སྙིང་པོ་བསྡུས་པ་ཞེས་བྱ་བ་བཞུགས་སོ། །། །"@bo ;
+        :eTextHasPage       bdr:EP12F0546390FBED22 , bdr:EP3BB0CED4CA8485DA , bdr:EP3F09DD8431648ED2 , bdr:EP51D84DCC042D75A3 , bdr:EP76EE513FD2111AC0 , bdr:EP7DE3418DC326DEDC , bdr:EP82AF30250C5C9CDE , bdr:EP9A1000BFD5E8B2DC , bdr:EPA0411EA311F20E97 , bdr:EPF71FD5C0562601FB ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      15 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/15_gdams-ngag-mdzod_ba/15_02_dpal-dus-kyi-qkhor-loqi-rnal-qbyor-yan-lag-drug-gi-qgrel-pa-snying-po-bsdus-pa.rtf" ;

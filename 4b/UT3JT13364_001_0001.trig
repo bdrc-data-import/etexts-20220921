@@ -16,14 +16,36 @@ bdg:UT3JT13364_001_0001 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13364_001_0001 ;
+        adm:facetIndex      6 ;
         adm:gitPath         "4b/UT3JT13364_001_0001.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13364_001_0001 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0257BA501D8016FC
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP042F2BCA9F241254
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPA583620F1869E867
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPA9394D7F59358697
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPEE295105549D6770
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT3JT13364_001_0001
         a                   :EtextNonPaginated ;
         skos:prefLabel      "སྔོན་འགྲོའི་ཞུ་ཚིག"@bo ;
+        :eTextHasPage       bdr:EP0257BA501D8016FC , bdr:EP042F2BCA9F241254 , bdr:EPA583620F1869E867 , bdr:EPA9394D7F59358697 , bdr:EPEE295105549D6770 ;
         :eTextInInstance    bdr:IE3JT13364 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "KarmaDelek/other-taranatha/rtfs/volume_001/volume_001_001.rtf" ;

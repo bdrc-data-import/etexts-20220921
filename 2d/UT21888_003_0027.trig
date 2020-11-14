@@ -16,14 +16,64 @@ bdg:UT21888_003_0027 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT21888_003_0027 ;
+        adm:facetIndex      13 ;
         adm:gitPath         "2d/UT21888_003_0027.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT21888_003_0027 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP19CAC5E5EE93DF14
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP2F038FBE6ED73D3D
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP3123E152F728DB85
+        a                   :EtextPage ;
+        :seqNum             12 .
+    
+    bdr:EP51AB1012ADEE7E27
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP54F01E6CF7795829
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP66E0105CE25BCF62
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP6E22F1A9A19217EE
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP757000723F681A79
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EP78C11345C7819E57
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP892EBC257BCB2C83
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EPA283F6758622737A
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EPAAF43FA919CB665E
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
     bdr:UT21888_003_0027
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༣༣༩༽ཟབ་ཆོས་མཁའ་འགྲོའི་ཐུགས་ཏིག་ལས༔མཁའ་འགྲོའི་སྲོག་སྒྲུབ་ཡང་བཅུད་སྙིང་པོ་བཞུགས་སོ༔ཨཱཿཆོས་རྣམས་རང་བཞིན་སྟོང་པའི་ངང་ཉིད་ལས༔རང་ལུས་ད"@bo ;
+        :eTextHasPage       bdr:EP19CAC5E5EE93DF14 , bdr:EP2F038FBE6ED73D3D , bdr:EP3123E152F728DB85 , bdr:EP51AB1012ADEE7E27 , bdr:EP54F01E6CF7795829 , bdr:EP66E0105CE25BCF62 , bdr:EP6E22F1A9A19217EE , bdr:EP757000723F681A79 , bdr:EP78C11345C7819E57 , bdr:EP892EBC257BCB2C83 , bdr:EPA283F6758622737A , bdr:EPAAF43FA919CB665E ;
         :eTextInInstance    bdr:IE21888 ;
         :eTextInVolume      3 ;
         :eTextSourcePath    "PalriParkhang/W21888-se-ra-mkhaq-qgro-bkaq-qbum/rtfs/3-Ma-Serakhagro-Kabum/Ma-Serakhagro-339-358.rtf" ;

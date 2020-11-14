@@ -16,14 +16,56 @@ bdg:UT3JT13333_003_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13333_003_0000 ;
+        adm:facetIndex      11 ;
         adm:gitPath         "b4/UT3JT13333_003_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13333_003_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP06752589F3F60446
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP43B03240F60C009C
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP9A8D283168408776
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPA0667D8E9C27B38B
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EPA80D518515982DC4
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPAD3BFAEF02E5C45B
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPC1DC325BCDEDE118
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPCA96A0EE77B58A96
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EPCF65DA7084402809
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPE198E8FF3A60367D
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
     bdr:UT3JT13333_003_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །རྒྱལ་བ་རྒྱ་མཚོའི་ས་ཆོག་དང་སྟ་གོན་འདོན་བྱ་ཁོལ་དུ་ཕྱུང་བ་ཞེས་བྱ་བ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP06752589F3F60446 , bdr:EP43B03240F60C009C , bdr:EP9A8D283168408776 , bdr:EPA0667D8E9C27B38B , bdr:EPA80D518515982DC4 , bdr:EPAD3BFAEF02E5C45B , bdr:EPC1DC325BCDEDE118 , bdr:EPCA96A0EE77B58A96 , bdr:EPCF65DA7084402809 , bdr:EPE198E8FF3A60367D ;
         :eTextInInstance    bdr:IE3JT13333 ;
         :eTextIsVolume      3 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/P0009_Gyaljam_tdoc/03_Gyaljam-tagon.rtf" ;

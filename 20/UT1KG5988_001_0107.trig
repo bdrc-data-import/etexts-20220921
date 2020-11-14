@@ -16,14 +16,68 @@ bdg:UT1KG5988_001_0107 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1KG5988_001_0107 ;
+        adm:facetIndex      14 ;
         adm:gitPath         "20/UT1KG5988_001_0107.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1KG5988_001_0107 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP22B550D1CD40B4ED
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP2EF2FB5945E2DDA8
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP571B0B363790D5F0
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP5DDE89B777DA58DC
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EP69A42075F037DCCF
+        a                   :EtextPage ;
+        :seqNum             13 .
+    
+    bdr:EP71CEA90B204298AE
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPA4473FCE8870CC2E
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPC4D49B831FC1CAB3
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EPC67335AB9D6298CC
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPDC0E6B5D31A152E9
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPDD053C82AEC6D387
+        a                   :EtextPage ;
+        :seqNum             12 .
+    
+    bdr:EPF2E62A4A7F368616
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPF63121F5321ED015
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
     bdr:UT1KG5988_001_0107
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །འཕགས་པ་བཀྲ་ཤིས་བརྩེགས་པ་ཞེས་བྱ་བ་ཐེག་པ་ཆེན་པོའི་མདོ་བཞུགས་སོ། །། །"@bo ;
+        :eTextHasPage       bdr:EP22B550D1CD40B4ED , bdr:EP2EF2FB5945E2DDA8 , bdr:EP571B0B363790D5F0 , bdr:EP5DDE89B777DA58DC , bdr:EP69A42075F037DCCF , bdr:EP71CEA90B204298AE , bdr:EPA4473FCE8870CC2E , bdr:EPC4D49B831FC1CAB3 , bdr:EPC67335AB9D6298CC , bdr:EPDC0E6B5D31A152E9 , bdr:EPDD053C82AEC6D387 , bdr:EPF2E62A4A7F368616 , bdr:EPF63121F5321ED015 ;
         :eTextInInstance    bdr:IE1KG5988 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "DharmaDownload/Kagyur-Zungdue/rtfs/volume-001/108_bkra-shis-brtsegs-pa.rtf" ;

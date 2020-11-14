@@ -16,14 +16,48 @@ bdg:UT3JT13338_001_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13338_001_0000 ;
+        adm:facetIndex      9 ;
         adm:gitPath         "0a/UT3JT13338_001_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13338_001_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP22EFFC3297100EEB
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP2A8EA4CC1625CF01
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP36BF0440568D6B52
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP3768EAF8F4AEC80F
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP4E7A1F95D7299A22
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP519361ABE91F2889
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP96F77A7D283E2C6C
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPF6E9B8BD225BA9BE
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT3JT13338_001_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །བཀའ་བརྒྱུད་མགུར་མཚོའི་གོ་དོན་ཁོག་དབུབས་སྤྱི་ཆིངས་རྣམ་པར་"@bo ;
+        :eTextHasPage       bdr:EP22EFFC3297100EEB , bdr:EP2A8EA4CC1625CF01 , bdr:EP36BF0440568D6B52 , bdr:EP3768EAF8F4AEC80F , bdr:EP4E7A1F95D7299A22 , bdr:EP519361ABE91F2889 , bdr:EP96F77A7D283E2C6C , bdr:EPF6E9B8BD225BA9BE ;
         :eTextInInstance    bdr:IE3JT13338 ;
         :eTextIsVolume      1 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/P0028_KagyuGurtso_tdoc/001_khog-dbubs.rtf" ;

@@ -16,14 +16,40 @@ bdg:UT29307_065_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT29307_065_0000 ;
+        adm:facetIndex      7 ;
         adm:gitPath         "26/UT29307_065_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT29307_065_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP10C66AFC8455C3CC
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP2A8452B8008F4D79
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP4DC5A97E6BA42500
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP567EF3BEA8FEF559
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP7A282340742BFCB0
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPB2209D67FA27CF83
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
     bdr:UT29307_065_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །འཆམ་དཔེ་སྣང་བ་འགྱུར་ཐུབ་ཀྱི་བསྡུས་དོན་འཕྲིན་ལས་ཀུན་ཁྱབ་བཞུགས། །ན་མོ་བཛྲ་ཀཱི་ལ་ཡ།ཁྱབ་བདག་འཁོར་ལོའི་མགོན་དང་དབྱེར་མེད་པའི་ད"@bo ;
+        :eTextHasPage       bdr:EP10C66AFC8455C3CC , bdr:EP2A8452B8008F4D79 , bdr:EP4DC5A97E6BA42500 , bdr:EP567EF3BEA8FEF559 , bdr:EP7A282340742BFCB0 , bdr:EPB2209D67FA27CF83 ;
         :eTextInInstance    bdr:IE29307 ;
         :eTextIsVolume      65 ;
         :eTextSourcePath    "GuruLamaWorks/Precious-and-Rare-Disk-01-20130424/rtfs/4_AMAI/AMAI065_འཆམ་དཔེ་སྣང་བ་འགྱུར་ཐུབ་ཀྱི་བསྡུས་དོན་འཕྲིན་ལས་ཀུན་ཁྱབ།.rtf" ;

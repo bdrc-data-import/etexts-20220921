@@ -16,14 +16,44 @@ bdg:UT10736_016_0014 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT10736_016_0014 ;
+        adm:facetIndex      8 ;
         adm:gitPath         "9c/UT10736_016_0014.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT10736_016_0014 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP317FC34410022D24
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP3A38C625EE2976D7
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP4FCD786DED9C49A0
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP66F197802B397BB9
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP959B0AA69992700F
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPD1839729FB1C8923
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPD7190A20469BCF3B
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT10736_016_0014
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །རྟ་མཆོག་རོལ་པའི་ཚོགས་དཀྱིལ་གྱི་འཕྲིན་ལས་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP317FC34410022D24 , bdr:EP3A38C625EE2976D7 , bdr:EP4FCD786DED9C49A0 , bdr:EP66F197802B397BB9 , bdr:EP959B0AA69992700F , bdr:EPD1839729FB1C8923 , bdr:EPD7190A20469BCF3B ;
         :eTextInInstance    bdr:IE10736 ;
         :eTextInVolume      16 ;
         :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/16_ma/16_13_ma_rta-mchog-rol-paqi-tshogs-dkyil-gyi-qphrin-las.rtf" ;

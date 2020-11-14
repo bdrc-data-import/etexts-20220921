@@ -16,14 +16,20 @@ bdg:UT3JT13354_031_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13354_031_0000 ;
+        adm:facetIndex      2 ;
         adm:gitPath         "57/UT3JT13354_031_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13354_031_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP50F235698EF604E5
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT3JT13354_031_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "no title"@bo-x-ewts ;
+        :eTextHasPage       bdr:EP50F235698EF604E5 ;
         :eTextInInstance    bdr:IE3JT13354 ;
         :eTextIsVolume      31 ;
         :eTextSourcePath    "GuruLamaWorks/Precious-and-Rare-Disk-01-20130424/rtfs/21_KHEN/KHENKRG.rtf" ;

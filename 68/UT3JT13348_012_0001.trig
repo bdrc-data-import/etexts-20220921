@@ -16,14 +16,24 @@ bdg:UT3JT13348_012_0001 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13348_012_0001 ;
+        adm:facetIndex      3 ;
         adm:gitPath         "68/UT3JT13348_012_0001.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13348_012_0001 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP59B2B344E303A5CB
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPF05F0E278269F9C0
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT3JT13348_012_0001
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༨༢༠༽ཐེག་པ་ཆེན་པོའི་ཚུལ་གེགས་སེལ་བདུད་རྩིའི་དཔུང་པ་ལེའུ་ཉི་ཤུ་རྩ་གཅིག་པ།"@bo ;
+        :eTextHasPage       bdr:EP59B2B344E303A5CB , bdr:EPF05F0E278269F9C0 ;
         :eTextInInstance    bdr:IE3JT13348 ;
         :eTextInVolume      12 ;
         :eTextSourcePath    "DrikungChetsang/2_KYOPA/rtfs/volume-012/KARCHAG.NA.rtf" ;

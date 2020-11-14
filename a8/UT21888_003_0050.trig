@@ -16,14 +16,36 @@ bdg:UT21888_003_0050 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT21888_003_0050 ;
+        adm:facetIndex      6 ;
         adm:gitPath         "a8/UT21888_003_0050.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT21888_003_0050 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP5B7F6AD78EA58F0C
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP709FCA2BDA61EE55
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP72A9382B4967B79F
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPB482217DF4230D5D
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPBB0BF7C1BF034C4B
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT21888_003_0050
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༤༨༣༽ཆོས་ཉིད་མཁའ་འགྲོའི་གསང་མཛོད་ལས༔འཕགས་མའི་མངོན་རྟོགས་བསྡུས་པ་བྱིན་རླབས་ཆུ་གཏེར་བཞུགས༔ན་མོ༔རྒྱལ་བ་ཀུན་ཡུམ་འཕགས་མ་སྒྲོལ༔བདག་སོགས"@bo ;
+        :eTextHasPage       bdr:EP5B7F6AD78EA58F0C , bdr:EP709FCA2BDA61EE55 , bdr:EP72A9382B4967B79F , bdr:EPB482217DF4230D5D , bdr:EPBB0BF7C1BF034C4B ;
         :eTextInInstance    bdr:IE21888 ;
         :eTextInVolume      3 ;
         :eTextSourcePath    "PalriParkhang/W21888-se-ra-mkhaq-qgro-bkaq-qbum/rtfs/3-Ma-Serakhagro-Kabum/Ma-Serakhagro-483-490.rtf" ;

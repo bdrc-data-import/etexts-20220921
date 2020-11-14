@@ -16,14 +16,52 @@ bdg:UT00EGS1016703_103_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT00EGS1016703_103_0000 ;
+        adm:facetIndex      10 ;
         adm:gitPath         "fe/UT00EGS1016703_103_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT00EGS1016703_103_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP35A4D9923D5BA1AE
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP43E518F8DA8BAF52
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP6AB1CE08FFA9124C
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP862F4A00DA6ACE0A
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP97492DB6EC7AE324
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPA6B2D8129EBE4AB2
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPAA16B3E4D34CBFAD
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPF0C3DF63F50C1C91
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPF550D6A5EA0A83CD
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT00EGS1016703_103_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼ཇ༽༄༅། །རོཥཎོབཛྲསྱཧསནཱདོནཱམཤཱསནཔཱལེནྡཱཎཱཾགཎཱཿཀརྨཾཙོདནཾབིཛཧཱརཾ། །"@bo ;
+        :eTextHasPage       bdr:EP35A4D9923D5BA1AE , bdr:EP43E518F8DA8BAF52 , bdr:EP6AB1CE08FFA9124C , bdr:EP862F4A00DA6ACE0A , bdr:EP97492DB6EC7AE324 , bdr:EPA6B2D8129EBE4AB2 , bdr:EPAA16B3E4D34CBFAD , bdr:EPF0C3DF63F50C1C91 , bdr:EPF550D6A5EA0A83CD ;
         :eTextInInstance    bdr:IE00EGS1016703 ;
         :eTextIsVolume      103 ;
         :eTextSourcePath    "GuruLamaWorks/For-Conversion-Disk-01-20130424/rtfs/ZUCHEN/ZUCN100.rtf" ;

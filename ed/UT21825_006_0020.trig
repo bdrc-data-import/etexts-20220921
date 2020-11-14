@@ -16,14 +16,20 @@ bdg:UT21825_006_0020 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT21825_006_0020 ;
+        adm:facetIndex      2 ;
         adm:gitPath         "ed/UT21825_006_0020.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT21825_006_0020 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EPBD3C3CCDD12AB04E
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT21825_006_0020
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༤༠༧༽ནས།༤༣༧༽བར།མ་ཚང༌།"@bo ;
+        :eTextHasPage       bdr:EPBD3C3CCDD12AB04E ;
         :eTextInInstance    bdr:IE21825 ;
         :eTextInVolume      6 ;
         :eTextSourcePath    "PalriParkhang/W21825-bkaq-qbum-pad-nor-02-thub-bstan-chos-kyi-glang-po/rtfs/06-penor-khabum-cha/penor-kabum-cha-0407-0436-are-missing.rtf" ;

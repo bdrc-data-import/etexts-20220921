@@ -16,14 +16,56 @@ bdg:UT10736_011_0020 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT10736_011_0020 ;
+        adm:facetIndex      11 ;
         adm:gitPath         "fb/UT10736_011_0020.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT10736_011_0020 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP2E71AB29DE4149CC
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP4F7001E0B5D64DFC
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP58185831AF15C240
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP8C91D3F389A5F0DD
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP91D85A6900352F1B
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP9DEBAFFEC96C9633
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP9FC2130146868DCA
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPAF3460435F1783C4
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EPBF388DB2FDBB8A50
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPE17084D66A531102
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
     bdr:UT10736_011_0020
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །ཐུགས་རྗེ་ཆེན་པོའི་སྨར་ཁྲིད་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP2E71AB29DE4149CC , bdr:EP4F7001E0B5D64DFC , bdr:EP58185831AF15C240 , bdr:EP8C91D3F389A5F0DD , bdr:EP91D85A6900352F1B , bdr:EP9DEBAFFEC96C9633 , bdr:EP9FC2130146868DCA , bdr:EPAF3460435F1783C4 , bdr:EPBF388DB2FDBB8A50 , bdr:EPE17084D66A531102 ;
         :eTextInInstance    bdr:IE10736 ;
         :eTextInVolume      11 ;
         :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/11_da/11_18_da_1_thugs-rje-chen-poqi-smar-khrid.rtf" ;

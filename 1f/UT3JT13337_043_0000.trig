@@ -16,14 +16,36 @@ bdg:UT3JT13337_043_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13337_043_0000 ;
+        adm:facetIndex      6 ;
         adm:gitPath         "1f/UT3JT13337_043_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13337_043_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP5BAE4743A39C5E0B
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPA4197605C700997D
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPD3DBA81BC0EE6E94
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPDB37777CACFF4402
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPE5BC7FFA25E6DC53
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT3JT13337_043_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅།བསེ་རག་བཀར་ཡས་བཞུགས། །"@bo ;
+        :eTextHasPage       bdr:EP5BAE4743A39C5E0B , bdr:EPA4197605C700997D , bdr:EPD3DBA81BC0EE6E94 , bdr:EPDB37777CACFF4402 , bdr:EPE5BC7FFA25E6DC53 ;
         :eTextInInstance    bdr:IE3JT13337 ;
         :eTextIsVolume      43 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/P0025_Tobum_tdoc/048-bse-rag-bkar-yas.rtf" ;

@@ -16,14 +16,36 @@ bdg:UT23605_009_0026 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_009_0026 ;
+        adm:facetIndex      6 ;
         adm:gitPath         "cf/UT23605_009_0026.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_009_0026 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP62DA6B9C7E9E4A93
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP80FA841445E06965
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPA65DCE6E3BD74235
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPDA3A5A8939B74C66
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPE6FEF70943DB0D76
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT23605_009_0026
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༥༡༥༽༄༅། །དཔལ་འབྲི་གུང་པའི་ལུགས་ཀྱི་ཆོས་དྲུག་དྲིལ་བའི་གདམས་པ་བཞུགས་སོ། །། །"@bo ;
+        :eTextHasPage       bdr:EP62DA6B9C7E9E4A93 , bdr:EP80FA841445E06965 , bdr:EPA65DCE6E3BD74235 , bdr:EPDA3A5A8939B74C66 , bdr:EPE6FEF70943DB0D76 ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      9 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/09_gdams-ngag-mdzod_ta/09_25_dpal-qbri-gung-paqi-lugs-kyi-chos-drug-dril-baqi-gdams-pa.rtf" ;

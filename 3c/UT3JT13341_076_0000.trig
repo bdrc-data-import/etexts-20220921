@@ -16,14 +16,24 @@ bdg:UT3JT13341_076_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13341_076_0000 ;
+        adm:facetIndex      3 ;
         adm:gitPath         "3c/UT3JT13341_076_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13341_076_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EPA6857CC6A1F3491C
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPF5CB719C0CD73CCF
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT3JT13341_076_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "ཨོཾ་སྭ་སྟི།རྟག་བརྟན་འགྱུར་མེད་ཡོངས་གྲུབ་ནམ་མཁའི་དབྱིངས། །དྲི་མེད་མཚན་དཀྱིལ་དྭངས་མའི་ཡེ་ཤེས་སྐུ། །རབ་འབྱམས་ཚེ་ལ་དབང་ཐོབ་རིག་པ་འ"@bo ;
+        :eTextHasPage       bdr:EPA6857CC6A1F3491C , bdr:EPF5CB719C0CD73CCF ;
         :eTextInInstance    bdr:IE3JT13341 ;
         :eTextIsVolume      76 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/Taksham-Chochod_tdoc/063a_shabtan.rtf" ;

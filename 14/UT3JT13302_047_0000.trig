@@ -16,14 +16,40 @@ bdg:UT3JT13302_047_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13302_047_0000 ;
+        adm:facetIndex      7 ;
         adm:gitPath         "14/UT3JT13302_047_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13302_047_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP1542C647032AF0F3
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP1C3B4E9E2AD16618
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP411DE24B0874FE35
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP5AF1D61424617FBA
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP9D4C94A61BE0D69B
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPCA8E5E187BEE3D20
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
     bdr:UT3JT13302_047_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །སློབ་དཔོན་ཆེན་པོ་པདྨ་འབྱུང་གནས་དང་དབྱེར་མེད་པའི་ལམ་ཟབ་ཉམས་སུ་ལེན་ཚུལ་ཚར་ཆེན་ཆོས་ཀྱི་རྒྱལ་པོས་མཛད་པ་ཞུགས་སོ། །༈།ན་མོ་གུ་རུ"@bo ;
+        :eTextHasPage       bdr:EP1542C647032AF0F3 , bdr:EP1C3B4E9E2AD16618 , bdr:EP411DE24B0874FE35 , bdr:EP5AF1D61424617FBA , bdr:EP9D4C94A61BE0D69B , bdr:EPCA8E5E187BEE3D20 ;
         :eTextInInstance    bdr:IE3JT13302 ;
         :eTextIsVolume      47 ;
         :eTextSourcePath    "GuruLamaWorks/For-Conversion-Disk-01-20130424/rtfs/KHADON/KHAD047.rtf" ;

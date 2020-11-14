@@ -16,14 +16,52 @@ bdg:UT00EGS1016899_086_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT00EGS1016899_086_0000 ;
+        adm:facetIndex      10 ;
         adm:gitPath         "c6/UT00EGS1016899_086_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT00EGS1016899_086_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP01E9F8C6B15798D3
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP439CB5F19B226D04
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP66C2A8CC7B2CEACD
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP86467C92F9A61A2B
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP882B4BEF6905A546
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP8B405B0549E6B34F
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP94E5570784648A46
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP97D2A2CFBB7561C4
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPC3EC9D7D7DFD2755
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
     bdr:UT00EGS1016899_086_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼ཙ༽༄༅། །སྨན་བླའི་མདོ་ཆོག་གི་དྲི་བ་མེ་ཏོག་མདའ་འཇོམས་དང༌།བྱང་པ་བདག་པོ་ལ་དྲི་བའི་སྐོར་བཞུགས། །ན་མོ་བཱཻ་ཌཱུརྻ་པྲ་བྷ་སྱེ།ས་སྐྱོང་རྒ"@bo ;
+        :eTextHasPage       bdr:EP01E9F8C6B15798D3 , bdr:EP439CB5F19B226D04 , bdr:EP66C2A8CC7B2CEACD , bdr:EP86467C92F9A61A2B , bdr:EP882B4BEF6905A546 , bdr:EP8B405B0549E6B34F , bdr:EP94E5570784648A46 , bdr:EP97D2A2CFBB7561C4 , bdr:EPC3EC9D7D7DFD2755 ;
         :eTextInInstance    bdr:IE00EGS1016899 ;
         :eTextIsVolume      86 ;
         :eTextSourcePath    "GuruLamaWorks/For-Conversion-Disk-01-20130424/rtfs/SHAKCHOG/SHAK080.rtf" ;

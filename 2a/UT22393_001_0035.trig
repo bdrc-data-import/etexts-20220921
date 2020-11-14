@@ -16,14 +16,52 @@ bdg:UT22393_001_0035 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT22393_001_0035 ;
+        adm:facetIndex      10 ;
         adm:gitPath         "2a/UT22393_001_0035.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT22393_001_0035 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0D090515F59F2F47
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP0F27C952E9ACA256
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP1809F0A9D31EC56E
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP4722D3B0CEC4EEED
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP6C04E26AEDBE82CF
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP82271FB96FDC35CC
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPB46DDEA478DA2A49
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EPCE84644204D8F2EC
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPE44AF71C65AF7770
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT22393_001_0035
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༡ན༽ཆོས་རྗེ་དྭགས་པོ་ལྷ་རྗེའི་གསུང༌།མར་པའི་ཚིགས་བཅད་བརྒྱད་མའི་འགྲེལ་པ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP0D090515F59F2F47 , bdr:EP0F27C952E9ACA256 , bdr:EP1809F0A9D31EC56E , bdr:EP4722D3B0CEC4EEED , bdr:EP6C04E26AEDBE82CF , bdr:EP82271FB96FDC35CC , bdr:EPB46DDEA478DA2A49 , bdr:EPCE84644204D8F2EC , bdr:EPE44AF71C65AF7770 ;
         :eTextInInstance    bdr:IE22393 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "DharmaDownload/Dhakpo-Kabum/rtfs/volume-001/35_CI.rtf" ;

@@ -16,14 +16,40 @@ bdg:UT2DB4577_001_0014 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT2DB4577_001_0014 ;
+        adm:facetIndex      7 ;
         adm:gitPath         "fb/UT2DB4577_001_0014.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT2DB4577_001_0014 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP2FCE16A6C55CFE8E
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP46CEFC76C77699C6
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP6031A63A347ED32A
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP87B9EF21A53D9341
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPDC30E0E7D7F4D032
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPE082C748521A82A5
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT2DB4577_001_0014
         a                   :EtextNonPaginated ;
         skos:prefLabel      "ཁྲི་སྐོར་མཆོག་གྱུར་ཞ་ལུ་བའི་བྱུང་ཚུལ་དང༌།མྱང་ཡུལ་ཆགས་ལུགས་བཞུགས་སོ།"@bo ;
+        :eTextHasPage       bdr:EP2FCE16A6C55CFE8E , bdr:EP46CEFC76C77699C6 , bdr:EP6031A63A347ED32A , bdr:EP87B9EF21A53D9341 , bdr:EPDC30E0E7D7F4D032 , bdr:EPE082C748521A82A5 ;
         :eTextInInstance    bdr:IE2DB4577 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "KarmaDelek/gsung-qbum _shes-rab-rin-chen/rtfs/volume_001/volume_001_014.rtf" ;

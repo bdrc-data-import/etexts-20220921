@@ -16,14 +16,24 @@ bdg:UT30541_005_0001 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT30541_005_0001 ;
+        adm:facetIndex      3 ;
         adm:gitPath         "58/UT30541_005_0001.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT30541_005_0001 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EPD9F88C43988BDCC1
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPF2A56C18958AD7EB
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT30541_005_0001
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༈ཀརྨ་པ་གསུམ་པ་རང་བྱུང་རྡོ་རྗེའི་གསུང་འབུམ།ཅ།"@bo ;
+        :eTextHasPage       bdr:EPD9F88C43988BDCC1 , bdr:EPF2A56C18958AD7EB ;
         :eTextInInstance    bdr:IE30541 ;
         :eTextInVolume      5 ;
         :eTextSourcePath    "DharmaDownload/Karmapa-03/rtfs/05_3rd-karmapa-text_tdoc_ca/05_00_ca_dkar-chag.rtf" ;

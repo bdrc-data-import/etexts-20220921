@@ -16,14 +16,56 @@ bdg:UT10736_018_0016 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT10736_018_0016 ;
+        adm:facetIndex      11 ;
         adm:gitPath         "64/UT10736_018_0016.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT10736_018_0016 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0B607BC8A5A709A4
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP206CE8C02A351C1F
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP4A6E383F39F332CE
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP66A984FECF3F4B0F
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP77E2491256AADAE5
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPD1D611380D02901D
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPE05FE817FC1CE6D0
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EPEB23F703B1FC5AD2
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EPFAC212AFA1336624
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPFE1B4486C6C5880F
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
     bdr:UT10736_018_0016
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །མགོན་པོའི་ངག་གི་དབང་ཕྱུག་སྒྲུབ་པའི་མན་ངག་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP0B607BC8A5A709A4 , bdr:EP206CE8C02A351C1F , bdr:EP4A6E383F39F332CE , bdr:EP66A984FECF3F4B0F , bdr:EP77E2491256AADAE5 , bdr:EPD1D611380D02901D , bdr:EPE05FE817FC1CE6D0 , bdr:EPEB23F703B1FC5AD2 , bdr:EPFAC212AFA1336624 , bdr:EPFE1B4486C6C5880F ;
         :eTextInInstance    bdr:IE10736 ;
         :eTextInVolume      18 ;
         :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/18_tsha/18_16_tsha_1_mgon-poqi-ngag-gi-dbang-phyug-sgrub-paqi-man-ngag.rtf" ;

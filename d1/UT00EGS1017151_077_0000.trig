@@ -16,14 +16,52 @@ bdg:UT00EGS1017151_077_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT00EGS1017151_077_0000 ;
+        adm:facetIndex      10 ;
         adm:gitPath         "d1/UT00EGS1017151_077_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT00EGS1017151_077_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP19706CE9E89CBD3E
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP56B4B52BE771FDEB
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP7118E906AF8AEE4C
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP9D765EA61975DAD6
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPACAB7C6332E8C4B3
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPB105FFEB6B4DD295
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPB8EF453EC49DCECA
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPC93412AF4FD23085
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPCA0ECCDE88E27C8E
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT00EGS1017151_077_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼ཅ༽༄༅། །འཁོར་ལོ་བདེ་མཆོག་དྲིལ་བུ་པའི་གཞུང་གི་མངོན་པར་རྟོགས་པ་བཞུགས་སོ། །༄༅། །ཨོཾ་སིདྡྷི་རསྟུ།བླ་མ་དམ་པའི་ཞབས་ལ་སྤྱི་བོས་ཕྱག་འ"@bo ;
+        :eTextHasPage       bdr:EP19706CE9E89CBD3E , bdr:EP56B4B52BE771FDEB , bdr:EP7118E906AF8AEE4C , bdr:EP9D765EA61975DAD6 , bdr:EPACAB7C6332E8C4B3 , bdr:EPB105FFEB6B4DD295 , bdr:EPB8EF453EC49DCECA , bdr:EPC93412AF4FD23085 , bdr:EPCA0ECCDE88E27C8E ;
         :eTextInInstance    bdr:IE00EGS1017151 ;
         :eTextIsVolume      77 ;
         :eTextSourcePath    "GuruLamaWorks/For-Conversion-Disk-01-20130424/rtfs/SA-KABUM/SKYA074.rtf" ;

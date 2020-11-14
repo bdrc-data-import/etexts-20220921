@@ -16,14 +16,40 @@ bdg:UT23605_019_0006 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_019_0006 ;
+        adm:facetIndex      7 ;
         adm:gitPath         "bf/UT23605_019_0006.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_019_0006 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP349904D65F9229F3
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP3DFE05DFB246D2FA
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP44C9F2055B63D268
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP9875645324F2616E
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPBC9F273E47744F78
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPF4AC8E3B7196F700
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
     bdr:UT23605_019_0006
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །བདུན་པ་རྡོ་རྗེའི་རྣལ་འབྱོར་གྱི་བྱུང་བ་འཆད་པ་ལ་གཉིས།རིང་ལུགས་ངོས་བཟུང༌།བརྒྱུད་ཚུལ་སོ་སོར་སྨོས་པའོ། །དང་པོ་ནི།"@bo ;
+        :eTextHasPage       bdr:EP349904D65F9229F3 , bdr:EP3DFE05DFB246D2FA , bdr:EP44C9F2055B63D268 , bdr:EP9875645324F2616E , bdr:EPBC9F273E47744F78 , bdr:EPF4AC8E3B7196F700 ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      19 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/History/07_Jordruk.rtf" ;

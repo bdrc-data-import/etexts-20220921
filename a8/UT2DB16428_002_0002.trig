@@ -16,14 +16,36 @@ bdg:UT2DB16428_002_0002 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT2DB16428_002_0002 ;
+        adm:facetIndex      6 ;
         adm:gitPath         "a8/UT2DB16428_002_0002.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT2DB16428_002_0002 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP2F7B52066EA62CFC
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP489840D85F43A2E9
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP6957644350B4109B
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP74B153A14339E441
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPB425765B93A90B41
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
     bdr:UT2DB16428_002_0002
         a                   :EtextNonPaginated ;
         skos:prefLabel      "བསྡུ་སྒྲིག་གསལ་བཤད།"@bo ;
+        :eTextHasPage       bdr:EP2F7B52066EA62CFC , bdr:EP489840D85F43A2E9 , bdr:EP6957644350B4109B , bdr:EP74B153A14339E441 , bdr:EPB425765B93A90B41 ;
         :eTextInInstance    bdr:IE2DB16428 ;
         :eTextInVolume      2 ;
         :eTextSourcePath    "KarmaDelek/sung-thor-bu _blo-gros-rin-chen-seng-ge_gung-ru-rgyal-mtshan-bzang-po-chos-skor/rtfs/volume_002/volume_002_010.rtf" ;

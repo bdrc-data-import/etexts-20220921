@@ -16,14 +16,52 @@ bdg:UT1KG14_022_0035 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1KG14_022_0035 ;
+        adm:facetIndex      10 ;
         adm:gitPath         "4a/UT1KG14_022_0035.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1KG14_022_0035 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP088D31D7135B51FF
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP24BE156294A98092
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP45BC749E7E66BD71
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP8298BFFAD3A40332
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPC47D6FAF63FAF230
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPD371EE57AB3CE132
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPD6ED7E93A2ADCB02
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPDDA58684CF0DA117
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPFB9FBE5BC09028F8
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
     bdr:UT1KG14_022_0035
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །ཡང་ཟབ་ཐུགས་རྗེ་ཆེན་པོ་རྒྱལ་བ་རྒྱ་མཚོའི་དོན་དབང་ཟུར་ཕྱུང་དུ་བཀོད་པ་བདུད་རྩིའི་སྙིང་པོ་ཞེས་བྱ་བ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP088D31D7135B51FF , bdr:EP24BE156294A98092 , bdr:EP45BC749E7E66BD71 , bdr:EP8298BFFAD3A40332 , bdr:EPC47D6FAF63FAF230 , bdr:EPD371EE57AB3CE132 , bdr:EPD6ED7E93A2ADCB02 , bdr:EPDDA58684CF0DA117 , bdr:EPFB9FBE5BC09028F8 ;
         :eTextInInstance    bdr:IE1KG14 ;
         :eTextInVolume      22 ;
         :eTextSourcePath    "Shechen/Rinchen-Terdzod-Shechen-vols-01-54/rtfs/22-ZA/Terdzo-ZA-P34.rtf" ;

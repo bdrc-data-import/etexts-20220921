@@ -16,14 +16,40 @@ bdg:UT3JT13337_038_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13337_038_0000 ;
+        adm:facetIndex      7 ;
         adm:gitPath         "8f/UT3JT13337_038_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13337_038_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP04EF0B4B689937B0
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP1A919D72EA33F464
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP28C91F5E1AD5A92A
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP36B2D3342AF36B92
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP5842B1F8EFADA0FB
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP5E32DD58D57E8D18
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
     bdr:UT3JT13337_038_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅།དཀར་གསུར་ཞིང་ཁམས་ཀུན་ཁྱབ་བཞུགས། །"@bo ;
+        :eTextHasPage       bdr:EP04EF0B4B689937B0 , bdr:EP1A919D72EA33F464 , bdr:EP28C91F5E1AD5A92A , bdr:EP36B2D3342AF36B92 , bdr:EP5842B1F8EFADA0FB , bdr:EP5E32DD58D57E8D18 ;
         :eTextInInstance    bdr:IE3JT13337 ;
         :eTextIsVolume      38 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/P0025_Tobum_tdoc/043-kar-bsur.rtf" ;

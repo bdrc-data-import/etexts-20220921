@@ -16,14 +16,56 @@ bdg:UT21888_003_0049 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT21888_003_0049 ;
+        adm:facetIndex      11 ;
         adm:gitPath         "0b/UT21888_003_0049.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT21888_003_0049 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP332CF8AC9A062C0F
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP45DA58706D2B2ED7
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP5682DE9737F58483
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP9998FBAF838A9F12
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPA5BD8C1D6E4A104C
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPA64D28807FA07C16
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EPC1A98D83247F83DF
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EPD98EB162F4D479B4
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPDB62AF2F51ED312F
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPFEFFF5A024187BF3
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT21888_003_0049
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༤༧༥༽མཁའ་འགྲོའི་ཐུགས་ཏིག་ལས༔ཚེ་འཕེལ་ཡིད་བཞིན་འཁོར་ལོའི་མངོན་རྟོགས་བསྡུས་པ་བཞུགས༔༤༧༦༽ན་མོ་པདྨ་ཀཱ་ར་ཡེ༔གང་ཞིག་རྣལ་འབྱོར་ལྡན་པ་ཡིས༔ས"@bo ;
+        :eTextHasPage       bdr:EP332CF8AC9A062C0F , bdr:EP45DA58706D2B2ED7 , bdr:EP5682DE9737F58483 , bdr:EP9998FBAF838A9F12 , bdr:EPA5BD8C1D6E4A104C , bdr:EPA64D28807FA07C16 , bdr:EPC1A98D83247F83DF , bdr:EPD98EB162F4D479B4 , bdr:EPDB62AF2F51ED312F , bdr:EPFEFFF5A024187BF3 ;
         :eTextInInstance    bdr:IE21888 ;
         :eTextInVolume      3 ;
         :eTextSourcePath    "PalriParkhang/W21888-se-ra-mkhaq-qgro-bkaq-qbum/rtfs/3-Ma-Serakhagro-Kabum/Ma-Serakhagro-475-482.rtf" ;

@@ -16,14 +16,28 @@ bdg:UT3JT13372_001_0015 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13372_001_0015 ;
+        adm:facetIndex      4 ;
         adm:gitPath         "6f/UT3JT13372_001_0015.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13372_001_0015 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP1902BED32B718D44
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPCE3EE8BE7ACF8035
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPFD00C98F48BC2BF2
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT3JT13372_001_0015
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །སྲིད་པའི་འཇིགས་པ་ལས་སྐྱོབས་ཤིང༌། །"@bo ;
+        :eTextHasPage       bdr:EP1902BED32B718D44 , bdr:EPCE3EE8BE7ACF8035 , bdr:EPFD00C98F48BC2BF2 ;
         :eTextInInstance    bdr:IE3JT13372 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "VajraVidya/Jugpa_Raggdrel/rtfs/volume-001/Uma_Jugpa_Rangdrel_Rinpoche_foreword.rtf" ;

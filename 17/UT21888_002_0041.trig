@@ -16,14 +16,52 @@ bdg:UT21888_002_0041 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT21888_002_0041 ;
+        adm:facetIndex      10 ;
         adm:gitPath         "17/UT21888_002_0041.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT21888_002_0041 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP137A65518D99E9F4
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP2C01299946E0685E
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP50C2EBB3E69CB0EB
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP6989583A3CA8ED4C
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP74C1E87829D0EDE7
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP885A7388826B981E
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP8D4F6F92774C0314
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPD5F200BFA2472AEB
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EPDE125612CA35AC69
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT21888_002_0041
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༤༡༡༽༄༅།མྱུར་ལམ་ཐོད་རྒལ་གྱི་ཟིན་བྲིས་དོན་གསལ་སྙིང་གི་མེ་ལོང་བཞུགས་སོ། །༤༡༢༽ན་མོ་གུ་རུ་བྷྱཿརྒྱལ་ཀུན་སྤྱི་གཟུགས་སྐྱབས་མགོན་ཆོས་ཀྱི"@bo ;
+        :eTextHasPage       bdr:EP137A65518D99E9F4 , bdr:EP2C01299946E0685E , bdr:EP50C2EBB3E69CB0EB , bdr:EP6989583A3CA8ED4C , bdr:EP74C1E87829D0EDE7 , bdr:EP885A7388826B981E , bdr:EP8D4F6F92774C0314 , bdr:EPD5F200BFA2472AEB , bdr:EPDE125612CA35AC69 ;
         :eTextInInstance    bdr:IE21888 ;
         :eTextInVolume      2 ;
         :eTextSourcePath    "PalriParkhang/W21888-se-ra-mkhaq-qgro-bkaq-qbum/rtfs/2-Wam-Serakhagro-Kabum/Wam-Serakhagro-411-428.rtf" ;

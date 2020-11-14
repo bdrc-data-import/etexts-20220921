@@ -16,14 +16,20 @@ bdg:UT3JT13327_003_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13327_003_0000 ;
+        adm:facetIndex      2 ;
         adm:gitPath         "17/UT3JT13327_003_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13327_003_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EPDCA0E1D59278C6E4
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT3JT13327_003_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "ཚིག་བདུན་གསོལ་འདེབས་ནི།ཧཱུྃ༔ཨོ་རྒྱན་ཡུལ་གྱི་ནུབ་བྱང་མཚམས༔པདྨ་གེ་སར་སྡོང་པོ་ལ༔ཡ་མཚན་མཆོག་གི་དངོས་གྲུབ་བརྙེས༔པདྨ་འབྱུང་གནས་ཞེས་སུ་"@bo ;
+        :eTextHasPage       bdr:EPDCA0E1D59278C6E4 ;
         :eTextInInstance    bdr:IE3JT13327 ;
         :eTextIsVolume      3 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/Chenzezig_Tdoc/003_Guru-Rinpoche.rtf" ;

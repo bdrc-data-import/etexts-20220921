@@ -16,14 +16,36 @@ bdg:UT1KG4280_001_0009 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1KG4280_001_0009 ;
+        adm:facetIndex      6 ;
         adm:gitPath         "23/UT1KG4280_001_0009.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1KG4280_001_0009 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP18ED44B040B4C503
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP33A6CB357E85C7C2
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP35FD51CCF6C7C3D0
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP47CD8A4DC465CD2E
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP753109CCB8A2B8A8
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
     bdr:UT1KG4280_001_0009
         a                   :EtextNonPaginated ;
         skos:prefLabel      "ཆོས་དྲུག་བདུད་རྩི་ཉིང་ཁུའི་སྔོན་འགྲོ་དངོས་གྲུབ་མྱུར་སྩོལ་བཞུགས།ཨོཾ་སྭསྟི་སིདྡྷི་ཧཱུྃ།རབ་འབྱམས་དཀྱིལ་འཁོར་ཀུན་བདག་འཁོར་ལོའི་མགོན།"@bo ;
+        :eTextHasPage       bdr:EP18ED44B040B4C503 , bdr:EP33A6CB357E85C7C2 , bdr:EP35FD51CCF6C7C3D0 , bdr:EP47CD8A4DC465CD2E , bdr:EP753109CCB8A2B8A8 ;
         :eTextInInstance    bdr:IE1KG4280 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "DharmaDownload/Situpa-09-sung-bum/rtfs/AHA/009_9th-Situ-Kabum_AHA_chos-drug-sngon-qgro-dngos-grub-myur-stsol.rtf" ;

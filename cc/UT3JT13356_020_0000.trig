@@ -16,14 +16,44 @@ bdg:UT3JT13356_020_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13356_020_0000 ;
+        adm:facetIndex      8 ;
         adm:gitPath         "cc/UT3JT13356_020_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13356_020_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP19E7056BE7A663A2
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP299C7143E9E939A4
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP317CB8FEB1DC54D0
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP9C3CFDF2E38E818B
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPBC1810D995F5A035
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPF1E0A6D0A9EE772E
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPF9FE6CFF59A704D2
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT3JT13356_020_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །བདེ་མཆོག་ལྷ་ལྔའི་བྱིན་རླབས་དབང་བཞི་ལུས་བསྒྲིགས་གོ་བདེ་བཀླག་ཆོག་ཏུ་བཀོད་པ་བཞུགས་སོ། །མཁས་དབང་ལུང་རྟོགས་ཡོན་ཏན་ཀུན་གྱིས་ཕྱུ"@bo ;
+        :eTextHasPage       bdr:EP19E7056BE7A663A2 , bdr:EP299C7143E9E939A4 , bdr:EP317CB8FEB1DC54D0 , bdr:EP9C3CFDF2E38E818B , bdr:EPBC1810D995F5A035 , bdr:EPF1E0A6D0A9EE772E , bdr:EPF9FE6CFF59A704D2 ;
         :eTextInInstance    bdr:IE3JT13356 ;
         :eTextIsVolume      20 ;
         :eTextSourcePath    "GuruLamaWorks/Precious-and-Rare-Disk-01-20130424/rtfs/23_NEGU/NEGU020_བདེ་མཆོག་ལྷ་ལྔའི་བྱིན་རླབས་དབང་བཞི་ལུས་བསྒྲིགས།.rtf" ;

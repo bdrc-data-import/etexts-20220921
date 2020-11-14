@@ -16,14 +16,72 @@ bdg:UT3JT13331_002_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13331_002_0000 ;
+        adm:facetIndex      15 ;
         adm:gitPath         "16/UT3JT13331_002_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13331_002_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP28EFA199EC1D75E7
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP3245F5506246A8F3
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP3411D40000C32629
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP6ABE1C287A3B382F
+        a                   :EtextPage ;
+        :seqNum             12 .
+    
+    bdr:EP74DA23CDFE9E8967
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP7EF4F92FE78366B8
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP816B36D3A9C9C42C
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP976FEF28ACFA8291
+        a                   :EtextPage ;
+        :seqNum             13 .
+    
+    bdr:EPA45E86A6E9B2B86E
+        a                   :EtextPage ;
+        :seqNum             14 .
+    
+    bdr:EPC82627632B192684
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPCCCFDE43FD3A8BC1
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EPD7AFF375102CBA8C
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPE90F4FCD507CF2E9
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPEA8614FFEA593A13
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
     bdr:UT3JT13331_002_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །རྡོ་རྗེ་ཕག་མོའི་ས་ཆོག་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP28EFA199EC1D75E7 , bdr:EP3245F5506246A8F3 , bdr:EP3411D40000C32629 , bdr:EP6ABE1C287A3B382F , bdr:EP74DA23CDFE9E8967 , bdr:EP7EF4F92FE78366B8 , bdr:EP816B36D3A9C9C42C , bdr:EP976FEF28ACFA8291 , bdr:EPA45E86A6E9B2B86E , bdr:EPC82627632B192684 , bdr:EPCCCFDE43FD3A8BC1 , bdr:EPD7AFF375102CBA8C , bdr:EPE90F4FCD507CF2E9 , bdr:EPEA8614FFEA593A13 ;
         :eTextInInstance    bdr:IE3JT13331 ;
         :eTextIsVolume      2 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/P0008_Phakmo_Tdoc/02_Phakmo-Tagon.rtf" ;

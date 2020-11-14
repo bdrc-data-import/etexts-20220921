@@ -16,14 +16,48 @@ bdg:UT10736_016_0016 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT10736_016_0016 ;
+        adm:facetIndex      9 ;
         adm:gitPath         "ad/UT10736_016_0016.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT10736_016_0016 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP1EB1A9A14166C87E
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP4E1BE0E8F40EE3C7
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP53AB8C9FD2A9C46B
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP76B96FB1834021BF
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPA2A9E8630CD98D66
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPCA6CB54706981786
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPF57C1BE1EFFA67E4
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPFF08A8A8179F698A
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
     bdr:UT10736_016_0016
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །གཏུམ་པོ་ཁྱུང་ལྔའི་སྒྲུབ་ཐབས་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP1EB1A9A14166C87E , bdr:EP4E1BE0E8F40EE3C7 , bdr:EP53AB8C9FD2A9C46B , bdr:EP76B96FB1834021BF , bdr:EPA2A9E8630CD98D66 , bdr:EPCA6CB54706981786 , bdr:EPF57C1BE1EFFA67E4 , bdr:EPFF08A8A8179F698A ;
         :eTextInInstance    bdr:IE10736 ;
         :eTextInVolume      16 ;
         :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/16_ma/16_16_ma_gtum-po-khyung-lngaqi-sgrub-thabs.rtf" ;

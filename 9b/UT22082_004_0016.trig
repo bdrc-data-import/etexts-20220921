@@ -16,14 +16,56 @@ bdg:UT22082_004_0016 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT22082_004_0016 ;
+        adm:facetIndex      11 ;
         adm:gitPath         "9b/UT22082_004_0016.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT22082_004_0016 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP04244D752E4E38A5
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP0D4A8C3A375A048E
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP2B93DEADC3753A73
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP49072F6047245964
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP4993E63A82CDBFD5
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP7CA04D164FB27192
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPB19B7C9C3C499D1C
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EPB1C5847200B26A44
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPC99AC91FC3D26E36
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPE5CE027221E93888
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
     bdr:UT22082_004_0016
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །ཆོས་རྗེའི་དགེ་བསྙེན་ཆེན་པོ་བཞིའི་གསོལ་ཁ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP04244D752E4E38A5 , bdr:EP0D4A8C3A375A048E , bdr:EP2B93DEADC3753A73 , bdr:EP49072F6047245964 , bdr:EP4993E63A82CDBFD5 , bdr:EP7CA04D164FB27192 , bdr:EPB19B7C9C3C499D1C , bdr:EPB1C5847200B26A44 , bdr:EPC99AC91FC3D26E36 , bdr:EPE5CE027221E93888 ;
         :eTextInInstance    bdr:IE22082 ;
         :eTextInVolume      4 ;
         :eTextSourcePath    "DrikungChetsang/7__KUNKHYEN/rtfs/volume-004/24NGA.YA.rtf" ;

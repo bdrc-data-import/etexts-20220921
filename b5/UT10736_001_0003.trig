@@ -16,14 +16,32 @@ bdg:UT10736_001_0003 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT10736_001_0003 ;
+        adm:facetIndex      5 ;
         adm:gitPath         "b5/UT10736_001_0003.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT10736_001_0003 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0E76A0A3CFCD8A77
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP39C94B5003D1C0A6
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP3AA4B1384EFB8DA7
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP7C6FD7798C00D62F
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT10736_001_0003
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །རབ་བཏགས་ཀྱི་རྟོགས་བརྗོད་རྣ་བའི་རྒྱན་ཅེས་བྱ་བ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP0E76A0A3CFCD8A77 , bdr:EP39C94B5003D1C0A6 , bdr:EP3AA4B1384EFB8DA7 , bdr:EP7C6FD7798C00D62F ;
         :eTextInInstance    bdr:IE10736 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/01_ka/01_03_ka_rab-btags-kyi-rtogs-brjod-rna-baqi-rgyan.rtf" ;

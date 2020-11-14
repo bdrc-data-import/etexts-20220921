@@ -16,14 +16,48 @@ bdg:UT3JT13302_017_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13302_017_0000 ;
+        adm:facetIndex      9 ;
         adm:gitPath         "34/UT3JT13302_017_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13302_017_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP011D611DC9F66E6F
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP0D24291E0279546F
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP5BB8310BA2466B8B
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP6E5C89B68FA14189
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP892D16AA21F24C84
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP9080AC9EED2C922B
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPCBD5AFCF2827AFEB
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPDC1FF33905ECB79E
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
     bdr:UT3JT13302_017_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །མགོན་དཀར་ཡིད་བཞིན་ནོར་བུའི་སྒྲུབ་ཐབས་བཞུགས་སོ། །༈།ན་མོ་གུ་རུ་བྷྱཿརྡོ་རྗེ་འཆང་ཆེན་ཤ་བ་རི་དབང་ཕྱུག།མཻ་ཏྲི་པ་དང་སྒྲ་གཅན་འཛིན"@bo ;
+        :eTextHasPage       bdr:EP011D611DC9F66E6F , bdr:EP0D24291E0279546F , bdr:EP5BB8310BA2466B8B , bdr:EP6E5C89B68FA14189 , bdr:EP892D16AA21F24C84 , bdr:EP9080AC9EED2C922B , bdr:EPCBD5AFCF2827AFEB , bdr:EPDC1FF33905ECB79E ;
         :eTextInInstance    bdr:IE3JT13302 ;
         :eTextIsVolume      17 ;
         :eTextSourcePath    "GuruLamaWorks/For-Conversion-Disk-01-20130424/rtfs/KHADON/KHAD017.rtf" ;

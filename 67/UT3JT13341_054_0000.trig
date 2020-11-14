@@ -16,14 +16,28 @@ bdg:UT3JT13341_054_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13341_054_0000 ;
+        adm:facetIndex      4 ;
         adm:gitPath         "67/UT3JT13341_054_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13341_054_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP217870992F648F19
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP4FC1FFBDF662B5ED
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP897ACF89FA80B7D5
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT3JT13341_054_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "བདེ་བ་ཅན་དུ་སྐྱེ་བའི་སྨོན་ལམ་འོད་དཔག་མེད་ཀྱི་ཐུགས་རྗེའི་ས་བོན་བྱང་ཆུབ་མྱུ་གུ་ཞེས་བྱ་བ་བཞུགས་སོ།ན་མོ།ཕྱོགས་བཅུ་དུས་གསུམ་བདེ་གཤེགས"@bo ;
+        :eTextHasPage       bdr:EP217870992F648F19 , bdr:EP4FC1FFBDF662B5ED , bdr:EP897ACF89FA80B7D5 ;
         :eTextInInstance    bdr:IE3JT13341 ;
         :eTextIsVolume      54 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/Taksham-Chochod_tdoc/043_ma-smon-lam.rtf" ;

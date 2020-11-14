@@ -16,14 +16,48 @@ bdg:UT10736_012_0002 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT10736_012_0002 ;
+        adm:facetIndex      9 ;
         adm:gitPath         "33/UT10736_012_0002.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT10736_012_0002 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP684C37D77253C2B8
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP91AEFD1B43E22C5C
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPB1C51D01E8DCF765
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPBE73CA51232A6A6F
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPD120EEC085BD9F83
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPD4863162193FA911
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPFAB6F961E36CBD63
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPFB21A9C2F7095CF5
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
     bdr:UT10736_012_0002
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །ཡིད་བཞིན་འཁོར་ལོའི་སྒྲུབ་ཐབས་དགོས་འདོད་འབྱུང་བ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP684C37D77253C2B8 , bdr:EP91AEFD1B43E22C5C , bdr:EPB1C51D01E8DCF765 , bdr:EPBE73CA51232A6A6F , bdr:EPD120EEC085BD9F83 , bdr:EPD4863162193FA911 , bdr:EPFAB6F961E36CBD63 , bdr:EPFB21A9C2F7095CF5 ;
         :eTextInInstance    bdr:IE10736 ;
         :eTextInVolume      12 ;
         :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/12_na/12_02_na_yid-bzhin-qkhor-loqi-sgrub-thabs-dgos-qdod-qbyung-ba.rtf" ;

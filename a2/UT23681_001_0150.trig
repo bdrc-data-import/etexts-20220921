@@ -16,14 +16,52 @@ bdg:UT23681_001_0150 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23681_001_0150 ;
+        adm:facetIndex      10 ;
         adm:gitPath         "a2/UT23681_001_0150.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23681_001_0150 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP1A1989A90FB05008
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP1A6927CF53F2DF83
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP2EDCEA8A2D87BDD1
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP3209DEEE2E9E14CD
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP64329095F1C6B5DE
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP64BA6B354FDDBC59
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP9AD8E9882D212D7F
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPED20B3350A938F0A
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPF64510527CDC8054
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT23681_001_0150
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼ཆ༽༄༅། །རྡོ་རྗེ་མཁའ་འགྲོའི་སྒོ་ནས་གསོན་གཤིན་གྱི་སྡིག་སྒྲིབ་སྦྱོང་བའི་ཆོ་ག་ཐར་པའི་སྣང་འབྱེད་ཅེས་བྱ་བ་བཞུགས་སོ། །ན་མོ་གུ་རུ་བཛྲ་"@bo ;
+        :eTextHasPage       bdr:EP1A1989A90FB05008 , bdr:EP1A6927CF53F2DF83 , bdr:EP2EDCEA8A2D87BDD1 , bdr:EP3209DEEE2E9E14CD , bdr:EP64329095F1C6B5DE , bdr:EP64BA6B354FDDBC59 , bdr:EP9AD8E9882D212D7F , bdr:EPED20B3350A938F0A , bdr:EPF64510527CDC8054 ;
         :eTextInInstance    bdr:IE23681 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "GuruLamaWorks/Drub-thab-kuntu/rtfs/volume-001-014/DBTU150.rtf" ;

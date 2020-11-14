@@ -16,14 +16,36 @@ bdg:UT30541_011_0024 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT30541_011_0024 ;
+        adm:facetIndex      6 ;
         adm:gitPath         "5a/UT30541_011_0024.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT30541_011_0024 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP03034CCEB1C03309
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP2F8FB55B88929E06
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP5E2278AE4293462F
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP6163D6453C87004C
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPA5ABF53A7E04FFF3
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT30541_011_0024
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །ཆུ་འཐུང་བའི་གདམ་པ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP03034CCEB1C03309 , bdr:EP2F8FB55B88929E06 , bdr:EP5E2278AE4293462F , bdr:EP6163D6453C87004C , bdr:EPA5ABF53A7E04FFF3 ;
         :eTextInInstance    bdr:IE30541 ;
         :eTextInVolume      11 ;
         :eTextSourcePath    "DharmaDownload/Karmapa-03/rtfs/11_3rd-karmapa-text_tdoc_Aa/11_23_Aa_chu-qthung-baqi-gdam-pa.rtf" ;

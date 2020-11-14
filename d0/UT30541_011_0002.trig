@@ -16,14 +16,72 @@ bdg:UT30541_011_0002 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT30541_011_0002 ;
+        adm:facetIndex      15 ;
         adm:gitPath         "d0/UT30541_011_0002.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT30541_011_0002 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP2CC3BFD1107B3A50
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP3050B3A0E1A19D05
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EP33967FA41B98D3A1
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP4942BFBE6540A37A
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP61FE38ED1DB556AE
+        a                   :EtextPage ;
+        :seqNum             14 .
+    
+    bdr:EP6C9D048FE690D457
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP71F110CB753C75CE
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP8D49956D94D2F904
+        a                   :EtextPage ;
+        :seqNum             12 .
+    
+    bdr:EP9C5935A80FA6B4D8
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPA168908218F6A23B
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPA546FA4A158091A0
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPB085D6B3C88C1018
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPD8674E46D2912C88
+        a                   :EtextPage ;
+        :seqNum             13 .
+    
+    bdr:EPE3D88B91A58FF1C6
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
     bdr:UT30541_011_0002
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །སྐུ་གསུམ་ངོ་སྤྲོད་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP2CC3BFD1107B3A50 , bdr:EP3050B3A0E1A19D05 , bdr:EP33967FA41B98D3A1 , bdr:EP4942BFBE6540A37A , bdr:EP61FE38ED1DB556AE , bdr:EP6C9D048FE690D457 , bdr:EP71F110CB753C75CE , bdr:EP8D49956D94D2F904 , bdr:EP9C5935A80FA6B4D8 , bdr:EPA168908218F6A23B , bdr:EPA546FA4A158091A0 , bdr:EPB085D6B3C88C1018 , bdr:EPD8674E46D2912C88 , bdr:EPE3D88B91A58FF1C6 ;
         :eTextInInstance    bdr:IE30541 ;
         :eTextInVolume      11 ;
         :eTextSourcePath    "DharmaDownload/Karmapa-03/rtfs/11_3rd-karmapa-text_tdoc_Aa/11_01_Aa_sku-gsum-ngo-sprod.rtf" ;

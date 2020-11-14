@@ -16,14 +16,52 @@ bdg:UT3JT13340_039_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13340_039_0000 ;
+        adm:facetIndex      10 ;
         adm:gitPath         "2d/UT3JT13340_039_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13340_039_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP041BDE3E0AA54159
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP12DEE0489662F27C
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP327957DC2829FC39
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP36BCAD859D7178E7
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP39461050968F5C12
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP67D2CAD75BAFFE3B
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP9C2FEBB7A90DC015
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EPCDBDEDE0062C84A3
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPDEAE87E09F11C791
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
     bdr:UT3JT13340_039_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༁ྃ༔ཟབ་ཆོས་ཞི་ཁྲོ་དགོངས་པ་རང་གྲོལ་ལས།བསྐྱེད་རིམ་ལྷན་ཐབས་འཛབ་དགོངས་གྲགས་སྟོང་ཚངས་དབྱངས་བཟླས་ཚད་རང་གྲོལ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP041BDE3E0AA54159 , bdr:EP12DEE0489662F27C , bdr:EP327957DC2829FC39 , bdr:EP36BCAD859D7178E7 , bdr:EP39461050968F5C12 , bdr:EP67D2CAD75BAFFE3B , bdr:EP9C2FEBB7A90DC015 , bdr:EPCDBDEDE0062C84A3 , bdr:EPDEAE87E09F11C791 ;
         :eTextInInstance    bdr:IE3JT13340 ;
         :eTextIsVolume      39 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/P0033_Karling-Zhithro/06-qzab-bskul.rtf" ;

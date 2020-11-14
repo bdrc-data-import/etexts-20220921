@@ -16,14 +16,28 @@ bdg:UT3JT13337_004_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13337_004_0000 ;
+        adm:facetIndex      4 ;
         adm:gitPath         "86/UT3JT13337_004_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13337_004_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP00A7ED4E1A3770E3
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPA5838B43EE5190AB
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPCFBDD8B7B933B1A7
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT3JT13337_004_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོ་བཞུགས་སོ། །རྒྱ་གར་སྐད་དུ།བྷ་ག་ཝ་ཏི་པྲཛྙཱ་པ་ར་མི་ཏ་ཧྲྀ་ད་ཡ།བོད་སྐད་དུ།བཅོམ་ལྡན་འདས་མ་ཤེས་རབ"@bo ;
+        :eTextHasPage       bdr:EP00A7ED4E1A3770E3 , bdr:EPA5838B43EE5190AB , bdr:EPCFBDD8B7B933B1A7 ;
         :eTextInInstance    bdr:IE3JT13337 ;
         :eTextIsVolume      4 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/P0025_Tobum_tdoc/012-sher-snying.rtf" ;

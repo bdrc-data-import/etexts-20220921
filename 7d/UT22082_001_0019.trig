@@ -16,14 +16,28 @@ bdg:UT22082_001_0019 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT22082_001_0019 ;
+        adm:facetIndex      4 ;
         adm:gitPath         "7d/UT22082_001_0019.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT22082_001_0019 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP407146494D32012B
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP963F322F3149C051
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPE003E77BE81CF604
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT22082_001_0019
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །ཀུན་མཁྱེན་རིག་པ་འཛིན་པ་ཆེན་པོ་ཆོས་ཀྱི་གྲགས་པའི་གསུང་འབུམ་༼ཀ༽པའི་དཀར་ཆག།"@bo ;
+        :eTextHasPage       bdr:EP407146494D32012B , bdr:EP963F322F3149C051 , bdr:EPE003E77BE81CF604 ;
         :eTextInInstance    bdr:IE22082 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "DrikungChetsang/7__KUNKHYEN/rtfs/volume-001/KHARCHAK.KA.rtf" ;

@@ -16,14 +16,68 @@ bdg:UT1PD90129_014_0010 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1PD90129_014_0010 ;
+        adm:facetIndex      14 ;
         adm:gitPath         "15/UT1PD90129_014_0010.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1PD90129_014_0010 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0C11C505170C43DB
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP1EAF83E67BCCF711
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP39D85C55D1F9901E
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EP40A3581BEADBD985
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP4C9C458223AAD9E0
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP53F72434812E5B5B
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP658AEFEE00F6EE1C
+        a                   :EtextPage ;
+        :seqNum             12 .
+    
+    bdr:EP7A003F9AC7CA3D18
+        a                   :EtextPage ;
+        :seqNum             13 .
+    
+    bdr:EP8F4211AA89A245B9
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP93257FC116AB605D
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EPB241903678A82DF9
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPDDC976EA9015528F
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPE06BCC8219AA13FF
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
     bdr:UT1PD90129_014_0010
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །ཉོན་མོངས་པའི་ཀུན་འབྱུང་གི་རྣམ་གཞག་མདོར་བསྡུས་གསལ་བ་བཞུགས།"@bo ;
+        :eTextHasPage       bdr:EP0C11C505170C43DB , bdr:EP1EAF83E67BCCF711 , bdr:EP39D85C55D1F9901E , bdr:EP40A3581BEADBD985 , bdr:EP4C9C458223AAD9E0 , bdr:EP53F72434812E5B5B , bdr:EP658AEFEE00F6EE1C , bdr:EP7A003F9AC7CA3D18 , bdr:EP8F4211AA89A245B9 , bdr:EP93257FC116AB605D , bdr:EPB241903678A82DF9 , bdr:EPDDC976EA9015528F , bdr:EPE06BCC8219AA13FF ;
         :eTextInInstance    bdr:IE1PD90129 ;
         :eTextInVolume      14 ;
         :eTextSourcePath    "KarmaDelek/co-ne-grags-pa-bshad-sgrub-gsung-qbum/rtfs/volume_014/volume_014_332.rtf" ;

@@ -16,14 +16,44 @@ bdg:UT00EGS1017151_340_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT00EGS1017151_340_0000 ;
+        adm:facetIndex      8 ;
         adm:gitPath         "32/UT00EGS1017151_340_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT00EGS1017151_340_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP790399297D74B25B
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP8BA6592FE4823518
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPAB76261A1B2EEB6F
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPBF5B4C6EEED6E34E
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPC64B5B9BFD86741F
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPEBF2B92C7F7EB0FA
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPEFBC21E4DA7AC260
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT00EGS1017151_340_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼ན༽༄༅། །བསྟན་བཅོས་མཁས་པའི་ཁ་རྒྱན་བཞུགས། །༄༅། །ཨོཾ་སྭ་སྟི་སིདྡྷཾ།སྒྲའི་བསྟན་བཅོས་མཁས་པའི་བརྒྱན།བླ་མ་དང་དཀོན་མཆོག་གསུམ་ལ་གུས་པས"@bo ;
+        :eTextHasPage       bdr:EP790399297D74B25B , bdr:EP8BA6592FE4823518 , bdr:EPAB76261A1B2EEB6F , bdr:EPBF5B4C6EEED6E34E , bdr:EPC64B5B9BFD86741F , bdr:EPEBF2B92C7F7EB0FA , bdr:EPEFBC21E4DA7AC260 ;
         :eTextInInstance    bdr:IE00EGS1017151 ;
         :eTextIsVolume      340 ;
         :eTextSourcePath    "GuruLamaWorks/For-Conversion-Disk-01-20130424/rtfs/SA-KABUM/SKYA334.rtf" ;

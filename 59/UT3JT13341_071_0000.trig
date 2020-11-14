@@ -16,14 +16,28 @@ bdg:UT3JT13341_071_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13341_071_0000 ;
+        adm:facetIndex      4 ;
         adm:gitPath         "59/UT3JT13341_071_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13341_071_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP193573EF0802FCD5
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP991B13EA79983318
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP9CA47721B2636F06
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT3JT13341_071_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "ཇི་སྙེད་ཕན་བདེ་མ་ལུས་འབྱུང་བའི་གནས། །ཐུབ་པའི་བསྟན་པ་སྤྱི་དང་ཁྱད་པར་དུ། །སྔ་འགྱུར་འོད་གསལ་རྡོ་རྗེ་སྙིང་པོའི་སྲོལ། །ཕྱོགས་དུས་ཀ"@bo ;
+        :eTextHasPage       bdr:EP193573EF0802FCD5 , bdr:EP991B13EA79983318 , bdr:EP9CA47721B2636F06 ;
         :eTextInInstance    bdr:IE3JT13341 ;
         :eTextIsVolume      71 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/Taksham-Chochod_tdoc/058_ji-snyed-phan-bde.rtf" ;

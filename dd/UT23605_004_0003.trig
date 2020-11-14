@@ -16,14 +16,56 @@ bdg:UT23605_004_0003 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_004_0003 ;
+        adm:facetIndex      11 ;
         adm:gitPath         "dd/UT23605_004_0003.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_004_0003 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP18F7E9235FCDFDEF
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP2252EE3EF60F5AE9
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP349496DFF2A74414
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP4086A408847A1AA5
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP4DE7FB02C8DC6FEF
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP9A02487F206BECA4
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP9EB9EB5ADF0BFF9C
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EPCE240DE694E47D63
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPD6D9E647D98D9433
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPE5EF94944544273E
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT23605_004_0003
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༤༧༽བློ་སྦྱོང་མཚོན་ཆའི་འཁོར་ལོ་ཞེས་བྱ་བ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP18F7E9235FCDFDEF , bdr:EP2252EE3EF60F5AE9 , bdr:EP349496DFF2A74414 , bdr:EP4086A408847A1AA5 , bdr:EP4DE7FB02C8DC6FEF , bdr:EP9A02487F206BECA4 , bdr:EP9EB9EB5ADF0BFF9C , bdr:EPCE240DE694E47D63 , bdr:EPD6D9E647D98D9433 , bdr:EPE5EF94944544273E ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      4 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/04_gdams-ngag-mdzod_nga/04_02_blo-sbyong-mtshon-chaqi-qkhor-lo.rtf" ;

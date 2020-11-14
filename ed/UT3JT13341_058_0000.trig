@@ -16,14 +16,64 @@ bdg:UT3JT13341_058_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13341_058_0000 ;
+        adm:facetIndex      13 ;
         adm:gitPath         "ed/UT3JT13341_058_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13341_058_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0065AF2FE88BF91A
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP2C3E435B8AA108AE
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP3B69F6D2D7CCC77F
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP4EBD85AF740A6B5E
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP54E31A03DD8AC79A
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP7A70A35B7BA26DD7
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPAB60CDE424A3CC4B
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPB56A9A816922953F
+        a                   :EtextPage ;
+        :seqNum             12 .
+    
+    bdr:EPB79C8A6E59E4A946
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EPCA39579948B2F7C0
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPD809AFE58E648080
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPE1B4312A69B4CA18
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
     bdr:UT3JT13341_058_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །རྣམ་དག་བདེ་ཆེན་ཞིང་གི་སྨོན་ལམ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP0065AF2FE88BF91A , bdr:EP2C3E435B8AA108AE , bdr:EP3B69F6D2D7CCC77F , bdr:EP4EBD85AF740A6B5E , bdr:EP54E31A03DD8AC79A , bdr:EP7A70A35B7BA26DD7 , bdr:EPAB60CDE424A3CC4B , bdr:EPB56A9A816922953F , bdr:EPB79C8A6E59E4A946 , bdr:EPCA39579948B2F7C0 , bdr:EPD809AFE58E648080 , bdr:EPE1B4312A69B4CA18 ;
         :eTextInInstance    bdr:IE3JT13341 ;
         :eTextIsVolume      58 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/Taksham-Chochod_tdoc/047_chags-med-bde-smon.rtf" ;

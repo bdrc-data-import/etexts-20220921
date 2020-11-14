@@ -16,14 +16,44 @@ bdg:UT30541_010_0007 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT30541_010_0007 ;
+        adm:facetIndex      8 ;
         adm:gitPath         "fd/UT30541_010_0007.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT30541_010_0007 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP2A34A82F0E0FE0C7
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP2F4F6740D1291F9F
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP561A2DCCD3511C20
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP5AA129F33E0A23E6
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP7FD98512FD31E8BF
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPF420951275A5FB06
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPF4DDEF3EA3C5572E
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
     bdr:UT30541_010_0007
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །དཔལ་དུས་ཀྱི་འཁོར་ལོའི་བསྒྲུབ་ཐབས་བསྡུས་པ་ལུས་ཀྱི་དཀྱིལ་འཁོར་ཀྵས་བསྐྱེད་པ་"@bo ;
+        :eTextHasPage       bdr:EP2A34A82F0E0FE0C7 , bdr:EP2F4F6740D1291F9F , bdr:EP561A2DCCD3511C20 , bdr:EP5AA129F33E0A23E6 , bdr:EP7FD98512FD31E8BF , bdr:EPF420951275A5FB06 , bdr:EPF4DDEF3EA3C5572E ;
         :eTextInInstance    bdr:IE30541 ;
         :eTextInVolume      10 ;
         :eTextSourcePath    "DharmaDownload/Karmapa-03/rtfs/10_3rd-karmapa-text_tdoc_tha/10_06_tha_dpal-dus-kyi-qkhor-loqi-bsgrub-thabs-bsdus-pa-lus-kyi-dkyil-qkhor-KSas-bskyed-pa.rtf" ;

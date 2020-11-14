@@ -16,14 +16,44 @@ bdg:UT1KG4280_002_0008 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1KG4280_002_0008 ;
+        adm:facetIndex      8 ;
         adm:gitPath         "fc/UT1KG4280_002_0008.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1KG4280_002_0008 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP4C4ACAB05EA41EDB
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP6C257931A8329533
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP8FE0DABEC0212EE5
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP946F1F682EADDCED
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPC912B56CFE8349CF
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPD17341831EA70FB2
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPD6FDD5CCCF81CF21
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
     bdr:UT1KG4280_002_0008
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །དཔལ་ལྡན་འབྲུག་ཆེན་རྡོ་རྗེ་འཆང་མཆོག་གི་རྣམ་རོལ་སྐོར་གྱི་ཕྲིན་ཡིག་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP4C4ACAB05EA41EDB , bdr:EP6C257931A8329533 , bdr:EP8FE0DABEC0212EE5 , bdr:EP946F1F682EADDCED , bdr:EPC912B56CFE8349CF , bdr:EPD17341831EA70FB2 , bdr:EPD6FDD5CCCF81CF21 ;
         :eTextInInstance    bdr:IE1KG4280 ;
         :eTextInVolume      2 ;
         :eTextSourcePath    "DharmaDownload/Situpa-09-sung-bum/rtfs/HUNG/008_9th-Situ-Kabum_HUNG_phring-yig-skor.rtf" ;

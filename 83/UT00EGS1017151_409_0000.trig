@@ -16,14 +16,36 @@ bdg:UT00EGS1017151_409_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT00EGS1017151_409_0000 ;
+        adm:facetIndex      6 ;
         adm:gitPath         "83/UT00EGS1017151_409_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT00EGS1017151_409_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP2D4A195BA525BD4B
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP500174772C74B856
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP835C6D0784EE376A
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP86AF6F5FE7B59D73
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPDB4D806FF2D0E5CA
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
     bdr:UT00EGS1017151_409_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼པ༽༄༅། །སེང་གེ་མཐའི་ཞུས་ལན་བཞུགས། །༄༅། །ཨོཾ་སྭ་སྟི་སིདྡྷཾ།བླ་མ་དང་འཇམ་པའི་དབྱངས་ལ་ཕྱག་འཚལ་ལོ། །གང་གིས་ཀུན་མཁྱེན་ཡོན་ཏན་རྒྱ་མ"@bo ;
+        :eTextHasPage       bdr:EP2D4A195BA525BD4B , bdr:EP500174772C74B856 , bdr:EP835C6D0784EE376A , bdr:EP86AF6F5FE7B59D73 , bdr:EPDB4D806FF2D0E5CA ;
         :eTextInInstance    bdr:IE00EGS1017151 ;
         :eTextIsVolume      409 ;
         :eTextSourcePath    "GuruLamaWorks/For-Conversion-Disk-01-20130424/rtfs/SA-KABUM/SKYA403.rtf" ;

@@ -16,14 +16,40 @@ bdg:UT1KG4325_006_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1KG4325_006_0000 ;
+        adm:facetIndex      7 ;
         adm:gitPath         "63/UT1KG4325_006_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1KG4325_006_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP140EFD8C5A5640BF
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP2F76B0B3E1EED777
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP38B5A1FE3DB13516
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP6E93965A831A2978
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP8CF6BC71A7B82ACF
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPC6418C641D54D096
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT1KG4325_006_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །གསན་ཡིག་སྐབས་ལྔ་པ་བཞུགས་སོ། །སིདྡྷེ་ཤྭ་ར་བཛྲ་ཙཱརྻ་སྱ་བནྡ་ནམ་ཀཱ་རོ་མི་གྲུབ་པའི་དབང་ཕྱུག་རྡོ་རྗེ་སློབ་དཔོན་ལ་གུས་པས་ཕྱག་བགྱ"@bo ;
+        :eTextHasPage       bdr:EP140EFD8C5A5640BF , bdr:EP2F76B0B3E1EED777 , bdr:EP38B5A1FE3DB13516 , bdr:EP6E93965A831A2978 , bdr:EP8CF6BC71A7B82ACF , bdr:EPC6418C641D54D096 ;
         :eTextInInstance    bdr:IE1KG4325 ;
         :eTextIsVolume      6 ;
         :eTextSourcePath    "GuruLamaWorks/Precious-and-Rare-Disk-01-20130424/rtfs/2_SALO/SALO006_གསན་ཡིག་སྐབས་ལྔ་པ།.rtf" ;

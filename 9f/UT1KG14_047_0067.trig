@@ -16,14 +16,56 @@ bdg:UT1KG14_047_0067 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1KG14_047_0067 ;
+        adm:facetIndex      11 ;
         adm:gitPath         "9f/UT1KG14_047_0067.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1KG14_047_0067 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP06A8FF0C7353BCBC
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP5FB801B28F8FE01A
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP633D97197876FF50
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP6AA0D1046F95C1C4
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP756684DA79D4148D
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP8659C8A624311C66
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP8B817D4C3A5BB19A
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP9CDF0E09073EA082
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPA8FD26ED941E4899
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPFF467A0D3D13E237
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
     bdr:UT1KG14_047_0067
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅༔ལྷ་མོ་བུ་རྫི་མའི་རྟེན་མདོས་བཞུགས་སོ༔"@bo ;
+        :eTextHasPage       bdr:EP06A8FF0C7353BCBC , bdr:EP5FB801B28F8FE01A , bdr:EP633D97197876FF50 , bdr:EP6AA0D1046F95C1C4 , bdr:EP756684DA79D4148D , bdr:EP8659C8A624311C66 , bdr:EP8B817D4C3A5BB19A , bdr:EP9CDF0E09073EA082 , bdr:EPA8FD26ED941E4899 , bdr:EPFF467A0D3D13E237 ;
         :eTextInInstance    bdr:IE1KG14 ;
         :eTextInVolume      47 ;
         :eTextSourcePath    "Shechen/Rinchen-Terdzod-Shechen-vols-01-54/rtfs/51-ZHI/TERDZO-ZHI-P66.rtf" ;

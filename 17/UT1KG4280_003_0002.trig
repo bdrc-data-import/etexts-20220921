@@ -16,14 +16,48 @@ bdg:UT1KG4280_003_0002 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1KG4280_003_0002 ;
+        adm:facetIndex      9 ;
         adm:gitPath         "17/UT1KG4280_003_0002.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1KG4280_003_0002 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0FD8B1BF238AD348
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP2899B33C3922071C
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP4874F2B47C607F88
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP4CEE618DD79E5E73
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP77464C0E8925E0A2
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPC00352D476937CEA
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPC2FC1967AA7D6782
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPF1610C8976AFC9BE
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT1KG4280_003_0002
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །བདེ་ཆེན་ཞིང་གི་སྒྲུབ་པ་ལྷ་དང་བླ་མ་དབྱེར་མེད་ཀྱི་རྣལ་འབྱོར་རྟ་མཆོག་བཱ་ལ་ཧ་ཞེས་བྱ་བ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP0FD8B1BF238AD348 , bdr:EP2899B33C3922071C , bdr:EP4874F2B47C607F88 , bdr:EP4CEE618DD79E5E73 , bdr:EP77464C0E8925E0A2 , bdr:EPC00352D476937CEA , bdr:EPC2FC1967AA7D6782 , bdr:EPF1610C8976AFC9BE ;
         :eTextInInstance    bdr:IE1KG4280 ;
         :eTextInVolume      3 ;
         :eTextSourcePath    "DharmaDownload/Situpa-09-sung-bum/rtfs/OM/003_9th-Situ-Kabum_OM_zhing-sgrub-rta-mchog-baq-la-ha.rtf" ;

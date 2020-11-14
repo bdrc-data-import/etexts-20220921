@@ -16,14 +16,40 @@ bdg:UT22946_008_0014 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT22946_008_0014 ;
+        adm:facetIndex      7 ;
         adm:gitPath         "81/UT22946_008_0014.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT22946_008_0014 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0F8C021065480C4A
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP3C0EA199822267C2
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP54E7622847A6EB17
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPA45424C5811DB7E8
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPF98931137B72A769
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPF9D8FC5C1371CA64
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT22946_008_0014
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༣༣༧༽རྒྱན་སྟུག་པོ་བཀོད་པའི་མདོ་ལས།ཁྱད་པར་ཅན་གྱི་རྒྱུ་བརྗོད་པ།ཅི་ནས་འབྱུང་ན་འགྱུར་བ་སྟེ།རྒྱུ་མེད་པར་ཡང་མེད་པར་འགྱུར།བྱ་བ་མེད་པའང་"@bo ;
+        :eTextHasPage       bdr:EP0F8C021065480C4A , bdr:EP3C0EA199822267C2 , bdr:EP54E7622847A6EB17 , bdr:EPA45424C5811DB7E8 , bdr:EPF98931137B72A769 , bdr:EPF9D8FC5C1371CA64 ;
         :eTextInInstance    bdr:IE22946 ;
         :eTextInVolume      8 ;
         :eTextSourcePath    "PalriParkhang/W22946-mkhan-po-ngag-dbang-dpal-bzang-_ngaga/rtfs/NGAGA-vol-8-NYA/nya_0337-0348_pecha.rtf" ;

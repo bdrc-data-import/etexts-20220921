@@ -16,14 +16,40 @@ bdg:UT3JT13338_005_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13338_005_0000 ;
+        adm:facetIndex      7 ;
         adm:gitPath         "d4/UT3JT13338_005_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13338_005_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0913D6245933F415
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP77D32E469759CBDD
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP8E90418A0C62AFA6
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP9E07D0557A4CE7B3
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPD1AC4C281D110577
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPD1E53007E6AED984
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
     bdr:UT3JT13338_005_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "བྱང་སེམས་བཀྲ་ཤིས་འོད་ཟེར་གྱིས་རེ་ལྟོས་བླ་མ་ལས་མེད་པར་ཁོ་ཐག་ཆོད་པའི་རང་མཚངས་སུན་འབྱིན་གྱི་ཚུལ་དུ་གདུང་གླུ་བཞེངས་པ་ནི།བདག་བློའི་སྙ"@bo ;
+        :eTextHasPage       bdr:EP0913D6245933F415 , bdr:EP77D32E469759CBDD , bdr:EP8E90418A0C62AFA6 , bdr:EP9E07D0557A4CE7B3 , bdr:EPD1AC4C281D110577 , bdr:EPD1E53007E6AED984 ;
         :eTextInInstance    bdr:IE3JT13338 ;
         :eTextIsVolume      5 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/P0028_KagyuGurtso_tdoc/005_byang-sems-bkra-shis-od-zer.rtf" ;

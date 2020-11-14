@@ -16,14 +16,60 @@ bdg:UT21019_004_0006 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT21019_004_0006 ;
+        adm:facetIndex      12 ;
         adm:gitPath         "4f/UT21019_004_0006.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT21019_004_0006 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP07B1D1B06820EC04
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP0D4DF8F47678FDA1
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP12BBEC9536D3D633
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP2B42D91CADDBC761
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP644441473FA93EFD
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP704282424CBB3CAB
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP81403AD9F784E710
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EP8918DB8469F6F698
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPA690F398F95C8288
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPA8F85EB81E655E86
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPF42222AE78FEA5C8
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
     bdr:UT21019_004_0006
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༥༡༥༽༄།སྨན་སྒོམ་གྱི་དྲིས་ལན།གཉིས་ཆོས་ཟུང་འཇུག་གི་ངོ་སྤྲོད་ཞལ་གདམས་བཞུགས་སོ། །༥༡༦༽སྨན་སྒོམ་རིག་པ་འཛིན་པ་མཆོག་གིས་ད་ལམ་གྱི་ཕྱག་བྲི"@bo ;
+        :eTextHasPage       bdr:EP07B1D1B06820EC04 , bdr:EP0D4DF8F47678FDA1 , bdr:EP12BBEC9536D3D633 , bdr:EP2B42D91CADDBC761 , bdr:EP644441473FA93EFD , bdr:EP704282424CBB3CAB , bdr:EP81403AD9F784E710 , bdr:EP8918DB8469F6F698 , bdr:EPA690F398F95C8288 , bdr:EPA8F85EB81E655E86 , bdr:EPF42222AE78FEA5C8 ;
         :eTextInInstance    bdr:IE21019 ;
         :eTextInVolume      4 ;
         :eTextSourcePath    "PalriParkhang/W21019-rtse-le-sna-tshogs-rang-grol/rtfs/Tseley-Natsog-Rangdrol-Volume-4/volume-4-Tsele-515-536.rtf" ;

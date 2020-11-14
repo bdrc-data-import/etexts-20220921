@@ -16,14 +16,24 @@ bdg:UT1PD105896_015_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1PD105896_015_0000 ;
+        adm:facetIndex      3 ;
         adm:gitPath         "dc/UT1PD105896_015_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1PD105896_015_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP24B07D981CF9E68F
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP33679A0B01BABAF4
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT1PD105896_015_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "བྱང་ཆུབ་སེམས་དཔའི་སྤྱོད་པ་ལ་འཇུག་པ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP24B07D981CF9E68F , bdr:EP33679A0B01BABAF4 ;
         :eTextInInstance    bdr:IE1PD105896 ;
         :eTextIsVolume      15 ;
         :eTextSourcePath    "KarmaDelek/rgyal-sras-thogs-med-P1830-chos-skor/rtfs/volume_007/volume_007_057.rtf" ;

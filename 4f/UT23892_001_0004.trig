@@ -16,14 +16,52 @@ bdg:UT23892_001_0004 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23892_001_0004 ;
+        adm:facetIndex      10 ;
         adm:gitPath         "4f/UT23892_001_0004.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23892_001_0004 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP003AAD12D5E29434
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP2CCB1552449514AD
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP4446A51D6803C15C
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP5BD853BB70E768BB
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP64D7E2A2B4495894
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP885E02E65BAB4B13
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EPB0AD86FE24AD8BE4
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPB6A7938D566EF7E8
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPC1A3D40BBAC294B8
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
     bdr:UT23892_001_0004
         a                   :EtextNonPaginated ;
         skos:prefLabel      "།རྒྱལ་དབང་ཀུན་དགའ་རིན་ཆེན་གྱི་གསང་བའི་རྣམ་པར་ཐར་པ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP003AAD12D5E29434 , bdr:EP2CCB1552449514AD , bdr:EP4446A51D6803C15C , bdr:EP5BD853BB70E768BB , bdr:EP64D7E2A2B4495894 , bdr:EP885E02E65BAB4B13 , bdr:EPB0AD86FE24AD8BE4 , bdr:EPB6A7938D566EF7E8 , bdr:EPC1A3D40BBAC294B8 ;
         :eTextInInstance    bdr:IE23892 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "DrikungChetsang/6_KUNRIN/rtfs/volume-001/KA-GA1.003.rtf" ;

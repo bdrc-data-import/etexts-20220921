@@ -16,14 +16,36 @@ bdg:UT23605_019_0007 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_019_0007 ;
+        adm:facetIndex      6 ;
         adm:gitPath         "fa/UT23605_019_0007.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_019_0007 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP38ABD1091C7B5034
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP47D96F620D514B8D
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP562F739FC07504B2
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP7E1FAE72DAAEC4DB
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPF52D2C64B7912E5F
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
     bdr:UT23605_019_0007
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །བརྒྱད་པ་རྡོ་རྗེའི་བསྙེན་སྒྲུབ་ཀྱི་ལམ་སྲོལ་བཤད་པ་ལ་གཉིས།རིང་ལུགས་ངོས་བཟུང༌།བརྒྱུད་སྲོལ་བཤད་པའོ། །དང་པོ་ནི།"@bo ;
+        :eTextHasPage       bdr:EP38ABD1091C7B5034 , bdr:EP47D96F620D514B8D , bdr:EP562F739FC07504B2 , bdr:EP7E1FAE72DAAEC4DB , bdr:EPF52D2C64B7912E5F ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      19 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/History/08_Ogyenpa.rtf" ;

@@ -16,14 +16,40 @@ bdg:UT10736_019_0014 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT10736_019_0014 ;
+        adm:facetIndex      7 ;
         adm:gitPath         "18/UT10736_019_0014.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT10736_019_0014 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP459E94F4513AC0F0
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPA15B4457123DB77C
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPA39851ABAF5E3860
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPA4D57606980D1E41
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPA5F28A6F0BA7E86C
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPCE9D61CC57390716
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
     bdr:UT10736_019_0014
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༡ན༡༽༄༅། །ཡེ་ཤེས་ཀྱི་མགོན་པོ་ཕྱག་བཞི་པའི་གཏོར་བསྔོ་བསྡུས་པ་པདྨ་དཀར་པོས་མཛད་པའོ། །"@bo ;
+        :eTextHasPage       bdr:EP459E94F4513AC0F0 , bdr:EPA15B4457123DB77C , bdr:EPA39851ABAF5E3860 , bdr:EPA4D57606980D1E41 , bdr:EPA5F28A6F0BA7E86C , bdr:EPCE9D61CC57390716 ;
         :eTextInInstance    bdr:IE10736 ;
         :eTextInVolume      19 ;
         :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/19_dza/19_16_dza_ye-shes-kyi-mgon-po-phyag-bzhi-paqi-gtor-bsngo-bsdus-pa-padma-dkar-pos-mdzad-pa.rtf" ;

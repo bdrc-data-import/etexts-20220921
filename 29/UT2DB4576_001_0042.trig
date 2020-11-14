@@ -16,14 +16,32 @@ bdg:UT2DB4576_001_0042 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT2DB4576_001_0042 ;
+        adm:facetIndex      5 ;
         adm:gitPath         "29/UT2DB4576_001_0042.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT2DB4576_001_0042 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP3C87F85D86ACA598
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP3E743E227027DF8B
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPAEA0FFA23D46B29C
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPD9469497790D021E
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT2DB4576_001_0042
         a                   :EtextNonPaginated ;
         skos:prefLabel      "ཕག་མོ་གྲུ་པའི་ཆོས་རྒྱུད་དང༌།བླ་རབས་བྱོན་ཚུལ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP3C87F85D86ACA598 , bdr:EP3E743E227027DF8B , bdr:EPAEA0FFA23D46B29C , bdr:EPD9469497790D021E ;
         :eTextInInstance    bdr:IE2DB4576 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "KarmaDelek/rgyal-rabs-mang-poqi-legs-bshad-rnam-grangs-yid-qdzin-nor-buqi-phreng-ba/rtfs/volume_001/volume_001_042.rtf" ;

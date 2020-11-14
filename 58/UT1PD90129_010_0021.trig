@@ -16,14 +16,64 @@ bdg:UT1PD90129_010_0021 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1PD90129_010_0021 ;
+        adm:facetIndex      13 ;
         adm:gitPath         "58/UT1PD90129_010_0021.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1PD90129_010_0021 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP055D3DBEEE5F5049
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP47A75FBE0531D48C
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP47D742B55EC59BCD
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP6C14A135E46C15C7
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP7F91E6D85164D311
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EP948A33373BC6426D
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPAB1EB1330D7D5EE0
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EPB300784DFD1718D8
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPB9ADFA20771E66FB
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPDB95D3EEBCB73535
+        a                   :EtextPage ;
+        :seqNum             12 .
+    
+    bdr:EPE47878E35637D4D3
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPFB02A6A9F4491648
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
     bdr:UT1PD90129_010_0021
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །དམིགས་བརྩེ་མའི་རིལ་སྒྲུབ་དང་འབྲེལ་བའི་ཆར་འབེབས་ཀྱི་ལས་ཚོགས་ཕན་བདེའི་འབྱུང་གནས་ཞེས་བྱ་བ་བཞུགས།"@bo ;
+        :eTextHasPage       bdr:EP055D3DBEEE5F5049 , bdr:EP47A75FBE0531D48C , bdr:EP47D742B55EC59BCD , bdr:EP6C14A135E46C15C7 , bdr:EP7F91E6D85164D311 , bdr:EP948A33373BC6426D , bdr:EPAB1EB1330D7D5EE0 , bdr:EPB300784DFD1718D8 , bdr:EPB9ADFA20771E66FB , bdr:EPDB95D3EEBCB73535 , bdr:EPE47878E35637D4D3 , bdr:EPFB02A6A9F4491648 ;
         :eTextInInstance    bdr:IE1PD90129 ;
         :eTextInVolume      10 ;
         :eTextSourcePath    "KarmaDelek/co-ne-grags-pa-bshad-sgrub-gsung-qbum/rtfs/volume_010/volume_010_227.rtf" ;

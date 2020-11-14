@@ -16,14 +16,56 @@ bdg:UT22082_006_0025 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT22082_006_0025 ;
+        adm:facetIndex      11 ;
         adm:gitPath         "76/UT22082_006_0025.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT22082_006_0025 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0900B8998336518A
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP41052A867C7F954D
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP9252536F73D004B2
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP947520C375B4D655
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP9A8A719FDC37C62E
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPB7617F5D2366C484
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPBBBB9776A88E2BC5
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPD576D68C15074666
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPE44B275A02EFE018
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EPFC0E97EA83AA45A8
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
     bdr:UT22082_006_0025
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །དཔལ་ཡེ་ཤེས་ཀྱི་མགོན་པོ་ཕྱག་བཞི་པའི་རྗེས་གནང་ཕྲིན་ལས་ལྷུན་གྲུབ་ཅེས་བྱ་བ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP0900B8998336518A , bdr:EP41052A867C7F954D , bdr:EP9252536F73D004B2 , bdr:EP947520C375B4D655 , bdr:EP9A8A719FDC37C62E , bdr:EPB7617F5D2366C484 , bdr:EPBBBB9776A88E2BC5 , bdr:EPD576D68C15074666 , bdr:EPE44B275A02EFE018 , bdr:EPFC0E97EA83AA45A8 ;
         :eTextInInstance    bdr:IE22082 ;
         :eTextInVolume      6 ;
         :eTextSourcePath    "DrikungChetsang/7__KUNKHYEN/rtfs/volume-006/6CHA.CHA.rtf" ;

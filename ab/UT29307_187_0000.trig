@@ -16,14 +16,52 @@ bdg:UT29307_187_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT29307_187_0000 ;
+        adm:facetIndex      10 ;
         adm:gitPath         "ab/UT29307_187_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT29307_187_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP144E224D1765530F
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP2B940626725A87FD
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP3507C5D8C9023958
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP36F64D61E11CD9D3
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP5332315CE49BCF3C
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP815BE0871F855547
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPC0F156DAF608FDB8
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EPC46C4F1903352087
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPE5371C1FE04FF305
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT29307_187_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །གུར་གྱི་མགོན་པོ་ཁྲོ་བོ་བཅུ་གཅིག་གི་རྗེས་གནང་བྱ་ཚུལ་བདུད་ཀྱི་དཔུང་ཚོགས་ཟིལ་གྱིས་གནོན་པར་བྱེད་པའི་མེ་འོད་ཅེས་བྱ་བ་བཞུགས། །ར"@bo ;
+        :eTextHasPage       bdr:EP144E224D1765530F , bdr:EP2B940626725A87FD , bdr:EP3507C5D8C9023958 , bdr:EP36F64D61E11CD9D3 , bdr:EP5332315CE49BCF3C , bdr:EP815BE0871F855547 , bdr:EPC0F156DAF608FDB8 , bdr:EPC46C4F1903352087 , bdr:EPE5371C1FE04FF305 ;
         :eTextInInstance    bdr:IE29307 ;
         :eTextIsVolume      187 ;
         :eTextSourcePath    "GuruLamaWorks/Precious-and-Rare-Disk-01-20130424/rtfs/4_AMAI/AMAI187_གུར་གྱི་མགོན་པོ་ཁྲོ་བོ་བཅུ་གཅིག་གི་རྗེས་གནང་བྱ་ཚུལ།.rtf" ;

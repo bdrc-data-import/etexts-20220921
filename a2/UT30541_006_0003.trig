@@ -16,14 +16,60 @@ bdg:UT30541_006_0003 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT30541_006_0003 ;
+        adm:facetIndex      12 ;
         adm:gitPath         "a2/UT30541_006_0003.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT30541_006_0003 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0B2FDFC0B4A02EB6
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP11A59EDE1B1DBFB1
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP25756EBE279C497A
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP38EDF4E255243DEA
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP3F70B60FB1DEDE5A
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP756DE9A622E01CA2
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EP8113A18CCFC7C7D6
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP825BE971EA5B7C17
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP9766B139A731FB8C
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EPA2D9C0EC63E85C16
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPC3E960750ED0670C
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT30541_006_0003
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །སྡུད་པ་ཚིགས་སུ་བཅད་པའི་ས་བཅད་བཞུགས་པ་ལགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP0B2FDFC0B4A02EB6 , bdr:EP11A59EDE1B1DBFB1 , bdr:EP25756EBE279C497A , bdr:EP38EDF4E255243DEA , bdr:EP3F70B60FB1DEDE5A , bdr:EP756DE9A622E01CA2 , bdr:EP8113A18CCFC7C7D6 , bdr:EP825BE971EA5B7C17 , bdr:EP9766B139A731FB8C , bdr:EPA2D9C0EC63E85C16 , bdr:EPC3E960750ED0670C ;
         :eTextInInstance    bdr:IE30541 ;
         :eTextInVolume      6 ;
         :eTextSourcePath    "DharmaDownload/Karmapa-03/rtfs/06_3rd-karmapa-text_tdoc_cha/06_02_cha_sdud-pa-tshigs-su-bcad-paqi-sa-bcad.rtf" ;

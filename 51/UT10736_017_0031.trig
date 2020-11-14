@@ -16,14 +16,40 @@ bdg:UT10736_017_0031 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT10736_017_0031 ;
+        adm:facetIndex      7 ;
         adm:gitPath         "51/UT10736_017_0031.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT10736_017_0031 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP1DE332B5EB51EC25
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP1F73B0FD8567F5A5
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP27818D45AFEA65AF
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP2A9B64EDF89A6248
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP81E03308C764E767
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP8EB6685D56461D7C
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT10736_017_0031
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །ཡུམ་བཀའ་འབྲིང་པོ་ལྷ་བདུན་མའི་ཆོ་གའོ། །"@bo ;
+        :eTextHasPage       bdr:EP1DE332B5EB51EC25 , bdr:EP1F73B0FD8567F5A5 , bdr:EP27818D45AFEA65AF , bdr:EP2A9B64EDF89A6248 , bdr:EP81E03308C764E767 , bdr:EP8EB6685D56461D7C ;
         :eTextInInstance    bdr:IE10736 ;
         :eTextInVolume      17 ;
         :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/17_tsa/17_27_tsa_yum-bkaq-qbring-po-lha-bdun-maqi-cho-ga.rtf" ;

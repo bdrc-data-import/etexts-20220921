@@ -16,14 +16,44 @@ bdg:UT1KG11942_016_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1KG11942_016_0000 ;
+        adm:facetIndex      8 ;
         adm:gitPath         "e2/UT1KG11942_016_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1KG11942_016_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP021D8441FD14FEF4
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP2332271FA817941C
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP81EDAA490F107A13
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPC46E615897B203C6
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPC4A9C31CF91AF1CB
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPF544F31780BA548C
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPF8D18325E5111939
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
     bdr:UT1KG11942_016_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །རབ་འབྱམས་གཞུང་ལུགས་རྒྱ་མཚོའི་ཕ་རོལ་ཏུ་སོན་པ་མཆོག་སྤྲུལ་ཐམས་ཅད་མཁྱེན་པ་སྙན་གྲགས་ལུང་རིགས་ཉི་མ་འཇིགས་བྲལ་སྨྲ་བའི་སེངྒེ་དཔལ་བ"@bo ;
+        :eTextHasPage       bdr:EP021D8441FD14FEF4 , bdr:EP2332271FA817941C , bdr:EP81EDAA490F107A13 , bdr:EPC46E615897B203C6 , bdr:EPC4A9C31CF91AF1CB , bdr:EPF544F31780BA548C , bdr:EPF8D18325E5111939 ;
         :eTextInInstance    bdr:IE1KG11942 ;
         :eTextIsVolume      16 ;
         :eTextSourcePath    "GuruLamaWorks/Precious-and-Rare-Disk-01-20130424/rtfs/16_NGAL/NGAL016_དཔལ་ཀུན་རིག་གི་ཆོ་ག་གཞན་ཕན་མཐའ་ཡས་ཡན་ལག་དང་བཅས་པ་ལ་གསུང་བཤད་ཟབ་རྒྱས.rtf" ;

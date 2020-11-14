@@ -16,14 +16,24 @@ bdg:UT3JT13341_008_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13341_008_0000 ;
+        adm:facetIndex      3 ;
         adm:gitPath         "83/UT3JT13341_008_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13341_008_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EPA014DD2E5948E441
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPDC48605A04DD63F4
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT3JT13341_008_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "འཕགས་པ་དཀོན་མཆོག་གསུམ་རྗེས་སུ་དྲན་པའི་མདོ་ནི།ཐམས་ཅད་མཁྱེན་པ་ལ་ཕྱག་འཚལ་ལོ། །འདི་ལྟར་སངས་རྒྱས་བཅོམ་ལྡན་འདས་དེ་བཞིན་གཤེགས་པ་དགྲ་བཅ"@bo ;
+        :eTextHasPage       bdr:EPA014DD2E5948E441 , bdr:EPDC48605A04DD63F4 ;
         :eTextInInstance    bdr:IE3JT13341 ;
         :eTextIsVolume      8 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/Taksham-Chochod_tdoc/007_dkon-mchog-rjes-dran.rtf" ;

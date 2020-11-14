@@ -16,14 +16,40 @@ bdg:UT3JT13384_016_0015 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13384_016_0015 ;
+        adm:facetIndex      7 ;
         adm:gitPath         "07/UT3JT13384_016_0015.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13384_016_0015 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP2EB83E94376A384F
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP4A146F296702F1B7
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP5FE2931A7444691E
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP6496B12A15390C95
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP7207FF0003CA1C7D
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPF90CE689E232AC82
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT3JT13384_016_0015
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །སྙན་བརྒྱུད་རྟ་མཆོག་རོལ་པའི་ཕྲིན་ལས་སྙིང་པོར་དྲིལ་བ་བཞུགས་སོ། །ཨོཾ་སྭ་སྟི།སྙན་བརྒྱུད་རྟ་མཆོག་རོལ་པའི་ཕྲིན་ལས་ལ་འཇུག་པ་ན།སྤ"@bo ;
+        :eTextHasPage       bdr:EP2EB83E94376A384F , bdr:EP4A146F296702F1B7 , bdr:EP5FE2931A7444691E , bdr:EP6496B12A15390C95 , bdr:EP7207FF0003CA1C7D , bdr:EPF90CE689E232AC82 ;
         :eTextInInstance    bdr:IE3JT13384 ;
         :eTextInVolume      16 ;
         :eTextSourcePath    "Various/gsung_qbum_mkhyen_brtseqi_dbang_po_UT2MS24768/rtfs/volume-016/16-22.rtf" ;

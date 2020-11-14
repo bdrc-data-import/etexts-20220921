@@ -16,14 +16,60 @@ bdg:UT30541_010_0012 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT30541_010_0012 ;
+        adm:facetIndex      12 ;
         adm:gitPath         "68/UT30541_010_0012.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT30541_010_0012 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP015A7BAE8541E2F7
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP057D07E7F5C1ED66
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP110A9C16EAE48B6D
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP16E8DFAE1E76296F
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP2A5AAC95B6483429
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP8BF78205A5CD3877
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP9520512DC6FE195E
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EP9AA34667EEABB94C
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPDE81848985D18290
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPE958F3DBB335829D
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPEACD66389311D938
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
     bdr:UT30541_010_0012
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །དཔལ་དུས་ཀྱི་འཁོར་ལོའི་མངོན་རྟོགས་ཀྱི་ཡན་ལག་ཏུ་སྦྱིན་བསྲེག་གི་ལག་ལེན་ཡེ་ཤེས་འོད་ཀྱི་དྲ་བ་ཞེས་བྱ་བ་བཞུགས། །"@bo ;
+        :eTextHasPage       bdr:EP015A7BAE8541E2F7 , bdr:EP057D07E7F5C1ED66 , bdr:EP110A9C16EAE48B6D , bdr:EP16E8DFAE1E76296F , bdr:EP2A5AAC95B6483429 , bdr:EP8BF78205A5CD3877 , bdr:EP9520512DC6FE195E , bdr:EP9AA34667EEABB94C , bdr:EPDE81848985D18290 , bdr:EPE958F3DBB335829D , bdr:EPEACD66389311D938 ;
         :eTextInInstance    bdr:IE30541 ;
         :eTextInVolume      10 ;
         :eTextSourcePath    "DharmaDownload/Karmapa-03/rtfs/10_3rd-karmapa-text_tdoc_tha/10_11_tha_dpal-dus-kyi-qkhor-loqi-mngon-rtogs-kyi-yan-lag-tu-sbyin-sreg-gi-lag-len-yes-shes-qod-kyi-dra-ba.rtf" ;

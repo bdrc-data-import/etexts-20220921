@@ -16,14 +16,36 @@ bdg:UT1PD104832_001_0003 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1PD104832_001_0003 ;
+        adm:facetIndex      6 ;
         adm:gitPath         "1a/UT1PD104832_001_0003.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1PD104832_001_0003 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP2A271466BC5043B2
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPC27D0EDB6288009E
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPC3751498E098339C
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPCD36CC7BBADF9830
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPDF26D3D2F95B65ED
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT1PD104832_001_0003
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །རྔོག་ལོ་ཆེན་པོ་བློ་ལྡན་ཤེས་རབ་ཀྱི་སྤྲིང་ཡིག་བདུད་རྩིའི་ཐེག་ལེ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP2A271466BC5043B2 , bdr:EPC27D0EDB6288009E , bdr:EPC3751498E098339C , bdr:EPCD36CC7BBADF9830 , bdr:EPDF26D3D2F95B65ED ;
         :eTextInInstance    bdr:IE1PD104832 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "KarmaDelek/rngog-blo-dan-sheqs-rab/rtfs/volume_001/volume_001_003.rtf" ;

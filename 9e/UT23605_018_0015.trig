@@ -16,14 +16,40 @@ bdg:UT23605_018_0015 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_018_0015 ;
+        adm:facetIndex      7 ;
         adm:gitPath         "9e/UT23605_018_0015.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_018_0015 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP3C12FE495766EFBD
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP41FDC6D81FC64138
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP550251A9B982DC64
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP763B777FC55A6189
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPBBA44C373A53CB68
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPC3111A76D9820321
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT23605_018_0015
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༥༤༩༽༄༅། །ཨོཾ་སྭ་སྟི་སརྦ་སིདྡྷི་རྦྷ་བ་ཏུ།སྲིད་དང་ཞི་བའི་དགོས་འདོད་ཀུན་འབྱུང་ནོར་བུ་དཔག་བསམ་ལྗོན་པས་ཀྱང༌། །ཆ་ཙམ་མི་བསྒྲུན་བསྟན་"@bo ;
+        :eTextHasPage       bdr:EP3C12FE495766EFBD , bdr:EP41FDC6D81FC64138 , bdr:EP550251A9B982DC64 , bdr:EP763B777FC55A6189 , bdr:EPBBA44C373A53CB68 , bdr:EPC3111A76D9820321 ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      18 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/18_gdams-ngag-mdzod_tsha/18_14_par-byang-smon-tshig.rtf" ;

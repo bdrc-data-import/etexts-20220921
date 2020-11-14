@@ -16,14 +16,64 @@ bdg:UT1KG4884_011_0003 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1KG4884_011_0003 ;
+        adm:facetIndex      13 ;
         adm:gitPath         "17/UT1KG4884_011_0003.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1KG4884_011_0003 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP02E103C0D75196CF
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EP0DBCC4BB41E88C9E
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP141C34B2F9FEECC4
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP1738910AFD41F201
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP38BA80FC5021CC87
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP4B8C5194B766386A
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP4CA52F89A9D1B520
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP723C638FCA7CE3C4
+        a                   :EtextPage ;
+        :seqNum             12 .
+    
+    bdr:EP9CA0A1332D891CA5
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPA41588AC3E2B1E79
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPCF0FFED542A2AF41
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPF8DD6D8AA15E0A53
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT1KG4884_011_0003
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །ཤིན་ཏུ་སྤྲོས་པ་མེད་པའི་དབང་ཆོག་ཡེ་ཤེས་ཆུ་བོ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP02E103C0D75196CF , bdr:EP0DBCC4BB41E88C9E , bdr:EP141C34B2F9FEECC4 , bdr:EP1738910AFD41F201 , bdr:EP38BA80FC5021CC87 , bdr:EP4B8C5194B766386A , bdr:EP4CA52F89A9D1B520 , bdr:EP723C638FCA7CE3C4 , bdr:EP9CA0A1332D891CA5 , bdr:EPA41588AC3E2B1E79 , bdr:EPCF0FFED542A2AF41 , bdr:EPF8DD6D8AA15E0A53 ;
         :eTextInInstance    bdr:IE1KG4884 ;
         :eTextInVolume      11 ;
         :eTextSourcePath    "KarmaDelek/klong-chen-rab-byams-gung-qbum/rtfs/volume_011/volume_011_339.rtf" ;

@@ -16,14 +16,64 @@ bdg:UT3JT13366_003_0001 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13366_003_0001 ;
+        adm:facetIndex      13 ;
         adm:gitPath         "61/UT3JT13366_003_0001.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13366_003_0001 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP104A62167FDC4A89
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP220A45685136DBDE
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP46414214574C5EFC
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP958D5FC11F003408
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EPA0C76F21511B20D4
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPA1E32B68D1305560
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EPAAFEF72F9969EADB
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPAF7D308F561FF628
+        a                   :EtextPage ;
+        :seqNum             12 .
+    
+    bdr:EPC44DDD6B9C9FDACF
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPC4A1C3BE42A25DD8
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EPEE3E342C56147276
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPF2850FA01A2A1944
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
     bdr:UT3JT13366_003_0001
         a                   :EtextNonPaginated ;
         skos:prefLabel      "བསམ་མོ། །དེའི་ནང་དུ་འབྱུང་བ་རིམ་བརྩེགས་རི་རབ་དང་བཅས་པ་ཐིག་ལེར་གྱུར་པ་ལས།གཞལ་ཡས་ཁང་དང་སྣ་ཚོགས་རྡོ་རྗེ་པདྨ་དང་བཅས་པའམ།དེའི་སྟེང་ད"@bo ;
+        :eTextHasPage       bdr:EP104A62167FDC4A89 , bdr:EP220A45685136DBDE , bdr:EP46414214574C5EFC , bdr:EP958D5FC11F003408 , bdr:EPA0C76F21511B20D4 , bdr:EPA1E32B68D1305560 , bdr:EPAAFEF72F9969EADB , bdr:EPAF7D308F561FF628 , bdr:EPC44DDD6B9C9FDACF , bdr:EPC4A1C3BE42A25DD8 , bdr:EPEE3E342C56147276 , bdr:EPF2850FA01A2A1944 ;
         :eTextInInstance    bdr:IE3JT13366 ;
         :eTextInVolume      3 ;
         :eTextSourcePath    "KarmaDelek/sa-skya-bkaq-qbum/rtfs/volume_003/volume_003_022.rtf" ;

@@ -16,14 +16,32 @@ bdg:UT1KG5988_001_0025 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1KG5988_001_0025 ;
+        adm:facetIndex      5 ;
         adm:gitPath         "e5/UT1KG5988_001_0025.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1KG5988_001_0025 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP131DD82FBDAE85A0
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP1A5E277CE930B6B6
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP400C2A1DF0880539
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP8BF9040187B7C815
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT1KG5988_001_0025
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །འཕགས་པ་གཞན་གྱིས་མི་ཐུབ་པ་བཞུགས།"@bo ;
+        :eTextHasPage       bdr:EP131DD82FBDAE85A0 , bdr:EP1A5E277CE930B6B6 , bdr:EP400C2A1DF0880539 , bdr:EP8BF9040187B7C815 ;
         :eTextInInstance    bdr:IE1KG5988 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "DharmaDownload/Kagyur-Zungdue/rtfs/volume-001/026_gzhan-gyis-mi-thub-pa.rtf" ;

@@ -16,14 +16,40 @@ bdg:UT23605_005_0010 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_005_0010 ;
+        adm:facetIndex      7 ;
         adm:gitPath         "c1/UT23605_005_0010.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_005_0010 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP15C68E9B875CB656
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP5665811D8C9280E7
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP5CD6BC5E9590E7A7
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP93C7C4D93C52AD24
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP940B7D8910F5A2A5
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPB5901DCEB8653667
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
     bdr:UT23605_005_0010
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༤༢༥༽༄༅། །ལམ་སྦས་ཏེ་བཤད་པ་མན་ངག་གི་ཟིན་བྲིས་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP15C68E9B875CB656 , bdr:EP5665811D8C9280E7 , bdr:EP5CD6BC5E9590E7A7 , bdr:EP93C7C4D93C52AD24 , bdr:EP940B7D8910F5A2A5 , bdr:EPB5901DCEB8653667 ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      5 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/05_gdams-ngag-mdzod_ca/05_09_lam-sbas-te-bshad-pa-man-ngag-gi-zin-bris.rtf" ;

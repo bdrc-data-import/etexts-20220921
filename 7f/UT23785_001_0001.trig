@@ -16,14 +16,44 @@ bdg:UT23785_001_0001 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23785_001_0001 ;
+        adm:facetIndex      8 ;
         adm:gitPath         "7f/UT23785_001_0001.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23785_001_0001 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0830E05EE2663B39
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP2C3D22629A7067EB
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP32443EA9E42764ED
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP39E029F79367532D
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP592ED360B19111EA
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP8D05A62E92DC6586
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPAE2C78B28F673A10
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
     bdr:UT23785_001_0001
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །ཁམས་གསུམ་ཆོས་ཀྱི་རྒྱལ་པོ་ཐུབ་དབང་རཏྣ་ཤྲཱིའི་ཐུགས་སྲས་ཐམས་ཅད་མཁྱེན་པ་སྤྱན་སྔ་གྲགས་པ་འབྱུང་གནས་ཀྱི་གསུང་འབུམ་དཀར་ཆག་བཞུགས་སོ"@bo ;
+        :eTextHasPage       bdr:EP0830E05EE2663B39 , bdr:EP2C3D22629A7067EB , bdr:EP32443EA9E42764ED , bdr:EP39E029F79367532D , bdr:EP592ED360B19111EA , bdr:EP8D05A62E92DC6586 , bdr:EPAE2C78B28F673A10 ;
         :eTextInInstance    bdr:IE23785 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "DrikungChetsang/5_DRAGJUNG/rtfs/volume-001/CHAN.rtf" ;

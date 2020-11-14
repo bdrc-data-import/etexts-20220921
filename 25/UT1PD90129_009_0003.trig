@@ -16,14 +16,56 @@ bdg:UT1PD90129_009_0003 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1PD90129_009_0003 ;
+        adm:facetIndex      11 ;
         adm:gitPath         "25/UT1PD90129_009_0003.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1PD90129_009_0003 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP1DEE23AA8F543206
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP374E720E45AFD57F
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP37C934C413FE3B9B
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP4906F32370F3766E
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP73F469984F361A32
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP7C983887BD8DD8F0
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP887C7CB27931CF17
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPA71E7A57FF8B37BF
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPD669FF9403987FCF
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPDBB1161E20ADB27A
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
     bdr:UT1PD90129_009_0003
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །འཁོར་ལོ་སྡོམ་པའི་རྫོགས་རིམ་གྱི་རྣམ་བཞག་མདོར་བསྡུས་བཞུགས།"@bo ;
+        :eTextHasPage       bdr:EP1DEE23AA8F543206 , bdr:EP374E720E45AFD57F , bdr:EP37C934C413FE3B9B , bdr:EP4906F32370F3766E , bdr:EP73F469984F361A32 , bdr:EP7C983887BD8DD8F0 , bdr:EP887C7CB27931CF17 , bdr:EPA71E7A57FF8B37BF , bdr:EPD669FF9403987FCF , bdr:EPDBB1161E20ADB27A ;
         :eTextInInstance    bdr:IE1PD90129 ;
         :eTextInVolume      9 ;
         :eTextSourcePath    "KarmaDelek/co-ne-grags-pa-bshad-sgrub-gsung-qbum/rtfs/volume_009/volume_009_188.rtf" ;

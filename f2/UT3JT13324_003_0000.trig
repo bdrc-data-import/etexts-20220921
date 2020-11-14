@@ -16,14 +16,48 @@ bdg:UT3JT13324_003_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13324_003_0000 ;
+        adm:facetIndex      9 ;
         adm:gitPath         "f2/UT3JT13324_003_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13324_003_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP021DA4836D610433
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP057870980160BFF9
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP07EF2615C4BEA3F0
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP0FE63055E8FF4A35
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP362AEFFF44C4213B
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP9D822FEEDCE85B31
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPD8838CE241EAFB12
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPFC123B141304EB13
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
     bdr:UT3JT13324_003_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༁ྃ༔༔གནམ་ཆོས་ཐུགས་ཀྱི་གཏེར་ཁ་སྙན་བརྒྱུད་ཟབ་མོའི་སྐོར་ལས་བདེ་ཆེན་ཞིང་གི་སྒྲུབ་ཐབས་འདོན་ཆ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP021DA4836D610433 , bdr:EP057870980160BFF9 , bdr:EP07EF2615C4BEA3F0 , bdr:EP0FE63055E8FF4A35 , bdr:EP362AEFFF44C4213B , bdr:EP9D822FEEDCE85B31 , bdr:EPD8838CE241EAFB12 , bdr:EPFC123B141304EB13 ;
         :eTextInInstance    bdr:IE3JT13324 ;
         :eTextIsVolume      3 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/Amitabha-tdoc/003_Amitabha_main.rtf" ;

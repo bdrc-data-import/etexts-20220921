@@ -16,14 +16,32 @@ bdg:UT23605_016_0024 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_016_0024 ;
+        adm:facetIndex      5 ;
         adm:gitPath         "52/UT23605_016_0024.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_016_0024 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP45C785E49D246111
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP6482765782C18602
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP72CF3B54C06EAAC3
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPFEFE87CDCD19B4A4
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT23605_016_0024
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༤༨༥༽༄༅། །སྤྱན་རས་གཟིགས་ལམ་རིམ་བླ་མ་བརྒྱུད་པ་ལ་གསོལ་འདེབས་བྱིན་རླབས་ཀྱི་ཆུ་གཏེར་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP45C785E49D246111 , bdr:EP6482765782C18602 , bdr:EP72CF3B54C06EAAC3 , bdr:EPFEFE87CDCD19B4A4 ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      16 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/16_gdams-ngag-mdzod_ma/16_23_spyan-ras-gzigs-lam-rim-bla-ma-brgyud-pa-la-gsol-qdebs.rtf" ;

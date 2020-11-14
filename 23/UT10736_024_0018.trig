@@ -16,14 +16,52 @@ bdg:UT10736_024_0018 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT10736_024_0018 ;
+        adm:facetIndex      10 ;
         adm:gitPath         "23/UT10736_024_0018.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT10736_024_0018 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP287A5412111599C3
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP460E98F54DDF2CDA
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP6B5B127DD977EEBF
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP7EB9D3EF10530822
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP8A689DA91F06CAA9
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPA107CCA2E9C3C109
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPB0E34D87FAD4E916
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPC40E6DE98169EAF2
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPF046FC72058F1D1B
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
     bdr:UT10736_024_0018
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༡ན༡༽༄༅། །བསྔོ་བའི་ཡོན་བཤད་ལོངས་སྤྱོད་འདུ་བའི་འཁོར་ལོ་དང༌། །བསྔོ་བའི་རིམ་པ་ལེགས་བཤད་དགའ་སྟོན་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP287A5412111599C3 , bdr:EP460E98F54DDF2CDA , bdr:EP6B5B127DD977EEBF , bdr:EP7EB9D3EF10530822 , bdr:EP8A689DA91F06CAA9 , bdr:EPA107CCA2E9C3C109 , bdr:EPB0E34D87FAD4E916 , bdr:EPC40E6DE98169EAF2 , bdr:EPF046FC72058F1D1B ;
         :eTextInInstance    bdr:IE10736 ;
         :eTextInVolume      24 ;
         :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/24_ya/24_16_ya_2_bsngo-baqi-yon-bshad-longs-spyod-qdu-baqi-qkhor-lo-dang-sngo-baqi-rim-pa-legs-bshad-dgaq-ston.rtf" ;

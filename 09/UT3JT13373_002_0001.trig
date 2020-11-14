@@ -16,14 +16,32 @@ bdg:UT3JT13373_002_0001 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13373_002_0001 ;
+        adm:facetIndex      5 ;
         adm:gitPath         "09/UT3JT13373_002_0001.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13373_002_0001 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP134059149F4BB9C4
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP36798E4C68036F22
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP3C2AD4D41CD15879
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPF988B790345A3AE3
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT3JT13373_002_0001
         a                   :EtextNonPaginated ;
         skos:prefLabel      "ཀརྨ་པ་སྐུ་ཕྲེང་ལྔ་པ་དེ་བཞིན་གཤེགས་པའི་ལོ་རྒྱུས།"@bo ;
+        :eTextHasPage       bdr:EP134059149F4BB9C4 , bdr:EP36798E4C68036F22 , bdr:EP3C2AD4D41CD15879 , bdr:EPF988B790345A3AE3 ;
         :eTextInInstance    bdr:IE3JT13373 ;
         :eTextInVolume      2 ;
         :eTextSourcePath    "VajraVidya/Kagyu_Sertreng/rtfs/volume-002/00_bar_cha_kar_chag.rtf" ;

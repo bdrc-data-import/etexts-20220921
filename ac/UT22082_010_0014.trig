@@ -16,14 +16,56 @@ bdg:UT22082_010_0014 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT22082_010_0014 ;
+        adm:facetIndex      11 ;
         adm:gitPath         "ac/UT22082_010_0014.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT22082_010_0014 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP1A61A64B72DFE19B
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP1F27D0A2729B7FCA
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP39E10EF44C9F5F9D
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP5BF48C7328AD7A9D
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP61AB844E00780005
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP8EA63F12FB38C34F
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPB880EC5A4F2A646D
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPBD602A9449EE2969
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EPE0F93AD0D193546C
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPF6B790D1D2BB9C06
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
     bdr:UT22082_010_0014
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །ཆོས་སྨན་གྱི་དཀར་ཆག་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP1A61A64B72DFE19B , bdr:EP1F27D0A2729B7FCA , bdr:EP39E10EF44C9F5F9D , bdr:EP5BF48C7328AD7A9D , bdr:EP61AB844E00780005 , bdr:EP8EA63F12FB38C34F , bdr:EPB880EC5A4F2A646D , bdr:EPBD602A9449EE2969 , bdr:EPE0F93AD0D193546C , bdr:EPF6B790D1D2BB9C06 ;
         :eTextInInstance    bdr:IE22082 ;
         :eTextInVolume      10 ;
         :eTextSourcePath    "DrikungChetsang/7__KUNKHYEN/rtfs/volume-010/22THA.ZA.rtf" ;

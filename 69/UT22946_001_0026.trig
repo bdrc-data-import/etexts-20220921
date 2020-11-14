@@ -16,14 +16,52 @@ bdg:UT22946_001_0026 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT22946_001_0026 ;
+        adm:facetIndex      10 ;
         adm:gitPath         "69/UT22946_001_0026.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT22946_001_0026 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0A28FEF1DC6AC5D7
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP0CE745739A059C68
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP2264744F098ADD31
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP2571A3FAB31C2886
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP522041927480FBAD
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EPB514055B9C1F53C1
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPBDAF6984A53F90C2
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPE16F2D637935F70E
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPEBF8F1DEC7FEC107
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
     bdr:UT22946_001_0026
         a                   :EtextNonPaginated ;
         skos:prefLabel      "ལས་གཤིན་ཕྲིན་ལས་གནམ་ལྕགས་དུམ་བུ་བཞུགས་སོ། །སྐུ་གསུང་ཐུགས་ལྡན་རྡོ་རྗེ་འཆང༌། །ཧེ་རུ་ཀ་ལ་ཕྱག་འཚལ་ལོ། །འགྲོ་བ་གདུལ་དཀའ་འདུལ་བའི་ཕ"@bo ;
+        :eTextHasPage       bdr:EP0A28FEF1DC6AC5D7 , bdr:EP0CE745739A059C68 , bdr:EP2264744F098ADD31 , bdr:EP2571A3FAB31C2886 , bdr:EP522041927480FBAD , bdr:EPB514055B9C1F53C1 , bdr:EPBDAF6984A53F90C2 , bdr:EPE16F2D637935F70E , bdr:EPEBF8F1DEC7FEC107 ;
         :eTextInInstance    bdr:IE22946 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "PalriParkhang/W22946-mkhan-po-ngag-dbang-dpal-bzang-_ngaga/rtfs/NGAGA-vol-1-KA/kaq_0265-0286_pecha.rtf" ;

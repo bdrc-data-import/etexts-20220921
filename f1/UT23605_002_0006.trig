@@ -16,14 +16,68 @@ bdg:UT23605_002_0006 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_002_0006 ;
+        adm:facetIndex      14 ;
         adm:gitPath         "f1/UT23605_002_0006.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_002_0006 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP00AECCE0F4E48499
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP010FB0C6B31F7054
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP0FD1A113EEE57ADA
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP1561DCD0204B16FA
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP4960C983A7D9244C
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP69E0B9BFD8DC1201
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP7EBE617B35CFE68C
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP7ED53BFF4B8E3E1E
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP91BEC11F97AAE3EE
+        a                   :EtextPage ;
+        :seqNum             13 .
+    
+    bdr:EP95F0FE045C63FCFE
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP9CB8DDDC01A2CC64
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EPA56A75FFC95C3095
+        a                   :EtextPage ;
+        :seqNum             12 .
+    
+    bdr:EPE0C72928B3F2CA15
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT23605_002_0006
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༦༣༽༄༅། །ཤིན་ཏུ་སྤྲོས་མེད་ཀྱི་དབང་ཆོག་པདྨའི་དྲྭ་བ་བཞུགས་སོ། །། །"@bo ;
+        :eTextHasPage       bdr:EP00AECCE0F4E48499 , bdr:EP010FB0C6B31F7054 , bdr:EP0FD1A113EEE57ADA , bdr:EP1561DCD0204B16FA , bdr:EP4960C983A7D9244C , bdr:EP69E0B9BFD8DC1201 , bdr:EP7EBE617B35CFE68C , bdr:EP7ED53BFF4B8E3E1E , bdr:EP91BEC11F97AAE3EE , bdr:EP95F0FE045C63FCFE , bdr:EP9CB8DDDC01A2CC64 , bdr:EPA56A75FFC95C3095 , bdr:EPE0C72928B3F2CA15 ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      2 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/02_gdams-ngag-mdzod_kha/02_05_shin-tu-spros-med-kyi-dbang-chog-padmaqi-drva-ba.rtf" ;

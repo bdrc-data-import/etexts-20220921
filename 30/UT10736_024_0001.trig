@@ -16,14 +16,64 @@ bdg:UT10736_024_0001 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT10736_024_0001 ;
+        adm:facetIndex      13 ;
         adm:gitPath         "30/UT10736_024_0001.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT10736_024_0001 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP1E489FE803468EC4
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP2402EDB67397E9B3
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP2511F35F7002C167
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP28F5DB8C83D6FC7D
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP5AD92C65704B68C2
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP75262CBF8A197BBD
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP84CF45917D874AB1
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPC4C63E4B90D8CBCF
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPCF595F9AD04D3990
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPD6A119776FBEC3E2
+        a                   :EtextPage ;
+        :seqNum             12 .
+    
+    bdr:EPE19143B6BFFB4035
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPF795942FE01EACB5
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
     bdr:UT10736_024_0001
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །བརྟག་གཉིས་ནས་གསུངས་པ་རྡོ་རྗེའི་གླུའི་སྐད་གཉིས་ཤན་སྦྱར་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP1E489FE803468EC4 , bdr:EP2402EDB67397E9B3 , bdr:EP2511F35F7002C167 , bdr:EP28F5DB8C83D6FC7D , bdr:EP5AD92C65704B68C2 , bdr:EP75262CBF8A197BBD , bdr:EP84CF45917D874AB1 , bdr:EPC4C63E4B90D8CBCF , bdr:EPCF595F9AD04D3990 , bdr:EPD6A119776FBEC3E2 , bdr:EPE19143B6BFFB4035 , bdr:EPF795942FE01EACB5 ;
         :eTextInInstance    bdr:IE10736 ;
         :eTextInVolume      24 ;
         :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/24_ya/24_01_ya_brtag-gnyis-nas-gsungs-pa-rdo-rjeqi-gluqi-skad-gnyis-shan-sbyar.rtf" ;

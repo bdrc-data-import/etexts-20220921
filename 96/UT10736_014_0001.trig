@@ -16,14 +16,28 @@ bdg:UT10736_014_0001 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT10736_014_0001 ;
+        adm:facetIndex      4 ;
         adm:gitPath         "96/UT10736_014_0001.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT10736_014_0001 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP662D7625C71742DB
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP95C51BEE6B9B0B22
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPE4C7618FDF0B3B97
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT10736_014_0001
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །མཁའ་འགྲོ་སྙན་བརྒྱུད་ཀྱི་དཔེ་ཐོ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP662D7625C71742DB , bdr:EP95C51BEE6B9B0B22 , bdr:EPE4C7618FDF0B3B97 ;
         :eTextInInstance    bdr:IE10736 ;
         :eTextInVolume      14 ;
         :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/14_pha/14_01_pha_mkhaq-qgro-snyan-brgyud-kyi-dpe-tho.rtf" ;

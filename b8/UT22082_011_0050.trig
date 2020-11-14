@@ -16,14 +16,32 @@ bdg:UT22082_011_0050 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT22082_011_0050 ;
+        adm:facetIndex      5 ;
         adm:gitPath         "b8/UT22082_011_0050.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT22082_011_0050 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP08CEDD79A5D39996
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP203A7AFBE2F19B96
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP51968975B14D310F
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP8E5D430B500A9E1A
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT22082_011_0050
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །ཀུན་མཁྱེན་རིག་པ་འཛིན་པ་ཆེན་པོ་ཆོས་ཀྱི་གྲགས་པའི་གསུང་འབུམ་༼ད༽པའི་དཀར་ཆག།"@bo ;
+        :eTextHasPage       bdr:EP08CEDD79A5D39996 , bdr:EP203A7AFBE2F19B96 , bdr:EP51968975B14D310F , bdr:EP8E5D430B500A9E1A ;
         :eTextInInstance    bdr:IE22082 ;
         :eTextInVolume      11 ;
         :eTextSourcePath    "DrikungChetsang/7__KUNKHYEN/rtfs/volume-011/KARCHAG.11.rtf" ;

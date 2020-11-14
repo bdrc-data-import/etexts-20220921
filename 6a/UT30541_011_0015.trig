@@ -16,14 +16,52 @@ bdg:UT30541_011_0015 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT30541_011_0015 ;
+        adm:facetIndex      10 ;
         adm:gitPath         "6a/UT30541_011_0015.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT30541_011_0015 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP1F41E71F61146CA4
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP3478E1A3C1E0874B
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP505B5CDD36A983CC
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP555E4454C9B942CD
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP58AFDAE39E757373
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP9BE9FC91EAE891B0
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP9F441ABB24EE1B84
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EPDE571ECC1C35E754
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPFD5BA46E4C89AE8C
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
     bdr:UT30541_011_0015
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །ཟབ་མོ་བདུད་ཀྱི་གཅོད་ཡུལ་གྱི་ཁྲིད་ཡིག་བཞུགས། །"@bo ;
+        :eTextHasPage       bdr:EP1F41E71F61146CA4 , bdr:EP3478E1A3C1E0874B , bdr:EP505B5CDD36A983CC , bdr:EP555E4454C9B942CD , bdr:EP58AFDAE39E757373 , bdr:EP9BE9FC91EAE891B0 , bdr:EP9F441ABB24EE1B84 , bdr:EPDE571ECC1C35E754 , bdr:EPFD5BA46E4C89AE8C ;
         :eTextInInstance    bdr:IE30541 ;
         :eTextInVolume      11 ;
         :eTextSourcePath    "DharmaDownload/Karmapa-03/rtfs/11_3rd-karmapa-text_tdoc_Aa/11_14_Aa_zab-mo-bdud-kyi-gcod-yul-gyi-khrid-yig.rtf" ;

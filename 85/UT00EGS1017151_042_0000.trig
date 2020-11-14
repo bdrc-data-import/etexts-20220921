@@ -16,14 +16,56 @@ bdg:UT00EGS1017151_042_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT00EGS1017151_042_0000 ;
+        adm:facetIndex      11 ;
         adm:gitPath         "85/UT00EGS1017151_042_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT00EGS1017151_042_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP11195978FE924140
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP31375BAA31CC72F4
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP82A6C25D2423E464
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPB14A406335CF3C00
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPC00657C382C9EF75
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EPC66CD3531C252080
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPDA5128462CBA01FC
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPE48E8B660E8DC5B6
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPEB11755E91B7AD70
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EPEB13C3ABD569A0A5
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT00EGS1017151_042_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼ཁ༽༄༅། །མངོན་རྟོགས་ཚིག་གི་བུམ་པ་བཞུགས། །༄༅། །བླ་མ་རྗེ་བཙུན་སྒྱི་ཆུ་བའི། །ཞབས་གཉིས་ཆུ་སྐྱེས་ལ་བཏུད་དེ། །དཔལ་ལྡན་ཀྱེ་ཡི་རྡོ་ར"@bo ;
+        :eTextHasPage       bdr:EP11195978FE924140 , bdr:EP31375BAA31CC72F4 , bdr:EP82A6C25D2423E464 , bdr:EPB14A406335CF3C00 , bdr:EPC00657C382C9EF75 , bdr:EPC66CD3531C252080 , bdr:EPDA5128462CBA01FC , bdr:EPE48E8B660E8DC5B6 , bdr:EPEB11755E91B7AD70 , bdr:EPEB13C3ABD569A0A5 ;
         :eTextInInstance    bdr:IE00EGS1017151 ;
         :eTextIsVolume      42 ;
         :eTextSourcePath    "GuruLamaWorks/For-Conversion-Disk-01-20130424/rtfs/SA-KABUM/SKYA041.rtf" ;

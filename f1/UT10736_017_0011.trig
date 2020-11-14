@@ -16,14 +16,60 @@ bdg:UT10736_017_0011 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT10736_017_0011 ;
+        adm:facetIndex      12 ;
         adm:gitPath         "f1/UT10736_017_0011.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT10736_017_0011 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP2F32069073206AE4
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP62AF8001AB6FCBDA
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EP65BEF61D0A68D069
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP6B1F1E0249860779
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP7714AD9D11C8389B
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP78A7DF38C7FB0CAB
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP7A1A7B92A4BD69C8
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP8FAB22E0A80566EC
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPB411FE258FB3E746
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPCCC728BE429BD1AE
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPCFD222BAB759227C
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
     bdr:UT10736_017_0011
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །བླ་མ་དྲག་པོ་ཀཱི་ལ་ཡའི་མན་ངག་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP2F32069073206AE4 , bdr:EP62AF8001AB6FCBDA , bdr:EP65BEF61D0A68D069 , bdr:EP6B1F1E0249860779 , bdr:EP7714AD9D11C8389B , bdr:EP78A7DF38C7FB0CAB , bdr:EP7A1A7B92A4BD69C8 , bdr:EP8FAB22E0A80566EC , bdr:EPB411FE258FB3E746 , bdr:EPCCC728BE429BD1AE , bdr:EPCFD222BAB759227C ;
         :eTextInInstance    bdr:IE10736 ;
         :eTextInVolume      17 ;
         :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/17_tsa/17_07_tsa_1_bla-ma-drag-po-kqi-la-yaqi-man-ngag.rtf" ;

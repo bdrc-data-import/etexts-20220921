@@ -16,14 +16,36 @@ bdg:UT23605_008_0005 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_008_0005 ;
+        adm:facetIndex      6 ;
         adm:gitPath         "e1/UT23605_008_0005.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_008_0005 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP5EDF5ACC97259FBC
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP6C47FE4677346761
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP71D2B7950C15B815
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPE4C5C618730FD2D1
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPE7FFDFB0AD9E3750
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT23605_008_0005
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༣༩༽༄༅། །ཕྱག་རྒྱ་ཆེན་པོ་ཡི་གེ་བཞི་པའི་གདམས་པ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP5EDF5ACC97259FBC , bdr:EP6C47FE4677346761 , bdr:EP71D2B7950C15B815 , bdr:EPE4C5C618730FD2D1 , bdr:EPE7FFDFB0AD9E3750 ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      8 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/08_gdams-ngag-mdzod_nya/08_04_phyag-rgya-chen-po-yi-ge-bzhi-paqi-gdams-pa.rtf" ;

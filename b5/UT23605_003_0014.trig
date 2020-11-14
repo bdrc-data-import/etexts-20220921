@@ -16,14 +16,64 @@ bdg:UT23605_003_0014 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_003_0014 ;
+        adm:facetIndex      13 ;
         adm:gitPath         "b5/UT23605_003_0014.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_003_0014 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP00B4A6453F61F3BF
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EP08DE909DC3650349
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP1BE4360E5E59E9E3
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP2DBA2B0B3ECF11E1
+        a                   :EtextPage ;
+        :seqNum             12 .
+    
+    bdr:EP36C32874E91A81D2
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP55B7784501F008A6
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP5AD7B091477EB5C4
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP78CCB6A6050EFFCD
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP9286C5D11F19D0EC
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPA6951A497444DDC2
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPBD840E698D1D9A52
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPFE8AF1FD926ACEE7
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT23605_003_0014
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༤༠༥༽༄། །ཇོ་བོ་མཉམ་མེད་གསེར་གླིང་པ་དང་མཇལ་བའི་རྣམ་ཐར་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP00B4A6453F61F3BF , bdr:EP08DE909DC3650349 , bdr:EP1BE4360E5E59E9E3 , bdr:EP2DBA2B0B3ECF11E1 , bdr:EP36C32874E91A81D2 , bdr:EP55B7784501F008A6 , bdr:EP5AD7B091477EB5C4 , bdr:EP78CCB6A6050EFFCD , bdr:EP9286C5D11F19D0EC , bdr:EPA6951A497444DDC2 , bdr:EPBD840E698D1D9A52 , bdr:EPFE8AF1FD926ACEE7 ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      3 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/03_gdams-ngag-mdzod_ga/03_13_jo-bo-mnyam-med-gser-gling-pa-dang-mjal-baqi-rnam-thar.rtf" ;

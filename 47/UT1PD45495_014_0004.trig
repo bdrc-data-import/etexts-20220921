@@ -16,14 +16,48 @@ bdg:UT1PD45495_014_0004 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1PD45495_014_0004 ;
+        adm:facetIndex      9 ;
         adm:gitPath         "47/UT1PD45495_014_0004.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1PD45495_014_0004 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP03D25FF5307322E8
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP4FA8565DB3863BA8
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP6D6CB6D16FD413D6
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP97DC0153DAE968C8
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPA64BEA6463786750
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPAA1F42C7D8E1D4A8
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPDB73EA7CAF90D62E
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPFC9C1F0532D78E7B
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT1PD45495_014_0004
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །བདེ་མཆོག་ཨུཥྞི་ཥའི་ངག་འདོན་ཁྱེར་བདེ་བ་བཞུགས།"@bo ;
+        :eTextHasPage       bdr:EP03D25FF5307322E8 , bdr:EP4FA8565DB3863BA8 , bdr:EP6D6CB6D16FD413D6 , bdr:EP97DC0153DAE968C8 , bdr:EPA64BEA6463786750 , bdr:EPAA1F42C7D8E1D4A8 , bdr:EPDB73EA7CAF90D62E , bdr:EPFC9C1F0532D78E7B ;
         :eTextInInstance    bdr:IE1PD45495 ;
         :eTextInVolume      14 ;
         :eTextSourcePath    "KarmaDelek/taranatha-gsung-qbum/rtfs/volume_014/volume_014_117.rtf" ;

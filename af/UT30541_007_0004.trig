@@ -16,14 +16,28 @@ bdg:UT30541_007_0004 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT30541_007_0004 ;
+        adm:facetIndex      4 ;
         adm:gitPath         "af/UT30541_007_0004.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT30541_007_0004 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP64790585FC019FBB
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP7A4BA21FDDF3BAB6
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPD3EC18CD55FE990E
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT30541_007_0004
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །རླུང་སེམས་གནད་ཀྱི་ལྡེ་མིག།"@bo ;
+        :eTextHasPage       bdr:EP64790585FC019FBB , bdr:EP7A4BA21FDDF3BAB6 , bdr:EPD3EC18CD55FE990E ;
         :eTextInInstance    bdr:IE30541 ;
         :eTextInVolume      7 ;
         :eTextSourcePath    "DharmaDownload/Karmapa-03/rtfs/07_3rd-karmapa-text_tdoc_ja/07_03_ja_rlung-sems-gnad-kyi-lde-mig.rtf" ;

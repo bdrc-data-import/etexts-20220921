@@ -16,14 +16,60 @@ bdg:UT23605_018_0012 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_018_0012 ;
+        adm:facetIndex      12 ;
         adm:gitPath         "18/UT23605_018_0012.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_018_0012 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0A03B857D5B850CF
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP22E9DF5C8ED8BD1F
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP2B97893E7DE83B8C
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP5F9ED62B03D32DEF
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP6BD5910CD48BEF50
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP9CAEFA5177A14427
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EPCD1F6A8F3564AC67
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPD2B71ED0CBCC4413
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPD4E2707299283946
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPEF63D993889372FF
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EPEF828C5A7F2AAB04
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
     bdr:UT23605_018_0012
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༣༦༣༽༄༅། །ཁྲིད་བརྒྱའི་མཚན་ཐོ་དམིགས་བསལ་ནི། །"@bo ;
+        :eTextHasPage       bdr:EP0A03B857D5B850CF , bdr:EP22E9DF5C8ED8BD1F , bdr:EP2B97893E7DE83B8C , bdr:EP5F9ED62B03D32DEF , bdr:EP6BD5910CD48BEF50 , bdr:EP9CAEFA5177A14427 , bdr:EPCD1F6A8F3564AC67 , bdr:EPD2B71ED0CBCC4413 , bdr:EPD4E2707299283946 , bdr:EPEF63D993889372FF , bdr:EPEF828C5A7F2AAB04 ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      18 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/18_gdams-ngag-mdzod_tsha/18_11_khrid-brgyaqi-mtshan-tho-dmigs-bsal.rtf" ;

@@ -16,14 +16,72 @@ bdg:UT1KG14_027_0049 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1KG14_027_0049 ;
+        adm:facetIndex      15 ;
         adm:gitPath         "1e/UT1KG14_027_0049.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1KG14_027_0049 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP09BF46D273345A05
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP0DCDDE482EEB12CF
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP1735BDDD338FBCC2
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP3A8E09254BC0B73B
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP3E287F69C72E966E
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP87A7D1B09658BBDC
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP89A6F11164E1D724
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP89E6CE8AC595D6EB
+        a                   :EtextPage ;
+        :seqNum             13 .
+    
+    bdr:EP911175F6B86A9AA1
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP938EFE492FD79F0F
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EPC64749386307B2E6
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPCBE3BD140B48EE40
+        a                   :EtextPage ;
+        :seqNum             12 .
+    
+    bdr:EPDA107EB4010AAC42
+        a                   :EtextPage ;
+        :seqNum             14 .
+    
+    bdr:EPE75CCBFA30816DBB
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT1KG14_027_0049
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༁ྃ༔ཟབ་བདུན་མཆོག་ཟབ་ཡང་དག་གི༔སྒྲུབ་པ་མན་ངག་གཅིག་དྲིལ་བཞུགས༔"@bo ;
+        :eTextHasPage       bdr:EP09BF46D273345A05 , bdr:EP0DCDDE482EEB12CF , bdr:EP1735BDDD338FBCC2 , bdr:EP3A8E09254BC0B73B , bdr:EP3E287F69C72E966E , bdr:EP87A7D1B09658BBDC , bdr:EP89A6F11164E1D724 , bdr:EP89E6CE8AC595D6EB , bdr:EP911175F6B86A9AA1 , bdr:EP938EFE492FD79F0F , bdr:EPC64749386307B2E6 , bdr:EPCBE3BD140B48EE40 , bdr:EPDA107EB4010AAC42 , bdr:EPE75CCBFA30816DBB ;
         :eTextInInstance    bdr:IE1KG14 ;
         :eTextInVolume      27 ;
         :eTextSourcePath    "Shechen/Rinchen-Terdzod-Shechen-vols-01-54/rtfs/27-SHA/Terzod-sha-P42.rtf" ;

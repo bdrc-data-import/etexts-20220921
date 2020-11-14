@@ -16,14 +16,64 @@ bdg:UT1KG14_011_0038 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1KG14_011_0038 ;
+        adm:facetIndex      13 ;
         adm:gitPath         "2f/UT1KG14_011_0038.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1KG14_011_0038 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0F2DAE8C70A037CA
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP14FC1BBF82B5F716
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EP4DA0C5C72103E9FF
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP4F3DB1906FA2BBA8
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP6899BF75039145A1
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP72135FA9A178EE6C
+        a                   :EtextPage ;
+        :seqNum             12 .
+    
+    bdr:EP8AB336C8A2E7F8AE
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPBB01EA25EC8A329B
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPBD2147D627ACA347
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPBF15343B24EAF82C
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPC764D040D6A24FED
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPCADC7E0BEE1880FB
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
     bdr:UT1KG14_011_0038
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །རྗེ་སྒམ་པོ་པའི་ཞལ་གདམས་བླ་སྒྲུབ་ཀྱི་དབང་ཆོག་སྨིན་བྱེད་ཉི་མའི་འོད་ཕྲེང་བཞུགས། །"@bo ;
+        :eTextHasPage       bdr:EP0F2DAE8C70A037CA , bdr:EP14FC1BBF82B5F716 , bdr:EP4DA0C5C72103E9FF , bdr:EP4F3DB1906FA2BBA8 , bdr:EP6899BF75039145A1 , bdr:EP72135FA9A178EE6C , bdr:EP8AB336C8A2E7F8AE , bdr:EPBB01EA25EC8A329B , bdr:EPBD2147D627ACA347 , bdr:EPBF15343B24EAF82C , bdr:EPC764D040D6A24FED , bdr:EPCADC7E0BEE1880FB ;
         :eTextInInstance    bdr:IE1KG14 ;
         :eTextInVolume      11 ;
         :eTextSourcePath    "Shechen/Rinchen-Terdzod-Shechen-vols-01-54/rtfs/11-DA/terdzo-DA-P37.rtf" ;

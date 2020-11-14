@@ -16,14 +16,24 @@ bdg:UT3JT13341_028_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13341_028_0000 ;
+        adm:facetIndex      3 ;
         adm:gitPath         "0e/UT3JT13341_028_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13341_028_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP14AD0F03CA776931
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP52392D3CE2847587
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT3JT13341_028_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "ཧྲཱིཿདཀྱིལ་འཁོར་གསང་བའི་ལྷ་ཚོགས་གསན་ཅིང་དགོངས་སུ་གསོལ༔བདག་གིས་བཤམས་པའི་གྷ་ཎ་ཙཀྲ་འདི༔གཟུགས་དང་སྒྲ་དང་དྲི་དང་རོ༔རེག་དང་ཆོས་ལ་སོགས་"@bo ;
+        :eTextHasPage       bdr:EP14AD0F03CA776931 , bdr:EP52392D3CE2847587 ;
         :eTextInInstance    bdr:IE3JT13341 ;
         :eTextIsVolume      28 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/Taksham-Chochod_tdoc/022f_hya-gri-wa-tshogs.rtf" ;

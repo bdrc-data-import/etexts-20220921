@@ -16,14 +16,36 @@ bdg:UT1PD5284_057_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1PD5284_057_0000 ;
+        adm:facetIndex      6 ;
         adm:gitPath         "18/UT1PD5284_057_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1PD5284_057_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP2E1E724F63126715
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP775924B9BDE0A5AA
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP7F5AA4BBFF3F1095
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP8AEB9284F7123A51
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP96A2F1AE08AFA2DE
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT1PD5284_057_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །ནཱ་རོ་མཁའ་སྤྱོད་མའི་སྒྲུབ་ཐབས་བཞུགས་སོ། །བཅོ་བརྒྱད་ཁྲི་ཆེན་གྱིས་མཛད་པའོ།༈།ན་མོ་གུ་རུ་བཛྲ་ཡོ་གི་ནཱི་ཡེ།དེ་ལ་འདིར་དབང་ཐོབ་ཅ"@bo ;
+        :eTextHasPage       bdr:EP2E1E724F63126715 , bdr:EP775924B9BDE0A5AA , bdr:EP7F5AA4BBFF3F1095 , bdr:EP8AEB9284F7123A51 , bdr:EP96A2F1AE08AFA2DE ;
         :eTextInInstance    bdr:IE1PD5284 ;
         :eTextIsVolume      57 ;
         :eTextSourcePath    "GuruLamaWorks/For-Conversion-Disk-01-20130424/rtfs/KHACHOD/KHAC057.rtf" ;

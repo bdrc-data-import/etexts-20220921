@@ -16,14 +16,32 @@ bdg:UT23605_010_0004 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_010_0004 ;
+        adm:facetIndex      5 ;
         adm:gitPath         "9c/UT23605_010_0004.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_010_0004 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP31ABF3C51A7BC232
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP34EADF7E5D75FA36
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPA2C6B917AF46EDAF
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPC4F5FF329DB73C55
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT23605_010_0004
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༢༥༽༄༅། །ཁྲོ་ཕུ་བཀའ་བརྒྱུད་ལས་བྱུང་བའི་ཕྱག་རྒྱ་ཆེན་པོ་ཡི་གེ་བཞི་པའི་ཁྲིད་ཡིག་"@bo ;
+        :eTextHasPage       bdr:EP31ABF3C51A7BC232 , bdr:EP34EADF7E5D75FA36 , bdr:EPA2C6B917AF46EDAF , bdr:EPC4F5FF329DB73C55 ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      10 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/10_gdams-ngag-mdzod_tha/10_03_khro-phu-bkaq-brgyud-las-byung-baqi-phyag-rgya-chen-po-yi-ge-bzhi-paqi-khrid-yig.rtf" ;

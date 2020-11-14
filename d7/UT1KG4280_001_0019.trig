@@ -16,14 +16,64 @@ bdg:UT1KG4280_001_0019 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1KG4280_001_0019 ;
+        adm:facetIndex      13 ;
         adm:gitPath         "d7/UT1KG4280_001_0019.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1KG4280_001_0019 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP1C80DB4FCC0347BD
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP22F3D4E6DE03DD30
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP3B6AEEF65E81338C
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP41AD5B8F7446324F
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP443A7618A455A93F
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EP6B00376F9F21CFA9
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP8054CD31A41ADEF7
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP885105FADD323255
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPA2280C2E4FCA81F4
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPB2C2A233DFFFFAB5
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPBF4406DBAF308B90
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPDEE4FD01908A3AAC
+        a                   :EtextPage ;
+        :seqNum             12 .
+    
     bdr:UT1KG4280_001_0019
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །ཇོ་བོ་སྔགས་ཀྱི་བདག་པོའི་གཡང་སྐྱབས་དངོས་གྲུབ་འབྱུང་བའི་རྒྱ་མཚོ་ཞེས་བྱ་བ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP1C80DB4FCC0347BD , bdr:EP22F3D4E6DE03DD30 , bdr:EP3B6AEEF65E81338C , bdr:EP41AD5B8F7446324F , bdr:EP443A7618A455A93F , bdr:EP6B00376F9F21CFA9 , bdr:EP8054CD31A41ADEF7 , bdr:EP885105FADD323255 , bdr:EPA2280C2E4FCA81F4 , bdr:EPB2C2A233DFFFFAB5 , bdr:EPBF4406DBAF308B90 , bdr:EPDEE4FD01908A3AAC ;
         :eTextInInstance    bdr:IE1KG4280 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "DharmaDownload/Situpa-09-sung-bum/rtfs/AHA/019_9th-Situ-Kabum_AHA_sngags-bdag-gyang-skyabs-dngos-grubs-qbyung-baqi-rgya-mtsho.rtf" ;

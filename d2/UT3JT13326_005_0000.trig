@@ -16,14 +16,56 @@ bdg:UT3JT13326_005_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13326_005_0000 ;
+        adm:facetIndex      11 ;
         adm:gitPath         "d2/UT3JT13326_005_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13326_005_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0274EEB6B3957152
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP16B3F806FC07C32E
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP3EF9C7057F8E1178
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP412512C6B83B9D8F
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP540F6913DA1C0929
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP5DB8927A22DFC4B1
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP78C002EAE85B7D2B
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP84DFF4454CC03957
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPC1149676DC29BA48
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPF8A9CC23A58C4636
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
     bdr:UT3JT13326_005_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །ཕྱག་རྒྱ་ཆེན་པོ་ལྔ་ལྡན་གྱི་ཁྲིད་དམིགས་ཡིད་ཀྱི་སྙེ་མ་ཞེས་བྱ་བ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP0274EEB6B3957152 , bdr:EP16B3F806FC07C32E , bdr:EP3EF9C7057F8E1178 , bdr:EP412512C6B83B9D8F , bdr:EP540F6913DA1C0929 , bdr:EP5DB8927A22DFC4B1 , bdr:EP78C002EAE85B7D2B , bdr:EP84DFF4454CC03957 , bdr:EPC1149676DC29BA48 , bdr:EPF8A9CC23A58C4636 ;
         :eTextInInstance    bdr:IE3JT13326 ;
         :eTextIsVolume      5 ;
         :eTextSourcePath    "DharmaDownload/Mahamudra/rtfs/05_Drukpa/005_drukpa_tdoc.rtf" ;

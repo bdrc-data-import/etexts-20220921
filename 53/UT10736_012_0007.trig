@@ -16,14 +16,68 @@ bdg:UT10736_012_0007 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT10736_012_0007 ;
+        adm:facetIndex      14 ;
         adm:gitPath         "53/UT10736_012_0007.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT10736_012_0007 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0DEC8E58DECC7642
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP1163F37799168426
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP283658EDE56B8205
+        a                   :EtextPage ;
+        :seqNum             12 .
+    
+    bdr:EP3E89A4B4D5729A78
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP421BA96CD4A59D57
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP4C421B48C797F67A
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP755CD373E3420EE5
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP8B583F55DDF587E1
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP8B9AF3BD70A42D39
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP98051DFDFEBDDE0F
+        a                   :EtextPage ;
+        :seqNum             13 .
+    
+    bdr:EPD96B35B0092583ED
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EPF14EC933EC696710
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EPF14FB8C3725AF7B9
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
     bdr:UT10736_012_0007
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །རྗེས་སུ་གནང་བ་སྤྱི་ལ་འཇུག་པའི་ཆོ་ག་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP0DEC8E58DECC7642 , bdr:EP1163F37799168426 , bdr:EP283658EDE56B8205 , bdr:EP3E89A4B4D5729A78 , bdr:EP421BA96CD4A59D57 , bdr:EP4C421B48C797F67A , bdr:EP755CD373E3420EE5 , bdr:EP8B583F55DDF587E1 , bdr:EP8B9AF3BD70A42D39 , bdr:EP98051DFDFEBDDE0F , bdr:EPD96B35B0092583ED , bdr:EPF14EC933EC696710 , bdr:EPF14FB8C3725AF7B9 ;
         :eTextInInstance    bdr:IE10736 ;
         :eTextInVolume      12 ;
         :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/12_na/12_07_na_rjes-su-gnang-ba-spyi-la-qjug-paqi-cho-ga.rtf" ;

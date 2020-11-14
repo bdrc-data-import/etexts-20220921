@@ -16,14 +16,52 @@ bdg:UT21019_007_0010 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT21019_007_0010 ;
+        adm:facetIndex      10 ;
         adm:gitPath         "ea/UT21019_007_0010.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT21019_007_0010 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP1D174138119BBF30
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP29758E9C7CB3F08F
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP5B87F4D2546B71D1
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP65A76240497EA908
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP90388D8A50E5241B
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPA40FF199C3992B13
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPB6BC3909D80A788B
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPCF415682AA7C5551
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPFC2EDD3F55A9FCA0
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
     bdr:UT21019_007_0010
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅།ཆུ་གཏོར་གྱི་རིམ་པ་ཇི་ལྟར་བྱ་བའི་ཚུལ་མདོར་བསྡུས་ཏེ་བཀོད་པ་ལྟས་ཆོག་བདུད་རྩིའི་འདོད་འཇོ་བཞུགས་སོ།༢༦༠༽དཔལ་ལྡན་སྲིད་ཞིའི་ཁྱབ་བདག་བ"@bo ;
+        :eTextHasPage       bdr:EP1D174138119BBF30 , bdr:EP29758E9C7CB3F08F , bdr:EP5B87F4D2546B71D1 , bdr:EP65A76240497EA908 , bdr:EP90388D8A50E5241B , bdr:EPA40FF199C3992B13 , bdr:EPB6BC3909D80A788B , bdr:EPCF415682AA7C5551 , bdr:EPFC2EDD3F55A9FCA0 ;
         :eTextInInstance    bdr:IE21019 ;
         :eTextInVolume      7 ;
         :eTextSourcePath    "PalriParkhang/W21019-rtse-le-sna-tshogs-rang-grol/rtfs/Tseley-Natsog-Rangdrol-Volume-7/Volume-7-Tsele-_259-276_.rtf" ;

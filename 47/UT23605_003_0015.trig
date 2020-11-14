@@ -16,14 +16,40 @@ bdg:UT23605_003_0015 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_003_0015 ;
+        adm:facetIndex      7 ;
         adm:gitPath         "47/UT23605_003_0015.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_003_0015 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP62EFD7E48FB31F35
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP6E2A837842C820EC
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPBD24A179AFC43EC2
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPCE5F45AD757CA937
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPED6CF34D4E4ECE78
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPFC32D17924A4FE4C
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
     bdr:UT23605_003_0015
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༤༢༡༽༄༅། །ཐེག་པ་ཆེན་པོའི་བློ་སྦྱོང་གི་རྩ་ཚིག་བཞུགས་སོ། །། །"@bo ;
+        :eTextHasPage       bdr:EP62EFD7E48FB31F35 , bdr:EP6E2A837842C820EC , bdr:EPBD24A179AFC43EC2 , bdr:EPCE5F45AD757CA937 , bdr:EPED6CF34D4E4ECE78 , bdr:EPFC32D17924A4FE4C ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      3 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/03_gdams-ngag-mdzod_ga/03_14_theg-pa-chen-poqi-blo-sbyong-gi-rtsa-tshig.rtf" ;

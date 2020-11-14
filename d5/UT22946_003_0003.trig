@@ -16,14 +16,56 @@ bdg:UT22946_003_0003 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT22946_003_0003 ;
+        adm:facetIndex      11 ;
         adm:gitPath         "d5/UT22946_003_0003.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT22946_003_0003 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP5F86D602AFE7E751
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP655A2AED2C44AA50
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EP69471681DF0CF215
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP97D16A63A3AF2D81
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP9B958E6CABFA1DFE
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EPB2852833528F00BB
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPBB8220F47B0FD8F5
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPCA33B35986A34AB1
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPE91CF691ED0C52C7
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPEC219E98BE2785C5
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
     bdr:UT22946_003_0003
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༡༧༽རིག་འཛིན་བླ་མ་བསྒྲུབ་པའི་རིམ་པ་ཀུན་བཟང་དོན་གྱི་ཕྲིན་ལས་ཞེས་བྱ་བ་བཞུགས་སོ། །༼༡༨༽རིགས་དང་དཀྱིལ་འཁོར་རྒྱ་མཚོའི་ཁྱབ་བདག་མཆོགརྡུ"@bo ;
+        :eTextHasPage       bdr:EP5F86D602AFE7E751 , bdr:EP655A2AED2C44AA50 , bdr:EP69471681DF0CF215 , bdr:EP97D16A63A3AF2D81 , bdr:EP9B958E6CABFA1DFE , bdr:EPB2852833528F00BB , bdr:EPBB8220F47B0FD8F5 , bdr:EPCA33B35986A34AB1 , bdr:EPE91CF691ED0C52C7 , bdr:EPEC219E98BE2785C5 ;
         :eTextInInstance    bdr:IE22946 ;
         :eTextInVolume      3 ;
         :eTextSourcePath    "PalriParkhang/W22946-mkhan-po-ngag-dbang-dpal-bzang-_ngaga/rtfs/NGAGA-vol-3-GA/ga_0017-0040_pecha.rtf" ;

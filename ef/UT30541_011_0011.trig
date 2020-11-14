@@ -16,14 +16,56 @@ bdg:UT30541_011_0011 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT30541_011_0011 ;
+        adm:facetIndex      11 ;
         adm:gitPath         "ef/UT30541_011_0011.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT30541_011_0011 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP088C7A904BF32CB6
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP08A954F922B317B3
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP26AC1DC6FD67D702
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP3257972E7858B4F4
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP394C68D60A39D7AF
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP6539BD1FFDD7BF74
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP9988DA331973BDDD
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EPD850F22EAF6E927D
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPDEF05668AF5509C2
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPE08B18C8A46A8515
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
     bdr:UT30541_011_0011
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །ཕྱག་རྒྱ་ཆེན་པོ་གངྒཱ་མའི་འགྲེལ་པ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP088C7A904BF32CB6 , bdr:EP08A954F922B317B3 , bdr:EP26AC1DC6FD67D702 , bdr:EP3257972E7858B4F4 , bdr:EP394C68D60A39D7AF , bdr:EP6539BD1FFDD7BF74 , bdr:EP9988DA331973BDDD , bdr:EPD850F22EAF6E927D , bdr:EPDEF05668AF5509C2 , bdr:EPE08B18C8A46A8515 ;
         :eTextInInstance    bdr:IE30541 ;
         :eTextInVolume      11 ;
         :eTextSourcePath    "DharmaDownload/Karmapa-03/rtfs/11_3rd-karmapa-text_tdoc_Aa/11_10_Aa_phyag-rgya-chen-po-gang gqa-maqi-qgrel-pa.rtf" ;

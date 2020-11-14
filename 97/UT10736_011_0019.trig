@@ -16,14 +16,28 @@ bdg:UT10736_011_0019 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT10736_011_0019 ;
+        adm:facetIndex      4 ;
         adm:gitPath         "97/UT10736_011_0019.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT10736_011_0019 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP9CBC22759E599831
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPAE39A2472DF3DC73
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPB3C2F4075D975EC4
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT10736_011_0019
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །སྤྱན་རས་གཟིགས་ཀྱི་བུམ་སྒྲུབ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP9CBC22759E599831 , bdr:EPAE39A2472DF3DC73 , bdr:EPB3C2F4075D975EC4 ;
         :eTextInInstance    bdr:IE10736 ;
         :eTextInVolume      11 ;
         :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/11_da/11_17_da_spyan-ras-gzigs-kyi-bum-sgrub.rtf" ;

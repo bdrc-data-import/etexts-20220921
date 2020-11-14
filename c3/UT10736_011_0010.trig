@@ -16,14 +16,40 @@ bdg:UT10736_011_0010 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT10736_011_0010 ;
+        adm:facetIndex      7 ;
         adm:gitPath         "c3/UT10736_011_0010.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT10736_011_0010 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP153D9A965D353073
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP1FBFE31F16B4B84E
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP370238496DE35CA6
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP418EE04DD3D61C68
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP6E485A46C108D543
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP94B91977C267529F
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
     bdr:UT10736_011_0010
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །རྡོ་རྗེ་རྣམ་པར་འཇོམས་པའི་ཁྲུས་ཀྱི་ཆོ་ག་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP153D9A965D353073 , bdr:EP1FBFE31F16B4B84E , bdr:EP370238496DE35CA6 , bdr:EP418EE04DD3D61C68 , bdr:EP6E485A46C108D543 , bdr:EP94B91977C267529F ;
         :eTextInInstance    bdr:IE10736 ;
         :eTextInVolume      11 ;
         :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/11_da/11_08_da_rdo-rje-rnam-par-qjoms-paqi-khrus-kyi-cho-ga.rtf" ;

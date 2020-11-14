@@ -16,14 +16,36 @@ bdg:UT3JT13340_008_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13340_008_0000 ;
+        adm:facetIndex      6 ;
         adm:gitPath         "d4/UT3JT13340_008_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13340_008_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP42B9E74DC20D834E
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP4FA1B05CF220D447
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP6B53DE222F80346D
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP9949174575FED8F2
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPB6945CC111B982E7
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT3JT13340_008_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༁ྃ༔ཟབ་ཆོས་ཞི་ཁྲོ་དགོངས་པ་རང་གྲོལ་ལས༔བཀའ་སྲུང་དམ་ཅན་སྡེ་བདུན་ཆོས་སྐྱོང་ཀུན་འདུས་ཀྱི་མདངས་བསྐང་གདུག་པ་རང་གྲོལ་ཞེས་བྱ་བ་བཞུགས་སོ༔"@bo ;
+        :eTextHasPage       bdr:EP42B9E74DC20D834E , bdr:EP4FA1B05CF220D447 , bdr:EP6B53DE222F80346D , bdr:EP9949174575FED8F2 , bdr:EPB6945CC111B982E7 ;
         :eTextInInstance    bdr:IE3JT13340 ;
         :eTextIsVolume      8 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/P0033_Karling-Zhithro/016-sde-bdun-bskang-wa.rtf" ;

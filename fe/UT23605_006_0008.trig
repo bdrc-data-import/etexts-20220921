@@ -16,14 +16,64 @@ bdg:UT23605_006_0008 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_006_0008 ;
+        adm:facetIndex      13 ;
         adm:gitPath         "fe/UT23605_006_0008.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_006_0008 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP092121298310F252
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP23CBC40144E553E3
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP3DC124374288D61F
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP44293E3F1349830E
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP4B6695636CFBD6FD
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EP65E2ED55CB823485
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP80AC0260D42EF4FF
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP94CE5D4F032CFD48
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP950C91F2BC584C45
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPB62DCD36C5CB30B3
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPBF0CD2C6284B3846
+        a                   :EtextPage ;
+        :seqNum             12 .
+    
+    bdr:EPCA8999EA3A370FA8
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
     bdr:UT23605_006_0008
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༦༧༽༄༅། །སློབ་དཔོན་ངག་དབང་གྲགས་པས་མཛད་པའི་ཕྱག་རྒྱ་ཆེན་པོ་ཡི་གེ་མེད་པ་"@bo ;
+        :eTextHasPage       bdr:EP092121298310F252 , bdr:EP23CBC40144E553E3 , bdr:EP3DC124374288D61F , bdr:EP44293E3F1349830E , bdr:EP4B6695636CFBD6FD , bdr:EP65E2ED55CB823485 , bdr:EP80AC0260D42EF4FF , bdr:EP94CE5D4F032CFD48 , bdr:EP950C91F2BC584C45 , bdr:EPB62DCD36C5CB30B3 , bdr:EPBF0CD2C6284B3846 , bdr:EPCA8999EA3A370FA8 ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      6 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/06_gdams-ngag-mdzod_cha/06_07_slob-dpon-ngag-dbang-grags-pas-mdzad-paqi-phyag-rgya-chen-po-yi-ge-med-pa.rtf" ;

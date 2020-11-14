@@ -16,14 +16,56 @@ bdg:UT3JT13348_014_0001 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13348_014_0001 ;
+        adm:facetIndex      11 ;
         adm:gitPath         "88/UT3JT13348_014_0001.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13348_014_0001 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0D6718A97E06DCAE
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP19715D63BAA3C539
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP22ECA0D6DC70A0BD
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP5B37E0646A9A2F8B
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP5E690CCD92FA5995
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP5F53C2E22CE6F65A
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP7DBD6059BA4AA07D
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPB2F0404228C7466D
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPBD81B3C9855DBF18
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPF70CEA86455ECED4
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT3JT13348_014_0001
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄། །དོན་ནམ་མཁའི་ཕྱག་རྒྱའི་ཟབ་ཆོས། །ན་མོ་རཏྣ་གུ་རུ།པྲ་ཛྙཱ་ཀ་ར།འདིར་རྗེ་འགྲོ་བའི་མགོན་པོ་དཔལ་འབྲི་གུང་པའི་གསུང་གིས།སྤྱིར་འཇིག་རྟ"@bo ;
+        :eTextHasPage       bdr:EP0D6718A97E06DCAE , bdr:EP19715D63BAA3C539 , bdr:EP22ECA0D6DC70A0BD , bdr:EP5B37E0646A9A2F8B , bdr:EP5E690CCD92FA5995 , bdr:EP5F53C2E22CE6F65A , bdr:EP7DBD6059BA4AA07D , bdr:EPB2F0404228C7466D , bdr:EPBD81B3C9855DBF18 , bdr:EPF70CEA86455ECED4 ;
         :eTextInInstance    bdr:IE3JT13348 ;
         :eTextInVolume      14 ;
         :eTextSourcePath    "DrikungChetsang/2_KYOPA/rtfs/volume-014/Donnamkha.rtf" ;

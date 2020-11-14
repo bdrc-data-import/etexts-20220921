@@ -16,14 +16,28 @@ bdg:UT23605_009_0004 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_009_0004 ;
+        adm:facetIndex      4 ;
         adm:gitPath         "b6/UT23605_009_0004.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_009_0004 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP8F799641FF705BDF
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPF74EBA5D719B5BEB
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPFB40F720253771E6
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT23605_009_0004
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༦༣༽༄༅། །ཕྱག་རྒྱ་ཆེན་པོ་ལྷན་ཅིག་སྐྱེས་སྦྱོར་གྱི་ཁྲིད་ཀྱི་སྤྱི་སྡོམ་རྩ་ཚིག་བཞུགས་སོ། །། །"@bo ;
+        :eTextHasPage       bdr:EP8F799641FF705BDF , bdr:EPF74EBA5D719B5BEB , bdr:EPFB40F720253771E6 ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      9 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/09_gdams-ngag-mdzod_ta/09_03_phyag-rgya-chen-po-lhan-cig-skyes-sbyor-gyi-khrid-kyi-spyi-sdom-rtsa-tshig.rtf" ;

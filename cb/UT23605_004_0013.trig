@@ -16,14 +16,48 @@ bdg:UT23605_004_0013 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_004_0013 ;
+        adm:facetIndex      9 ;
         adm:gitPath         "cb/UT23605_004_0013.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_004_0013 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP066C778FB9AA0E2B
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP0966A62637AE8168
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP0D501582087564B4
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP246B0C9F9D44AE96
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP69D15F62E649293B
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP7018503FAFCF12E2
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPACA1681D77E6C102
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPFFE65E3D1B2715D7
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
     bdr:UT23605_004_0013
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༣༡༧༽༄༅། །ཐིག་ལེ་བཅུ་དྲུག་གི་སྒོམ་བཟླས་ཉམས་སུ་ལེན་ཚུལ་སྙིང་པོར་དྲིལ་བ་བཞུགས་སོ། །། །"@bo ;
+        :eTextHasPage       bdr:EP066C778FB9AA0E2B , bdr:EP0966A62637AE8168 , bdr:EP0D501582087564B4 , bdr:EP246B0C9F9D44AE96 , bdr:EP69D15F62E649293B , bdr:EP7018503FAFCF12E2 , bdr:EPACA1681D77E6C102 , bdr:EPFFE65E3D1B2715D7 ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      4 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/04_gdams-ngag-mdzod_nga/04_12_thig-le-bcu-drug-gi-sgom-bzlas-nyams-su-len-tshul-snying-por-dril-ba.rtf" ;

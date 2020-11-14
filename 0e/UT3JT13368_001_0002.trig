@@ -16,14 +16,48 @@ bdg:UT3JT13368_001_0002 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13368_001_0002 ;
+        adm:facetIndex      9 ;
         adm:gitPath         "0e/UT3JT13368_001_0002.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13368_001_0002 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP06C20E0CA5665C81
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP0DFFF0294347DE5D
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP11E13F357B398A99
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP158D276EC7C646A1
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP1CCAAC6E969EDA81
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP7978D54CB5DB6963
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP8D5995092ACC508D
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPBA46680F280A387D
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT3JT13368_001_0002
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༡༽སྔོན་འགྲོའི་གཏམ།"@bo ;
+        :eTextHasPage       bdr:EP06C20E0CA5665C81 , bdr:EP0DFFF0294347DE5D , bdr:EP11E13F357B398A99 , bdr:EP158D276EC7C646A1 , bdr:EP1CCAAC6E969EDA81 , bdr:EP7978D54CB5DB6963 , bdr:EP8D5995092ACC508D , bdr:EPBA46680F280A387D ;
         :eTextInInstance    bdr:IE3JT13368 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "PalriParkhang/Sera-Khandro-Namthar/rtfs/volume-001/B-1-10.rtf" ;

@@ -16,14 +16,32 @@ bdg:UT23605_010_0029 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_010_0029 ;
+        adm:facetIndex      5 ;
         adm:gitPath         "b4/UT23605_010_0029.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_010_0029 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0FE806BA4768BED2
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP8B28FCFE1D70C07C
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPA6BA680E7E068C67
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPC1358B754F3B1F5F
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
     bdr:UT23605_010_0029
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༤༩༧༽༄༅། །ཐུགས་རྗེ་ཆེན་པོ་དང་བདེ་མགོན་སྦྲགས་སྒྲུབ་ནག་པོ་གཟི་མདངས་ཀྱི་སྒྲུབ་པ་ཞེས་བྱ་བ་དཔལ་ཆེན་རྒྭ་ལོ་ཙཱ་བའི་སྙན་བརྒྱུད་བཞུགས་སོ"@bo ;
+        :eTextHasPage       bdr:EP0FE806BA4768BED2 , bdr:EP8B28FCFE1D70C07C , bdr:EPA6BA680E7E068C67 , bdr:EPC1358B754F3B1F5F ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      10 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/10_gdams-ngag-mdzod_tha/10_28_thugs-rje-chen-po-dang-bde-mgon-sbrags-sgrub-nag-po-gzi-mdangs-kyi-sgrub-pa.rtf" ;

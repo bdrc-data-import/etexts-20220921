@@ -16,14 +16,36 @@ bdg:UT1PD90129_011_0024 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1PD90129_011_0024 ;
+        adm:facetIndex      6 ;
         adm:gitPath         "04/UT1PD90129_011_0024.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1PD90129_011_0024 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP4B0C4772D7D19B17
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP5495C11A5EE27C16
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP72D6D387734442D7
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP954E133F35C3CFD5
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPDD5EBD3064789EB3
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT1PD90129_011_0024
         a                   :EtextNonPaginated ;
         skos:prefLabel      "སྔོན་འགྲོའི་ཞུ་ཚིག"@bo ;
+        :eTextHasPage       bdr:EP4B0C4772D7D19B17 , bdr:EP5495C11A5EE27C16 , bdr:EP72D6D387734442D7 , bdr:EP954E133F35C3CFD5 , bdr:EPDD5EBD3064789EB3 ;
         :eTextInInstance    bdr:IE1PD90129 ;
         :eTextInVolume      11 ;
         :eTextSourcePath    "KarmaDelek/co-ne-grags-pa-bshad-sgrub-gsung-qbum/rtfs/volume_011/volume_011_266.rtf" ;

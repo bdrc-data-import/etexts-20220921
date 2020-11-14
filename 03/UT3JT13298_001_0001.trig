@@ -16,14 +16,36 @@ bdg:UT3JT13298_001_0001 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13298_001_0001 ;
+        adm:facetIndex      6 ;
         adm:gitPath         "03/UT3JT13298_001_0001.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13298_001_0001 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP86309828A011E82A
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPB48DB7F5C220EA1A
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPCBECF95976F36EC5
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPDC1E695988961B2A
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPE06A6003790A0E01
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT3JT13298_001_0001
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །བདེ་བ་ཅན་དུ་བགྲོད་པའི་སྨོན་ལམ་ནི།མངྒ་ལཾ་སྭསྟི་བྷ་ཝནྟུ།ཤེས་བྱ་ཐམས་ཅད་མངོན་སུམ་གཟིགས་པ་པོ། །མཆོག་གི་ཡོན་ཏན་མ་ལུས་མཐར་ཕྱིན་པ"@bo ;
+        :eTextHasPage       bdr:EP86309828A011E82A , bdr:EPB48DB7F5C220EA1A , bdr:EPCBECF95976F36EC5 , bdr:EPDC1E695988961B2A , bdr:EPE06A6003790A0E01 ;
         :eTextInInstance    bdr:IE3JT13298 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "DharmaDownload/Karmapa-05/rtfs/01_5th-Karmapa-text-Dhemon-Shejama/5th-Karmapa-text_tdoc_bde-smon-shejama.rtf" ;

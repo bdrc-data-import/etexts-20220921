@@ -16,14 +16,20 @@ bdg:UT3JT13334_002_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13334_002_0000 ;
+        adm:facetIndex      2 ;
         adm:gitPath         "60/UT3JT13334_002_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13334_002_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP4AA6EE80D134BE90
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT3JT13334_002_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "ཕྱག་ཆེན་སྔོན་འགྲོའི་དངོས་གཞི་དང་སྔོན་འགྲོ་ཐུན་མོང་མ་ཡིན་པའི་གསོལ་འདེབས་རྗེ་བཅུ་གསུམ་པས་མཛད་པ་རྟག་པར་ཞལ་འདོན་བྱེད་པ་གལ་ཆེ།ན་མོ་གུ"@bo ;
+        :eTextHasPage       bdr:EP4AA6EE80D134BE90 ;
         :eTextInInstance    bdr:IE3JT13334 ;
         :eTextIsVolume      2 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/P0010_Ngondro_tdoc/Ngodroqi-Judeb.rtf" ;

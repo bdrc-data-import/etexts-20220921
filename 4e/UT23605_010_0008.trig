@@ -16,14 +16,56 @@ bdg:UT23605_010_0008 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_010_0008 ;
+        adm:facetIndex      11 ;
         adm:gitPath         "4e/UT23605_010_0008.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_010_0008 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP1B7FBD40F4083F57
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP3B707A62FAA4FE05
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP464424829B26666F
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP46EB133B49600D7C
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP5DBF4BC874AAF3B2
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP7DE46B0C01147269
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP97123323F7B7617A
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP97723E118748EAB7
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPBAFB9395CBCC6B7B
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPD17217665406A56C
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT23605_010_0008
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༩༡༽༄༅། །སྤྱོད་པ་ཆོས་ཀྱི་གླུ་ཞེས་བྱ་བ་འབྱུང་བ་རོ་སྙོམས་ཀྱི་གདམས་ངག་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP1B7FBD40F4083F57 , bdr:EP3B707A62FAA4FE05 , bdr:EP464424829B26666F , bdr:EP46EB133B49600D7C , bdr:EP5DBF4BC874AAF3B2 , bdr:EP7DE46B0C01147269 , bdr:EP97123323F7B7617A , bdr:EP97723E118748EAB7 , bdr:EPBAFB9395CBCC6B7B , bdr:EPD17217665406A56C ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      10 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/10_gdams-ngag-mdzod_tha/10_07_spyod-pa-chos-kyi-glu-zhes-bya-ba-qbyung-ba-ro-snyoms-kyi-gdams-ngag.rtf" ;

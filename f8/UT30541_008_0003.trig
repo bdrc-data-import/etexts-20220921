@@ -16,14 +16,44 @@ bdg:UT30541_008_0003 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT30541_008_0003 ;
+        adm:facetIndex      8 ;
         adm:gitPath         "f8/UT30541_008_0003.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT30541_008_0003 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP01AB99E49B94F8EA
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP1225F8C07D1BD0AD
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP284DE3DFA8F95703
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP28D6C27D2E85A011
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP35A3DC716B994A66
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP46FD14617E17CC7D
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP8D42CC84BDF5DDA7
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
     bdr:UT30541_008_0003
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །རྣལ་འབྱོར་མ་ཀུན་ཏུ་སྤྱོད་པའི་ཞེས་བྱ་བའི་རྒྱུད་ཀྱིས་བསྡུས་དོན་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP01AB99E49B94F8EA , bdr:EP1225F8C07D1BD0AD , bdr:EP284DE3DFA8F95703 , bdr:EP28D6C27D2E85A011 , bdr:EP35A3DC716B994A66 , bdr:EP46FD14617E17CC7D , bdr:EP8D42CC84BDF5DDA7 ;
         :eTextInInstance    bdr:IE30541 ;
         :eTextInVolume      8 ;
         :eTextSourcePath    "DharmaDownload/Karmapa-03/rtfs/08_3rd-karmapa-text_tdoc_nya/08_02_nya_rnal-qbyor-ma-kun-tu-spyod-pa-zhes-bya-baqi-rgyud-kyi-bsdus-don.rtf" ;

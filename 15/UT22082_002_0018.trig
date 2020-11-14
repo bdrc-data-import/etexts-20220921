@@ -16,14 +16,48 @@ bdg:UT22082_002_0018 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT22082_002_0018 ;
+        adm:facetIndex      9 ;
         adm:gitPath         "15/UT22082_002_0018.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT22082_002_0018 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP2050CE79AB959937
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP396A33AB65FCF5B5
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP4743EE202A5A572A
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP6BF924391A467228
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP816EF1AF6A2C310D
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPBEDE472613ED0A2D
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPF0ED4C8D86BE7A37
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPF9AF109783B18708
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT22082_002_0018
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །གནམ་གྱི་བུ་ཇིང་གིར་གྱི་རྒྱལ་རྒྱུད་ཨ་བུ་བཙུན་པས་བཞེངས་པ་ཤེར་ཕྱིན་ལ་"@bo ;
+        :eTextHasPage       bdr:EP2050CE79AB959937 , bdr:EP396A33AB65FCF5B5 , bdr:EP4743EE202A5A572A , bdr:EP6BF924391A467228 , bdr:EP816EF1AF6A2C310D , bdr:EPBEDE472613ED0A2D , bdr:EPF0ED4C8D86BE7A37 , bdr:EPF9AF109783B18708 ;
         :eTextInInstance    bdr:IE22082 ;
         :eTextInVolume      2 ;
         :eTextSourcePath    "DrikungChetsang/7__KUNKHYEN/rtfs/volume-002/5KHA.CA.rtf" ;

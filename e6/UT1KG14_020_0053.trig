@@ -16,14 +16,24 @@ bdg:UT1KG14_020_0053 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1KG14_020_0053 ;
+        adm:facetIndex      3 ;
         adm:gitPath         "e6/UT1KG14_020_0053.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1KG14_020_0053 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP83EFDEC7C94463C4
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPAFC07876A97FFADC
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT1KG14_020_0053
         a                   :EtextNonPaginated ;
         skos:prefLabel      "གདོད་མའི་མགོན་པོ་ཀུན་བཟང་འོད་མི་འགྱུར། །ངེས་པ་ལྔ་ལྡན་རིགས་ལྔ་ལོངས་སྤྱོད་རྫོགས། །དཀྱིལ་འཁོར་ཀུན་གྱི་དབང་ཕྱུག་རྡོ་རྗེ་སེམས། །གས"@bo ;
+        :eTextHasPage       bdr:EP83EFDEC7C94463C4 , bdr:EPAFC07876A97FFADC ;
         :eTextInInstance    bdr:IE1KG14 ;
         :eTextInVolume      20 ;
         :eTextSourcePath    "Shechen/Rinchen-Terdzod-Shechen-vols-01-54/rtfs/20-WA/Terzod-wa-P52.rtf" ;

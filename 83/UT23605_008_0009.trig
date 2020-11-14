@@ -16,14 +16,64 @@ bdg:UT23605_008_0009 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_008_0009 ;
+        adm:facetIndex      13 ;
         adm:gitPath         "83/UT23605_008_0009.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_008_0009 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0A69C5F6EC2DC5F5
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP2735C1C5CBB1829F
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP3CE929A29E2274D5
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP5C8F1ADA38D2CB8C
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP6173A643C107608E
+        a                   :EtextPage ;
+        :seqNum             12 .
+    
+    bdr:EP741FD755DCD4D163
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EP7BC7B1C7FA94E7AE
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP834B6CCD3880952F
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPB304E61209C988E3
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPCAD167883993C007
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPD542CB81E57EC3B5
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPF756C5F7EAFF22DB
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
     bdr:UT23605_008_0009
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༡༢༡༽༄༅། །བདེ་མཆོག་སྙན་བརྒྱུད་ཀྱི་ཕྱག་རྒྱ་ཆེན་པོ་ཡེ་ཤེས་གསལ་བྱེད་བཞུགས་སོ། །། །"@bo ;
+        :eTextHasPage       bdr:EP0A69C5F6EC2DC5F5 , bdr:EP2735C1C5CBB1829F , bdr:EP3CE929A29E2274D5 , bdr:EP5C8F1ADA38D2CB8C , bdr:EP6173A643C107608E , bdr:EP741FD755DCD4D163 , bdr:EP7BC7B1C7FA94E7AE , bdr:EP834B6CCD3880952F , bdr:EPB304E61209C988E3 , bdr:EPCAD167883993C007 , bdr:EPD542CB81E57EC3B5 , bdr:EPF756C5F7EAFF22DB ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      8 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/08_gdams-ngag-mdzod_nya/08_08_bde-mchog-snyan-brgyud-kyi-phyag-rgya-chen-po-ye-shes-gsal-byed.rtf" ;

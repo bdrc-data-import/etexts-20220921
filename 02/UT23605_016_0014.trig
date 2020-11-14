@@ -16,14 +16,44 @@ bdg:UT23605_016_0014 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_016_0014 ;
+        adm:facetIndex      8 ;
         adm:gitPath         "02/UT23605_016_0014.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_016_0014 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP472176AD8F7B95DD
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP48FD4EF87A8AE6C5
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP860BB686CE9420CA
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP9AF77E66F1707485
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPB3661CFD390B6F36
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPD712D434DF851439
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPE28B3062681BC642
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT23605_016_0014
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༢༨༥༽༄༅། །ཆོས་སྐྱོང་བྲག་ལྷ་མགོན་པོའི་རྗེས་གནང་བགེགས་དཔུང་འཇོམས་བྱེད་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP472176AD8F7B95DD , bdr:EP48FD4EF87A8AE6C5 , bdr:EP860BB686CE9420CA , bdr:EP9AF77E66F1707485 , bdr:EPB3661CFD390B6F36 , bdr:EPD712D434DF851439 , bdr:EPE28B3062681BC642 ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      16 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/16_gdams-ngag-mdzod_ma/16_13_chos-skyong-brag-lha-mgon-poqi-rjes-gnang-bgegs-dpung-qjoms-byed.rtf" ;

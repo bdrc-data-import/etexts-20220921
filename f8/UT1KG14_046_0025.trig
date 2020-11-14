@@ -16,14 +16,60 @@ bdg:UT1KG14_046_0025 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1KG14_046_0025 ;
+        adm:facetIndex      12 ;
         adm:gitPath         "f8/UT1KG14_046_0025.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1KG14_046_0025 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0528513EFD5224BF
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP0B99670B9954C1D6
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP2EC9F22BEDB9E01A
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP37869E718B68BEA4
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EP4559AEBA502890BC
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP671F4CEEABE5A98C
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP786D8A8AF612A2F9
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP95EAF9551248C711
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPD431A4F0DCDC866F
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPD72EDDC4F729AA50
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPDE8654A611DEF058
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
     bdr:UT1KG14_046_0025
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །བྱང་གཏེར་ཐུགས་སྒྲུབ་ལས།ལས་ཀྱི་བྱ་ཁྱུང་ནག་པོའི་ཆོས་སྐོར་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP0528513EFD5224BF , bdr:EP0B99670B9954C1D6 , bdr:EP2EC9F22BEDB9E01A , bdr:EP37869E718B68BEA4 , bdr:EP4559AEBA502890BC , bdr:EP671F4CEEABE5A98C , bdr:EP786D8A8AF612A2F9 , bdr:EP95EAF9551248C711 , bdr:EPD431A4F0DCDC866F , bdr:EPD72EDDC4F729AA50 , bdr:EPDE8654A611DEF058 ;
         :eTextInInstance    bdr:IE1KG14 ;
         :eTextInVolume      46 ;
         :eTextSourcePath    "Shechen/Rinchen-Terdzod-Shechen-vols-01-54/rtfs/46-MI/TERDZO-MI-P24.rtf" ;

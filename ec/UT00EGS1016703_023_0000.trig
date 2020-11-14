@@ -16,14 +16,32 @@ bdg:UT00EGS1016703_023_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT00EGS1016703_023_0000 ;
+        adm:facetIndex      5 ;
         adm:gitPath         "ec/UT00EGS1016703_023_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT00EGS1016703_023_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP10035136419BDFAA
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP158C09530CA8025F
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP884523AFC7D9749E
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPE41B5C1FC4D6EAFE
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT00EGS1016703_023_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼ག༽༄༅། །གུ་རུ་དྲག་དམར་གྱི་བསྙེན་པ་བྱ་ཚུལ་གྱི་ཡི་གེ་ཉུང་ངུ་དོན་འདུས་ཞེས་བྱ་བ་བཞུགས་སོ། །རྒྱལ་བ་ཀུན་དངོས་པདྨ་འབྱུང༌། །དྲེགས་པ་ག"@bo ;
+        :eTextHasPage       bdr:EP10035136419BDFAA , bdr:EP158C09530CA8025F , bdr:EP884523AFC7D9749E , bdr:EPE41B5C1FC4D6EAFE ;
         :eTextInInstance    bdr:IE00EGS1016703 ;
         :eTextIsVolume      23 ;
         :eTextSourcePath    "GuruLamaWorks/For-Conversion-Disk-01-20130424/rtfs/ZUCHEN/ZUCN020.rtf" ;

@@ -16,14 +16,32 @@ bdg:UT10736_024_0015 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT10736_024_0015 ;
+        adm:facetIndex      5 ;
         adm:gitPath         "b7/UT10736_024_0015.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT10736_024_0015 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP03FDA9CE3280892F
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP04BE7EC75B45D091
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP10EE7772440668CF
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPCEF342F14C762FE1
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT10736_024_0015
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །ཧེ་རུ་ཀའི་ཞིང་དུ་འདྲེན་པའི་སྨོན་ལམ་ཡིད་ཀྱི་ཤིང་རྟ་ཞེས་བྱ་བ་བཞུགས།"@bo ;
+        :eTextHasPage       bdr:EP03FDA9CE3280892F , bdr:EP04BE7EC75B45D091 , bdr:EP10EE7772440668CF , bdr:EPCEF342F14C762FE1 ;
         :eTextInInstance    bdr:IE10736 ;
         :eTextInVolume      24 ;
         :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/24_ya/24_14_ya_he-ru-kaqi-zhing-du-qdren-paqi-smon-lam-yid-kyi-shing-rta.rtf" ;

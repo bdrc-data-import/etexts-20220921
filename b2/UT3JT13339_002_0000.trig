@@ -16,14 +16,56 @@ bdg:UT3JT13339_002_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13339_002_0000 ;
+        adm:facetIndex      11 ;
         adm:gitPath         "b2/UT3JT13339_002_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13339_002_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0BA4784FD00662E7
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP65704B9141FB6A8E
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP6904C9359E711D39
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP711B5443DB061BE9
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP798C8A3FA77E91E3
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP9F5B275B0DD243DB
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPAE562ED8B44BFCFC
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPCA67315E99C17F71
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EPD0C2DF0DD7943CAF
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPDA5D9598DA845802
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
     bdr:UT3JT13339_002_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །རྒྱལ་ཆེན་བཞིའི་བཟློག་བསྒྱུར་དང་རེ་མ་ཏིའི་བཟློག་བསྒྱུར་གྱིས་པ་བཞུགས། །"@bo ;
+        :eTextHasPage       bdr:EP0BA4784FD00662E7 , bdr:EP65704B9141FB6A8E , bdr:EP6904C9359E711D39 , bdr:EP711B5443DB061BE9 , bdr:EP798C8A3FA77E91E3 , bdr:EP9F5B275B0DD243DB , bdr:EPAE562ED8B44BFCFC , bdr:EPCA67315E99C17F71 , bdr:EPD0C2DF0DD7943CAF , bdr:EPDA5D9598DA845802 ;
         :eTextInInstance    bdr:IE3JT13339 ;
         :eTextIsVolume      2 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/P0029_Jabzhi_tdoc/dhoggyur-gyeapa.rtf" ;

@@ -16,14 +16,56 @@ bdg:UT1PD45495_014_0010 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1PD45495_014_0010 ;
+        adm:facetIndex      11 ;
         adm:gitPath         "f0/UT1PD45495_014_0010.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1PD45495_014_0010 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0DFF69362D92CF2D
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP14B9D4FB8CC09599
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP352476990F1785A3
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP3F3764931C01E564
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP554804F17D0F8F33
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP5AE471265FD06C68
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP9463E71C85909CEB
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPAAE315E1ABCB015B
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPB23389EC8AA681C3
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPFD7C471D7EA77728
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT1PD45495_014_0010
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །འཁོར་ལོ་སྡོམ་པའི་ལྷ་ཚོགས་ཀྱི་བཀྲ་ཤིས་དགེ་ལེགས་རྒྱ་མཚོ་ཞེས་བྱ་བ་བཞུགས།"@bo ;
+        :eTextHasPage       bdr:EP0DFF69362D92CF2D , bdr:EP14B9D4FB8CC09599 , bdr:EP352476990F1785A3 , bdr:EP3F3764931C01E564 , bdr:EP554804F17D0F8F33 , bdr:EP5AE471265FD06C68 , bdr:EP9463E71C85909CEB , bdr:EPAAE315E1ABCB015B , bdr:EPB23389EC8AA681C3 , bdr:EPFD7C471D7EA77728 ;
         :eTextInInstance    bdr:IE1PD45495 ;
         :eTextInVolume      14 ;
         :eTextSourcePath    "KarmaDelek/taranatha-gsung-qbum/rtfs/volume_014/volume_014_123.rtf" ;

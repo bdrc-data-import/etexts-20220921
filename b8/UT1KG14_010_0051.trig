@@ -16,14 +16,40 @@ bdg:UT1KG14_010_0051 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1KG14_010_0051 ;
+        adm:facetIndex      7 ;
         adm:gitPath         "b8/UT1KG14_010_0051.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1KG14_010_0051 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP1D45075A2F34F008
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP38D2B748E5087D6C
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP74FDA472242367DD
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP8F0A55C297201EE3
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP9766A55431FDF85B
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPECBE1187FF785D97
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT1KG14_010_0051
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༁ྃ༔རྩ་གསུམ་དགོངས་འདུས་ཟབ་མོ་གཏེར་གྱི་མཛོད་ལས༔རིག་འཛིན་རྒྱུན་གྱི་རྣལ་འབྱོར་བཞུགས༔"@bo ;
+        :eTextHasPage       bdr:EP1D45075A2F34F008 , bdr:EP38D2B748E5087D6C , bdr:EP74FDA472242367DD , bdr:EP8F0A55C297201EE3 , bdr:EP9766A55431FDF85B , bdr:EPECBE1187FF785D97 ;
         :eTextInInstance    bdr:IE1KG14 ;
         :eTextInVolume      10 ;
         :eTextSourcePath    "Shechen/Rinchen-Terdzod-Shechen-vols-01-54/rtfs/10-THA/Terdzo-tha.P50.rtf" ;

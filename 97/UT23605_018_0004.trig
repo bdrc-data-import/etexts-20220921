@@ -16,14 +16,32 @@ bdg:UT23605_018_0004 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_018_0004 ;
+        adm:facetIndex      5 ;
         adm:gitPath         "97/UT23605_018_0004.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_018_0004 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP1E04972D029627B1
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP44A188575A4B7E95
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP8A5E0A65E4D46FAE
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP8C0FA1C5C382B20B
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT23605_018_0004
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༤༡༽༄༅། །ཟབ་ཁྲིད་བརྒྱ་དང་བརྒྱད་ཀྱི་ཁུངས་གླེང་བའི་ཞབས་རྟེན་ཚིགས་སུ་བཅད་པ་"@bo ;
+        :eTextHasPage       bdr:EP1E04972D029627B1 , bdr:EP44A188575A4B7E95 , bdr:EP8A5E0A65E4D46FAE , bdr:EP8C0FA1C5C382B20B ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      18 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/18_gdams-ngag-mdzod_tsha/18_03_zab-khrid-brgya-dang-brgyad-kyi-khungs-gleng-baqi-zhabs-rten-tshigs-su-bcad-pa.rtf" ;

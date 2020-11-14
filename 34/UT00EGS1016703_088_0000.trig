@@ -16,14 +16,44 @@ bdg:UT00EGS1016703_088_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT00EGS1016703_088_0000 ;
+        adm:facetIndex      8 ;
         adm:gitPath         "34/UT00EGS1016703_088_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT00EGS1016703_088_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP350E04DD17FFAD5D
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP51C00F6C7665608C
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP8AD3D89B72335C49
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP8D960E818EA5478A
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP9200FD5CA20E6B4A
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPAD6BA36DF01C79BE
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPDAAA4F831AA915A1
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
     bdr:UT00EGS1016703_088_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼ཆ༽༄༅། །ཡུལ་རིས་གཞི་བདག་རྣམས་ལ་གཏོར་མ་སྟོབ་པའི་ཆོ་ག་ཡུལ་བདག་དགྱེས་པའི་རོལ་མཚོ་ཞེས་བྱ་བ་བཞུགས་སོ། །གང་གི་བཀའ་ལུང་མི་དང་མི་མིན་ག"@bo ;
+        :eTextHasPage       bdr:EP350E04DD17FFAD5D , bdr:EP51C00F6C7665608C , bdr:EP8AD3D89B72335C49 , bdr:EP8D960E818EA5478A , bdr:EP9200FD5CA20E6B4A , bdr:EPAD6BA36DF01C79BE , bdr:EPDAAA4F831AA915A1 ;
         :eTextInInstance    bdr:IE00EGS1016703 ;
         :eTextIsVolume      88 ;
         :eTextSourcePath    "GuruLamaWorks/For-Conversion-Disk-01-20130424/rtfs/ZUCHEN/ZUCN085.rtf" ;

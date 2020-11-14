@@ -16,14 +16,56 @@ bdg:UT3JT13384_003_0019 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13384_003_0019 ;
+        adm:facetIndex      11 ;
         adm:gitPath         "17/UT3JT13384_003_0019.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13384_003_0019 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP367D46DB83FE101C
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP6ACB5D9926CCC09E
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPBA6DF17A5E299421
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPC35AF87930DBEC67
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPC5AD865B53317C80
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPCB98F836A44A94FF
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPD89949C320A88701
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EPDAC17FBD69921077
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPEC6E3FDC6F283C8C
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EPEEEE693457CB411F
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
     bdr:UT3JT13384_003_0019
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅༔༔ཉམས་ཆགས་སྡིག་སྒྲིབ་ཐམས་ཅད་བཤགས་པའི་རྒྱལ་པོ་ན་རཀ་དོང་སྤྲུགས་བཞུགས་སོ༔"@bo ;
+        :eTextHasPage       bdr:EP367D46DB83FE101C , bdr:EP6ACB5D9926CCC09E , bdr:EPBA6DF17A5E299421 , bdr:EPC35AF87930DBEC67 , bdr:EPC5AD865B53317C80 , bdr:EPCB98F836A44A94FF , bdr:EPD89949C320A88701 , bdr:EPDAC17FBD69921077 , bdr:EPEC6E3FDC6F283C8C , bdr:EPEEEE693457CB411F ;
         :eTextInInstance    bdr:IE3JT13384 ;
         :eTextInVolume      3 ;
         :eTextSourcePath    "Various/gsung_qbum_mkhyen_brtseqi_dbang_po_UT2MS24768/rtfs/volume-003/3-26..rtf" ;

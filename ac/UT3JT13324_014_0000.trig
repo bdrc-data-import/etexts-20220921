@@ -16,14 +16,28 @@ bdg:UT3JT13324_014_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13324_014_0000 ;
+        adm:facetIndex      4 ;
         adm:gitPath         "ac/UT3JT13324_014_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13324_014_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP086B74003CB09D87
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP45D1128A0C35AF1D
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP65701846A9D2882E
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT3JT13324_014_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །བཀྲ་ཤིས་རྟགས་བརྒྱད་ཀྱི་དབང་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP086B74003CB09D87 , bdr:EP45D1128A0C35AF1D , bdr:EP65701846A9D2882E ;
         :eTextInInstance    bdr:IE3JT13324 ;
         :eTextIsVolume      14 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/Amitabha-tdoc/014_Amitabha_Tagyed-Wang.rtf" ;

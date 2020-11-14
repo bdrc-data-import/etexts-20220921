@@ -16,14 +16,44 @@ bdg:UT3JT13340_001_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13340_001_0000 ;
+        adm:facetIndex      8 ;
         adm:gitPath         "10/UT3JT13340_001_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13340_001_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP06BACFB5640FC198
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP14701E2F52F937E8
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP75413EBFF37ECE05
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP8DCC04CDC40D8369
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP997A119F505C6C77
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPE4989D83C4972CB0
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPE7EB5BE4D7165198
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT3JT13340_001_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༁ྃ༔ཟབ་ཆོས་ཞི་ཁྲོ་དགོངས་པ་རང་གྲོལ་ལས།གསང་སྔགས་རྡོ་རྗེ་ཐེག་པའི་ཆོས་སྤྱོད་ཐུན་བཞིའི་རྣལ་འབྱོར་སེམས་ཉིད་རང་གྲོལ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP06BACFB5640FC198 , bdr:EP14701E2F52F937E8 , bdr:EP75413EBFF37ECE05 , bdr:EP8DCC04CDC40D8369 , bdr:EP997A119F505C6C77 , bdr:EPE4989D83C4972CB0 , bdr:EPE7EB5BE4D7165198 ;
         :eTextInInstance    bdr:IE3JT13340 ;
         :eTextIsVolume      1 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/P0033_Karling-Zhithro/01-choechod.rtf" ;

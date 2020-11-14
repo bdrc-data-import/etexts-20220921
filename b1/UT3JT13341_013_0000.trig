@@ -16,14 +16,32 @@ bdg:UT3JT13341_013_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13341_013_0000 ;
+        adm:facetIndex      5 ;
         adm:gitPath         "b1/UT3JT13341_013_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13341_013_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP1FA4ABC6AADD91A9
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP827C98C442F990B7
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP89D3FFE38C6C03C8
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPE14C5CBC52A8E343
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT3JT13341_013_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "གསོལ་འདེབས་བར་ཆད་ལམ་སེལ་བཞུགས་སོ༔ཨོཾ་ཨཱཿཧཱུྃ་བཛྲ་གུ་རུ་པདྨ་སིདྡྷི་ཧཱུྃ༔ཆོས་སྐུ་སྣང་བ་མཐའ་ཡས་ལ་གསོལ་བ་འདེབས༔ལོངས་སྐུ་ཐུགས་རྗེ་ཆེན"@bo ;
+        :eTextHasPage       bdr:EP1FA4ABC6AADD91A9 , bdr:EP827C98C442F990B7 , bdr:EP89D3FFE38C6C03C8 , bdr:EPE14C5CBC52A8E343 ;
         :eTextInInstance    bdr:IE3JT13341 ;
         :eTextIsVolume      13 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/Taksham-Chochod_tdoc/012_bar-chad-lam-sel.rtf" ;

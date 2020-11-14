@@ -16,14 +16,72 @@ bdg:UT3JT13373_001_0008 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13373_001_0008 ;
+        adm:facetIndex      15 ;
         adm:gitPath         "0e/UT3JT13373_001_0008.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13373_001_0008 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0ACC90668DED93A6
+        a                   :EtextPage ;
+        :seqNum             14 .
+    
+    bdr:EP0EB759E8259B2BAD
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP4F3E10FDDC1C23EE
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP598A497F7B80C4F4
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP5D1064380C8EE706
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP6DE71E19362100BA
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP7F276CCBC7A24085
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP9E6D040C62B5F818
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPA4DC4665D4EFC1C6
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EPC32D7B06256882AE
+        a                   :EtextPage ;
+        :seqNum             12 .
+    
+    bdr:EPD0FFBD4700643FF5
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EPD1C61595D972B45A
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPD66416F2A773EA66
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPE9A921C5A5F2895E
+        a                   :EtextPage ;
+        :seqNum             13 .
+    
     bdr:UT3JT13373_001_0008
         a                   :EtextNonPaginated ;
         skos:prefLabel      "རྗེ་སྒམ་པོ་པའི་ལོ་རྒྱུས།"@bo ;
+        :eTextHasPage       bdr:EP0ACC90668DED93A6 , bdr:EP0EB759E8259B2BAD , bdr:EP4F3E10FDDC1C23EE , bdr:EP598A497F7B80C4F4 , bdr:EP5D1064380C8EE706 , bdr:EP6DE71E19362100BA , bdr:EP7F276CCBC7A24085 , bdr:EP9E6D040C62B5F818 , bdr:EPA4DC4665D4EFC1C6 , bdr:EPC32D7B06256882AE , bdr:EPD0FFBD4700643FF5 , bdr:EPD1C61595D972B45A , bdr:EPD66416F2A773EA66 , bdr:EPE9A921C5A5F2895E ;
         :eTextInInstance    bdr:IE3JT13373 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "VajraVidya/Kagyu_Sertreng/rtfs/volume-001/06_Gampo_quark.rtf" ;

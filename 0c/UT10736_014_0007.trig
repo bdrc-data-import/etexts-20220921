@@ -16,14 +16,64 @@ bdg:UT10736_014_0007 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT10736_014_0007 ;
+        adm:facetIndex      13 ;
         adm:gitPath         "0c/UT10736_014_0007.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT10736_014_0007 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP29E28FEBC39A028D
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP30173694D7098545
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP49113741CBDB84B8
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP898A6BEBBEB6551B
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPA68BC1E8ED4979D5
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPBC4F9516E6420A6B
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPCEBEC26ED407BC94
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EPDEACFFEC95A3AB75
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPECD6DD33509FD1C6
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPF0F47549DEADF17D
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPFAE575D3D15B9590
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EPFDFFD280A3EBE74A
+        a                   :EtextPage ;
+        :seqNum             12 .
+    
     bdr:UT10736_014_0007
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །བདེ་མཆོག་དྲུག་ཅུ་མའི་མཆོད་འཕྲེང་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP29E28FEBC39A028D , bdr:EP30173694D7098545 , bdr:EP49113741CBDB84B8 , bdr:EP898A6BEBBEB6551B , bdr:EPA68BC1E8ED4979D5 , bdr:EPBC4F9516E6420A6B , bdr:EPCEBEC26ED407BC94 , bdr:EPDEACFFEC95A3AB75 , bdr:EPECD6DD33509FD1C6 , bdr:EPF0F47549DEADF17D , bdr:EPFAE575D3D15B9590 , bdr:EPFDFFD280A3EBE74A ;
         :eTextInInstance    bdr:IE10736 ;
         :eTextInVolume      14 ;
         :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/14_pha/14_07_pha_bde-mchog-drug-cu-maqi-mchod-qphreng.rtf" ;

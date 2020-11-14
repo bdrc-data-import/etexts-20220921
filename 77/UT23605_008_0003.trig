@@ -16,14 +16,52 @@ bdg:UT23605_008_0003 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_008_0003 ;
+        adm:facetIndex      10 ;
         adm:gitPath         "77/UT23605_008_0003.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_008_0003 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP1B083871D797116B
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP2E74A6F0142C2F8F
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP9203FAC70F275D65
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP9294EB41A5DE8E3B
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP9682B6C81798ABDD
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPC5C729FA331DDE75
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPCE6511AC95FB0A57
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPD8AA5D01A6EF95E1
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPEC3EC99743162058
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
     bdr:UT23605_008_0003
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༩༽༄༅། །བདེ་མཆོག་སྙན་བརྒྱུད་ཀྱི་འོད་རིག་བདེ་ཆེན་གྱི་གདམས་པ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP1B083871D797116B , bdr:EP2E74A6F0142C2F8F , bdr:EP9203FAC70F275D65 , bdr:EP9294EB41A5DE8E3B , bdr:EP9682B6C81798ABDD , bdr:EPC5C729FA331DDE75 , bdr:EPCE6511AC95FB0A57 , bdr:EPD8AA5D01A6EF95E1 , bdr:EPEC3EC99743162058 ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      8 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/08_gdams-ngag-mdzod_nya/08_02_bde-mchog-snyan-brgyud-kyi-qod-rig-bde-chen-gyi-gdams-pa.rtf" ;

@@ -16,14 +16,24 @@ bdg:UT3JT13341_014_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13341_014_0000 ;
+        adm:facetIndex      3 ;
         adm:gitPath         "6a/UT3JT13341_014_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13341_014_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP9B3FD62023C423B1
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPA02245645444564D
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT3JT13341_014_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "གསོལ་འདེབས་བསམ་པ་མྱུར་འགྲུབ་མ་བཞུགས་སོ།༈ཨེ་མ་ཧོ།མཚོ་དབུས་གེ་སར་པདྨའི་སྡོང་པོ་ལ། །སྐུ་ལྔ་ཡེ་ཤེས་ལྷུན་གྱིས་གྲུབ་པའི་ལྷ། །རང་བྱུང"@bo ;
+        :eTextHasPage       bdr:EP9B3FD62023C423B1 , bdr:EPA02245645444564D ;
         :eTextInInstance    bdr:IE3JT13341 ;
         :eTextIsVolume      14 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/Taksham-Chochod_tdoc/013_bsam-pa-myur-qgrug-ma.rtf" ;

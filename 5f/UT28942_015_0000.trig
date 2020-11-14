@@ -16,14 +16,60 @@ bdg:UT28942_015_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT28942_015_0000 ;
+        adm:facetIndex      12 ;
         adm:gitPath         "5f/UT28942_015_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT28942_015_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP108BA3C887AA5893
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP114B092C3CB4BACE
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP7065CD2A93F12336
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP8DA5D0F12BBB628E
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP91AF7B3A63E31AB2
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP94A0A81DD9BEF901
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP96B25A03E15A0345
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPA4547D82EA548146
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPBB444778F81E7AB8
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EPCB7922D1CC8EED0F
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPF840CB0C61550A24
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
     bdr:UT28942_015_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །དད་དམིགས་རྣམས་ཀྱི་ཁྲིད་ཡིག་རྒྱལ་སྲས་རྣམས་ཀྱི་འཇུག་ངོགས་བཞུགས། །"@bo ;
+        :eTextHasPage       bdr:EP108BA3C887AA5893 , bdr:EP114B092C3CB4BACE , bdr:EP7065CD2A93F12336 , bdr:EP8DA5D0F12BBB628E , bdr:EP91AF7B3A63E31AB2 , bdr:EP94A0A81DD9BEF901 , bdr:EP96B25A03E15A0345 , bdr:EPA4547D82EA548146 , bdr:EPBB444778F81E7AB8 , bdr:EPCB7922D1CC8EED0F , bdr:EPF840CB0C61550A24 ;
         :eTextInInstance    bdr:IE28942 ;
         :eTextIsVolume      15 ;
         :eTextSourcePath    "GuruLamaWorks/For-Conversion-Disk-01-20130424/rtfs/RONGTON/RONT015.rtf" ;

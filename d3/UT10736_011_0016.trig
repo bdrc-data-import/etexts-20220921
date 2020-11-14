@@ -16,14 +16,64 @@ bdg:UT10736_011_0016 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT10736_011_0016 ;
+        adm:facetIndex      13 ;
         adm:gitPath         "d3/UT10736_011_0016.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT10736_011_0016 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP08734D8F3F6D2EB4
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP19DD741D065D94AE
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EP3BB8B3CB45FA3F41
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP42DFD342DF081C12
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP5276A7E3FB7C7129
+        a                   :EtextPage ;
+        :seqNum             12 .
+    
+    bdr:EP7CB48E45843C2A39
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP91E21E29A143D3D1
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP98219C4372B467ED
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPCFAB0C1AC8FD1FF3
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPE617FFE5C3603CE1
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPFC0CCECB3C7DEBC0
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPFC20CB2734F8AE69
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
     bdr:UT10736_011_0016
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །འཕགས་པ་སེང་གེ་སྒྲའི་གདོན་སྒྲོལ་གྱི་ཆོ་ག་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP08734D8F3F6D2EB4 , bdr:EP19DD741D065D94AE , bdr:EP3BB8B3CB45FA3F41 , bdr:EP42DFD342DF081C12 , bdr:EP5276A7E3FB7C7129 , bdr:EP7CB48E45843C2A39 , bdr:EP91E21E29A143D3D1 , bdr:EP98219C4372B467ED , bdr:EPCFAB0C1AC8FD1FF3 , bdr:EPE617FFE5C3603CE1 , bdr:EPFC0CCECB3C7DEBC0 , bdr:EPFC20CB2734F8AE69 ;
         :eTextInInstance    bdr:IE10736 ;
         :eTextInVolume      11 ;
         :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/11_da/11_14_da_qphags-pa-seng-ge-sgraqi-gdon-sgrol-gyi-cho-ga.rtf" ;

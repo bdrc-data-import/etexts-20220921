@@ -16,14 +16,44 @@ bdg:UT23605_019_0003 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_019_0003 ;
+        adm:facetIndex      8 ;
         adm:gitPath         "80/UT23605_019_0003.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_019_0003 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP29952D1824043DFC
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP38F786483F8A8D25
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP46CDE91076E447FA
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP73D4366D39556BE5
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP7789330A398C8180
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP88F33648BB3BBEC9
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP937EFCA6955EAF8F
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT23605_019_0003
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །གསུམ་པ་ལམ་འབྲས་བུ་དང་བཅས་པའི་རིང་ལུགས་འཆད་པ་ལ་གཉིས།ལུགས་སྲོལ་ངོས་འཛིན་པ།བརྒྱུད་པའི་རྣམ་གྲངས་བཤད་པའོ། །དང་པོ་ནི།"@bo ;
+        :eTextHasPage       bdr:EP29952D1824043DFC , bdr:EP38F786483F8A8D25 , bdr:EP46CDE91076E447FA , bdr:EP73D4366D39556BE5 , bdr:EP7789330A398C8180 , bdr:EP88F33648BB3BBEC9 , bdr:EP937EFCA6955EAF8F ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      19 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/History/03_Sakya.rtf" ;

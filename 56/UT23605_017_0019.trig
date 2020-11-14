@@ -16,14 +16,36 @@ bdg:UT23605_017_0019 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_017_0019 ;
+        adm:facetIndex      6 ;
         adm:gitPath         "56/UT23605_017_0019.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_017_0019 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP00D3F1764E5D5160
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP14D6763A986D89B6
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP22003A7A568E9894
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP8E1231102D6AEFFC
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPA2A3A82FEBC98701
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
     bdr:UT23605_017_0019
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༢༩༧༽༄༅། །བཀའ་བབས་དྲུག་ལྡན་གྱི་ཟབ་ཁྲིད་བརྒྱུད་པའི་གསོལ་འདེབས་མུ་ཏིག་ཕྲེང་བ་ཞེས་བྱ་བ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP00D3F1764E5D5160 , bdr:EP14D6763A986D89B6 , bdr:EP22003A7A568E9894 , bdr:EP8E1231102D6AEFFC , bdr:EPA2A3A82FEBC98701 ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      17 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/17_gdams-ngag-mdzod_tsa/17_18_bkaq-babs-drug-ldan-gyi-zab-khrid-brgyud-paqi-gsol-qdebs-mu-tig-phreng-ba.rtf" ;

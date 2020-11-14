@@ -16,14 +16,64 @@ bdg:UT2CZ8049_001_0004 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT2CZ8049_001_0004 ;
+        adm:facetIndex      13 ;
         adm:gitPath         "6c/UT2CZ8049_001_0004.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT2CZ8049_001_0004 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP18ED6AB9FCF8A8A2
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP27DA9EB377CA2A6E
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP2813768309521073
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP3F63E711E8F559F3
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP58F0116F7DED76C7
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP644B6D5DC96D9703
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP719DD4445D2410BD
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP84D501851E7091BE
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPA482D90B28C00234
+        a                   :EtextPage ;
+        :seqNum             12 .
+    
+    bdr:EPA5F2EAAF140BAAD7
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EPB2DEA608F21DBCA2
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EPBA3518C9842E82BD
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT2CZ8049_001_0004
         a                   :EtextNonPaginated ;
         skos:prefLabel      "སྐབས་གསུམ་པ་གཞི་ཤེས།"@bo ;
+        :eTextHasPage       bdr:EP18ED6AB9FCF8A8A2 , bdr:EP27DA9EB377CA2A6E , bdr:EP2813768309521073 , bdr:EP3F63E711E8F559F3 , bdr:EP58F0116F7DED76C7 , bdr:EP644B6D5DC96D9703 , bdr:EP719DD4445D2410BD , bdr:EP84D501851E7091BE , bdr:EPA482D90B28C00234 , bdr:EPA5F2EAAF140BAAD7 , bdr:EPB2DEA608F21DBCA2 , bdr:EPBA3518C9842E82BD ;
         :eTextInInstance    bdr:IE2CZ8049 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "VajraVidya/Shamar_Konchog_Yenlak_Sherchin/rtfs/volume-001/Shamar_Konchok_Yenlag_Serchin_3.rtf" ;

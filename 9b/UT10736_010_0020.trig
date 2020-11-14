@@ -16,14 +16,36 @@ bdg:UT10736_010_0020 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT10736_010_0020 ;
+        adm:facetIndex      6 ;
         adm:gitPath         "9b/UT10736_010_0020.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT10736_010_0020 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0332CC62AC203520
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP314888F2ED66297B
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP47151FD912116312
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPB9EDB7263CB37CCF
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPCF68702244B41CCE
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
     bdr:UT10736_010_0020
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །ཆོས་རྗེ་དྭགས་པོ་ལྷ་རྗེའི་གསུང་སྒྲོས།ལམ་མཆོག་རིན་ཆེན་ཕྲེང་བ་ཞེས་བྱ་བ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP0332CC62AC203520 , bdr:EP314888F2ED66297B , bdr:EP47151FD912116312 , bdr:EPB9EDB7263CB37CCF , bdr:EPCF68702244B41CCE ;
         :eTextInInstance    bdr:IE10736 ;
         :eTextInVolume      10 ;
         :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/10_tha/10_25_tha_chos-rje-dvags-po-lha-rjeqi-gsung-sgros_lam-mchog-rin-chen-phreng-ba.rtf" ;

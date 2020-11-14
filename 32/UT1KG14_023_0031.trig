@@ -16,14 +16,52 @@ bdg:UT1KG14_023_0031 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1KG14_023_0031 ;
+        adm:facetIndex      10 ;
         adm:gitPath         "32/UT1KG14_023_0031.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1KG14_023_0031 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP2374AE898253830F
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP439B6DA65C653588
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP473F7EE5F9750BF9
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP6B94293DD5941E59
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP6C13742B26091CD9
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP87446C556ABAB7AF
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EPAA4DBDC7FB2F9BE1
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPDAC9A10285269B2F
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPF8EBD24746EC9742
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT1KG14_023_0031
         a                   :EtextNonPaginated ;
         skos:prefLabel      "ཧྃ༔ཐུགས་རྗེ་ཆེན་པོ་འཁོར་བ་ལས་སྒྲོལ་ལས།དོན་དབང་བསྡུས་པ་བཀླག་ཆོག་ཏུ་བཀོད་པ་དངོས་གྲུབ་རྫིང་བུ་ཞེས་བྱ་བ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP2374AE898253830F , bdr:EP439B6DA65C653588 , bdr:EP473F7EE5F9750BF9 , bdr:EP6B94293DD5941E59 , bdr:EP6C13742B26091CD9 , bdr:EP87446C556ABAB7AF , bdr:EPAA4DBDC7FB2F9BE1 , bdr:EPDAC9A10285269B2F , bdr:EPF8EBD24746EC9742 ;
         :eTextInInstance    bdr:IE1KG14 ;
         :eTextInVolume      23 ;
         :eTextSourcePath    "Shechen/Rinchen-Terdzod-Shechen-vols-01-54/rtfs/23-qA/Terzod-qa-P30.rtf" ;

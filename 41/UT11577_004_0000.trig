@@ -16,14 +16,48 @@ bdg:UT11577_004_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT11577_004_0000 ;
+        adm:facetIndex      9 ;
         adm:gitPath         "41/UT11577_004_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT11577_004_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP397E5175CDE94A94
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP9C3D5342AE69F755
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPC42D64A8527E4CAF
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPD572A8A60614CDBB
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPDC472FDDC0E3097C
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPE0A7EB47F392C83B
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPF018B4735DB5DA78
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPFEF2B6012C32CB72
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
     bdr:UT11577_004_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼ཀ༽༄༅། །བླ་མ་དམ་པ་ས་བཟང་འཕགས་པ་གཞོན་ནུ་བློ་གྲོས་ཀྱི་རྣམ་པར་ཐར་པ་བཞུགས་སོ། །༈།ཨོཾ་སྭ་སྟི་སིདྡྷཾ།བླ་མ་དམ་པ་ཞབས་ལ་སྤྱི་བོས་གུས་པས"@bo ;
+        :eTextHasPage       bdr:EP397E5175CDE94A94 , bdr:EP9C3D5342AE69F755 , bdr:EPC42D64A8527E4CAF , bdr:EPD572A8A60614CDBB , bdr:EPDC472FDDC0E3097C , bdr:EPE0A7EB47F392C83B , bdr:EPF018B4735DB5DA78 , bdr:EPFEF2B6012C32CB72 ;
         :eTextInInstance    bdr:IE11577 ;
         :eTextIsVolume      4 ;
         :eTextSourcePath    "GuruLamaWorks/For-Conversion-Disk-01-20130424/rtfs/NGORCHEN/NGOR004.rtf" ;

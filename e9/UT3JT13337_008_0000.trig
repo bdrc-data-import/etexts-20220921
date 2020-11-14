@@ -16,14 +16,32 @@ bdg:UT3JT13337_008_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13337_008_0000 ;
+        adm:facetIndex      5 ;
         adm:gitPath         "e9/UT3JT13337_008_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13337_008_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP2B3DF77C2ECE4ACE
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP46CB29D450026226
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPEB35C2F1D7FB1B33
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPF63929DE999FE338
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT3JT13337_008_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "ཨོ་རྒྱན་སྨིན་གྲོལ་གླིང་གི་སྲོལ་ལྟར་བརྒྱ་བཞིའི་ཆོ་ག་འདོད་དོན་ལྷུན་གྲུབ་ཀྱི་བཅའ་གཤོམ་དང་འདོན་འགྲིགས་ཟིན་བྲིས་བཅས་བཞུགས་སོ། །བཅའ་ག"@bo ;
+        :eTextHasPage       bdr:EP2B3DF77C2ECE4ACE , bdr:EP46CB29D450026226 , bdr:EPEB35C2F1D7FB1B33 , bdr:EPF63929DE999FE338 ;
         :eTextInInstance    bdr:IE3JT13337 ;
         :eTextIsVolume      8 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/P0025_Tobum_tdoc/016-zin-bris.rtf" ;

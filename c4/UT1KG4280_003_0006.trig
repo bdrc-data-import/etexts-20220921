@@ -16,14 +16,24 @@ bdg:UT1KG4280_003_0006 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1KG4280_003_0006 ;
+        adm:facetIndex      3 ;
         adm:gitPath         "c4/UT1KG4280_003_0006.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1KG4280_003_0006 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0E3BEFA1799C360C
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP7D9A85014DC14191
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT1KG4280_003_0006
         a                   :EtextNonPaginated ;
         skos:prefLabel      "དབེན་པར་གནས་པའི་དགེ་སློང་གཅིག་པུའི་གསོ་སྦྱོང་བཞུགས།༈སྭསྟི།དགེ་སློང་གཅིག་པུ་དབེན་པར་གནས་པ་དག་གིས་ཟླ་བ་ཕྱེད་ཕྱེད་ཀྱི་གསོ་སྦྱོང་བྱི"@bo ;
+        :eTextHasPage       bdr:EP0E3BEFA1799C360C , bdr:EP7D9A85014DC14191 ;
         :eTextInInstance    bdr:IE1KG4280 ;
         :eTextInVolume      3 ;
         :eTextSourcePath    "DharmaDownload/Situpa-09-sung-bum/rtfs/OM/007_9th-Situ-Kabum_OM_dge-slong-gcig-puqi-gso-sbyong.rtf" ;

@@ -16,14 +16,40 @@ bdg:UT22082_004_0019 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT22082_004_0019 ;
+        adm:facetIndex      7 ;
         adm:gitPath         "27/UT22082_004_0019.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT22082_004_0019 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP53A7191B643364B7
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP59D24949239127DC
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPDC60F86E99C2D6D2
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPDD739E0B1EDCD7BC
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPE78304EAC059DF7C
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPF0B4508D8BC3B503
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT22082_004_0019
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །རྔ་ཐུག་རྟེན་འཛུགས་ལས་མཐུན་ཀུན་འགྲུབ་བཞུགས་སོ། །།"@bo ;
+        :eTextHasPage       bdr:EP53A7191B643364B7 , bdr:EP59D24949239127DC , bdr:EPDC60F86E99C2D6D2 , bdr:EPDD739E0B1EDCD7BC , bdr:EPE78304EAC059DF7C , bdr:EPF0B4508D8BC3B503 ;
         :eTextInInstance    bdr:IE22082 ;
         :eTextInVolume      4 ;
         :eTextSourcePath    "DrikungChetsang/7__KUNKHYEN/rtfs/volume-004/27NGA.SHA.rtf" ;

@@ -16,14 +16,52 @@ bdg:UT23605_004_0024 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_004_0024 ;
+        adm:facetIndex      10 ;
         adm:gitPath         "57/UT23605_004_0024.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_004_0024 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP02771C3E23B60051
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP14F5414A6A8E6F70
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP15701C5EEA906473
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP265537BE249F14FF
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPA42935E945B275B7
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPC63CB7E1FA346334
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPD32E90FF968AB957
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPD424C83A9B9D5EA9
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EPF7AEE782031C633C
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT23605_004_0024
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༦༡༧༽༄༅། །སྒྲུབ་ཐབས་རིན་འབྱུང་ལས་ཁོལ་དུ་ཕྱུངས་པ་འཕགས་པ་ཛཾ་བྷ་ལ་དཀར་པོ་ལྷ་ལྔའི་སྒྲུབ་ཐབས་རྗེས་གནང་དང་བཅས་པ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP02771C3E23B60051 , bdr:EP14F5414A6A8E6F70 , bdr:EP15701C5EEA906473 , bdr:EP265537BE249F14FF , bdr:EPA42935E945B275B7 , bdr:EPC63CB7E1FA346334 , bdr:EPD32E90FF968AB957 , bdr:EPD424C83A9B9D5EA9 , bdr:EPF7AEE782031C633C ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      4 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/04_gdams-ngag-mdzod_nga/04_23_sgrub-thabs-rin-qbyung-las-khol-du-phyungs-pa-qphags-pa-dzaM-bha-la-dkar-po.rtf" ;

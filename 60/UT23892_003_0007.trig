@@ -16,14 +16,52 @@ bdg:UT23892_003_0007 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23892_003_0007 ;
+        adm:facetIndex      10 ;
         adm:gitPath         "60/UT23892_003_0007.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23892_003_0007 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP146AAD18E0476503
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP14A3A24F0362CC25
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP25276BC334DBDCDC
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP3CC1079105619B8E
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP58771EB3F88FA57D
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP7FAEF9EA1DDFEBD5
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPA83C277F5138D10B
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPB32CB89EE0B848AD
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPCA52785987D5F637
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
     bdr:UT23892_003_0007
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །རྒྱལ་དབང་ཀུན་དགའ་རིན་ཆེན་གྱི་རྣམ་ཐར་ཁ་སྐོང་ངོ་མཚར་འོད་བརྒྱའི་བང་མཛོད་དད་འདུན་ཡིད་ཀྱི་ཤིང་རྟ་ངོམས་པར་བྱེད་པ་བདུད་རྩིའི་ཆུ་ར"@bo ;
+        :eTextHasPage       bdr:EP146AAD18E0476503 , bdr:EP14A3A24F0362CC25 , bdr:EP25276BC334DBDCDC , bdr:EP3CC1079105619B8E , bdr:EP58771EB3F88FA57D , bdr:EP7FAEF9EA1DDFEBD5 , bdr:EPA83C277F5138D10B , bdr:EPB32CB89EE0B848AD , bdr:EPCA52785987D5F637 ;
         :eTextInInstance    bdr:IE23892 ;
         :eTextInVolume      3 ;
         :eTextSourcePath    "DrikungChetsang/6_KUNRIN/rtfs/volume-003/GA-GA1.003.rtf" ;

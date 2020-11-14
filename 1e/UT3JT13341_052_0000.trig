@@ -16,14 +16,28 @@ bdg:UT3JT13341_052_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13341_052_0000 ;
+        adm:facetIndex      4 ;
         adm:gitPath         "1e/UT3JT13341_052_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13341_052_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP1B8B8FB08DD6266E
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP7405B0C90AE28B56
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPFD04F5B4E20266A6
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT3JT13341_052_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "བདེ་བ་ཅན་གྱི་སྨོན་ལམ་ནི༔རང་གི་སྤྱི་བོར་པདྨ་དང་ཟླ་བའི་གདན་ལ་འོད་དཔག་མེད༔ནམ་མཁར་བདེ་བ་ཅན་གྱི་ཞིང་ཁམས་གསལ་ལ༔ཨོཾ་ཧྲཱི་སྭཱ་ཧཱ༔ཨ་མི་དྷ"@bo ;
+        :eTextHasPage       bdr:EP1B8B8FB08DD6266E , bdr:EP7405B0C90AE28B56 , bdr:EPFD04F5B4E20266A6 ;
         :eTextInInstance    bdr:IE3JT13341 ;
         :eTextIsVolume      52 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/Taksham-Chochod_tdoc/041_stag-sham-bde-smon.rtf" ;

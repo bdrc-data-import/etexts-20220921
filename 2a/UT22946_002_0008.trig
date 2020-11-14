@@ -16,14 +16,32 @@ bdg:UT22946_002_0008 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT22946_002_0008 ;
+        adm:facetIndex      5 ;
         adm:gitPath         "2a/UT22946_002_0008.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT22946_002_0008 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP3DED59D20D8483CF
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP61D017EACBF4DCE8
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPB1968DC0940199F7
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPC1F33A5D06500E16
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT22946_002_0008
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༡༽༄༅། །ཟབ་མོ་བླ་མའི་རྣལ་འབྱོར་གྱིལ་མཁྱེར་བྱིན་རླབས་དངོས་གྲུབ་ཀྱི་འབྱུང་གནས་ཡིད་བཞིན་ནོར་བུ་ཞེས་བྱ་བ་བཞུགས་སོ།༄༅། །ཇི་སྐད་དུ།མ"@bo ;
+        :eTextHasPage       bdr:EP3DED59D20D8483CF , bdr:EP61D017EACBF4DCE8 , bdr:EPB1968DC0940199F7 , bdr:EPC1F33A5D06500E16 ;
         :eTextInInstance    bdr:IE22946 ;
         :eTextInVolume      2 ;
         :eTextSourcePath    "PalriParkhang/W22946-mkhan-po-ngag-dbang-dpal-bzang-_ngaga/rtfs/NGAGA-vol-2-KHA/H-LAMAI-NALZOR.rtf" ;

@@ -16,14 +16,72 @@ bdg:UT23605_001_0015 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_001_0015 ;
+        adm:facetIndex      15 ;
         adm:gitPath         "a8/UT23605_001_0015.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_001_0015 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP1F8EA2CFD6F2593D
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP40A8319F04892380
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP4BE9E96248221C6D
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP55F47150FA591780
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP55FFA694DCBA4FBF
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EP62BB84682261C999
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP827283EC1B724D70
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP8AFD63F60981148F
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP9185D17F0CD9FD4A
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP9D8FEF815396F587
+        a                   :EtextPage ;
+        :seqNum             13 .
+    
+    bdr:EPC013C057534C9701
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPCADB458FB031C6B8
+        a                   :EtextPage ;
+        :seqNum             12 .
+    
+    bdr:EPDBAA9B9E2FBCF984
+        a                   :EtextPage ;
+        :seqNum             14 .
+    
+    bdr:EPE75C9765A7D2FCAA
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
     bdr:UT23605_001_0015
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༣༦༣༽༄༅། །སྙན་བརྒྱུད་རིན་པོ་ཆེའི་ཁྲིད་ཀྱི་མན་ངག་མཁའ་དབྱིངས་སྙིང་པོའི་བདེ་ཁྲིད་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP1F8EA2CFD6F2593D , bdr:EP40A8319F04892380 , bdr:EP4BE9E96248221C6D , bdr:EP55F47150FA591780 , bdr:EP55FFA694DCBA4FBF , bdr:EP62BB84682261C999 , bdr:EP827283EC1B724D70 , bdr:EP8AFD63F60981148F , bdr:EP9185D17F0CD9FD4A , bdr:EP9D8FEF815396F587 , bdr:EPC013C057534C9701 , bdr:EPCADB458FB031C6B8 , bdr:EPDBAA9B9E2FBCF984 , bdr:EPE75C9765A7D2FCAA ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/01_gdams-ngag-mdzod_ka/01_14_snyan-brgyud-rin-po-cheqi-khrid-kyi-man-ngag-mkhaq-dbyings-snying-poqi-bde-khrid.rtf" ;

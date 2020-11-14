@@ -16,14 +16,60 @@ bdg:UT1KG14_049_0041 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1KG14_049_0041 ;
+        adm:facetIndex      12 ;
         adm:gitPath         "d9/UT1KG14_049_0041.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1KG14_049_0041 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP048F97A14CE36CFC
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP1685B0BE87CDD6DE
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP7126BA1CC21A2BED
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP787C075104505AA5
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP82026E1B0583CF16
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP83686699B2B400D3
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPA7E22CCCAE6B606F
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPBB1DF9BD563DEDCE
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPE0033EEBB1E4223F
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPE52FA5932B12E20E
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EPFE1EB2AA6895A816
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT1KG14_049_0041
         a                   :EtextNonPaginated ;
         skos:prefLabel      "ྈསློབ་དཔོན་པདྨ་འབྱུང་གནས་ཀྱིས་མཛད་པའི་བླ་བསླུ་ཚེ་འགུགས་བཞུགས་སོ༔པད་གླིང་གཏེར་བྱོན།"@bo ;
+        :eTextHasPage       bdr:EP048F97A14CE36CFC , bdr:EP1685B0BE87CDD6DE , bdr:EP7126BA1CC21A2BED , bdr:EP787C075104505AA5 , bdr:EP82026E1B0583CF16 , bdr:EP83686699B2B400D3 , bdr:EPA7E22CCCAE6B606F , bdr:EPBB1DF9BD563DEDCE , bdr:EPE0033EEBB1E4223F , bdr:EPE52FA5932B12E20E , bdr:EPFE1EB2AA6895A816 ;
         :eTextInInstance    bdr:IE1KG14 ;
         :eTextInVolume      49 ;
         :eTextSourcePath    "Shechen/Rinchen-Terdzod-Shechen-vols-01-54/rtfs/49-DZI/TERDZO-DZI-P39.rtf" ;

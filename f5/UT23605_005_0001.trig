@@ -16,14 +16,28 @@ bdg:UT23605_005_0001 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_005_0001 ;
+        adm:facetIndex      4 ;
         adm:gitPath         "f5/UT23605_005_0001.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_005_0001 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP45BABEE7FD8F2D4A
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP52F76CDCEEC5351C
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP6635DA469A03A337
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT23605_005_0001
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །གདམས་ངག་མཛོད།ས་སྐྱ་པོད་དང་པོ།༼ཅ༽"@bo ;
+        :eTextHasPage       bdr:EP45BABEE7FD8F2D4A , bdr:EP52F76CDCEEC5351C , bdr:EP6635DA469A03A337 ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      5 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/05_gdams-ngag-mdzod_ca/05_00_karchag.rtf" ;

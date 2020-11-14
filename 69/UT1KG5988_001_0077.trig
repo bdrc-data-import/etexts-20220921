@@ -16,14 +16,36 @@ bdg:UT1KG5988_001_0077 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1KG5988_001_0077 ;
+        adm:facetIndex      6 ;
         adm:gitPath         "69/UT1KG5988_001_0077.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1KG5988_001_0077 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0E2DE0E26E3D7042
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP58F2E0CEF2F035D1
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP736CCBFF5E307D55
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP9F4F283C9779E5FC
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPEAE3B3AE4EE02141
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT1KG5988_001_0077
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །མཆོད་རྟེན་བསྐོར་བའི་ཕན་ཡོན་ཚིགས་སུ་བཅད་པ་བཞུགས་སོ། །། །"@bo ;
+        :eTextHasPage       bdr:EP0E2DE0E26E3D7042 , bdr:EP58F2E0CEF2F035D1 , bdr:EP736CCBFF5E307D55 , bdr:EP9F4F283C9779E5FC , bdr:EPEAE3B3AE4EE02141 ;
         :eTextInInstance    bdr:IE1KG5988 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "DharmaDownload/Kagyur-Zungdue/rtfs/volume-001/078_mchod-rten-bskor-baqi-phan-yon.rtf" ;

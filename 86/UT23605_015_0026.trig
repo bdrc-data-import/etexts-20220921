@@ -16,14 +16,64 @@ bdg:UT23605_015_0026 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_015_0026 ;
+        adm:facetIndex      13 ;
         adm:gitPath         "86/UT23605_015_0026.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_015_0026 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP24EC6EADFA745C63
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP3D3DFC9DFC0A1685
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP40070BB12EE3FFD9
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP42ED87F2601DB622
+        a                   :EtextPage ;
+        :seqNum             12 .
+    
+    bdr:EP53A65E6C65A2CF06
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP6857A10DBE36255C
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP706282E1AC34D146
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPB10EB62D548137E4
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPBC1A04B79A655D60
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPC68A431F429C9010
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EPE6A77F45469CC844
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EPE88A0F633340D6F7
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
     bdr:UT23605_015_0026
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༦༠༣༽༄༅། །བསྙེན་སྒྲུབ་ཀྱི་ཁྲིད་ཡིག་བཞུགས་སོ། །། །"@bo ;
+        :eTextHasPage       bdr:EP24EC6EADFA745C63 , bdr:EP3D3DFC9DFC0A1685 , bdr:EP40070BB12EE3FFD9 , bdr:EP42ED87F2601DB622 , bdr:EP53A65E6C65A2CF06 , bdr:EP6857A10DBE36255C , bdr:EP706282E1AC34D146 , bdr:EPB10EB62D548137E4 , bdr:EPBC1A04B79A655D60 , bdr:EPC68A431F429C9010 , bdr:EPE6A77F45469CC844 , bdr:EPE88A0F633340D6F7 ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      15 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/15_gdams-ngag-mdzod_ba/15_25_bsnyen-sgrub-kyi-khrid-yig.rtf" ;

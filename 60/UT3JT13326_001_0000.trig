@@ -16,14 +16,64 @@ bdg:UT3JT13326_001_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13326_001_0000 ;
+        adm:facetIndex      13 ;
         adm:gitPath         "60/UT3JT13326_001_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13326_001_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP06DBD78809DBE4E3
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP27E3C69A962C4CD7
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP40F1965DBE2C8866
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP4A295AADF6DE0720
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP71D1AC22E9243E05
+        a                   :EtextPage ;
+        :seqNum             12 .
+    
+    bdr:EP7337D84B95BAB78A
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP7CDC57C7E3D63F52
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP97085CE2D0ACE7F0
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPAEB805556FA7AE6A
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPBBFAE37AEEFD0092
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPE78E3C2E6363ACD1
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPE9B156887C8456DF
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
     bdr:UT3JT13326_001_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །རྣལ་འབྱོར་བཞི་གསུམ་བཅུ་གཉིས་གསལ་བར་བྱེད་པ་ཉི་མའི་འོད་ཟེར་ཞེས་བྱ་བ་"@bo ;
+        :eTextHasPage       bdr:EP06DBD78809DBE4E3 , bdr:EP27E3C69A962C4CD7 , bdr:EP40F1965DBE2C8866 , bdr:EP4A295AADF6DE0720 , bdr:EP71D1AC22E9243E05 , bdr:EP7337D84B95BAB78A , bdr:EP7CDC57C7E3D63F52 , bdr:EP97085CE2D0ACE7F0 , bdr:EPAEB805556FA7AE6A , bdr:EPBBFAE37AEEFD0092 , bdr:EPE78E3C2E6363ACD1 , bdr:EPE9B156887C8456DF ;
         :eTextInInstance    bdr:IE3JT13326 ;
         :eTextIsVolume      1 ;
         :eTextSourcePath    "DharmaDownload/Mahamudra/rtfs/05_Drukpa/001_drukpa_tdoc.rtf" ;

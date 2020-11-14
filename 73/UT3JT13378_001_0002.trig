@@ -16,14 +16,24 @@ bdg:UT3JT13378_001_0002 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13378_001_0002 ;
+        adm:facetIndex      3 ;
         adm:gitPath         "73/UT3JT13378_001_0002.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13378_001_0002 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0EC429CF9CF7FF8E
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPDBFFEAEF553D9B37
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT3JT13378_001_0002
         a                   :EtextNonPaginated ;
         skos:prefLabel      "པར་སྐྲུན་གསལ་བཤད།"@bo ;
+        :eTextHasPage       bdr:EP0EC429CF9CF7FF8E , bdr:EPDBFFEAEF553D9B37 ;
         :eTextInInstance    bdr:IE3JT13378 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "VajraVidya/Rangjung_Dorje_3_works/rtfs/volume-001/Rangjung_Dorje_3_texts_00b_preface.rtf" ;

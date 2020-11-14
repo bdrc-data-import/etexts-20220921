@@ -16,14 +16,40 @@ bdg:UT3JT13363_001_0009 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13363_001_0009 ;
+        adm:facetIndex      7 ;
         adm:gitPath         "6e/UT3JT13363_001_0009.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13363_001_0009 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP1FAF93590A9B9721
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP8A0B29BA904BC3CC
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP8A83856D6100E7CB
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPB0774F304264332F
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPD49D7A95FF9334FE
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPD512A1FDF2D7EAA1
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
     bdr:UT3JT13363_001_0009
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །རིགས་པ་དྲུག་ཅུ་པའི་ཚིག་ལེའུར་བྱས་པ་ཞེས་བྱ་བ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP1FAF93590A9B9721 , bdr:EP8A0B29BA904BC3CC , bdr:EP8A83856D6100E7CB , bdr:EPB0774F304264332F , bdr:EPD49D7A95FF9334FE , bdr:EPD512A1FDF2D7EAA1 ;
         :eTextInInstance    bdr:IE3JT13363 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "GuruLamaWorks/UMA/rtfs/volume-001/009UMA.rtf" ;

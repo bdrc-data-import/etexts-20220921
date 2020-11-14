@@ -16,14 +16,52 @@ bdg:UT3JT13384_015_0051 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13384_015_0051 ;
+        adm:facetIndex      10 ;
         adm:gitPath         "56/UT3JT13384_015_0051.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13384_015_0051 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP18F4BB60E4A9273C
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP2B9625CB31594F86
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP705F159F61720729
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP8B3F9A74652E4933
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP8F43C6B366EA9325
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP967033FCBE2C40AC
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPE9C2F102CC8B66CA
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPF4B72218FD65DC39
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EPF50A71BB3C759AB3
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT3JT13384_015_0051
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །གྲུབ་ཐོབ་བཀའ་བརྒྱད་ཀྱི་རྒྱུན་གྱི་རྣལ་འབྱོར་དངོས་གྲུབ་རྒྱ་མཚོ་ཞེས་བྱ་བ་བཞུགས་སོ། །ན་མོ་གུ་རུ་ཤྲཱི་ཧེ་རུ་ཀཱ་ཡ།དཔལ་ལྡན་བརྟན་"@bo ;
+        :eTextHasPage       bdr:EP18F4BB60E4A9273C , bdr:EP2B9625CB31594F86 , bdr:EP705F159F61720729 , bdr:EP8B3F9A74652E4933 , bdr:EP8F43C6B366EA9325 , bdr:EP967033FCBE2C40AC , bdr:EPE9C2F102CC8B66CA , bdr:EPF4B72218FD65DC39 , bdr:EPF50A71BB3C759AB3 ;
         :eTextInInstance    bdr:IE3JT13384 ;
         :eTextInVolume      15 ;
         :eTextSourcePath    "Various/gsung_qbum_mkhyen_brtseqi_dbang_po_UT2MS24768/rtfs/volume-015/15-55.rtf" ;

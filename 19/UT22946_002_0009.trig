@@ -16,14 +16,32 @@ bdg:UT22946_002_0009 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT22946_002_0009 ;
+        adm:facetIndex      5 ;
         adm:gitPath         "19/UT22946_002_0009.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT22946_002_0009 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP13DBBD0BC0A2B603
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP5F6B3AF7E880AF1F
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPA8FFA60D76A926B7
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPF63DD95A43E81B08
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT22946_002_0009
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༡༽ཨེ་མ་དེང་སོང་སྙིགས་མའི་དུས།རྫུན་གཏེར་ཟོག་པོས་རྒྱལ་ཁམས་གང༌།པདྨའི་ཆོས་ལ་ཡ་ག་འབོད།སངས་རྒྱས་བསྟན་པ་བཅོས་མའི་སླད།སྙིང་མའི་རྫུན་གཏེ"@bo ;
+        :eTextHasPage       bdr:EP13DBBD0BC0A2B603 , bdr:EP5F6B3AF7E880AF1F , bdr:EPA8FFA60D76A926B7 , bdr:EPF63DD95A43E81B08 ;
         :eTextInInstance    bdr:IE22946 ;
         :eTextInVolume      2 ;
         :eTextSourcePath    "PalriParkhang/W22946-mkhan-po-ngag-dbang-dpal-bzang-_ngaga/rtfs/NGAGA-vol-2-KHA/kha_0001-0004_pecha.rtf" ;

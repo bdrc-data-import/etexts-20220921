@@ -16,14 +16,32 @@ bdg:UT1KG5988_001_0011 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1KG5988_001_0011 ;
+        adm:facetIndex      5 ;
         adm:gitPath         "1b/UT1KG5988_001_0011.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1KG5988_001_0011 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP01C43CED5747545E
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP17C3116907FBA929
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP7F9DFBC542B6B916
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPF8DADEB538C02E3A
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
     bdr:UT1KG5988_001_0011
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །འབུམ་རྒྱས་འབྲིང་བསྡུས་གསུམ་དང༌།ཡི་གེ་གཅིག་མ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP01C43CED5747545E , bdr:EP17C3116907FBA929 , bdr:EP7F9DFBC542B6B916 , bdr:EPF8DADEB538C02E3A ;
         :eTextInInstance    bdr:IE1KG5988 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "DharmaDownload/Kagyur-Zungdue/rtfs/volume-001/011_qbum-rgyas-qbring-bsdus-gsum-yi-ge-gcig-ma.rtf" ;

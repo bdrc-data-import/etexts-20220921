@@ -16,14 +16,36 @@ bdg:UT23605_012_0037 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_012_0037 ;
+        adm:facetIndex      6 ;
         adm:gitPath         "9c/UT23605_012_0037.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_012_0037 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP10374865136504F9
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP7D0D39C53B8FE94A
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPA007793636DBC2CF
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPA714177041FEAF11
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPC3E991D4623DEB21
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
     bdr:UT23605_012_0037
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༧༦༩༽༄༅། །ཞིང་སྐྱོང་ཆེན་པོ་ཀྵེ་ཏྲ་པཱ་ལ་ཡབ་ཡུམ་གྱི་ཐུན་མོང་མ་ཡིན་པའི་རྗེས་གནང་བསྐུར་ཆོག་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP10374865136504F9 , bdr:EP7D0D39C53B8FE94A , bdr:EPA007793636DBC2CF , bdr:EPA714177041FEAF11 , bdr:EPC3E991D4623DEB21 ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      12 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/12_gdams-ngag-mdzod_na/12_36_zhing-skyong-chen-po-tra-pqa-la-yab-yum-gyi-thun-mong-ma-yin-paqi-rjes-gnang-bskur-chog.rtf" ;

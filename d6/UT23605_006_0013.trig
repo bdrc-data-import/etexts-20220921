@@ -16,14 +16,44 @@ bdg:UT23605_006_0013 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_006_0013 ;
+        adm:facetIndex      8 ;
         adm:gitPath         "d6/UT23605_006_0013.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_006_0013 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0C52FDAAF33F806D
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP1A01E4D43E442223
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP77AF2C99AFA3DA89
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP889B01047096ADFD
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP898A610CED10724D
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPDEA6C35E5D4CD502
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPE6CBDDED5D315435
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
     bdr:UT23605_006_0013
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༡༨༡༽༄༅། །ནག་པོ་ཨུ་ཙི་ཊ་འཆི་བ་མེད་པའི་ཡོན་པོ་སྲོང་བའི་ཁྲིད་ཡིག་བཀྲ་ཤིས་ཞོའི་སྙིང་པོ་"@bo ;
+        :eTextHasPage       bdr:EP0C52FDAAF33F806D , bdr:EP1A01E4D43E442223 , bdr:EP77AF2C99AFA3DA89 , bdr:EP889B01047096ADFD , bdr:EP898A610CED10724D , bdr:EPDEA6C35E5D4CD502 , bdr:EPE6CBDDED5D315435 ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      6 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/06_gdams-ngag-mdzod_cha/06_12_nag-po-au-tsi-Ta-qchi-ba-med-paqi-yon-po-srong-baqi-khrid-yig-bkra-shis-zhoqi-snying-po.rtf" ;

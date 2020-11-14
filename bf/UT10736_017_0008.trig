@@ -16,14 +16,28 @@ bdg:UT10736_017_0008 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT10736_017_0008 ;
+        adm:facetIndex      4 ;
         adm:gitPath         "bf/UT10736_017_0008.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT10736_017_0008 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP24F5EBDA07B08190
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP5F21BEA9BD055A21
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP7E94AA5EFB52CC0D
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT10736_017_0008
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །གཤིན་རྗེའི་ཡང་བཟློག་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP24F5EBDA07B08190 , bdr:EP5F21BEA9BD055A21 , bdr:EP7E94AA5EFB52CC0D ;
         :eTextInInstance    bdr:IE10736 ;
         :eTextInVolume      17 ;
         :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/17_tsa/17_05_tsa_1_gshin-rjeqi-yang-bzlog.rtf" ;

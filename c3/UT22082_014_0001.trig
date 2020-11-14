@@ -16,14 +16,40 @@ bdg:UT22082_014_0001 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT22082_014_0001 ;
+        adm:facetIndex      7 ;
         adm:gitPath         "c3/UT22082_014_0001.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT22082_014_0001 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP12131012BB6D18A4
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP1F1F5BCD07B65127
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP5AC3653F4948D10C
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP77AA962099AE1A57
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP9FB6B1A44F8CB6A6
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPD2DF6D6892AD429F
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
     bdr:UT22082_014_0001
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །ལམ་ཟབ་བླ་མ་སྒྲུབ་པ་ལས།རྫོགས་རིམ་མཉམ་ཡངས་མཐའ་བྲལ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP12131012BB6D18A4 , bdr:EP1F1F5BCD07B65127 , bdr:EP5AC3653F4948D10C , bdr:EP77AA962099AE1A57 , bdr:EP9FB6B1A44F8CB6A6 , bdr:EPD2DF6D6892AD429F ;
         :eTextInInstance    bdr:IE22082 ;
         :eTextInVolume      14 ;
         :eTextSourcePath    "DrikungChetsang/7__KUNKHYEN/rtfs/volume-014/10PHA.THA.rtf" ;

@@ -16,14 +16,72 @@ bdg:UT1KG5988_001_0051 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1KG5988_001_0051 ;
+        adm:facetIndex      15 ;
         adm:gitPath         "c2/UT1KG5988_001_0051.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1KG5988_001_0051 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP00D3F7678E1F0D02
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP25DE9F74CC713F64
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP2BC2338B3B69890D
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP2FFA0263A867700D
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP3CE107E7940F31B6
+        a                   :EtextPage ;
+        :seqNum             14 .
+    
+    bdr:EP568211F72889A096
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP788EFCC740D39202
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP82ED98D667E8AB9F
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP9CC5C43C8892B709
+        a                   :EtextPage ;
+        :seqNum             12 .
+    
+    bdr:EPB76586826118F7F6
+        a                   :EtextPage ;
+        :seqNum             13 .
+    
+    bdr:EPC8CDC35CF3535EE7
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPCF45B6CB54DB27A1
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPE0348652BD119C77
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EPE6816317F8A2A92A
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT1KG5988_001_0051
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །གསེར་འོད་གཡང་སྐྱབས་ཞེས་བྱ་བ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP00D3F7678E1F0D02 , bdr:EP25DE9F74CC713F64 , bdr:EP2BC2338B3B69890D , bdr:EP2FFA0263A867700D , bdr:EP3CE107E7940F31B6 , bdr:EP568211F72889A096 , bdr:EP788EFCC740D39202 , bdr:EP82ED98D667E8AB9F , bdr:EP9CC5C43C8892B709 , bdr:EPB76586826118F7F6 , bdr:EPC8CDC35CF3535EE7 , bdr:EPCF45B6CB54DB27A1 , bdr:EPE0348652BD119C77 , bdr:EPE6816317F8A2A92A ;
         :eTextInInstance    bdr:IE1KG5988 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "DharmaDownload/Kagyur-Zungdue/rtfs/volume-001/052_gser-qod-gyang-skyabs.rtf" ;

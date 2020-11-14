@@ -16,14 +16,48 @@ bdg:UT2DB4576_001_0024 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT2DB4576_001_0024 ;
+        adm:facetIndex      9 ;
         adm:gitPath         "03/UT2DB4576_001_0024.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT2DB4576_001_0024 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP21DD972ACBD8539A
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP2A80880331707D09
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP54DFDA20103856A7
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP61BC6C6AC04AA8C2
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP6D4C4C210F24208F
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP938D23756DFC25DE
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPC166CDF1B4499FE0
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPD36759109C4CBBBE
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
     bdr:UT2DB4576_001_0024
         a                   :EtextNonPaginated ;
         skos:prefLabel      "ཆེན་པོ་ཧོར་གྱི་རྒྱལ་རབས་ཆ་ལག་ཚང་བ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP21DD972ACBD8539A , bdr:EP2A80880331707D09 , bdr:EP54DFDA20103856A7 , bdr:EP61BC6C6AC04AA8C2 , bdr:EP6D4C4C210F24208F , bdr:EP938D23756DFC25DE , bdr:EPC166CDF1B4499FE0 , bdr:EPD36759109C4CBBBE ;
         :eTextInInstance    bdr:IE2DB4576 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "KarmaDelek/rgyal-rabs-mang-poqi-legs-bshad-rnam-grangs-yid-qdzin-nor-buqi-phreng-ba/rtfs/volume_001/volume_001_024.rtf" ;

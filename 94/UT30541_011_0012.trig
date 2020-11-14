@@ -16,14 +16,56 @@ bdg:UT30541_011_0012 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT30541_011_0012 ;
+        adm:facetIndex      11 ;
         adm:gitPath         "94/UT30541_011_0012.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT30541_011_0012 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP04DA82FDAD4E07E2
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP1F383AFCC05D1DC0
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP2F7E47B28F3FFFB2
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP41D5181E57F12EB5
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP65134C13D01E84DB
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP6942AC609927C6D7
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP7C3436D4C546C24C
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP872FBB3FEDFE81FC
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EPC451F4AF241A5A5F
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPF3ED720610A45B13
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
     bdr:UT30541_011_0012
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །རྒྱལ་པོ་དོ་ཧའི་ས་བཅད་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP04DA82FDAD4E07E2 , bdr:EP1F383AFCC05D1DC0 , bdr:EP2F7E47B28F3FFFB2 , bdr:EP41D5181E57F12EB5 , bdr:EP65134C13D01E84DB , bdr:EP6942AC609927C6D7 , bdr:EP7C3436D4C546C24C , bdr:EP872FBB3FEDFE81FC , bdr:EPC451F4AF241A5A5F , bdr:EPF3ED720610A45B13 ;
         :eTextInInstance    bdr:IE30541 ;
         :eTextInVolume      11 ;
         :eTextSourcePath    "DharmaDownload/Karmapa-03/rtfs/11_3rd-karmapa-text_tdoc_Aa/11_11_Aa_rgyal-po-do-haqi-sa-bcad.rtf" ;

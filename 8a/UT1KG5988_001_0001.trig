@@ -16,14 +16,72 @@ bdg:UT1KG5988_001_0001 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1KG5988_001_0001 ;
+        adm:facetIndex      15 ;
         adm:gitPath         "8a/UT1KG5988_001_0001.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1KG5988_001_0001 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP27F85A24D9181BC7
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP401D7ADAE38AF2AE
+        a                   :EtextPage ;
+        :seqNum             12 .
+    
+    bdr:EP406807DAB7770296
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP52A9546440E8DC9B
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP847BB895E0C7BA53
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP8F71088E9F17E6D8
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP960F15B9740110F5
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPA253718E73D70773
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EPA620D34FC74906DF
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EPB9AA77082FB23E03
+        a                   :EtextPage ;
+        :seqNum             13 .
+    
+    bdr:EPB9BF7DB97E7CAD26
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPE1D43E5BE4560F94
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPE4235672A79DDB35
+        a                   :EtextPage ;
+        :seqNum             14 .
+    
+    bdr:EPF088BCC2DCACCF74
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
     bdr:UT1KG5988_001_0001
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །འཕགས་པ་འཇམ་དཔལ་གྱི་དོན་དམ་པའི་མཚན་ཡང་དག་པར་བརྗོད་པ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP27F85A24D9181BC7 , bdr:EP401D7ADAE38AF2AE , bdr:EP406807DAB7770296 , bdr:EP52A9546440E8DC9B , bdr:EP847BB895E0C7BA53 , bdr:EP8F71088E9F17E6D8 , bdr:EP960F15B9740110F5 , bdr:EPA253718E73D70773 , bdr:EPA620D34FC74906DF , bdr:EPB9AA77082FB23E03 , bdr:EPB9BF7DB97E7CAD26 , bdr:EPE1D43E5BE4560F94 , bdr:EPE4235672A79DDB35 , bdr:EPF088BCC2DCACCF74 ;
         :eTextInInstance    bdr:IE1KG5988 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "DharmaDownload/Kagyur-Zungdue/rtfs/volume-001/001_qjam-dpal-mtshan-brjod.rtf" ;

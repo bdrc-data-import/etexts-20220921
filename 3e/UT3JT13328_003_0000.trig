@@ -16,14 +16,64 @@ bdg:UT3JT13328_003_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13328_003_0000 ;
+        adm:facetIndex      13 ;
         adm:gitPath         "3e/UT3JT13328_003_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13328_003_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP1B8A84A8D41D2248
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP2582AFAA4AB676A4
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP5262E4A26D2DF957
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP5C5CECE3E24F53E9
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EP6569A543CFFC6888
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP6793978ADDC3C926
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP6F351A9A515E3BE3
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPB7F9C162A5D880DC
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPBE44246AA3910BE2
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPD043846BEC747514
+        a                   :EtextPage ;
+        :seqNum             12 .
+    
+    bdr:EPDEB959949AA35522
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPF97553657270D347
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
     bdr:UT3JT13328_003_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །བསང་གི་ཡི་གེ་དགེ་ལེགས་ཆར་སྤྲིན་ཞེས་བྱ་བ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP1B8A84A8D41D2248 , bdr:EP2582AFAA4AB676A4 , bdr:EP5262E4A26D2DF957 , bdr:EP5C5CECE3E24F53E9 , bdr:EP6569A543CFFC6888 , bdr:EP6793978ADDC3C926 , bdr:EP6F351A9A515E3BE3 , bdr:EPB7F9C162A5D880DC , bdr:EPBE44246AA3910BE2 , bdr:EPD043846BEC747514 , bdr:EPDEB959949AA35522 , bdr:EPF97553657270D347 ;
         :eTextInInstance    bdr:IE3JT13328 ;
         :eTextIsVolume      3 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/Jalan-by-17-Karmapa_tdoc/03_bsang-mchod-dge-legs-char-sprin.rtf" ;

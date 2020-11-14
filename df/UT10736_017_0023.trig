@@ -16,14 +16,72 @@ bdg:UT10736_017_0023 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT10736_017_0023 ;
+        adm:facetIndex      15 ;
         adm:gitPath         "df/UT10736_017_0023.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT10736_017_0023 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP17C0BACC2CB014F1
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP2C5139F91C0F274D
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP2FCD5E9473D1EEA7
+        a                   :EtextPage ;
+        :seqNum             13 .
+    
+    bdr:EP74279E2A2A2EE3CC
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP7CFDDF10AD3B215D
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP7D1DAF72077657E3
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP8AE5373B8D251576
+        a                   :EtextPage ;
+        :seqNum             14 .
+    
+    bdr:EP91EE9186EE3C30B6
+        a                   :EtextPage ;
+        :seqNum             12 .
+    
+    bdr:EPA98A5A57C12D5846
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPBCAFB3A62B8C9FEC
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EPC0A09E345FB7B09B
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPD56F18FE6BAC72B9
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPDBFCF30659771805
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPEC8FC9F85FD85C4B
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
     bdr:UT10736_017_0023
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །ནཱ་རོ་གསང་སྤྱོད་ཀྱི་དམིགས་རིམ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP17C0BACC2CB014F1 , bdr:EP2C5139F91C0F274D , bdr:EP2FCD5E9473D1EEA7 , bdr:EP74279E2A2A2EE3CC , bdr:EP7CFDDF10AD3B215D , bdr:EP7D1DAF72077657E3 , bdr:EP8AE5373B8D251576 , bdr:EP91EE9186EE3C30B6 , bdr:EPA98A5A57C12D5846 , bdr:EPBCAFB3A62B8C9FEC , bdr:EPC0A09E345FB7B09B , bdr:EPD56F18FE6BAC72B9 , bdr:EPDBFCF30659771805 , bdr:EPEC8FC9F85FD85C4B ;
         :eTextInInstance    bdr:IE10736 ;
         :eTextInVolume      17 ;
         :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/17_tsa/17_19_tsa_nqa-ro-gsang-spyod-kyi-dmigs-rim.rtf" ;

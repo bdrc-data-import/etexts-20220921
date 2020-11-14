@@ -16,14 +16,32 @@ bdg:UT3JT13341_040_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13341_040_0000 ;
+        adm:facetIndex      5 ;
         adm:gitPath         "c4/UT3JT13341_040_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13341_040_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP3BF4624BB1475D21
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP4F7F4BE2F68F2652
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP857D138A4BFF10BF
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP93A7E37D7A705E7B
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT3JT13341_040_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "གཙུག་ཏོར་གདུགས་དཀར་མོའི་བསྒོམ་བཟླས་བདེ་བ་ཅན་གྱི་ཞིང་དུ་བསྒྲོད་པའི་གདམས་པ་བྱ་རྒྱལ་ཁྱུང་གི་རྟ་ཕོ་བཞུགས་སོ། །ན་མོ་ཤཱཀྱ་མུ་ནེ་ཡེ༔ཚེ"@bo ;
+        :eTextHasPage       bdr:EP3BF4624BB1475D21 , bdr:EP4F7F4BE2F68F2652 , bdr:EP857D138A4BFF10BF , bdr:EP93A7E37D7A705E7B ;
         :eTextInInstance    bdr:IE3JT13341 ;
         :eTextIsVolume      40 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/Taksham-Chochod_tdoc/031a_gdugs-dkar.rtf" ;

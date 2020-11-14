@@ -16,14 +16,36 @@ bdg:UT28942_041_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT28942_041_0000 ;
+        adm:facetIndex      6 ;
         adm:gitPath         "91/UT28942_041_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT28942_041_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP1917DD29FEAFDB67
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP1B9682E14C08059D
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP589E54CF642AF714
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP6DE48E3B6B47C92B
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPF59C8E0D07B88C85
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
     bdr:UT28942_041_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །གྲུབ་ཆེན་ནག་པོ་པས་མཛད་པའི་དབུ་མ་རྟེན་ཅིང་འབྲེལ་བར་འབྱུང་བའི་དོན་སྒོམ་པའི་རིམ་པ།ཞི་གནས་དང་ལྷག་མཐོང་དང་སྤྱོད་པའི་ཆ་རྣམས་བསྡུ"@bo ;
+        :eTextHasPage       bdr:EP1917DD29FEAFDB67 , bdr:EP1B9682E14C08059D , bdr:EP589E54CF642AF714 , bdr:EP6DE48E3B6B47C92B , bdr:EPF59C8E0D07B88C85 ;
         :eTextInInstance    bdr:IE28942 ;
         :eTextIsVolume      41 ;
         :eTextSourcePath    "GuruLamaWorks/For-Conversion-Disk-01-20130424/rtfs/RONGTON/RONT041.rtf" ;

@@ -16,14 +16,40 @@ bdg:UT1PD90129_018_0017 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1PD90129_018_0017 ;
+        adm:facetIndex      7 ;
         adm:gitPath         "6f/UT1PD90129_018_0017.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1PD90129_018_0017 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP195BA84D45FA3AAC
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP36D69513E25F22D7
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP7B292E04795073BB
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP8305DCF97B1B03EA
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPA2DB1C064B372197
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPB154F99EC27B2554
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT1PD90129_018_0017
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །ཡོངས་འཛིན་བླ་མའི་གསོལ་འདེབས་བརྟན་བཞུགས་སྨོན་ལམ་བཅས་བཞུགས།"@bo ;
+        :eTextHasPage       bdr:EP195BA84D45FA3AAC , bdr:EP36D69513E25F22D7 , bdr:EP7B292E04795073BB , bdr:EP8305DCF97B1B03EA , bdr:EPA2DB1C064B372197 , bdr:EPB154F99EC27B2554 ;
         :eTextInInstance    bdr:IE1PD90129 ;
         :eTextInVolume      18 ;
         :eTextSourcePath    "KarmaDelek/co-ne-grags-pa-bshad-sgrub-gsung-qbum/rtfs/volume_018/volume_018_444.rtf" ;

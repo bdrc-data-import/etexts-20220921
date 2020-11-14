@@ -16,14 +16,24 @@ bdg:UT3JT13359_014_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13359_014_0000 ;
+        adm:facetIndex      3 ;
         adm:gitPath         "5e/UT3JT13359_014_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13359_014_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP3869F43B7C0B0778
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPF149371E9F2A7724
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT3JT13359_014_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "ཉོན་མོངས་པ་ལམ་དུ་བླངས་པའི་ཆོས་བཞུགས་སོ། །ན་མོ་རཏྣ་གུ་རུ།ཆགས་སྡང་གི་རྟོག་པ་དྲག་པོ་བྱང་ཆུབ་ཀྱི་སེམས་གཉིས་ལ་བརྟེན་ནས་ལམ་སྦྱང་བའི་མ"@bo ;
+        :eTextHasPage       bdr:EP3869F43B7C0B0778 , bdr:EPF149371E9F2A7724 ;
         :eTextInInstance    bdr:IE3JT13359 ;
         :eTextIsVolume      14 ;
         :eTextSourcePath    "GuruLamaWorks/Precious-and-Rare-Disk-01-20130424/rtfs/26_LOBJ/LOBJ014_ཉོན་མོངས་པ་ལམ་དུ་བླངས་པའི་ཆོས།.rtf" ;

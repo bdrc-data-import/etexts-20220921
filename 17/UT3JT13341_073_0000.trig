@@ -16,14 +16,20 @@ bdg:UT3JT13341_073_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13341_073_0000 ;
+        adm:facetIndex      2 ;
         adm:gitPath         "17/UT3JT13341_073_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13341_073_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP59E02F60C9D2B612
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT3JT13341_073_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "བསོད་ནམས་སྟོབས་ཆེན་འདི་ཡི་མཐུས། །སྦྱིན་བདག་འཁོར་དང་བཅས་རྣམས་ལ། །ཚེ་འདིར་བསམ་པའི་དོན་འགྲུབ་ཅིང༌།བར་ཆད་ཞི་ནས་བཀྲ་ཤིས་པ། །བསམ་པ་"@bo ;
+        :eTextHasPage       bdr:EP59E02F60C9D2B612 ;
         :eTextInInstance    bdr:IE3JT13341 ;
         :eTextIsVolume      73 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/Taksham-Chochod_tdoc/060_bsod-nams-stobs-chen.rtf" ;

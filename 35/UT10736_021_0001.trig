@@ -16,14 +16,32 @@ bdg:UT10736_021_0001 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT10736_021_0001 ;
+        adm:facetIndex      5 ;
         adm:gitPath         "35/UT10736_021_0001.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT10736_021_0001 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP081DF1D9D56BD569
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP46E6DBC41BCCB9EB
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPA94E2476C05EFDDE
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPE6F316125C4CD219
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT10736_021_0001
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །རྗེ་བཙུན་ཏིལླི་པས་ནཱ་རོ་པ་ལ་གདམས་པའི་ཕྱག་ཆེན་གངྒ་མ་ཞེས་བྱ་བ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP081DF1D9D56BD569 , bdr:EP46E6DBC41BCCB9EB , bdr:EPA94E2476C05EFDDE , bdr:EPE6F316125C4CD219 ;
         :eTextInInstance    bdr:IE10736 ;
         :eTextInVolume      21 ;
         :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/21_zha/21_01_zha_rje-btsun-tilli-pas-nqa-ro-pa-la-gdams-paqi-phyag-chen-ganga-ma.rtf" ;

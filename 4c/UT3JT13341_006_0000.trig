@@ -16,14 +16,32 @@ bdg:UT3JT13341_006_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13341_006_0000 ;
+        adm:facetIndex      5 ;
         adm:gitPath         "4c/UT3JT13341_006_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13341_006_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP1B0A9F13B64EB9FB
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP739B9739755A7801
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPC65B95336360CC41
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPE856330887C2CE74
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT3JT13341_006_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "གནས་བརྟན་ཕྱག་མཆོད་ནི།ལག་མཐིལ་ལྟར་མཉམ་རིན་ཆེན་རྒྱན་གྱིས་སྤྲས། །ལྗོན་ཤིང་ཆུ་མཚོས་བརྒྱན་པའི་ས་གཞིའི་དབུས། །རིན་ཆེན་ལས་གྲུབ་གཞལ་མེ"@bo ;
+        :eTextHasPage       bdr:EP1B0A9F13B64EB9FB , bdr:EP739B9739755A7801 , bdr:EPC65B95336360CC41 , bdr:EPE856330887C2CE74 ;
         :eTextInInstance    bdr:IE3JT13341 ;
         :eTextIsVolume      6 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/Taksham-Chochod_tdoc/005_gnas-brtan-phyag-mchod.rtf" ;

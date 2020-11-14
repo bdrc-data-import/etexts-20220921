@@ -16,14 +16,48 @@ bdg:UT3JT13306_025_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13306_025_0000 ;
+        adm:facetIndex      9 ;
         adm:gitPath         "cf/UT3JT13306_025_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13306_025_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0FE2EBEB14BB1068
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP18F9791F5A83A0D9
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP44ED27DD9BC48BD0
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP488D701F404D04E6
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP65F2C1B6FA3A512B
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPADB78681020A31FB
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPC1D7C944E28C9A0F
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPDB2D393EC427E489
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
     bdr:UT3JT13306_025_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །སྦྱོང་རྒྱུད་ནས་གསུངས་པའི་ཚ་ཆོག་འགྲོ་ཀུན་ཐར་པ་འདྲེན་པའི་ལྕགས་ཀྱུ་ཞེས་བྱ་བ་བཞུགས་སོ། །ན་མོ་གུ་རུ་ག་ག་ན་མ་ནྱ་སིདྡྷ་བཻ་རོ་ཙ་ན"@bo ;
+        :eTextHasPage       bdr:EP0FE2EBEB14BB1068 , bdr:EP18F9791F5A83A0D9 , bdr:EP44ED27DD9BC48BD0 , bdr:EP488D701F404D04E6 , bdr:EP65F2C1B6FA3A512B , bdr:EPADB78681020A31FB , bdr:EPC1D7C944E28C9A0F , bdr:EPDB2D393EC427E489 ;
         :eTextInInstance    bdr:IE3JT13306 ;
         :eTextIsVolume      25 ;
         :eTextSourcePath    "GuruLamaWorks/Precious-and-Rare-Disk-01-20130424/rtfs/5_KUNL/KUNL025_ཚ་ཆོག་འགྲོ་ཀུན་ཐར་པ་འདྲེན་པའི་ལྕགས་ཀྱུ།.rtf" ;

@@ -16,14 +16,48 @@ bdg:UT10736_024_0016 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT10736_024_0016 ;
+        adm:facetIndex      9 ;
         adm:gitPath         "73/UT10736_024_0016.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT10736_024_0016 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP08F7F78DEC6B4BA3
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP51188032ACE8CCCC
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP80326848F3D7DCE9
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPBAB6290ED1FDA828
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPE15612C655C6769C
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPE83065E31BA3CBF0
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPEAFD40D6292E3468
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPFD276B042AA4150F
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT10736_024_0016
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །བསྔོ་བའི་ཡོན་བཤད་དང་བསྔོ་བ་མདོར་བསྡུས་བཀོད་པ་ལེགས་བྱས་ཀྱི་ཤིང་རྟ་བཞུགས། །"@bo ;
+        :eTextHasPage       bdr:EP08F7F78DEC6B4BA3 , bdr:EP51188032ACE8CCCC , bdr:EP80326848F3D7DCE9 , bdr:EPBAB6290ED1FDA828 , bdr:EPE15612C655C6769C , bdr:EPE83065E31BA3CBF0 , bdr:EPEAFD40D6292E3468 , bdr:EPFD276B042AA4150F ;
         :eTextInInstance    bdr:IE10736 ;
         :eTextInVolume      24 ;
         :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/24_ya/24_15_ya_bsngo-baqi-yon-bshad-dang-bsngo-ba-mdor-bsdus-bkod-pa-legs-byas-kyi-shing-rta.rtf" ;

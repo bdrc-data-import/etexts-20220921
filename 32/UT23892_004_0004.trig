@@ -16,14 +16,60 @@ bdg:UT23892_004_0004 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23892_004_0004 ;
+        adm:facetIndex      12 ;
         adm:gitPath         "32/UT23892_004_0004.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23892_004_0004 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0118795E2C8D4608
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP1441E3064683C1CC
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP2EBE3FBDDAE5BA6B
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP5BF2519E57F42608
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP5C6ECD804E4AD2F5
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EP6844DC0537338BA0
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP7B72A3771EE0A02B
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP99120845D7D0BD8C
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP99A4C41C9EAB0DFD
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPE0919E562471D4CE
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EPE1BC0FEF712A190E
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT23892_004_0004
         a                   :EtextNonPaginated ;
         skos:prefLabel      "།ཕྱག་རྒྱ་ཆེན་པོ་ལྔ་ལྡན་གསལ་བྱེད་ནོར་བུའི་ཕྲེང་བ་ཉམས་སུ་བླང་བདེ་བ་ཞེས་བྱ་བ་བཞུགས་སོ།"@bo ;
+        :eTextHasPage       bdr:EP0118795E2C8D4608 , bdr:EP1441E3064683C1CC , bdr:EP2EBE3FBDDAE5BA6B , bdr:EP5BF2519E57F42608 , bdr:EP5C6ECD804E4AD2F5 , bdr:EP6844DC0537338BA0 , bdr:EP7B72A3771EE0A02B , bdr:EP99120845D7D0BD8C , bdr:EP99A4C41C9EAB0DFD , bdr:EPE0919E562471D4CE , bdr:EPE1BC0FEF712A190E ;
         :eTextInInstance    bdr:IE23892 ;
         :eTextInVolume      4 ;
         :eTextSourcePath    "DrikungChetsang/6_KUNRIN/rtfs/volume-004/NGA-CHA1.006.rtf" ;

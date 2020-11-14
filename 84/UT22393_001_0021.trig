@@ -16,14 +16,52 @@ bdg:UT22393_001_0021 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT22393_001_0021 ;
+        adm:facetIndex      10 ;
         adm:gitPath         "84/UT22393_001_0021.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT22393_001_0021 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0E881F0E1DC26320
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP23851AC2611A2907
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP32DE9A3C06B484FD
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP4FE62A4EE7541FEA
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP6169A1B8ECCF2C15
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP6677BAF816EE7ABD
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP9E41A0BC935E5B72
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPD17A7F716BA29674
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPD5279794E09E5CD2
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
     bdr:UT22393_001_0021
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༡ན༽ཆོས་རྗེ་དྭགས་པོ་ལྷ་རྗེའི་གསུང༌།ཕྱག་རྒྱ་ཆེན་པོ་གསལ་བྱེད་ཀྱི་མན་ངག་བཞུགས། །"@bo ;
+        :eTextHasPage       bdr:EP0E881F0E1DC26320 , bdr:EP23851AC2611A2907 , bdr:EP32DE9A3C06B484FD , bdr:EP4FE62A4EE7541FEA , bdr:EP6169A1B8ECCF2C15 , bdr:EP6677BAF816EE7ABD , bdr:EP9E41A0BC935E5B72 , bdr:EPD17A7F716BA29674 , bdr:EPD5279794E09E5CD2 ;
         :eTextInInstance    bdr:IE22393 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "DharmaDownload/Dhakpo-Kabum/rtfs/volume-001/21_ZHA.rtf" ;

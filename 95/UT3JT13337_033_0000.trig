@@ -16,14 +16,36 @@ bdg:UT3JT13337_033_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13337_033_0000 ;
+        adm:facetIndex      6 ;
         adm:gitPath         "95/UT3JT13337_033_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13337_033_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0D726D060676B682
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP2B20A989B7FAE03E
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP33E1303A582AD898
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP5F4EA483B3017072
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP90FE7BD989CB6BC4
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT3JT13337_033_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅།སློབ་དཔོན་པདྨ་རྒྱལ་པོས་མཛད་པའི་བཙན་གྱི་མདོས་ཕྲན་བཀླག་ཆོག་ཏུ་བསྡེབས་པ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP0D726D060676B682 , bdr:EP2B20A989B7FAE03E , bdr:EP33E1303A582AD898 , bdr:EP5F4EA483B3017072 , bdr:EP90FE7BD989CB6BC4 ;
         :eTextInInstance    bdr:IE3JT13337 ;
         :eTextIsVolume      33 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/P0025_Tobum_tdoc/039-btsan-mdos.rtf" ;

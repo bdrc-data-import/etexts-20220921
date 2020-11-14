@@ -16,14 +16,60 @@ bdg:UT22393_001_0002 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT22393_001_0002 ;
+        adm:facetIndex      12 ;
         adm:gitPath         "40/UT22393_001_0002.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT22393_001_0002 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP21B5493B439672ED
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP5F0B1C50658F1A49
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP60802BE49FCA11CC
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP63EFD5344088F130
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP66D92D6A851CA36F
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EPA2066266AD29009F
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPB305C099533AC61E
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPD802AE226502CA9A
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPE0C4BAF28A67AC91
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPE42317C8BBB51428
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EPFBA255E51B1FB5FF
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT22393_001_0002
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༡ན༽རྗེ་མར་པ་དང་རྗེ་བཙུན་མི་ལའི་རྣམ་ཐར་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP21B5493B439672ED , bdr:EP5F0B1C50658F1A49 , bdr:EP60802BE49FCA11CC , bdr:EP63EFD5344088F130 , bdr:EP66D92D6A851CA36F , bdr:EPA2066266AD29009F , bdr:EPB305C099533AC61E , bdr:EPD802AE226502CA9A , bdr:EPE0C4BAF28A67AC91 , bdr:EPE42317C8BBB51428 , bdr:EPFBA255E51B1FB5FF ;
         :eTextInInstance    bdr:IE22393 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "DharmaDownload/Dhakpo-Kabum/rtfs/volume-001/02_KHA.rtf" ;

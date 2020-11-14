@@ -16,14 +16,36 @@ bdg:UT10736_010_0017 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT10736_010_0017 ;
+        adm:facetIndex      6 ;
         adm:gitPath         "61/UT10736_010_0017.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT10736_010_0017 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP1BF2CAA9548B3647
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP1FEA77D0558C44E8
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP3A8AEB4A616A3242
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP6A75AFB12A9535D9
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPACC34A78E88D29CB
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT10736_010_0017
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །དྭགས་པོ་ཆོས་བཞིའི་རྩ་བ་སྐྱེས་བུ་གསུམ་གྱི་ལམ་གྱི་མཆོག་རིན་པོ་ཆེའི་འཕྲེང་བ་ཞེས་བྱ་བ་ཆོས་རྗེ་སྒམ་པོ་པས་མཛད་པ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP1BF2CAA9548B3647 , bdr:EP1FEA77D0558C44E8 , bdr:EP3A8AEB4A616A3242 , bdr:EP6A75AFB12A9535D9 , bdr:EPACC34A78E88D29CB ;
         :eTextInInstance    bdr:IE10736 ;
         :eTextInVolume      10 ;
         :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/10_tha/10_22_tha_dvags-po-chos-bzhiqi-rtsa-ba-skyes-bu-gsum-gyi-lam-gyi-mchog-rin-po-cheqi-qphreng-ba.rtf" ;

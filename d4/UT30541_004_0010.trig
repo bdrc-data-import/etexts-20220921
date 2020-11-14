@@ -16,14 +16,76 @@ bdg:UT30541_004_0010 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT30541_004_0010 ;
+        adm:facetIndex      16 ;
         adm:gitPath         "d4/UT30541_004_0010.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT30541_004_0010 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP052A4178D251E0FB
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP070C2087984BDF1E
+        a                   :EtextPage ;
+        :seqNum             13 .
+    
+    bdr:EP3BB0B177587DE6A5
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP46303BFFDBC38440
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP5B52BF138DC9F54C
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP62F127D2A95B730A
+        a                   :EtextPage ;
+        :seqNum             14 .
+    
+    bdr:EP6336CACFE296B492
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP692055FFDE1BA550
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EP6952907C4D8F17FA
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP76392BB90D2469FE
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP90E110EEBBAEDE3C
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPC33799904E9DC62E
+        a                   :EtextPage ;
+        :seqNum             15 .
+    
+    bdr:EPD2E6BA83C48B998F
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPDAA93201C753B281
+        a                   :EtextPage ;
+        :seqNum             12 .
+    
+    bdr:EPF0B0353D8436E365
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT30541_004_0010
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །དཔལ་ཆེན་རང་བྱུང་རྡོ་རྗེའི་རྣམ་ཐར་བཞུགས་པ་ལགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP052A4178D251E0FB , bdr:EP070C2087984BDF1E , bdr:EP3BB0B177587DE6A5 , bdr:EP46303BFFDBC38440 , bdr:EP5B52BF138DC9F54C , bdr:EP62F127D2A95B730A , bdr:EP6336CACFE296B492 , bdr:EP692055FFDE1BA550 , bdr:EP6952907C4D8F17FA , bdr:EP76392BB90D2469FE , bdr:EP90E110EEBBAEDE3C , bdr:EPC33799904E9DC62E , bdr:EPD2E6BA83C48B998F , bdr:EPDAA93201C753B281 , bdr:EPF0B0353D8436E365 ;
         :eTextInInstance    bdr:IE30541 ;
         :eTextInVolume      4 ;
         :eTextSourcePath    "DharmaDownload/Karmapa-03/rtfs/04_3rd-karmapa-text_tdoc_nga/04_09_nga_pal-chen-rang-byung-rdo-rjeqi-rnam-thar.rtf" ;

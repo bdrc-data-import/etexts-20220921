@@ -16,14 +16,52 @@ bdg:UT1KG14_037_0060 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1KG14_037_0060 ;
+        adm:facetIndex      10 ;
         adm:gitPath         "43/UT1KG14_037_0060.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1KG14_037_0060 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP1D7D8986B48C54E6
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP64F0B23C910224A8
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP7A0F2628C77BD581
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP92BA5951412A62DC
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPB785E3D23DF13351
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPC31100E48322BA34
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPD4A6AB8CB17B727E
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPE403DE08E0FFF845
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPE9310EC5D99C9207
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
     bdr:UT1KG14_037_0060
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༁ྃ༔བླ་མ་དགོངས་པ་འདུས་པ་ལས༔རྨི་ལམ་བཟང་ངན་བརྡ་རྟགས་ཀྱི་རིམ་པ་ཞེས་བྱ་བ་བཞུགས་སོ༔གནས་སྐབས་རྟེན་འབྲེལ་གྱི་མངོན་ཤེས་དྲུག་གོ༔"@bo ;
+        :eTextHasPage       bdr:EP1D7D8986B48C54E6 , bdr:EP64F0B23C910224A8 , bdr:EP7A0F2628C77BD581 , bdr:EP92BA5951412A62DC , bdr:EPB785E3D23DF13351 , bdr:EPC31100E48322BA34 , bdr:EPD4A6AB8CB17B727E , bdr:EPE403DE08E0FFF845 , bdr:EPE9310EC5D99C9207 ;
         :eTextInInstance    bdr:IE1KG14 ;
         :eTextInVolume      37 ;
         :eTextSourcePath    "Shechen/Rinchen-Terdzod-Shechen-vols-01-54/rtfs/42-NI/Terzod-ni-P62.rtf" ;

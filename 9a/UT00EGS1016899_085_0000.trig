@@ -16,14 +16,32 @@ bdg:UT00EGS1016899_085_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT00EGS1016899_085_0000 ;
+        adm:facetIndex      5 ;
         adm:gitPath         "9a/UT00EGS1016899_085_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT00EGS1016899_085_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP37675593A320AE43
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP94BDE4F956024536
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP9E8A4AFBAE42229E
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPC3E615A9A10B9109
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT00EGS1016899_085_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼ཙ༽༄༅། །རྒྱལ་སྲིད་སྣ་བདུན་དང༌།རིན་ཆེན་སྣ་བདུན་འབུལ་བའི་ཚིགས་བཅད་བཞུགས་སོ། །ན་མོ་མཉྫུ་ཤྲཱི་ཡེ།ལྷ་དབང་གསུང་གི་རྔ་ཆེན་གྱིས་བསྐུལ་"@bo ;
+        :eTextHasPage       bdr:EP37675593A320AE43 , bdr:EP94BDE4F956024536 , bdr:EP9E8A4AFBAE42229E , bdr:EPC3E615A9A10B9109 ;
         :eTextInInstance    bdr:IE00EGS1016899 ;
         :eTextIsVolume      85 ;
         :eTextSourcePath    "GuruLamaWorks/For-Conversion-Disk-01-20130424/rtfs/SHAKCHOG/SHAK079.rtf" ;

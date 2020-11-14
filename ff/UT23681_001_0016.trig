@@ -16,14 +16,52 @@ bdg:UT23681_001_0016 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23681_001_0016 ;
+        adm:facetIndex      10 ;
         adm:gitPath         "ff/UT23681_001_0016.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23681_001_0016 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP11AE86F81BE0B558
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP151C2AE0BC653F9D
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP17FB9C824D2B7306
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP333BBF2CB2C6FBBA
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP3B0AA9386DE2581A
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP9A8DFE23A9451C5E
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPDAC1A9D900BF8FF6
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPFAB75F7C24A2FC6D
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPFBF7FF688DABFEEC
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT23681_001_0016
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼ཀ༽༄༅། །བཀའ་གཏེར་དག་སྣང་ཟུང་དུ་འབྲེལ་བའི་ཚེ་སྒྲུབ་ཤིན་ཏུ་ཉེ་བརྒྱུད་ཀྱི་སྒྲུབ་ཐབས་དབང་ཆོག་དང་བཅས་པ་བཞུགས་སོ། །༄༅། །གྲུབ་པའི་དབ"@bo ;
+        :eTextHasPage       bdr:EP11AE86F81BE0B558 , bdr:EP151C2AE0BC653F9D , bdr:EP17FB9C824D2B7306 , bdr:EP333BBF2CB2C6FBBA , bdr:EP3B0AA9386DE2581A , bdr:EP9A8DFE23A9451C5E , bdr:EPDAC1A9D900BF8FF6 , bdr:EPFAB75F7C24A2FC6D , bdr:EPFBF7FF688DABFEEC ;
         :eTextInInstance    bdr:IE23681 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "GuruLamaWorks/Drub-thab-kuntu/rtfs/volume-001-014/DBTU016.rtf" ;

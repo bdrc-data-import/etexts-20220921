@@ -16,14 +16,36 @@ bdg:UT2DB25060_001_0002 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT2DB25060_001_0002 ;
+        adm:facetIndex      6 ;
         adm:gitPath         "06/UT2DB25060_001_0002.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT2DB25060_001_0002 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP4CCB070ACD18962D
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP87123AC84B77D5F0
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP8AB8F4F2A5D19DDC
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPB27D94C145B2D5F9
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPE508A55330549970
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT2DB25060_001_0002
         a                   :EtextNonPaginated ;
         skos:prefLabel      "སྔོན་འགྲོའི་ཞུ་ཚིག"@bo ;
+        :eTextHasPage       bdr:EP4CCB070ACD18962D , bdr:EP87123AC84B77D5F0 , bdr:EP8AB8F4F2A5D19DDC , bdr:EPB27D94C145B2D5F9 , bdr:EPE508A55330549970 ;
         :eTextInInstance    bdr:IE2DB25060 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "KarmaDelek/qug-yug-pa-rigs-paqi-seng-ge-gsung-qbum/rtfs/volume_001/volume_001_002.rtf" ;

@@ -16,14 +16,52 @@ bdg:UT1PD45495_042_0014 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1PD45495_042_0014 ;
+        adm:facetIndex      10 ;
         adm:gitPath         "5c/UT1PD45495_042_0014.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1PD45495_042_0014 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP06F1F07782FB5A4C
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP25C63C38C947E512
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP2F39D02AE0E2CC3C
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP30AF0435D4C41184
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP6F7464C23E1BDED3
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP7C1A83D07A5BECFD
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPA68D96F190F670F1
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPAFBB5568A6BA7635
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPBCCCEAF9D305FFDA
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT1PD45495_042_0014
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །མགོན་པོ་ཏྲཀྴད་ཀྱི་ཆོས་འབྱུང་དང་གཏོར་རྒྱག་ཐམས་ཅད་ཀྱི་མན་ངག་གཞན་ལ་མེད་པའི་ཁྱད་ཆོས་ཞལ་རྒྱུན་གསེར་གྱི་ཐིག་པ་བཞུགས།"@bo ;
+        :eTextHasPage       bdr:EP06F1F07782FB5A4C , bdr:EP25C63C38C947E512 , bdr:EP2F39D02AE0E2CC3C , bdr:EP30AF0435D4C41184 , bdr:EP6F7464C23E1BDED3 , bdr:EP7C1A83D07A5BECFD , bdr:EPA68D96F190F670F1 , bdr:EPAFBB5568A6BA7635 , bdr:EPBCCCEAF9D305FFDA ;
         :eTextInInstance    bdr:IE1PD45495 ;
         :eTextInVolume      42 ;
         :eTextSourcePath    "KarmaDelek/taranatha-gsung-qbum/rtfs/volume_042/volume_042_416.rtf" ;

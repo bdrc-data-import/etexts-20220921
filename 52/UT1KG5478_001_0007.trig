@@ -16,14 +16,56 @@ bdg:UT1KG5478_001_0007 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1KG5478_001_0007 ;
+        adm:facetIndex      11 ;
         adm:gitPath         "52/UT1KG5478_001_0007.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1KG5478_001_0007 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP08E3E0D09FFC3038
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP12E65A9851F986CC
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP2D37A307CF3084D4
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP3400E8A08FC9A09C
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP3C1AC074165AC769
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP60C6E03FA76F4C6D
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP733771022A55095A
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP978F24F70C694DBB
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EPA74CD3F39B108006
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EPCBA0D57D803FA2DF
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
     bdr:UT1KG5478_001_0007
         a                   :EtextNonPaginated ;
         skos:prefLabel      "སྐབས་བདུན་པ།སྐད་ཅིག་མའི་སྦྱོར་ཊཱིཀ"@bo ;
+        :eTextHasPage       bdr:EP08E3E0D09FFC3038 , bdr:EP12E65A9851F986CC , bdr:EP2D37A307CF3084D4 , bdr:EP3400E8A08FC9A09C , bdr:EP3C1AC074165AC769 , bdr:EP60C6E03FA76F4C6D , bdr:EP733771022A55095A , bdr:EP978F24F70C694DBB , bdr:EPA74CD3F39B108006 , bdr:EPCBA0D57D803FA2DF ;
         :eTextInInstance    bdr:IE1KG5478 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "VajraVidya/Karma_Trinley_Sherchin_Jortik/rtfs/volume-001/Sherchin_Jortik_7.rtf" ;

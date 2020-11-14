@@ -16,14 +16,28 @@ bdg:UT3JT13383_002_0002 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13383_002_0002 ;
+        adm:facetIndex      4 ;
         adm:gitPath         "e1/UT3JT13383_002_0002.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13383_002_0002 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP35577C904453C947
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP5954D044238E4C95
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPF4043FC923C18969
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT3JT13383_002_0002
         a                   :EtextNonPaginated ;
         skos:prefLabel      "ལེའུུ་གཉིས་པ།མངོན་སུམ།"@bo ;
+        :eTextHasPage       bdr:EP35577C904453C947 , bdr:EP5954D044238E4C95 , bdr:EPF4043FC923C18969 ;
         :eTextInInstance    bdr:IE3JT13383 ;
         :eTextInVolume      2 ;
         :eTextSourcePath    "VajraVidya/Thrangu_Tsema_Namdrel/rtfs/volume-002/Thrangu_Tsema_Namdrel_Vol._2b.rtf" ;

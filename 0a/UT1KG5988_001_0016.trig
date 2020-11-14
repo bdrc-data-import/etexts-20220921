@@ -16,14 +16,64 @@ bdg:UT1KG5988_001_0016 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1KG5988_001_0016 ;
+        adm:facetIndex      13 ;
         adm:gitPath         "0a/UT1KG5988_001_0016.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1KG5988_001_0016 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0748E3029740B00E
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP115C4B17AC3EFC0E
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP187FBBB7FC53FE2E
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP4AA7DB30034BA1B9
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP5C392F5D19071644
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP5D8CFEE2759E0E33
+        a                   :EtextPage ;
+        :seqNum             12 .
+    
+    bdr:EP664EECB248F20547
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP7E6F7F6AD11348C8
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EP99975367195F1CD7
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EPBEA8E698A20CD377
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPF93BA9E89DD8F29D
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPFBAAD635D68C0560
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
     bdr:UT1KG5988_001_0016
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །དཔལ་རྡོ་རྗེ་སྡེར་མོའི་གཟུངས་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP0748E3029740B00E , bdr:EP115C4B17AC3EFC0E , bdr:EP187FBBB7FC53FE2E , bdr:EP4AA7DB30034BA1B9 , bdr:EP5C392F5D19071644 , bdr:EP5D8CFEE2759E0E33 , bdr:EP664EECB248F20547 , bdr:EP7E6F7F6AD11348C8 , bdr:EP99975367195F1CD7 , bdr:EPBEA8E698A20CD377 , bdr:EPF93BA9E89DD8F29D , bdr:EPFBAAD635D68C0560 ;
         :eTextInInstance    bdr:IE1KG5988 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "DharmaDownload/Kagyur-Zungdue/rtfs/volume-001/017_rdo-rje-sder-mo.rtf" ;

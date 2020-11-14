@@ -16,14 +16,36 @@ bdg:UT1KG5478_001_0006 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1KG5478_001_0006 ;
+        adm:facetIndex      6 ;
         adm:gitPath         "27/UT1KG5478_001_0006.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1KG5478_001_0006 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP4827903FC85FC0A2
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP56E24483FDBA21A8
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP82E3876D4F1D6D9B
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP87879DF307B1C832
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP99DE70A539BD8317
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT1KG5478_001_0006
         a                   :EtextNonPaginated ;
         skos:prefLabel      "སྐབས་དྲུག་པ།མཐར་གྱིས་སྦྱོར་བའི་སྦྱོར་ཊཱིཀ"@bo ;
+        :eTextHasPage       bdr:EP4827903FC85FC0A2 , bdr:EP56E24483FDBA21A8 , bdr:EP82E3876D4F1D6D9B , bdr:EP87879DF307B1C832 , bdr:EP99DE70A539BD8317 ;
         :eTextInInstance    bdr:IE1KG5478 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "VajraVidya/Karma_Trinley_Sherchin_Jortik/rtfs/volume-001/Sherchin_Jortik_6.rtf" ;

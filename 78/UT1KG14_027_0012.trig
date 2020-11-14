@@ -16,14 +16,40 @@ bdg:UT1KG14_027_0012 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1KG14_027_0012 ;
+        adm:facetIndex      7 ;
         adm:gitPath         "78/UT1KG14_027_0012.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1KG14_027_0012 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP034185D833DEFF11
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP783ACB52DEB26571
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP8DECC278B35AA7DD
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPB092753F6E92656D
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPB67504010C827027
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPE92CA4C7ADCB6F70
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT1KG14_027_0012
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༁ྃ༔གསང་ཐིག་སྙིང་པོའི་སྐོར་ལས༔རྡོ་རྗེ་སེམས་དཔའ་ཕྱག་རྒྱ་གཅིག་པའི་སྒྲུབ་ཐབས་བཞུགས་སོ༔"@bo ;
+        :eTextHasPage       bdr:EP034185D833DEFF11 , bdr:EP783ACB52DEB26571 , bdr:EP8DECC278B35AA7DD , bdr:EPB092753F6E92656D , bdr:EPB67504010C827027 , bdr:EPE92CA4C7ADCB6F70 ;
         :eTextInInstance    bdr:IE1KG14 ;
         :eTextInVolume      27 ;
         :eTextSourcePath    "Shechen/Rinchen-Terdzod-Shechen-vols-01-54/rtfs/27-SHA/Terzod-sha-P11.rtf" ;

@@ -16,14 +16,52 @@ bdg:UT10736_016_0015 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT10736_016_0015 ;
+        adm:facetIndex      10 ;
         adm:gitPath         "d2/UT10736_016_0015.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT10736_016_0015 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP04DA00E0388D4A0F
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP165AAAE7F5F57AD6
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP573EA4CB0B61AB85
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP67C9CECF5D2CA0BC
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP9970A09B51B5A50D
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPB94B17BDAC512112
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPD5735654486A2004
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EPF67C36487A56628D
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPFAE179BFF3322601
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT10736_016_0015
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །དཔལ་ཆེན་པོའི་རྟ་སྐད་སྒྲོག་པའི་མན་ངག་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP04DA00E0388D4A0F , bdr:EP165AAAE7F5F57AD6 , bdr:EP573EA4CB0B61AB85 , bdr:EP67C9CECF5D2CA0BC , bdr:EP9970A09B51B5A50D , bdr:EPB94B17BDAC512112 , bdr:EPD5735654486A2004 , bdr:EPF67C36487A56628D , bdr:EPFAE179BFF3322601 ;
         :eTextInInstance    bdr:IE10736 ;
         :eTextInVolume      16 ;
         :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/16_ma/16_14_ma_dpal-chen-poqi-rta-skad-sgrog-paqi-man-ngag.rtf" ;

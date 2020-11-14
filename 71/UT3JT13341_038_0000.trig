@@ -16,14 +16,28 @@ bdg:UT3JT13341_038_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13341_038_0000 ;
+        adm:facetIndex      4 ;
         adm:gitPath         "71/UT3JT13341_038_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13341_038_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP675E2DD47366AB1C
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP71397F5592295D39
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPE285A38B31D9A6E4
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT3JT13341_038_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "ན་མོ་གུ་རུ་དེ་ཝ་ཌཱ་ཀི་ནཱི་ཧཱུྃ།ཧྲཱིཿདུས་གསུམ་སངས་རྒྱས་ཀུན་གྱི་ངོ་བོ་ཉིད༔བྱིན་རླབས་རྩ་བ་ཨོ་རྒྱན་རིན་པོ་ཆེ༔འགྲོ་མགོན་པདྨ་འབྱུང་གནས"@bo ;
+        :eTextHasPage       bdr:EP675E2DD47366AB1C , bdr:EP71397F5592295D39 , bdr:EPE285A38B31D9A6E4 ;
         :eTextInInstance    bdr:IE3JT13341 ;
         :eTextIsVolume      38 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/Taksham-Chochod_tdoc/029b_ja-mchod.rtf" ;

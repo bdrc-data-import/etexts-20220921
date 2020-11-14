@@ -16,14 +16,60 @@ bdg:UT22082_004_0017 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT22082_004_0017 ;
+        adm:facetIndex      12 ;
         adm:gitPath         "67/UT22082_004_0017.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT22082_004_0017 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP336628B68816DD32
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP5CD7E560F5BCBBAA
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP5DA48E79C6282200
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP61699BB4F2BA4D1F
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP6DF9AE3F41419BB6
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EP70C687AA1EAE91B9
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP885B0F2D188F60F0
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPEA9D075EA05E0DDC
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPEC98E3737A1501DA
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPED701A69FFBE1E2B
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EPFF1B74C6B9C9509B
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
     bdr:UT22082_004_0017
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །ལྷ་ཆེན་ནག་ལྷ་ཛཾ་བྷའི་བསང་མཆོད་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP336628B68816DD32 , bdr:EP5CD7E560F5BCBBAA , bdr:EP5DA48E79C6282200 , bdr:EP61699BB4F2BA4D1F , bdr:EP6DF9AE3F41419BB6 , bdr:EP70C687AA1EAE91B9 , bdr:EP885B0F2D188F60F0 , bdr:EPEA9D075EA05E0DDC , bdr:EPEC98E3737A1501DA , bdr:EPED701A69FFBE1E2B , bdr:EPFF1B74C6B9C9509B ;
         :eTextInInstance    bdr:IE22082 ;
         :eTextInVolume      4 ;
         :eTextSourcePath    "DrikungChetsang/7__KUNKHYEN/rtfs/volume-004/25NGA.RA.rtf" ;

@@ -16,14 +16,40 @@ bdg:UT23605_010_0010 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_010_0010 ;
+        adm:facetIndex      7 ;
         adm:gitPath         "2f/UT23605_010_0010.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_010_0010 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0619519C3D9CDF86
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP6F98CB54F4B66145
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP83AC5639C7DCE397
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP952D7619EF88B145
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPAE0E65812F3FD96D
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPE29AC5DFCEDCFD85
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT23605_010_0010
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༡༡༥༽༄༅། །རོ་སྙོམས་སྐོར་དྲུག་གི་ཉམས་ལེན་སྒང་དུ་དྲིལ་བ་ཞེས་བྱ་བ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP0619519C3D9CDF86 , bdr:EP6F98CB54F4B66145 , bdr:EP83AC5639C7DCE397 , bdr:EP952D7619EF88B145 , bdr:EPAE0E65812F3FD96D , bdr:EPE29AC5DFCEDCFD85 ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      10 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/10_gdams-ngag-mdzod_tha/10_09_ro-snyoms-skor-drug-gi-nyams-len-sgang-du-dril-ba.rtf" ;

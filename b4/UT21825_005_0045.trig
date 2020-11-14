@@ -16,14 +16,52 @@ bdg:UT21825_005_0045 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT21825_005_0045 ;
+        adm:facetIndex      10 ;
         adm:gitPath         "b4/UT21825_005_0045.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT21825_005_0045 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP1912A1DC8A77C566
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP246EF2B70405FFB9
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP276B1BFCFB9E0CD9
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP52502733383213C0
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP551F32555AF3F3CD
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP8AFB3B60FB4601C6
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPCB61914EBEFB8F88
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPEAFBC9699E469480
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPF2E71D8941A37F0E
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
     bdr:UT21825_005_0045
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༢༧༡༽༄༅།བླ་མ་དགོངས་པ་འདུས་པའི་ལོ་རྒྱུས་ཤེལ་གྱི་མེ་ལོང་སྙིང་པོའི་བཅུད་ཕྱུང་བཞུགས་སོ།ཀུན་སློང་བཅོས་ནས་གསང་སྔགས་རྙིང་མ་གཏེར་མའི་ལོ་ར"@bo ;
+        :eTextHasPage       bdr:EP1912A1DC8A77C566 , bdr:EP246EF2B70405FFB9 , bdr:EP276B1BFCFB9E0CD9 , bdr:EP52502733383213C0 , bdr:EP551F32555AF3F3CD , bdr:EP8AFB3B60FB4601C6 , bdr:EPCB61914EBEFB8F88 , bdr:EPEAFBC9699E469480 , bdr:EPF2E71D8941A37F0E ;
         :eTextInInstance    bdr:IE21825 ;
         :eTextInVolume      5 ;
         :eTextSourcePath    "PalriParkhang/W21825-bkaq-qbum-pad-nor-02-thub-bstan-chos-kyi-glang-po/rtfs/05-penor-kabum-ca/c-271-284.rtf" ;

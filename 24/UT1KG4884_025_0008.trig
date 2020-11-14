@@ -16,14 +16,32 @@ bdg:UT1KG4884_025_0008 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1KG4884_025_0008 ;
+        adm:facetIndex      5 ;
         adm:gitPath         "24/UT1KG4884_025_0008.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1KG4884_025_0008 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0B07C0939B24829F
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP2DF45261EAC9EC3D
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP2FC690D924D8B2CD
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP8555A4FD72595317
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT1KG4884_025_0008
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །རྫོགས་ཆེན་དོན་གྱི་གསོལ་འདེབས་ཕུན་ཚོགས་དཔལ་འབར་ཞེས་བྱ་བ་བཞུགས།"@bo ;
+        :eTextHasPage       bdr:EP0B07C0939B24829F , bdr:EP2DF45261EAC9EC3D , bdr:EP2FC690D924D8B2CD , bdr:EP8555A4FD72595317 ;
         :eTextInInstance    bdr:IE1KG4884 ;
         :eTextInVolume      25 ;
         :eTextSourcePath    "KarmaDelek/klong-chen-rab-byams-gung-qbum/rtfs/volume_025/volume_025_562.rtf" ;

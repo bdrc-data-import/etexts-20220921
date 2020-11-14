@@ -16,14 +16,44 @@ bdg:UT3JT13341_049_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13341_049_0000 ;
+        adm:facetIndex      8 ;
         adm:gitPath         "40/UT3JT13341_049_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13341_049_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP30AD0DC76F31EDD0
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP3C6229E69DA9966D
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP419965DAD9173258
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP41A8E5E62F64C876
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP5787AD7D5DEF59DA
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPB63E3E4EBB509407
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPC5E5B6012BF59A26
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
     bdr:UT3JT13341_049_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །འཕགས་པ་བཟང་པོ་སྤྱོད་པའི་སྨོན་ལམ་གྱི་རྒྱལ་པོ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP30AD0DC76F31EDD0 , bdr:EP3C6229E69DA9966D , bdr:EP419965DAD9173258 , bdr:EP41A8E5E62F64C876 , bdr:EP5787AD7D5DEF59DA , bdr:EPB63E3E4EBB509407 , bdr:EPC5E5B6012BF59A26 ;
         :eTextInInstance    bdr:IE3JT13341 ;
         :eTextIsVolume      49 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/Taksham-Chochod_tdoc/038_bzang-spyod-smon-lam.rtf" ;

@@ -16,14 +16,40 @@ bdg:UT2DB16428_003_0011 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT2DB16428_003_0011 ;
+        adm:facetIndex      7 ;
         adm:gitPath         "26/UT2DB16428_003_0011.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT2DB16428_003_0011 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP2E074F36CD3CF083
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP4C8D150BA7ADFF59
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP695BAA395CCB6413
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP846798DF5DD534CA
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPD3FEF2EAAD1BAC2C
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPF8BC81D371EDAEC4
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
     bdr:UT2DB16428_003_0011
         a                   :EtextNonPaginated ;
         skos:prefLabel      "དང་པོ།༄༅། །གུང་རུ་རྒྱལ་མཚན་བཟང་པོས་མཛད་པའི་དབུ་མ་བཞི་བརྒྱ་པའི་འགྲེལ་བའི་དཀར་ཆག་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP2E074F36CD3CF083 , bdr:EP4C8D150BA7ADFF59 , bdr:EP695BAA395CCB6413 , bdr:EP846798DF5DD534CA , bdr:EPD3FEF2EAAD1BAC2C , bdr:EPF8BC81D371EDAEC4 ;
         :eTextInInstance    bdr:IE2DB16428 ;
         :eTextInVolume      3 ;
         :eTextSourcePath    "KarmaDelek/sung-thor-bu _blo-gros-rin-chen-seng-ge_gung-ru-rgyal-mtshan-bzang-po-chos-skor/rtfs/volume_003/volume_003_022.rtf" ;

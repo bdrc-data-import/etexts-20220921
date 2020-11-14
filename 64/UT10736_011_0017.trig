@@ -16,14 +16,24 @@ bdg:UT10736_011_0017 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT10736_011_0017 ;
+        adm:facetIndex      3 ;
         adm:gitPath         "64/UT10736_011_0017.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT10736_011_0017 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0DFDE78600534B86
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP158CDAEF0377B34D
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT10736_011_0017
         a                   :EtextNonPaginated ;
         skos:prefLabel      "འཕགས་མཆོག་ཐུགས་རྗེ་ཆེན་པོའི་གསོལ་འདེབས་བྱིན་རླབས་ཆར་འབེབས་བཞུགས་སོ། །ཨེ་མ་ཧོ།གདོད་མའི་མགོན་པོ་ཆོས་སྐུ་འོད་མཐའ་ཡས། །ངེས་པ་ལྔ་ལྡ"@bo ;
+        :eTextHasPage       bdr:EP0DFDE78600534B86 , bdr:EP158CDAEF0377B34D ;
         :eTextInInstance    bdr:IE10736 ;
         :eTextInVolume      11 ;
         :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/11_da/11_15_da_qphags-mchog-thugs-rje-chen-poqi-gsol-qdebs-byin-rlabs-char-qbebs.rtf" ;

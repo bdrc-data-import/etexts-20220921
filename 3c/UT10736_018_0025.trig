@@ -16,14 +16,48 @@ bdg:UT10736_018_0025 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT10736_018_0025 ;
+        adm:facetIndex      9 ;
         adm:gitPath         "3c/UT10736_018_0025.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT10736_018_0025 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0532BCF99BB2988F
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP078D7BD193BA98FD
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP205910FDD4E2DD80
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP40B8B9506F00B2E9
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP5D26AEA2EEB060DD
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP8D119DA71D578928
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPCFE03B6A50C3CCAF
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPD99288E5690D2ACB
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT10736_018_0025
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །སྙན་བརྒྱུད་མགོན་པོའི་སྒྲུབ་ཐབས་འཕྲིན་ལས་ཀུན་འགྲུབ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP0532BCF99BB2988F , bdr:EP078D7BD193BA98FD , bdr:EP205910FDD4E2DD80 , bdr:EP40B8B9506F00B2E9 , bdr:EP5D26AEA2EEB060DD , bdr:EP8D119DA71D578928 , bdr:EPCFE03B6A50C3CCAF , bdr:EPD99288E5690D2ACB ;
         :eTextInInstance    bdr:IE10736 ;
         :eTextInVolume      18 ;
         :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/18_tsha/18_28_tsha_snyan-brgyud-mgon-poqi-sgrub-thabs-qphrin-las-kun-qgrub.rtf" ;

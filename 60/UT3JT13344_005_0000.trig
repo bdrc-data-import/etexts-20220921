@@ -16,14 +16,44 @@ bdg:UT3JT13344_005_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13344_005_0000 ;
+        adm:facetIndex      8 ;
         adm:gitPath         "60/UT3JT13344_005_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13344_005_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP725233BAA50F0A9F
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP82F640D148E189F1
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP83F60F566E408E9D
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP8EC3C89C04701613
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPAC3074D9B70265A5
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPE180C7B8BC222AB5
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPFF860BDFC4A34C38
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT3JT13344_005_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅༔ཞི་ཁྲོ་ན་རག་དོང་སྤྲུགས་རྣལ་འབྱོར་གྱི་སྤྱི་ཁྲུས་འགྱོད་ཚངས་ཀྱི་ཆོ་ག་དྲི་མེད་བཤགས་རྒྱུད་བཞུགས་སོ༔"@bo ;
+        :eTextHasPage       bdr:EP725233BAA50F0A9F , bdr:EP82F640D148E189F1 , bdr:EP83F60F566E408E9D , bdr:EP8EC3C89C04701613 , bdr:EPAC3074D9B70265A5 , bdr:EPE180C7B8BC222AB5 , bdr:EPFF860BDFC4A34C38 ;
         :eTextInInstance    bdr:IE3JT13344 ;
         :eTextIsVolume      5 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/various/P0035_Narag-dontruk.rtf" ;

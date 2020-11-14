@@ -16,14 +16,52 @@ bdg:UT23605_017_0029 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_017_0029 ;
+        adm:facetIndex      10 ;
         adm:gitPath         "41/UT23605_017_0029.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_017_0029 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0FF2CCA3A417E1F9
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP3E70730BD7E727CF
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP417A82EA900D6988
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP825BDFBD699F3AA6
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP8DB7D3BB7403C9B9
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPB9CFB9E384F14C1C
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPC96C1A3D1C6517BE
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPE2C268A916156A36
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPE546110143AED2A7
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT23605_017_0029
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༤༤༡༽༄༅། །སྒྲོལ་དཀར་ཡིད་བཞིན་འཁོར་ལོའི་ཚེ་ཁྲིད་ཟླ་བའི་ཆུ་རྒྱུན་གྱི་ཉམས་ལེན་སྙིང་པོ་བསྡུས་པ་བཞུགས་སོ། །། །"@bo ;
+        :eTextHasPage       bdr:EP0FF2CCA3A417E1F9 , bdr:EP3E70730BD7E727CF , bdr:EP417A82EA900D6988 , bdr:EP825BDFBD699F3AA6 , bdr:EP8DB7D3BB7403C9B9 , bdr:EPB9CFB9E384F14C1C , bdr:EPC96C1A3D1C6517BE , bdr:EPE2C268A916156A36 , bdr:EPE546110143AED2A7 ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      17 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/17_gdams-ngag-mdzod_tsa/17_28_~1.rtf" ;

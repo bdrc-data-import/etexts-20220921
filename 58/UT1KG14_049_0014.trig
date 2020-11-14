@@ -16,14 +16,56 @@ bdg:UT1KG14_049_0014 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1KG14_049_0014 ;
+        adm:facetIndex      11 ;
         adm:gitPath         "58/UT1KG14_049_0014.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1KG14_049_0014 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP1AB9788891743D74
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP2AB8ECCFFF22F1E3
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP48CCAE70A4FFA835
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP71881EB4B9679D70
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP71E5B9FFFFD0078D
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP7B2BD8C5F99C0E06
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPAA662877A85B3AD6
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPAF81857DE16EFEE0
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPB8C91C8943CCD42F
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPF4EBE7FD4074DAD9
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
     bdr:UT1KG14_049_0014
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅༔ཚེ་དཔག་མེད་སྒྲུབ་པ་འཆི་བདག་དཔུང་འཇོམས་བཞུགས་སོ༔"@bo ;
+        :eTextHasPage       bdr:EP1AB9788891743D74 , bdr:EP2AB8ECCFFF22F1E3 , bdr:EP48CCAE70A4FFA835 , bdr:EP71881EB4B9679D70 , bdr:EP71E5B9FFFFD0078D , bdr:EP7B2BD8C5F99C0E06 , bdr:EPAA662877A85B3AD6 , bdr:EPAF81857DE16EFEE0 , bdr:EPB8C91C8943CCD42F , bdr:EPF4EBE7FD4074DAD9 ;
         :eTextInInstance    bdr:IE1KG14 ;
         :eTextInVolume      49 ;
         :eTextSourcePath    "Shechen/Rinchen-Terdzod-Shechen-vols-01-54/rtfs/49-DZI/TERDZO-DZI-P13.rtf" ;

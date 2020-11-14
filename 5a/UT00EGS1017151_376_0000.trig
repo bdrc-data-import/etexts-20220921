@@ -16,14 +16,52 @@ bdg:UT00EGS1017151_376_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT00EGS1017151_376_0000 ;
+        adm:facetIndex      10 ;
         adm:gitPath         "5a/UT00EGS1017151_376_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT00EGS1017151_376_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP01510A836C5C89F0
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP27F24D7A843248E2
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP2F8291C294CFC486
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP55EFB5CC873AD16A
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP733EFA0E14C10008
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPBDABFB8AEE1A03EA
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPC0F857EC29B04E1F
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPD701F13E8D448ED8
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPDE8C898165AB3549
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT00EGS1017151_376_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼པ༽༄༅། །ལམ་འབྲས་ལམ་སྐོར་སོགས་ཀྱི་གསན་ཡིག་བཞུགས། །༄༅། །སངས་རྒྱས་ཀུན་དངོས་བླ་མ་ལ། །མཆོག་ཏུ་གུས་པས་ཕྱག་འཚལ་ནས། །སངས་རྒྱས་ནས་བར"@bo ;
+        :eTextHasPage       bdr:EP01510A836C5C89F0 , bdr:EP27F24D7A843248E2 , bdr:EP2F8291C294CFC486 , bdr:EP55EFB5CC873AD16A , bdr:EP733EFA0E14C10008 , bdr:EPBDABFB8AEE1A03EA , bdr:EPC0F857EC29B04E1F , bdr:EPD701F13E8D448ED8 , bdr:EPDE8C898165AB3549 ;
         :eTextInInstance    bdr:IE00EGS1017151 ;
         :eTextIsVolume      376 ;
         :eTextSourcePath    "GuruLamaWorks/For-Conversion-Disk-01-20130424/rtfs/SA-KABUM/SKYA370.rtf" ;

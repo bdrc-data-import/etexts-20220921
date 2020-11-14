@@ -16,14 +16,48 @@ bdg:UT10736_001_0008 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT10736_001_0008 ;
+        adm:facetIndex      9 ;
         adm:gitPath         "14/UT10736_001_0008.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT10736_001_0008 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP034B9179B8ED1436
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP3718B0874397AA61
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP3AD87E87FAC03EE8
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP563E3B21D06FF810
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP9A56A080AA49A86B
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP9BC780B2941E7BF4
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPC78F03C39F392C31
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPF7D1C7C975BB0D25
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
     bdr:UT10736_001_0008
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །བྲིས་སྐུའི་རྣམ་བཤད་མཐོང་བ་དོན་ལྡན་ཞེས་བྱ་བ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP034B9179B8ED1436 , bdr:EP3718B0874397AA61 , bdr:EP3AD87E87FAC03EE8 , bdr:EP563E3B21D06FF810 , bdr:EP9A56A080AA49A86B , bdr:EP9BC780B2941E7BF4 , bdr:EPC78F03C39F392C31 , bdr:EPF7D1C7C975BB0D25 ;
         :eTextInInstance    bdr:IE10736 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/01_ka/01_08_ka_bris-skuqi-rnam-bshad-mthong-ba-don-ldan.rtf" ;

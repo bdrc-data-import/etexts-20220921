@@ -16,14 +16,40 @@ bdg:UT23605_009_0008 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_009_0008 ;
+        adm:facetIndex      7 ;
         adm:gitPath         "e8/UT23605_009_0008.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_009_0008 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0116ED0BE9BC2C41
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP028FCBE1F9D5C885
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP4445346182CC6158
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPA47B290D61D5BB1F
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPA9C4A6BDCDF34612
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPABE42BBBABF1357C
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
     bdr:UT23605_009_0008
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༡༦༧༽༄༅། །ཆོས་རྗེ་རང་བྱུང་རྡོ་རྗེས་མཛད་པའི་རླུང་སེམས་གཉིས་མེད་བཞུགས་སོ། །། །"@bo ;
+        :eTextHasPage       bdr:EP0116ED0BE9BC2C41 , bdr:EP028FCBE1F9D5C885 , bdr:EP4445346182CC6158 , bdr:EPA47B290D61D5BB1F , bdr:EPA9C4A6BDCDF34612 , bdr:EPABE42BBBABF1357C ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      9 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/09_gdams-ngag-mdzod_ta/09_07_chos-rje-rang-byung-rdo-rjes-mdzad-paqi-rlung-sems-gnyis-med.rtf" ;

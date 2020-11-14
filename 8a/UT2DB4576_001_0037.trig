@@ -16,14 +16,40 @@ bdg:UT2DB4576_001_0037 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT2DB4576_001_0037 ;
+        adm:facetIndex      7 ;
         adm:gitPath         "8a/UT2DB4576_001_0037.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT2DB4576_001_0037 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP45446116CBFC8CF5
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP5971391E88563B34
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP7822838B4A9CE078
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP9F18B75E0594B0F4
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPCB7CD7F5D956EF5F
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPF942044DB6E19F19
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
     bdr:UT2DB4576_001_0037
         a                   :EtextNonPaginated ;
         skos:prefLabel      "རྔོག་ལོ་ཁུ་དབོན་གྱི་སློབ་རྒྱུད་དང༌།བཤད་གྲྭ་དར་ཚུལ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP45446116CBFC8CF5 , bdr:EP5971391E88563B34 , bdr:EP7822838B4A9CE078 , bdr:EP9F18B75E0594B0F4 , bdr:EPCB7CD7F5D956EF5F , bdr:EPF942044DB6E19F19 ;
         :eTextInInstance    bdr:IE2DB4576 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "KarmaDelek/rgyal-rabs-mang-poqi-legs-bshad-rnam-grangs-yid-qdzin-nor-buqi-phreng-ba/rtfs/volume_001/volume_001_037.rtf" ;

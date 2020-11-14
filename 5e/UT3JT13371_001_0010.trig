@@ -16,14 +16,44 @@ bdg:UT3JT13371_001_0010 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13371_001_0010 ;
+        adm:facetIndex      8 ;
         adm:gitPath         "5e/UT3JT13371_001_0010.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13371_001_0010 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP3346F524DA630434
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP3C715D5D6B026ABF
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP57EAD930A237C918
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP700B686B0B1A4717
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP9A4B8B3220B2A311
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP9CD173659335BB0B
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPFA948622F8ACD4FC
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT3JT13371_001_0010
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །རྒྱ་གར་སྐད་དུ།ཨཱརྱ་མཱུ་ལ་སརྦ་ཨསྟི་བཱ་དི་ཤྲ་མ་ཎེ་ར་ཀཱ་རི་ཀཱ།"@bo ;
+        :eTextHasPage       bdr:EP3346F524DA630434 , bdr:EP3C715D5D6B026ABF , bdr:EP57EAD930A237C918 , bdr:EP700B686B0B1A4717 , bdr:EP9A4B8B3220B2A311 , bdr:EP9CD173659335BB0B , bdr:EPFA948622F8ACD4FC ;
         :eTextInInstance    bdr:IE3JT13371 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "VajraVidya/Dulwa_Metok_Treng_gyud/rtfs/volume-001/08_ge_tshul_kA_ri_kA_50.rtf" ;

@@ -16,14 +16,32 @@ bdg:UT23605_002_0004 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_002_0004 ;
+        adm:facetIndex      5 ;
         adm:gitPath         "80/UT23605_002_0004.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_002_0004 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP2495A7283782DE18
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP528EBB70F7D630B9
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPA01288331E3E1EA7
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPA25688AA000C5EDB
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT23605_002_0004
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༣༥༽༄༅། །དཀྱིལ་འཁོར་སྤྲོས་བཅས་མིང་གི་རིམ་པ་གསལ་བར་བྱེད་པ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP2495A7283782DE18 , bdr:EP528EBB70F7D630B9 , bdr:EPA01288331E3E1EA7 , bdr:EPA25688AA000C5EDB ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      2 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/02_gdams-ngag-mdzod_kha/02_03_dkyil-qkhor-spros-bcas-ming-gi-rim-pa-gsal-bar-byed-pa.rtf" ;

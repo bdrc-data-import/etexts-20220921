@@ -16,14 +16,52 @@ bdg:UT3JT13363_001_0015 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13363_001_0015 ;
+        adm:facetIndex      10 ;
         adm:gitPath         "b3/UT3JT13363_001_0015.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13363_001_0015 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP028F9B1AEFE867E3
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP055F992ACA0E2EEC
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP731EF21048A0E8BF
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP7B74892F3D95A480
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP970757ED478B7747
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPBEAF967008587A51
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPE034B64D722D4262
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPE48BB1D5EB9411DF
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPF3214184652FA00E
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
     bdr:UT3JT13363_001_0015
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །རྒྱ་གར་སྐད་དུ།དྷརྨ་དྷཱ་ཏུ་སྟ་བཾ།བོད་སྐད་དུ།ཆོས་ཀྱི་དབྱིངས་སུ་བསྟོད་པ།འཕགས་པ་འཇམ་དཔལ་གཞོན་ནུར་གྱུར་པ་ལ་ཕྱག་འཚལ་ལོ། །གང་ཞིག"@bo ;
+        :eTextHasPage       bdr:EP028F9B1AEFE867E3 , bdr:EP055F992ACA0E2EEC , bdr:EP731EF21048A0E8BF , bdr:EP7B74892F3D95A480 , bdr:EP970757ED478B7747 , bdr:EPBEAF967008587A51 , bdr:EPE034B64D722D4262 , bdr:EPE48BB1D5EB9411DF , bdr:EPF3214184652FA00E ;
         :eTextInInstance    bdr:IE3JT13363 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "GuruLamaWorks/UMA/rtfs/volume-001/015UMA.rtf" ;

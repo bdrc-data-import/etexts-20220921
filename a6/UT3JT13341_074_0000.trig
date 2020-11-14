@@ -16,14 +16,48 @@ bdg:UT3JT13341_074_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13341_074_0000 ;
+        adm:facetIndex      9 ;
         adm:gitPath         "a6/UT3JT13341_074_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13341_074_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP3A9CB6CC4457B4A4
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP48D15C6D130C3F2E
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP998995781A98FF04
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPB07F9951D6F29A6E
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPD078D51A200B81E6
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPDF74FDBD415A71E2
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPE19E9110720EFDE2
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPE58F046AF0C2F781
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
     bdr:UT3JT13341_074_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །སྟག་ཤམ་ལུགས་ཀྱི་བཀྲ་ཤིས་ཕྱོགས་བསྡུས་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP3A9CB6CC4457B4A4 , bdr:EP48D15C6D130C3F2E , bdr:EP998995781A98FF04 , bdr:EPB07F9951D6F29A6E , bdr:EPD078D51A200B81E6 , bdr:EPDF74FDBD415A71E2 , bdr:EPE19E9110720EFDE2 , bdr:EPE58F046AF0C2F781 ;
         :eTextInInstance    bdr:IE3JT13341 ;
         :eTextIsVolume      74 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/Taksham-Chochod_tdoc/061_stag-sham-lugs-kyi-bkra-shis.rtf" ;

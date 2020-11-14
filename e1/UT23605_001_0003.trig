@@ -16,14 +16,56 @@ bdg:UT23605_001_0003 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_001_0003 ;
+        adm:facetIndex      11 ;
         adm:gitPath         "e1/UT23605_001_0003.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_001_0003 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP1D27DB7DA73A86BC
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP1FD6B99BBA211307
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP70A58122B9941527
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP769EDFB1B0C39A70
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP839C3AD2644E0C0B
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP9108508963B85E63
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP9CFE0A3740DB7E37
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPBEF1D62076580B3E
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPDAF91A24140F54C8
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPF1769CCF56C1D28A
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
     bdr:UT23605_001_0003
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །མན་ངག་ལྟ་བའི་ཕྲེང་བ་ཞེས་བྱ་བ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP1D27DB7DA73A86BC , bdr:EP1FD6B99BBA211307 , bdr:EP70A58122B9941527 , bdr:EP769EDFB1B0C39A70 , bdr:EP839C3AD2644E0C0B , bdr:EP9108508963B85E63 , bdr:EP9CFE0A3740DB7E37 , bdr:EPBEF1D62076580B3E , bdr:EPDAF91A24140F54C8 , bdr:EPF1769CCF56C1D28A ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/01_gdams-ngag-mdzod_ka/01_02_man-ngag-lta-baqi-phreng-ba.rtf" ;

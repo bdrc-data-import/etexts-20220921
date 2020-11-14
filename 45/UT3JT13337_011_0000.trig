@@ -16,14 +16,52 @@ bdg:UT3JT13337_011_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13337_011_0000 ;
+        adm:facetIndex      10 ;
         adm:gitPath         "45/UT3JT13337_011_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13337_011_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP5470FE29FAE255CB
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP59B2DF7C1C49F3BA
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP6F185C1E583166FF
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPA89C73DC3671833F
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPB2EB5BADFA3A4966
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPB4167305110ABA09
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPB71DCB4096D1FB07
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPCFD9A4DB699364FE
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPF3358035CB9F5E32
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
     bdr:UT3JT13337_011_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །རྒྱལ་པོའི་ཐུགས་དམ་མདོ་བཅུ་སོགས་ལ་བརྟེན་པའི་འཆི་བསླུ་འཆི་བདག་ཞགས་གཅོད་ཡེ་ཤེས་རལ་གྲི་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP5470FE29FAE255CB , bdr:EP59B2DF7C1C49F3BA , bdr:EP6F185C1E583166FF , bdr:EPA89C73DC3671833F , bdr:EPB2EB5BADFA3A4966 , bdr:EPB4167305110ABA09 , bdr:EPB71DCB4096D1FB07 , bdr:EPCFD9A4DB699364FE , bdr:EPF3358035CB9F5E32 ;
         :eTextInInstance    bdr:IE3JT13337 ;
         :eTextIsVolume      11 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/P0025_Tobum_tdoc/019-sang-chod-qchi-bslu.rtf" ;

@@ -16,14 +16,64 @@ bdg:UT30541_009_0009 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT30541_009_0009 ;
+        adm:facetIndex      13 ;
         adm:gitPath         "f4/UT30541_009_0009.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT30541_009_0009 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP2A206AF4BBBDA3CE
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP3752002097700C90
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP4DCEA56E0872EA9A
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP54C217BC968E27D0
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP5DEF721266994415
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP701074FF1264C6E1
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP729419AF56D86EEE
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EPAA2E7DE4D85CDDAF
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPAB8E23F1E1C633E0
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EPB053DB630D75A24D
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPC500CC0C024A5741
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPD28E4B7630DAAC42
+        a                   :EtextPage ;
+        :seqNum             12 .
+    
     bdr:UT30541_009_0009
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །མཁའ་འགྲོ་རྒྱ་མཚོའི་སྙིང་པོའི་མངོན་པར་རྟོགས་པ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP2A206AF4BBBDA3CE , bdr:EP3752002097700C90 , bdr:EP4DCEA56E0872EA9A , bdr:EP54C217BC968E27D0 , bdr:EP5DEF721266994415 , bdr:EP701074FF1264C6E1 , bdr:EP729419AF56D86EEE , bdr:EPAA2E7DE4D85CDDAF , bdr:EPAB8E23F1E1C633E0 , bdr:EPB053DB630D75A24D , bdr:EPC500CC0C024A5741 , bdr:EPD28E4B7630DAAC42 ;
         :eTextInInstance    bdr:IE30541 ;
         :eTextInVolume      9 ;
         :eTextSourcePath    "DharmaDownload/Karmapa-03/rtfs/09_3rd-karmapa-text_tdoc_ta/09_08_ta_mkhaq-qgro-rgya-mtshoqi-snying-poqi-mngon-par-rtogs-pa.rtf" ;

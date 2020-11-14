@@ -16,14 +16,60 @@ bdg:UT10736_020_0002 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT10736_020_0002 ;
+        adm:facetIndex      12 ;
         adm:gitPath         "51/UT10736_020_0002.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT10736_020_0002 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP1B45D2F9138FE074
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP29A6661BD3F41CBD
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP29FCE7F48B69D228
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EP4788F51634F0977A
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP671DB5770974D501
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP7BF88AF0EE4191A9
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP7C91508D1609FB6C
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPB6C74C769822BEF7
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPE0E3F10FDE3989AB
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPE9020B16DE60B3A2
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPFF12297254E17BF1
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
     bdr:UT10736_020_0002
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །མཁའ་འགྲོ་སྙན་བརྒྱུད་ཀྱི་ཁྲིད་ལུགས་རྒྱས་པའི་ས་བཅད་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP1B45D2F9138FE074 , bdr:EP29A6661BD3F41CBD , bdr:EP29FCE7F48B69D228 , bdr:EP4788F51634F0977A , bdr:EP671DB5770974D501 , bdr:EP7BF88AF0EE4191A9 , bdr:EP7C91508D1609FB6C , bdr:EPB6C74C769822BEF7 , bdr:EPE0E3F10FDE3989AB , bdr:EPE9020B16DE60B3A2 , bdr:EPFF12297254E17BF1 ;
         :eTextInInstance    bdr:IE10736 ;
         :eTextInVolume      20 ;
         :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/20_wa/20_02_wa_mkhaq-qgro-snyan-brgyud-kyi-khrid-lugs-rgyas-paqi-sa-bcad.rtf" ;

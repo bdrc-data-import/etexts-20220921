@@ -16,14 +16,60 @@ bdg:UT3JT13326_006_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13326_006_0000 ;
+        adm:facetIndex      12 ;
         adm:gitPath         "df/UT3JT13326_006_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13326_006_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP235259E864995506
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP32772B41127EA563
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP446C2C90EB032E62
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP5BD8B98009353562
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP8B95A1405E685854
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPBF916E036BD64C3C
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPE11A9B73A1149756
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EPE96F19E5E605DF85
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPF24F0E1DC3EF83F2
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EPFB4D046707EAC86E
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPFDBAD291DE4922AF
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
     bdr:UT3JT13326_006_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །སྙིང་པོ་དོན་གྱི་མན་ངག་སེམས་ཀྱི་མེ་ལོང་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP235259E864995506 , bdr:EP32772B41127EA563 , bdr:EP446C2C90EB032E62 , bdr:EP5BD8B98009353562 , bdr:EP8B95A1405E685854 , bdr:EPBF916E036BD64C3C , bdr:EPE11A9B73A1149756 , bdr:EPE96F19E5E605DF85 , bdr:EPF24F0E1DC3EF83F2 , bdr:EPFB4D046707EAC86E , bdr:EPFDBAD291DE4922AF ;
         :eTextInInstance    bdr:IE3JT13326 ;
         :eTextIsVolume      6 ;
         :eTextSourcePath    "DharmaDownload/Mahamudra/rtfs/05_Drukpa/006_drukpa_tdoc.rtf" ;

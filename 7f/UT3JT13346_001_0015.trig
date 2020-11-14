@@ -16,14 +16,28 @@ bdg:UT3JT13346_001_0015 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13346_001_0015 ;
+        adm:facetIndex      4 ;
         adm:gitPath         "7f/UT3JT13346_001_0015.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13346_001_0015 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0C77F4B5D1B063BC
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP414070C16F74BBE9
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP98BE7AE03E206E07
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT3JT13346_001_0015
         a                   :EtextNonPaginated ;
         skos:prefLabel      "མཁས་གྲུབ་རཱ་ག་ཨ་སྱས་མཛད་པའི་འཇམ་དཔལ་གྱི་སྒྲུབ་ཐབས་རྨོངས་པ་མུན་སེལ་བླ་མ་པདྨ་ཕྲིན་ལས་ལ་སྩལ་བ་བཞུགས་སོ། །ན་མོ།དཀོན་མཆོག་གསུམ་འདུས་"@bo ;
+        :eTextHasPage       bdr:EP0C77F4B5D1B063BC , bdr:EP414070C16F74BBE9 , bdr:EP98BE7AE03E206E07 ;
         :eTextInInstance    bdr:IE3JT13346 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "DharmaDownload/text/rtfs/volume-001/T0063_mra-seng.rtf" ;

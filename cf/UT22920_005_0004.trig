@@ -16,14 +16,40 @@ bdg:UT22920_005_0004 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT22920_005_0004 ;
+        adm:facetIndex      7 ;
         adm:gitPath         "cf/UT22920_005_0004.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT22920_005_0004 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP3C61A5C231516AF3
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPB5B19AFDE3EA0784
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPC2B617B4FF4FBAB4
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPC9253F9197915932
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPE1C8C7E0F1D85D15
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPF0C1D0809D1D560F
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
     bdr:UT22920_005_0004
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །ཀུན་མཁྱེན་ཀློང་ཆེན་རབ་འབྱམས་པའི་གསུང་རབ་མཛོད་བདུན་ལ་"@bo ;
+        :eTextHasPage       bdr:EP3C61A5C231516AF3 , bdr:EPB5B19AFDE3EA0784 , bdr:EPC2B617B4FF4FBAB4 , bdr:EPC9253F9197915932 , bdr:EPE1C8C7E0F1D85D15 , bdr:EPF0C1D0809D1D560F ;
         :eTextInInstance    bdr:IE22920 ;
         :eTextInVolume      5 ;
         :eTextSourcePath    "DharmaDownload/mdzod-bdun/rtfs/volume-005/05_4_theg-mchog-mdzod_mdzod-bdun-la-blta-bar-bskul-ba.rtf" ;

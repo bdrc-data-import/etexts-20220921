@@ -16,14 +16,36 @@ bdg:UT1KG5988_001_0043 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1KG5988_001_0043 ;
+        adm:facetIndex      6 ;
         adm:gitPath         "ac/UT1KG5988_001_0043.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1KG5988_001_0043 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0E9458A1E1D5EF2A
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP144214DDE48F990E
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP304FA4BCD1658C0D
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPA1002314121C0F92
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPF1B017BF28574329
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT1KG5988_001_0043
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །འཕགས་པ་རྡོ་རྗེ་གནམ་ལྕགས་མཆུ་ཞེས་བྱ་བ་བཞུགས།"@bo ;
+        :eTextHasPage       bdr:EP0E9458A1E1D5EF2A , bdr:EP144214DDE48F990E , bdr:EP304FA4BCD1658C0D , bdr:EPA1002314121C0F92 , bdr:EPF1B017BF28574329 ;
         :eTextInInstance    bdr:IE1KG5988 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "DharmaDownload/Kagyur-Zungdue/rtfs/volume-001/044_rdo-rje-gnam-lcags-mchu.rtf" ;

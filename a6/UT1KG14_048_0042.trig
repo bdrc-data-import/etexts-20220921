@@ -16,14 +16,52 @@ bdg:UT1KG14_048_0042 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1KG14_048_0042 ;
+        adm:facetIndex      10 ;
         adm:gitPath         "a6/UT1KG14_048_0042.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1KG14_048_0042 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP080991FB05E1F85F
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP251803CF8C6FF847
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP30B70CBAC02D8F6B
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP436C7FDA6A25CFE1
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP505FD89FCC1AF7AE
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP81B2923D4A8573D9
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP9F1975A46E4526D4
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPB93D1202CF1E5E84
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPF04C49653CE23890
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
     bdr:UT1KG14_048_0042
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །ཐུགས་རྗེ་ཆེན་པོ་སྤྱན་རས་གཟིགས་འཁོར་བ་དོང་སྤྲུག་གི་དབང་རྒྱས་པ་བསྐུར་ཐབས་འགྲོ་དོན་ཀུན་ཁྱབ་ཅེས་བྱ་བ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP080991FB05E1F85F , bdr:EP251803CF8C6FF847 , bdr:EP30B70CBAC02D8F6B , bdr:EP436C7FDA6A25CFE1 , bdr:EP505FD89FCC1AF7AE , bdr:EP81B2923D4A8573D9 , bdr:EP9F1975A46E4526D4 , bdr:EPB93D1202CF1E5E84 , bdr:EPF04C49653CE23890 ;
         :eTextInInstance    bdr:IE1KG14 ;
         :eTextInVolume      48 ;
         :eTextSourcePath    "Shechen/Rinchen-Terdzod-Shechen-vols-01-54/rtfs/48-TSHI/TERDZO-TSHI-P41.rtf" ;

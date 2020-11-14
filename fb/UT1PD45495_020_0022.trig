@@ -16,14 +16,28 @@ bdg:UT1PD45495_020_0022 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1PD45495_020_0022 ;
+        adm:facetIndex      4 ;
         adm:gitPath         "fb/UT1PD45495_020_0022.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1PD45495_020_0022 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP27EBA8FB60F5D08B
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPD9A9C1F81CCB91D9
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPFFF1A93F209DDFF7
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT1PD45495_020_0022
         a                   :EtextNonPaginated ;
         skos:prefLabel      "དཀར་ཆགདེ་ཉིད་བདུན་པའི་རྣམ་པར་བཤད་པ་རིན་ཆེན་སྙེ་མ་བཞུགས།ཚིགས་བཅད་བཅུ་པའི་འགྲེལ་པ་ཟིན་བྲིས་སུ་བཀོད་པ་བཞུགས།རྡོ་རྗེ་ཐེག་པའི་གནས་ལུག"@bo ;
+        :eTextHasPage       bdr:EP27EBA8FB60F5D08B , bdr:EPD9A9C1F81CCB91D9 , bdr:EPFFF1A93F209DDFF7 ;
         :eTextInInstance    bdr:IE1PD45495 ;
         :eTextInVolume      20 ;
         :eTextSourcePath    "KarmaDelek/taranatha-gsung-qbum/rtfs/volume_020/volume_020_172.rtf" ;

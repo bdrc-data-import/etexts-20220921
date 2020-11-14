@@ -16,14 +16,40 @@ bdg:UT3JT13337_041_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13337_041_0000 ;
+        adm:facetIndex      7 ;
         adm:gitPath         "8e/UT3JT13337_041_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13337_041_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP1A92929BE936C6E1
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP2C2E4457604A54AC
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP2E940EDC9E00D02F
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP926D39E86F467E50
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPAE6613276878C076
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPB06C9197F640C2AF
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT3JT13337_041_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅།གཏོར་མ་ཆ་གསུམ་གྱི་རིམ་པ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP1A92929BE936C6E1 , bdr:EP2C2E4457604A54AC , bdr:EP2E940EDC9E00D02F , bdr:EP926D39E86F467E50 , bdr:EPAE6613276878C076 , bdr:EPB06C9197F640C2AF ;
         :eTextInInstance    bdr:IE3JT13337 ;
         :eTextIsVolume      41 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/P0025_Tobum_tdoc/046-cha-gsum.rtf" ;

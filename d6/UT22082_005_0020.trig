@@ -16,14 +16,68 @@ bdg:UT22082_005_0020 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT22082_005_0020 ;
+        adm:facetIndex      14 ;
         adm:gitPath         "d6/UT22082_005_0020.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT22082_005_0020 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP1000F718C25216A8
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP295C9E9A58D1BDC8
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP2EA5127C8F5A24D8
+        a                   :EtextPage ;
+        :seqNum             13 .
+    
+    bdr:EP30B4DC7767F072C8
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP321C5B84A649CC40
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP78EC24D558FF3F05
+        a                   :EtextPage ;
+        :seqNum             12 .
+    
+    bdr:EPB2AC5E7B7AEDE250
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPB4A2CA90CBC212EB
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPCF8BCFDD51F5BD07
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPD578CA22DF3D1AB7
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EPE59DD05AABEBB3EE
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EPEAEDF94DF90C8D6A
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPFBC26E5731095B27
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT22082_005_0020
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །སྨན་བླ་ལོངས་སྤྱོད་རྫོགས་སྐུའི་གཙོ་འཁོར་ལྔའི་སྒྲུབ་ཐབས་དངོས་གྲུབ་བང་མཛོད་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP1000F718C25216A8 , bdr:EP295C9E9A58D1BDC8 , bdr:EP2EA5127C8F5A24D8 , bdr:EP30B4DC7767F072C8 , bdr:EP321C5B84A649CC40 , bdr:EP78EC24D558FF3F05 , bdr:EPB2AC5E7B7AEDE250 , bdr:EPB4A2CA90CBC212EB , bdr:EPCF8BCFDD51F5BD07 , bdr:EPD578CA22DF3D1AB7 , bdr:EPE59DD05AABEBB3EE , bdr:EPEAEDF94DF90C8D6A , bdr:EPFBC26E5731095B27 ;
         :eTextInInstance    bdr:IE22082 ;
         :eTextInVolume      5 ;
         :eTextSourcePath    "DrikungChetsang/7__KUNKHYEN/rtfs/volume-005/28CA.SA.rtf" ;

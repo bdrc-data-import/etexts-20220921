@@ -16,14 +16,28 @@ bdg:UT2DB4577_001_0035 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT2DB4577_001_0035 ;
+        adm:facetIndex      4 ;
         adm:gitPath         "fc/UT2DB4577_001_0035.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT2DB4577_001_0035 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP5522CB73169D4C7A
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP78650BAC1A7A432D
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP835F2B623FA645A0
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT2DB4577_001_0035
         a                   :EtextNonPaginated ;
         skos:prefLabel      "བོད་དུ་བླ་ཆེན་མཁན་རྒྱུད་དང༌།འདཔུའ་ཀླསྤུབླ་ཚོ་མཁན་རྒྱུད།པཎ་ཆེན་མཁན་རྒྱུད་རྣམས་ཀྱི་བྱོན་ཚུལ་བཞུགས་སོ།ན་མོ་བུད་དྷ་ཡ།ཐུབ་བསྟན་གངས་རི"@bo ;
+        :eTextHasPage       bdr:EP5522CB73169D4C7A , bdr:EP78650BAC1A7A432D , bdr:EP835F2B623FA645A0 ;
         :eTextInInstance    bdr:IE2DB4577 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "KarmaDelek/gsung-qbum _shes-rab-rin-chen/rtfs/volume_001/volume_001_035.rtf" ;

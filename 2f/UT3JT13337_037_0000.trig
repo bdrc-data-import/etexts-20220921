@@ -16,14 +16,28 @@ bdg:UT3JT13337_037_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13337_037_0000 ;
+        adm:facetIndex      4 ;
         adm:gitPath         "2f/UT3JT13337_037_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13337_037_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP735CE5BA5F199BA9
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPBE9F0FCB854422E2
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPF8A7DC7EAC9B66C0
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT3JT13337_037_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "ཤ་བརྒྱ་ཟན་བརྒྱའི་ལག་ལེན་གསལ་བྱེད་བཞུགས་སོ།༈ན་མོ་གུ་རུ་པདྨ་ཀ་རཱ་ཡ།བན་བོན་བྱད་ཁ་མཐུ་གཏད་སོགས་དོན་ཆེན་པོ་དང༌།ལྷག་པར་མི་དང་རྟ་ཕྱུགས་"@bo ;
+        :eTextHasPage       bdr:EP735CE5BA5F199BA9 , bdr:EPBE9F0FCB854422E2 , bdr:EPF8A7DC7EAC9B66C0 ;
         :eTextInInstance    bdr:IE3JT13337 ;
         :eTextIsVolume      37 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/P0025_Tobum_tdoc/042-lag-len.rtf" ;

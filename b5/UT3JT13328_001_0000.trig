@@ -16,14 +16,48 @@ bdg:UT3JT13328_001_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13328_001_0000 ;
+        adm:facetIndex      9 ;
         adm:gitPath         "b5/UT3JT13328_001_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13328_001_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0A89463F31A3B933
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP1E6F6D2879C6C414
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP2A2C00D3C07DBF6F
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP2F9C0846B8F72383
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP31E4C4E59F6DDCB7
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP83CCC72F084A30D4
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPBFEC3543E8EB9287
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPE6BB8954EF487AA9
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT3JT13328_001_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །རྗེ་བཙན་བྱེ་ལན་གྱི་ལོ་རྒྱུས་དང་གསོལ་མཆོད་བྱ་ཚུལ་ལྷ་གླིང་གི་ཅོང་སྒྲ་ཞེས་བྱ་བ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP0A89463F31A3B933 , bdr:EP1E6F6D2879C6C414 , bdr:EP2A2C00D3C07DBF6F , bdr:EP2F9C0846B8F72383 , bdr:EP31E4C4E59F6DDCB7 , bdr:EP83CCC72F084A30D4 , bdr:EPBFEC3543E8EB9287 , bdr:EPE6BB8954EF487AA9 ;
         :eTextInInstance    bdr:IE3JT13328 ;
         :eTextIsVolume      1 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/Jalan-by-17-Karmapa_tdoc/01_bye-lan-gyi-lo-rgyus-dang-gsol-mchod.rtf" ;

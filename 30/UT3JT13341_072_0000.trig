@@ -16,14 +16,20 @@ bdg:UT3JT13341_072_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13341_072_0000 ;
+        adm:facetIndex      2 ;
         adm:gitPath         "30/UT3JT13341_072_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13341_072_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP08E4443CA5994C98
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT3JT13341_072_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "དུས་གསུམ་རྒྱལ་མཆོག་གཅིག་བསྡུས་ཐོད་ཕྲེང་སྩལ། །ལོག་འདྲེན་འཇོམས་མཛད་རྡོ་རྗེ་གྲོ་བོ་ལོད། །འགལ་རྐྱེན་ཡོངས་བཟློག་བདུད་འདུལ་དྲག་མོའི་"@bo ;
+        :eTextHasPage       bdr:EP08E4443CA5994C98 ;
         :eTextInInstance    bdr:IE3JT13341 ;
         :eTextIsVolume      72 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/Taksham-Chochod_tdoc/059_dus-gsum-rgyal-mchog.rtf" ;

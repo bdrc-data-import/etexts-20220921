@@ -16,14 +16,24 @@ bdg:UT21888_004_0012 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT21888_004_0012 ;
+        adm:facetIndex      3 ;
         adm:gitPath         "26/UT21888_004_0012.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT21888_004_0012 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP86E74F6B60A3F416
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPF86490146D08F3A5
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT21888_004_0012
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༢༣༽དག་སྣང་ལས་རིག་འཛིན་བླ་མའི་གསོལ་འདེབས་བྱིན་རླབས་གཏེར་མཛོད་བཞུགས༔ན་མོ་གུ་རུ་བྷྱ༔གང་དག་རྣལ་འབྱོར་དམ་ལྡན་པས༔དད་མོས་གདུང་ཤུགས་དྲག་"@bo ;
+        :eTextHasPage       bdr:EP86E74F6B60A3F416 , bdr:EPF86490146D08F3A5 ;
         :eTextInInstance    bdr:IE21888 ;
         :eTextInVolume      4 ;
         :eTextSourcePath    "PalriParkhang/W21888-se-ra-mkhaq-qgro-bkaq-qbum/rtfs/4-Ya-Serakhagro-Kabum/Ya-Serakhagro-Kabum-23-24.rtf" ;

@@ -16,14 +16,36 @@ bdg:UT23605_013_0007 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_013_0007 ;
+        adm:facetIndex      6 ;
         adm:gitPath         "9d/UT23605_013_0007.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_013_0007 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EPE3971A78BECB9A02
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPEA3DD6FDD60787FF
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPF17BDB9EE94B5703
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPF4BA16D68D5C2EB5
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPF5DD267D399FA6C6
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT23605_013_0007
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༤༣༩༽༄༅། །དམ་པ་སངས་རྒྱས་ཀྱི་ཞལ་གདམས།བྱང་ཆུབ་སེམས་དཔའ་ཀུན་དགའ་ལ་གསུངས་པ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EPE3971A78BECB9A02 , bdr:EPEA3DD6FDD60787FF , bdr:EPF17BDB9EE94B5703 , bdr:EPF4BA16D68D5C2EB5 , bdr:EPF5DD267D399FA6C6 ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      13 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/13_gdams-ngag-mdzod_pa/13_06_dam-pa-sangs-rgyas-kyi-zhal-gdams-byang-chub-sems-dpaq-kun-dgaq-la-gsungs-pa-bzhugs.rtf" ;

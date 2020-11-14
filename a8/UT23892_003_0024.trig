@@ -16,14 +16,28 @@ bdg:UT23892_003_0024 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23892_003_0024 ;
+        adm:facetIndex      4 ;
         adm:gitPath         "a8/UT23892_003_0024.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23892_003_0024 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP5B55AD4652057D53
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPB45770D89362BE48
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPBFC136D2068A5DE6
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT23892_003_0024
         a                   :EtextNonPaginated ;
         skos:prefLabel      "།ཁྱུང་ཚང་པ་རིན་ཆེན་བཟང་པོ་ལ་གདམས་པ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP5B55AD4652057D53 , bdr:EPB45770D89362BE48 , bdr:EPBFC136D2068A5DE6 ;
         :eTextInInstance    bdr:IE23892 ;
         :eTextInVolume      3 ;
         :eTextSourcePath    "DrikungChetsang/6_KUNRIN/rtfs/volume-003/GA-ZTA1.019.rtf" ;

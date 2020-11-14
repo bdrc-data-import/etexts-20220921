@@ -16,14 +16,56 @@ bdg:UT10736_021_0004 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT10736_021_0004 ;
+        adm:facetIndex      11 ;
         adm:gitPath         "5e/UT10736_021_0004.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT10736_021_0004 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP115D092277038869
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP1BCE329645718B56
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP2F5E6F83FA962F86
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP33A59070F05E8B3F
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP37F2B54C712C268B
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP40F9859471D8050D
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP511EC8C5DA322470
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP8ABC3BE44C4910A1
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPAB44CCEF050FF075
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPF4D2189E0663B2CF
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
     bdr:UT10736_021_0004
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༡ན༡༽༄༅། །ཕྱག་རྒྱ་ཆེན་པོ་ལྔ་ལྡན་གྱི་ཁྲིད་དམིགས་ཡིད་ཀྱི་སྙེ་མ་ཞེས་བྱ་བ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP115D092277038869 , bdr:EP1BCE329645718B56 , bdr:EP2F5E6F83FA962F86 , bdr:EP33A59070F05E8B3F , bdr:EP37F2B54C712C268B , bdr:EP40F9859471D8050D , bdr:EP511EC8C5DA322470 , bdr:EP8ABC3BE44C4910A1 , bdr:EPAB44CCEF050FF075 , bdr:EPF4D2189E0663B2CF ;
         :eTextInInstance    bdr:IE10736 ;
         :eTextInVolume      21 ;
         :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/21_zha/21_04_zha_phyag-rgya-chen-po-lnga-ldan-gyi-khrid-dmigs-yid-kyi-snye-ma.rtf" ;

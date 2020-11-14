@@ -16,14 +16,24 @@ bdg:UT3JT13341_065_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13341_065_0000 ;
+        adm:facetIndex      3 ;
         adm:gitPath         "47/UT3JT13341_065_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13341_065_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP10BD1745BB57E718
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP31955352A0BE6544
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT3JT13341_065_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "རབ་འབྱམས་རྒྱལ་བ་ཡེ་ཤེས་ཀ་དག་གི།ཀློང་ཡངས་ཆེན་པོ་རོ་གཅིག་སྤྲུལ་པའི་སྐུ། །འཆི་མེད་གྲུབ་དབང་པདྨ་འབྱུང་གནས་ཀྱི། །ཐུགས་རྗེའི་བདེན་པ་"@bo ;
+        :eTextHasPage       bdr:EP10BD1745BB57E718 , bdr:EP31955352A0BE6544 ;
         :eTextInInstance    bdr:IE3JT13341 ;
         :eTextIsVolume      65 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/Taksham-Chochod_tdoc/052_rabs-qbyams-rgyal-ba.rtf" ;

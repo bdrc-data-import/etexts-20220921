@@ -16,14 +16,44 @@ bdg:UT1KG5988_001_0040 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1KG5988_001_0040 ;
+        adm:facetIndex      8 ;
         adm:gitPath         "f7/UT1KG5988_001_0040.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1KG5988_001_0040 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP06483DCA66D7E9C1
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP15D76CAF3D743876
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP2A1870DB8DB0C7DC
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP42A33AD2203F5BCD
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP894532EED6B1FEC8
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP96C77D4B5E79C163
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPA12CE82B14910F26
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
     bdr:UT1KG5988_001_0040
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །གཟའ་རྣམས་ཀྱི་ཡུམ་ཞེས་བྱ་བའི་གཟུངས་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP06483DCA66D7E9C1 , bdr:EP15D76CAF3D743876 , bdr:EP2A1870DB8DB0C7DC , bdr:EP42A33AD2203F5BCD , bdr:EP894532EED6B1FEC8 , bdr:EP96C77D4B5E79C163 , bdr:EPA12CE82B14910F26 ;
         :eTextInInstance    bdr:IE1KG5988 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "DharmaDownload/Kagyur-Zungdue/rtfs/volume-001/041_gzaq-yum.rtf" ;

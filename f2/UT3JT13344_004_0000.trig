@@ -16,14 +16,44 @@ bdg:UT3JT13344_004_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13344_004_0000 ;
+        adm:facetIndex      8 ;
         adm:gitPath         "f2/UT3JT13344_004_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13344_004_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP04104286147B7B48
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP4B5DFABA6A9C921C
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP80022203ADEF6253
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPA03A60E953C40509
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPA89057AC6D758932
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPEB6EDD828D826478
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPFF84ED48693EB9E1
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT3JT13344_004_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །སྡིག་བཤགས་གསེར་གྱི་སྤུ་གྲི་ཞེས་བྱ་བ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP04104286147B7B48 , bdr:EP4B5DFABA6A9C921C , bdr:EP80022203ADEF6253 , bdr:EPA03A60E953C40509 , bdr:EPA89057AC6D758932 , bdr:EPEB6EDD828D826478 , bdr:EPFF84ED48693EB9E1 ;
         :eTextInInstance    bdr:IE3JT13344 ;
         :eTextIsVolume      4 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/various/P0034_Digshag.rtf" ;

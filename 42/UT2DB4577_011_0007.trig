@@ -16,14 +16,52 @@ bdg:UT2DB4577_011_0007 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT2DB4577_011_0007 ;
+        adm:facetIndex      10 ;
         adm:gitPath         "42/UT2DB4577_011_0007.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT2DB4577_011_0007 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0DFD454D12B70155
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP32C8BEF80CD56C43
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP55431D4547669CE0
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP5B7DB1A95ED97097
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPA52FF10F35609482
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPB9A1DE5341184277
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPC26CC433A1614849
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPD8E01974AF69101A
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPFF93574F16B481A4
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT2DB4577_011_0007
         a                   :EtextNonPaginated ;
         skos:prefLabel      "ཧི་ལ་ཨཱ་ནའོ་ཞེས་པའི་བར་གྱི་རྐྱེན་ཐམས་ཅད་ལ་མིང་འདི་འདྲའོ། །འདིའི་ཨན་གྱི་ན་ཡིག་ནི།བི་ཀ་ར་ཎ་ལ་ཨན་ཉིད་ལའོ་ཞེས་སོགས་ཁྱད་པར་གྱི་དོན་ད"@bo ;
+        :eTextHasPage       bdr:EP0DFD454D12B70155 , bdr:EP32C8BEF80CD56C43 , bdr:EP55431D4547669CE0 , bdr:EP5B7DB1A95ED97097 , bdr:EPA52FF10F35609482 , bdr:EPB9A1DE5341184277 , bdr:EPC26CC433A1614849 , bdr:EPD8E01974AF69101A , bdr:EPFF93574F16B481A4 ;
         :eTextInInstance    bdr:IE2DB4577 ;
         :eTextInVolume      11 ;
         :eTextSourcePath    "KarmaDelek/gsung-qbum _shes-rab-rin-chen/rtfs/volume_011/volume_011_133.rtf" ;

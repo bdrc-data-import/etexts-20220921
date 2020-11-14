@@ -16,14 +16,36 @@ bdg:UT10736_018_0010 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT10736_018_0010 ;
+        adm:facetIndex      6 ;
         adm:gitPath         "ca/UT10736_018_0010.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT10736_018_0010 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP35606E05445BBCB3
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP3E5D5FE3685D7754
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPA176E3C65F94EE5A
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPC3B33DBFB5112CC6
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPE7A0365CF8DE22A1
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT10736_018_0010
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༡ན༡༽བསྟན་སྲུང་དངོས་གྲུབ་འབྱུང་བའི་དབྱངས་ཡིག་དྲི་ཟའི་རྒྱུད་མངས་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP35606E05445BBCB3 , bdr:EP3E5D5FE3685D7754 , bdr:EPA176E3C65F94EE5A , bdr:EPC3B33DBFB5112CC6 , bdr:EPE7A0365CF8DE22A1 ;
         :eTextInInstance    bdr:IE10736 ;
         :eTextInVolume      18 ;
         :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/18_tsha/18_10_tsha_bstan-srung-dngos-grub-qbyung-baqi-dbyangs-yig-dri-zaqi-rgyud-mangs.rtf" ;

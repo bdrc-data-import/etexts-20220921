@@ -16,14 +16,64 @@ bdg:UT10736_011_0014 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT10736_011_0014 ;
+        adm:facetIndex      13 ;
         adm:gitPath         "b8/UT10736_011_0014.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT10736_011_0014 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP2B8059D9766C7B92
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP3155786B962597B0
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP61079ACAFF87076D
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP62B6CDE38A09906B
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP62C316FF554C2D35
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP83376A3AB762BAEC
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPA1E876E11C56105B
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EPBB9D86179CD552FA
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPC22F09DC494986A0
+        a                   :EtextPage ;
+        :seqNum             12 .
+    
+    bdr:EPDC3A823467B18C0A
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPEAC35EA4F80F5069
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPFF934E5A0F78EB3C
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
     bdr:UT10736_011_0014
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །རྡོ་རྗེ་རྣམ་པར་འཇོམས་པའི་སྦྱིན་སྲེག་གི་ཆོ་ག་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP2B8059D9766C7B92 , bdr:EP3155786B962597B0 , bdr:EP61079ACAFF87076D , bdr:EP62B6CDE38A09906B , bdr:EP62C316FF554C2D35 , bdr:EP83376A3AB762BAEC , bdr:EPA1E876E11C56105B , bdr:EPBB9D86179CD552FA , bdr:EPC22F09DC494986A0 , bdr:EPDC3A823467B18C0A , bdr:EPEAC35EA4F80F5069 , bdr:EPFF934E5A0F78EB3C ;
         :eTextInInstance    bdr:IE10736 ;
         :eTextInVolume      11 ;
         :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/11_da/11_12_da_rdo-rje-rnam-par-qjoms-paqi-sbyin-sreg-gi-cho-ga.rtf" ;

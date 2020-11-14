@@ -16,14 +16,44 @@ bdg:UT3JT13363_001_0011 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13363_001_0011 ;
+        adm:facetIndex      8 ;
         adm:gitPath         "14/UT3JT13363_001_0011.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13363_001_0011 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0FB557300A2850F7
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP111E66FED5F2CCE2
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP374112CDF1A447B5
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP6EC783BAC9DFFA8E
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP82310E33587A34C4
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP8C2B9E36581A9D91
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPF660747ACEF247C3
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
     bdr:UT3JT13363_001_0011
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །རྩོད་པ་བཟློག་པའི་ཚིག་ལེའུར་བྱས་པ་ཞེས་བྱ་བ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP0FB557300A2850F7 , bdr:EP111E66FED5F2CCE2 , bdr:EP374112CDF1A447B5 , bdr:EP6EC783BAC9DFFA8E , bdr:EP82310E33587A34C4 , bdr:EP8C2B9E36581A9D91 , bdr:EPF660747ACEF247C3 ;
         :eTextInInstance    bdr:IE3JT13363 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "GuruLamaWorks/UMA/rtfs/volume-001/011UMA.rtf" ;

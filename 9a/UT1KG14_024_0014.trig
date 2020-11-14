@@ -16,14 +16,52 @@ bdg:UT1KG14_024_0014 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1KG14_024_0014 ;
+        adm:facetIndex      10 ;
         adm:gitPath         "9a/UT1KG14_024_0014.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1KG14_024_0014 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP1284FF25667A9607
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP29B83DA68C708BEA
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP62D1ADC1ABF075AD
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPAC308C0C551294FF
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPC3BC369042DF7F79
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPD57A10941476D132
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EPD8179EE02E11A7C6
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPDD08F86EDC58C171
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPDFF83D9679F582C0
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
     bdr:UT1KG14_024_0014
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །ཐུགས་རྗེ་ཆེན་པོ་རྩ་གསུམ་སྙིང་ཐིག་ལས།ཚེ་སྒྲུབ་ཡིད་བཞིན་ལྷུན་གྲུབ་ཀྱི་ཉམས་ལེན་དང་དབང་ཆོག་ཚེ་དཔལ་ལྷུན་གྲུབ་ཅེས་བྱ་བ་བཞུགས་སོ།"@bo ;
+        :eTextHasPage       bdr:EP1284FF25667A9607 , bdr:EP29B83DA68C708BEA , bdr:EP62D1ADC1ABF075AD , bdr:EPAC308C0C551294FF , bdr:EPC3BC369042DF7F79 , bdr:EPD57A10941476D132 , bdr:EPD8179EE02E11A7C6 , bdr:EPDD08F86EDC58C171 , bdr:EPDFF83D9679F582C0 ;
         :eTextInInstance    bdr:IE1KG14 ;
         :eTextInVolume      24 ;
         :eTextSourcePath    "Shechen/Rinchen-Terdzod-Shechen-vols-01-54/rtfs/24-YA/Terdzo-ya-P13.rtf" ;

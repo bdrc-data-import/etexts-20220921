@@ -16,14 +16,52 @@ bdg:UT10736_010_0010 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT10736_010_0010 ;
+        adm:facetIndex      10 ;
         adm:gitPath         "59/UT10736_010_0010.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT10736_010_0010 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP35E8CBB5D15BC315
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP4E92CA9B90B39DCB
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP8941C3C3413626E3
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP8A1AF7C92120DB13
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPA08DCA5B4F65153E
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPA6CEACCFBC16851B
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPBCAF51FDB834B5D5
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPE31E4BA0865AAD80
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPE79F252AD716873C
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
     bdr:UT10736_010_0010
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །ལམ་ཟབ་ཐུན་མོང་མ་ཡིན་པའི་ཁྲིད་རིམ་སྙིང་པོ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP35E8CBB5D15BC315 , bdr:EP4E92CA9B90B39DCB , bdr:EP8941C3C3413626E3 , bdr:EP8A1AF7C92120DB13 , bdr:EPA08DCA5B4F65153E , bdr:EPA6CEACCFBC16851B , bdr:EPBCAF51FDB834B5D5 , bdr:EPE31E4BA0865AAD80 , bdr:EPE79F252AD716873C ;
         :eTextInInstance    bdr:IE10736 ;
         :eTextInVolume      10 ;
         :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/10_tha/10_15_tha_lam-zab-thun-mong-ma-yin-paqi-rgyun-gyi-dbang-len-lugs.rtf" ;

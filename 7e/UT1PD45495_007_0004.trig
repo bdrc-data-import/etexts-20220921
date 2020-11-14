@@ -16,14 +16,36 @@ bdg:UT1PD45495_007_0004 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1PD45495_007_0004 ;
+        adm:facetIndex      6 ;
         adm:gitPath         "7e/UT1PD45495_007_0004.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1PD45495_007_0004 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP464C5C43F7C62357
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP5C4B10B449CD1274
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP6DF45D89BE13D14D
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP79D0C0AFFE171019
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP961C68D6CAA22ACD
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
     bdr:UT1PD45495_007_0004
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །སྦྱཽར་བ་ཡན་ལག་དྲུག་པའི་མན་ངག་སྙིང་པོའི་འཁྲུལ་འཁོར་གྱི་སྡོམས་བཞུགས།"@bo ;
+        :eTextHasPage       bdr:EP464C5C43F7C62357 , bdr:EP5C4B10B449CD1274 , bdr:EP6DF45D89BE13D14D , bdr:EP79D0C0AFFE171019 , bdr:EP961C68D6CAA22ACD ;
         :eTextInInstance    bdr:IE1PD45495 ;
         :eTextInVolume      7 ;
         :eTextSourcePath    "KarmaDelek/taranatha-gsung-qbum/rtfs/volume_007/volume_007_050.rtf" ;

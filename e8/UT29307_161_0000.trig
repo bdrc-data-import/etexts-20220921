@@ -16,14 +16,52 @@ bdg:UT29307_161_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT29307_161_0000 ;
+        adm:facetIndex      10 ;
         adm:gitPath         "e8/UT29307_161_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT29307_161_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP02863102E71B9639
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP1BD8ED69989CC048
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP4F5B22620E56420B
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP801CAE08FBB6E595
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPAF48BC1B57FB26F3
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPC9035C74EB5AB016
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPD30A917F5224994D
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EPD3B183335C644BBB
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPE207FEA4742F91C8
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT29307_161_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །རྒྱལ་བ་མུས་པ་ཆེན་པོ་ཡིས། །གང་བློ་རྒྱས་ཕྱིར་དྲི་བའི་ཚུལ། །ཅུང་ཟད་གནང་བ་རྣམས་ཀྱི་ལན། །རྒྱལ་བ་དགེས་པའི་མཆོད་རྫས་བཞུགས། །ར"@bo ;
+        :eTextHasPage       bdr:EP02863102E71B9639 , bdr:EP1BD8ED69989CC048 , bdr:EP4F5B22620E56420B , bdr:EP801CAE08FBB6E595 , bdr:EPAF48BC1B57FB26F3 , bdr:EPC9035C74EB5AB016 , bdr:EPD30A917F5224994D , bdr:EPD3B183335C644BBB , bdr:EPE207FEA4742F91C8 ;
         :eTextInInstance    bdr:IE29307 ;
         :eTextIsVolume      161 ;
         :eTextSourcePath    "GuruLamaWorks/Precious-and-Rare-Disk-01-20130424/rtfs/4_AMAI/AMAI161_རྒྱལ་བ་མུས་པ་ཆེན་པོ་ཡིས་དྲི་བའི་ཚུལ་ཅུང་ཟད་གནང་བ་རྣམས་ཀྱི་ལན།.rtf" ;

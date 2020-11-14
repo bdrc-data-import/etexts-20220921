@@ -16,14 +16,48 @@ bdg:UT29307_092_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT29307_092_0000 ;
+        adm:facetIndex      9 ;
         adm:gitPath         "d3/UT29307_092_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT29307_092_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP17516EF55351A7AF
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP27FF2825C44610E5
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP40A94AA706FC2A7E
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP55E06B603A5BF548
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP70B0760EB8985D1A
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP74B8E800BAFAA710
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPD13E5B3F609C5C93
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPFD9CF63C07386838
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
     bdr:UT29307_092_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །གནོད་སྦྱིན་འཁོར་ལོའི་བསྒྲུབ་ཚུལ་ཕུན་ཚོགས་ཀུན་འབྱུང་བཞུགས། །ནཱ་མོ་གུ་རུ་བུདྡྷ་དྷྭ་ཛ་ཡེ།ཕུན་ཚོགས་ཀུན་འབྱུང་བླ་མ་ལ་བཏུད་དེ།"@bo ;
+        :eTextHasPage       bdr:EP17516EF55351A7AF , bdr:EP27FF2825C44610E5 , bdr:EP40A94AA706FC2A7E , bdr:EP55E06B603A5BF548 , bdr:EP70B0760EB8985D1A , bdr:EP74B8E800BAFAA710 , bdr:EPD13E5B3F609C5C93 , bdr:EPFD9CF63C07386838 ;
         :eTextInInstance    bdr:IE29307 ;
         :eTextIsVolume      92 ;
         :eTextSourcePath    "GuruLamaWorks/Precious-and-Rare-Disk-01-20130424/rtfs/4_AMAI/AMAI092_གནོད་སྦྱིན་འཁོར་ལོའི་སྒྲུབ་ཚུལ་ཕུན་ཚོགས་ཀུན་འབྱུང་།.rtf" ;

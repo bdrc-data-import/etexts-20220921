@@ -16,14 +16,44 @@ bdg:UT3JT13348_003_0002 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13348_003_0002 ;
+        adm:facetIndex      8 ;
         adm:gitPath         "55/UT3JT13348_003_0002.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13348_003_0002 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0A83C1A7CF3E7639
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP1B6247945F978867
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP26536190003D7A12
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP50ED2D46DA5057F3
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPAB7C3038C4B00865
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPE644FF325EFE1642
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPF74AA0F4C3AD769F
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT3JT13348_003_0002
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༢༠༢༽ཕག་གྲུའི་གསུང་ལྟར་བསླབ་པ་གསུམ་གྱི་ཉམས་ལེན་རྡོ་རྗེ་ཡེ་ཤེས་ཀྱི་ཞུ་ཆོས།"@bo ;
+        :eTextHasPage       bdr:EP0A83C1A7CF3E7639 , bdr:EP1B6247945F978867 , bdr:EP26536190003D7A12 , bdr:EP50ED2D46DA5057F3 , bdr:EPAB7C3038C4B00865 , bdr:EPE644FF325EFE1642 , bdr:EPF74AA0F4C3AD769F ;
         :eTextInInstance    bdr:IE3JT13348 ;
         :eTextInVolume      3 ;
         :eTextSourcePath    "DrikungChetsang/2_KYOPA/rtfs/volume-003/KARCHAG.GA.rtf" ;

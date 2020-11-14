@@ -16,14 +16,28 @@ bdg:UT10736_010_0018 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT10736_010_0018 ;
+        adm:facetIndex      4 ;
         adm:gitPath         "eb/UT10736_010_0018.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT10736_010_0018 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP8423EDBAD986566E
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPAEC4400B43321502
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPEA9A4426C151779A
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT10736_010_0018
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །སྐྱེས་བུ་ཆེན་པོའི་ལམ་རིམ་གྱི་རྩ་བ་དཔལ་ཕག་མོ་གྲུ་པས་མཛད་པ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP8423EDBAD986566E , bdr:EPAEC4400B43321502 , bdr:EPEA9A4426C151779A ;
         :eTextInInstance    bdr:IE10736 ;
         :eTextInVolume      10 ;
         :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/10_tha/10_23_tha_skyes-bu-chen-poqi-lam-rim-gyi-rtsa-ba-dpal-phag-mo-gru-pas-mdzad-pa.rtf" ;

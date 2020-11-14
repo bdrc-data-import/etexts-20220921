@@ -16,14 +16,40 @@ bdg:UT28942_080_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT28942_080_0000 ;
+        adm:facetIndex      7 ;
         adm:gitPath         "bb/UT28942_080_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT28942_080_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0EC1B36FA7AD5F10
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP2434A5733F722FD3
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP2688EC14A9640FCF
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP2E1207BC16D43D5A
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP7F5E663FC05A8032
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP8811C2F72D9D1271
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
     bdr:UT28942_080_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །རོང་སྟོན་ཐམས་ཅད་མཁྱེན་པ་ཤཱཀྱ་རྒྱལ་མཚན་དཔལ་བཟང་པོའི་གསུང་ཕྱོགས་སྒྲིག་གི་དཀར་ཆག་བཞུགས་སོ། །། །"@bo ;
+        :eTextHasPage       bdr:EP0EC1B36FA7AD5F10 , bdr:EP2434A5733F722FD3 , bdr:EP2688EC14A9640FCF , bdr:EP2E1207BC16D43D5A , bdr:EP7F5E663FC05A8032 , bdr:EP8811C2F72D9D1271 ;
         :eTextInInstance    bdr:IE28942 ;
         :eTextIsVolume      80 ;
         :eTextSourcePath    "GuruLamaWorks/For-Conversion-Disk-01-20130424/rtfs/RONGTON/RONTKRG.rtf" ;

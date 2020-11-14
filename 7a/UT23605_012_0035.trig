@@ -16,14 +16,56 @@ bdg:UT23605_012_0035 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_012_0035 ;
+        adm:facetIndex      11 ;
         adm:gitPath         "7a/UT23605_012_0035.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_012_0035 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP198E0E7950C968E9
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP292255033BF6AAD7
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP32DD5718C946A162
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP34D3EE3EA19D4622
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP59F021991F8BDF96
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP5BB46898DDCA5689
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP644553AA2D16A358
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP9C4838D8A061D8C8
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPA071FAA0C0D30C77
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPDBD48EF7066487C3
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT23605_012_0035
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༧༤༧༽༄༅། །མགོན་པོ་ཕྱག་དྲུག་པ་སྙིང་ཞུགས་དང་འབྲེལ་བའི་བླ་མའི་རྣལ་འབྱོར་བཞུགས་སོ། །བཀའ་རྒྱ་མའོ། །"@bo ;
+        :eTextHasPage       bdr:EP198E0E7950C968E9 , bdr:EP292255033BF6AAD7 , bdr:EP32DD5718C946A162 , bdr:EP34D3EE3EA19D4622 , bdr:EP59F021991F8BDF96 , bdr:EP5BB46898DDCA5689 , bdr:EP644553AA2D16A358 , bdr:EP9C4838D8A061D8C8 , bdr:EPA071FAA0C0D30C77 , bdr:EPDBD48EF7066487C3 ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      12 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/12_gdams-ngag-mdzod_na/12_34_mgon-po-phyag-drug-pa-snying-zhugs-dang-qbrel-baqi-bla-maqi-rnal-qbyor.rtf" ;

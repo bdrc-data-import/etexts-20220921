@@ -16,14 +16,52 @@ bdg:UT23605_017_0017 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_017_0017 ;
+        adm:facetIndex      10 ;
         adm:gitPath         "0d/UT23605_017_0017.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_017_0017 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP078CF07CB21D29A2
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP17C57EF4E2C01D25
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP351E40D9F009F0E9
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP6DA11246A17E82AD
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EPD3A1D4C4F089F515
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPDFE03AD29B8E5BF6
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPEB0CD1D662187154
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPEC73618EECAB4651
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPFA6C3CC45D24A95E
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
     bdr:UT23605_017_0017
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༢༠༧༽༄༅། །གྲུབ་ཆེན་ཞི་བ་སྦས་པའི་ཐུགས་བཅུད་བཀའ་བབས་བདུན་ལྡན་གྱི་གཞུང་རྡོ་རྗེའི་ལམ་བཟང་པོ་བཞུགས་སོ། །། །"@bo ;
+        :eTextHasPage       bdr:EP078CF07CB21D29A2 , bdr:EP17C57EF4E2C01D25 , bdr:EP351E40D9F009F0E9 , bdr:EP6DA11246A17E82AD , bdr:EPD3A1D4C4F089F515 , bdr:EPDFE03AD29B8E5BF6 , bdr:EPEB0CD1D662187154 , bdr:EPEC73618EECAB4651 , bdr:EPFA6C3CC45D24A95E ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      17 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/17_gdams-ngag-mdzod_tsa/17_16_~1.rtf" ;

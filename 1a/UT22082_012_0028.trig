@@ -16,14 +16,60 @@ bdg:UT22082_012_0028 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT22082_012_0028 ;
+        adm:facetIndex      12 ;
         adm:gitPath         "1a/UT22082_012_0028.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT22082_012_0028 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP2F1D2AD89F8F0A59
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EP43787414281CD779
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP45DA56261B02AAC3
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP47237806CBAC7B7D
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP5B328244DA2DD4D1
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP633DD32877649E7A
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP6F9B5E50B68ACA32
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP82CC174C51BD7370
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPC0AA4F65802A6303
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPD8073CFAECE6819E
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPEB63734394B5CF56
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
     bdr:UT22082_012_0028
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །འཇམ་དཔལ་གཤིན་རྗེ་ཚེ་བདག་ལྕགས་སྡིག་ནག་པོ་གནམ་ཐོག་མེའི་སྐོར་གནུབས་ལུགས་ཀྱི་ལས་ཀྱི་མཐའ་སྡུད་དྲག་པོའི་སྦྱིན་སྲེག་གི་ཆོ་ག་གདུག་"@bo ;
+        :eTextHasPage       bdr:EP2F1D2AD89F8F0A59 , bdr:EP43787414281CD779 , bdr:EP45DA56261B02AAC3 , bdr:EP47237806CBAC7B7D , bdr:EP5B328244DA2DD4D1 , bdr:EP633DD32877649E7A , bdr:EP6F9B5E50B68ACA32 , bdr:EP82CC174C51BD7370 , bdr:EPC0AA4F65802A6303 , bdr:EPD8073CFAECE6819E , bdr:EPEB63734394B5CF56 ;
         :eTextInInstance    bdr:IE22082 ;
         :eTextInVolume      12 ;
         :eTextSourcePath    "DrikungChetsang/7__KUNKHYEN/rtfs/volume-012/7NA.JA.rtf" ;

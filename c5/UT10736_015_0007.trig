@@ -16,14 +16,40 @@ bdg:UT10736_015_0007 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT10736_015_0007 ;
+        adm:facetIndex      7 ;
         adm:gitPath         "c5/UT10736_015_0007.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT10736_015_0007 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP06F9828C8D780D36
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP3EFFC9D5A5B02CA0
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP7999C169432CD5B8
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPBA6F74AEAA3BFF60
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPDE130DB38B1AE42E
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPF069789E0DC2C82C
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
     bdr:UT10736_015_0007
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །གྲུབ་པའི་སློབ་དཔོན་དྲིལ་བུ་ལུགས་ཀྱི་འཁོར་ལོ་སྡོམ་པ་ལྷ་ལྔའི་བདག་བསྐྱེད་སྙིང་པོ་རྣམ་ངེས་ཞེས་བྱ་བ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP06F9828C8D780D36 , bdr:EP3EFFC9D5A5B02CA0 , bdr:EP7999C169432CD5B8 , bdr:EPBA6F74AEAA3BFF60 , bdr:EPDE130DB38B1AE42E , bdr:EPF069789E0DC2C82C ;
         :eTextInInstance    bdr:IE10736 ;
         :eTextInVolume      15 ;
         :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/15_ba/15_06_ba_1_grub-paqi-slob-dpon-dril-bu-lugs-kyi-qkhor-lo-sdom-pa-lha-lngaqi-bdag-bskyed.rtf" ;

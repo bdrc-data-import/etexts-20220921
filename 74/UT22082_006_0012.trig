@@ -16,14 +16,72 @@ bdg:UT22082_006_0012 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT22082_006_0012 ;
+        adm:facetIndex      15 ;
         adm:gitPath         "74/UT22082_006_0012.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT22082_006_0012 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP015D3174702E91E6
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP2A3990A3D86E4E3A
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP3920826BE9FDD15B
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP4174E7D904B146A0
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EP4E0DFB5DDFE1521A
+        a                   :EtextPage ;
+        :seqNum             14 .
+    
+    bdr:EP5E7E99B4F7BE5D34
+        a                   :EtextPage ;
+        :seqNum             12 .
+    
+    bdr:EP8EB6012A1B362D8A
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPA0D6F3B305885EA7
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPAB863F213AC166F2
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPB52FD615316C6A47
+        a                   :EtextPage ;
+        :seqNum             13 .
+    
+    bdr:EPCC45DB47EA2EDA41
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPE776B50CEBF1F551
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EPF665785130C633C1
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EPFDD6C4EA4814862E
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
     bdr:UT22082_006_0012
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །བསྐང་བའི་ཆོ་ག་ཀུན་ཏུ་བཟང་པོའི་རོལ་མཚོ་ཞེས་བྱ་བ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP015D3174702E91E6 , bdr:EP2A3990A3D86E4E3A , bdr:EP3920826BE9FDD15B , bdr:EP4174E7D904B146A0 , bdr:EP4E0DFB5DDFE1521A , bdr:EP5E7E99B4F7BE5D34 , bdr:EP8EB6012A1B362D8A , bdr:EPA0D6F3B305885EA7 , bdr:EPAB863F213AC166F2 , bdr:EPB52FD615316C6A47 , bdr:EPCC45DB47EA2EDA41 , bdr:EPE776B50CEBF1F551 , bdr:EPF665785130C633C1 , bdr:EPFDD6C4EA4814862E ;
         :eTextInInstance    bdr:IE22082 ;
         :eTextInVolume      6 ;
         :eTextSourcePath    "DrikungChetsang/7__KUNKHYEN/rtfs/volume-006/20CHA.WA.rtf" ;

@@ -16,14 +16,64 @@ bdg:UT23605_006_0003 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_006_0003 ;
+        adm:facetIndex      13 ;
         adm:gitPath         "36/UT23605_006_0003.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_006_0003 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP008A028B5129376D
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP171D1C8796BC1736
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EP1CB0C34A3AC8D650
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP45865AE40DCABC80
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP52B672002360981E
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP5BF7EC7484FFE178
+        a                   :EtextPage ;
+        :seqNum             12 .
+    
+    bdr:EP8EB0222253EC28AA
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP99764354EE2D93FE
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPAE41206839AD7695
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPB9F0884C78B2882E
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPC6898105CF3BB621
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPE248CFD3A4CC114C
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
     bdr:UT23605_006_0003
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༧༽༄༅། །ཌོམྦྷི་ཧེ་རུ་ཀས་མཛད་པའི་ལྷན་ཅིག་སྐྱེས་གྲུབ་ཞེས་བྱ་བ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP008A028B5129376D , bdr:EP171D1C8796BC1736 , bdr:EP1CB0C34A3AC8D650 , bdr:EP45865AE40DCABC80 , bdr:EP52B672002360981E , bdr:EP5BF7EC7484FFE178 , bdr:EP8EB0222253EC28AA , bdr:EP99764354EE2D93FE , bdr:EPAE41206839AD7695 , bdr:EPB9F0884C78B2882E , bdr:EPC6898105CF3BB621 , bdr:EPE248CFD3A4CC114C ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      6 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/06_gdams-ngag-mdzod_cha/06_02_Dombhi-he-ru-kas-mdzad-paqi-lhan-cig-skyes-grub.rtf" ;

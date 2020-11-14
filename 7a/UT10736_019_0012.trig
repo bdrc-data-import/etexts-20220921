@@ -16,14 +16,64 @@ bdg:UT10736_019_0012 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT10736_019_0012 ;
+        adm:facetIndex      13 ;
         adm:gitPath         "7a/UT10736_019_0012.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT10736_019_0012 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP1C0F4A35D5BA2ECF
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP43225A21141EA939
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP7315DED3A88A3849
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP87C94DF997D1FD51
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP8DDDE7B5E3AA59ED
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EP92DAE9C5C2085612
+        a                   :EtextPage ;
+        :seqNum             12 .
+    
+    bdr:EP9627881244A75729
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP9D29C5524D6A4E40
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPA34775CA8B528E24
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EPA5BC8D852A839F86
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPAD1AAE0957A562D8
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EPB044FC7D728DD810
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT10736_019_0012
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །ཆོས་སྐྱོང་གི་བསྐང་བ་བསྡུས་པ་ཕྱོགས་ལས་རྣམ་པར་རྒྱལ་བ་ཞེས་བྱ་བ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP1C0F4A35D5BA2ECF , bdr:EP43225A21141EA939 , bdr:EP7315DED3A88A3849 , bdr:EP87C94DF997D1FD51 , bdr:EP8DDDE7B5E3AA59ED , bdr:EP92DAE9C5C2085612 , bdr:EP9627881244A75729 , bdr:EP9D29C5524D6A4E40 , bdr:EPA34775CA8B528E24 , bdr:EPA5BC8D852A839F86 , bdr:EPAD1AAE0957A562D8 , bdr:EPB044FC7D728DD810 ;
         :eTextInInstance    bdr:IE10736 ;
         :eTextInVolume      19 ;
         :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/19_dza/19_14_dza_chos-skyong-gi-bskang-ba-bsdus-pa-phyogs-las-rnam-par-rgyal-ba.rtf" ;

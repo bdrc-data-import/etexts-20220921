@@ -16,14 +16,60 @@ bdg:UT10736_018_0013 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT10736_018_0013 ;
+        adm:facetIndex      12 ;
         adm:gitPath         "a8/UT10736_018_0013.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT10736_018_0013 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP2AEDAB6B2B2B774B
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EP3BADAE146FB06636
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP3E3234303754BCCC
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP476437D7662BC833
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP93C6ACCC1C2A7FA1
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP949B55EDFBE6B475
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP9BC01A63DA9B497E
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EPA732F9A590AC537C
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPB1A08ED26DECA735
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPB3DC914B88A1E672
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPD53D545CB15210BA
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT10736_018_0013
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །མགོན་པོ་རྟག་པའི་རྡོ་རྗེ་ཚེ་དབང་འཆི་མེད་སྒྲུབ་པའི་འདོད་འཇོ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP2AEDAB6B2B2B774B , bdr:EP3BADAE146FB06636 , bdr:EP3E3234303754BCCC , bdr:EP476437D7662BC833 , bdr:EP93C6ACCC1C2A7FA1 , bdr:EP949B55EDFBE6B475 , bdr:EP9BC01A63DA9B497E , bdr:EPA732F9A590AC537C , bdr:EPB1A08ED26DECA735 , bdr:EPB3DC914B88A1E672 , bdr:EPD53D545CB15210BA ;
         :eTextInInstance    bdr:IE10736 ;
         :eTextInVolume      18 ;
         :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/18_tsha/18_13_tsha_mgon-po-rtag-paqi-rdo-rje-tshe-dbang-qchi-med-sgrub-paqi-qdod-qjo.rtf" ;

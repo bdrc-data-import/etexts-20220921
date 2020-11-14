@@ -16,14 +16,64 @@ bdg:UT23892_006_0008 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23892_006_0008 ;
+        adm:facetIndex      13 ;
         adm:gitPath         "bc/UT23892_006_0008.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23892_006_0008 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP1B6A545EE76C6554
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP26617616ADD6F4AF
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP3593EB93AAD40EB6
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP3FB42E795EA5B3AD
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EP66D987A438A1258C
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP6A9833FD93E9E4D9
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP7399AF4292246969
+        a                   :EtextPage ;
+        :seqNum             12 .
+    
+    bdr:EP753B6C165CEB7C19
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP8E700163B392D48B
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EPA4E7B7A59C0762B9
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPBD9F6B630BA0FDDF
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPBEBC79438AB1B0AE
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
     bdr:UT23892_006_0008
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །གཅོད་ཀྱི་ཟིན་བྲིས་གསལ་བའི་སྒྲོན་མེ་ཞེས་བྱ་བ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP1B6A545EE76C6554 , bdr:EP26617616ADD6F4AF , bdr:EP3593EB93AAD40EB6 , bdr:EP3FB42E795EA5B3AD , bdr:EP66D987A438A1258C , bdr:EP6A9833FD93E9E4D9 , bdr:EP7399AF4292246969 , bdr:EP753B6C165CEB7C19 , bdr:EP8E700163B392D48B , bdr:EPA4E7B7A59C0762B9 , bdr:EPBD9F6B630BA0FDDF , bdr:EPBEBC79438AB1B0AE ;
         :eTextInInstance    bdr:IE23892 ;
         :eTextInVolume      6 ;
         :eTextSourcePath    "DrikungChetsang/6_KUNRIN/rtfs/volume-006/CHA-NGA.004.rtf" ;

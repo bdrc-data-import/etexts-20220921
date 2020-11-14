@@ -16,14 +16,64 @@ bdg:UT28942_011_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT28942_011_0000 ;
+        adm:facetIndex      13 ;
         adm:gitPath         "9a/UT28942_011_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT28942_011_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP1B4AF8C631D84FE4
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP2256BD9D0FD70237
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP2E5EAF51D91FD496
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP3CAD9E9978F4C58E
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP5B4B2D2DF283C039
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP61A401B391201447
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP62657E82A909E08B
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP7423DAB14B84F804
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP75292DC4BA80E3BB
+        a                   :EtextPage ;
+        :seqNum             12 .
+    
+    bdr:EP8FAA495D1BBDFC93
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP904CA86305E8DFFE
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EPC9372C0BC5A22341
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
     bdr:UT28942_011_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །སྒོམ་ཁྲིད་མན་ངག་གི་སྐོར། །༄༅། །རྫོགས་པའི་སངས་རྒྱས་མྱུར་དུ་ཐོབ་པར་བྱེད་པའི་ཐབས་ནི་གུའི་ཁྲིད་ཡིག་འདིའི་ལུང་མ་གསན་གསུངས་ནས་"@bo ;
+        :eTextHasPage       bdr:EP1B4AF8C631D84FE4 , bdr:EP2256BD9D0FD70237 , bdr:EP2E5EAF51D91FD496 , bdr:EP3CAD9E9978F4C58E , bdr:EP5B4B2D2DF283C039 , bdr:EP61A401B391201447 , bdr:EP62657E82A909E08B , bdr:EP7423DAB14B84F804 , bdr:EP75292DC4BA80E3BB , bdr:EP8FAA495D1BBDFC93 , bdr:EP904CA86305E8DFFE , bdr:EPC9372C0BC5A22341 ;
         :eTextInInstance    bdr:IE28942 ;
         :eTextIsVolume      11 ;
         :eTextSourcePath    "GuruLamaWorks/For-Conversion-Disk-01-20130424/rtfs/RONGTON/RONT011.rtf" ;

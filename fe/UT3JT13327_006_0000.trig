@@ -16,14 +16,20 @@ bdg:UT3JT13327_006_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13327_006_0000 ;
+        adm:facetIndex      2 ;
         adm:gitPath         "fe/UT3JT13327_006_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13327_006_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP2286BC0BC718F4ED
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT3JT13327_006_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "རྒྱལ་དབང་ཐམས་ཅད་མཁྱེན་པའི་ཞབས་བརྟན་གསོལ་འདེབས་ནི།གངས་རི་རྭ་བས་བསྐོར་བའི་ཞིང་ཁམས་སུ། །ཕན་དང་བདེ་བ་མ་ལུས་འབྱུང་བའི་གནས། །སྤྱན་རས"@bo ;
+        :eTextHasPage       bdr:EP2286BC0BC718F4ED ;
         :eTextInInstance    bdr:IE3JT13327 ;
         :eTextIsVolume      6 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/Chenzezig_Tdoc/006_Long-Life.rtf" ;

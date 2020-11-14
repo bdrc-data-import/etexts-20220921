@@ -16,14 +16,36 @@ bdg:UT10736_019_0010 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT10736_019_0010 ;
+        adm:facetIndex      6 ;
         adm:gitPath         "0d/UT10736_019_0010.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT10736_019_0010 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP610D43E5FF3B959C
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP952AF2E3D37D0A71
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPB067C3B7391AF012
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPC47B8BE532909647
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPE74AD4930DE0CE8D
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT10736_019_0010
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །གཡུ་སྒྲོན་མའི་སྒྲུབ་ཐབས་དངོས་གྲུབ་ཀྱི་འདོད་འཇོ་ཞེས་བྱ་བ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP610D43E5FF3B959C , bdr:EP952AF2E3D37D0A71 , bdr:EPB067C3B7391AF012 , bdr:EPC47B8BE532909647 , bdr:EPE74AD4930DE0CE8D ;
         :eTextInInstance    bdr:IE10736 ;
         :eTextInVolume      19 ;
         :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/19_dza/19_12_dza_1_g-yu-sgron-maqi-sgrub-thabs-dngos-grub-kyi-qdod-qjo.rtf" ;

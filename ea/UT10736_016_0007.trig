@@ -16,14 +16,56 @@ bdg:UT10736_016_0007 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT10736_016_0007 ;
+        adm:facetIndex      11 ;
         adm:gitPath         "ea/UT10736_016_0007.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT10736_016_0007 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP07B12BD4B2CDB200
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP106918749684D382
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP1DFE3BD913BFE9E9
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP1F9B7A848FCDFED8
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP4B87CAEE79E6974E
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP64B2ECC0C07D348C
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP90D23D8C958890C6
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EPA3BDF65875BA8D24
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPB0F811A7299532AF
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPF13FA621FC142590
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
     bdr:UT10736_016_0007
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །ཕྱི་སྒྲུབ་སློབ་མ་ལ་ཕན་པའི་ཚེ་རྟའི་ཟིན་བྲིས་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP07B12BD4B2CDB200 , bdr:EP106918749684D382 , bdr:EP1DFE3BD913BFE9E9 , bdr:EP1F9B7A848FCDFED8 , bdr:EP4B87CAEE79E6974E , bdr:EP64B2ECC0C07D348C , bdr:EP90D23D8C958890C6 , bdr:EPA3BDF65875BA8D24 , bdr:EPB0F811A7299532AF , bdr:EPF13FA621FC142590 ;
         :eTextInInstance    bdr:IE10736 ;
         :eTextInVolume      16 ;
         :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/16_ma/16_07_ma_phyi-sgrub-slob-ma-la-phan-paqi-tshe-rtaqi-zin-bris.rtf" ;

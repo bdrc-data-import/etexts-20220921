@@ -16,14 +16,20 @@ bdg:UT3JT13329_002_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13329_002_0000 ;
+        adm:facetIndex      2 ;
         adm:gitPath         "de/UT3JT13329_002_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13329_002_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EPC595B99BEA1BB5B5
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT3JT13329_002_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "ན་མོ་གུ་རུ༔གུ་རུ་པདྨའི་ཚིག་བདུན་གསོལ་འདེབས་བྱིན་བརླབ་སྤྲིན་ཕུང་དངོས་གྲུབ་ཆར་རྒྱུན་མྱུར་སྩོལ་ནི།གཏེར་ཞལ་ཕྱེ་དང་ཤོག་སེར་ཕབ༔གཞན་ཡང་"@bo ;
+        :eTextHasPage       bdr:EPC595B99BEA1BB5B5 ;
         :eTextInInstance    bdr:IE3JT13329 ;
         :eTextIsVolume      2 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/P0003_Dzambhala_tdoc/tshig-bdun-gsol-qdebs.rtf" ;

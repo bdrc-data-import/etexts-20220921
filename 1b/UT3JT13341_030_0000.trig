@@ -16,14 +16,32 @@ bdg:UT3JT13341_030_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13341_030_0000 ;
+        adm:facetIndex      5 ;
         adm:gitPath         "1b/UT3JT13341_030_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13341_030_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP3BB026B5A636EB41
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP3DA861CB3196BE37
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP3EFB846A6BB4A0BF
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPD48A266B5A91060C
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT3JT13341_030_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "དགོངས་གཏེར་ཐུགས་ཀྱི་ཀློང་གསལ་གྱི་ཟུར་རྒྱན་གནམ་ཆོས་ཉིད་ནས་ཟུར་དུ་བསྒྲིགས་པ་སྨན་བླའི་ཆོ་ག་བཻཌཱུརྻའི་ཆུ་རྒྱུན་བཞུགས་སོ། །། །ན་མོ་"@bo ;
+        :eTextHasPage       bdr:EP3BB026B5A636EB41 , bdr:EP3DA861CB3196BE37 , bdr:EP3EFB846A6BB4A0BF , bdr:EPD48A266B5A91060C ;
         :eTextInInstance    bdr:IE3JT13341 ;
         :eTextIsVolume      30 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/Taksham-Chochod_tdoc/024_gnam-chos-sman-chog.rtf" ;

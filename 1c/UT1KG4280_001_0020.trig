@@ -16,14 +16,28 @@ bdg:UT1KG4280_001_0020 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1KG4280_001_0020 ;
+        adm:facetIndex      4 ;
         adm:gitPath         "1c/UT1KG4280_001_0020.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1KG4280_001_0020 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP88DD5AEC002C4881
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPA1BED5BA1FC75680
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPB4CE1DC49CC5FA34
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT1KG4280_001_0020
         a                   :EtextNonPaginated ;
         skos:prefLabel      "ཀླུ་ཆོག་གདེངས་ཅན་འདོད་འཇོ་ཞེས་བྱ་བ་བཞུགས་སོ། །ན་མཿཤྲི་གུ་ར་ཝེ།འདིར་བདེ་ཕག་ལྟ་བུའི་སྤྲོས་བཅས་སྒྲུབ་མཆོད་ཀྱི་རིམ་པ་རྫོགས་ནས་རྡུལ་"@bo ;
+        :eTextHasPage       bdr:EP88DD5AEC002C4881 , bdr:EPA1BED5BA1FC75680 , bdr:EPB4CE1DC49CC5FA34 ;
         :eTextInInstance    bdr:IE1KG4280 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "DharmaDownload/Situpa-09-sung-bum/rtfs/AHA/020_9th-Situ-Kabum_AHA_rdul-tshon-chur-gshegs-lag-len.rtf" ;

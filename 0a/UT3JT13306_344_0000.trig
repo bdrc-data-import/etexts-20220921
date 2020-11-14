@@ -16,14 +16,40 @@ bdg:UT3JT13306_344_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13306_344_0000 ;
+        adm:facetIndex      7 ;
         adm:gitPath         "0a/UT3JT13306_344_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13306_344_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP042E24BCAE1A1763
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP592DA3341D8F406F
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP85449521B52107C9
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP9E0DD4D16CDBD9FF
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPE779498E156C84E4
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPF5B5CAF2EBDE908B
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
     bdr:UT3JT13306_344_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །དཔལ་ལྡན་ལྷ་མོ་འདོད་ཁམས་དབང་ཕྱུག་མའི་མདོས་བསྐང་དངོས་གྲུབ་ཆུ་རྒྱུན་བཞུགས་སོ། །སྭསྟི།ས་ལོ་འཇམ་པའི་རྡོ་རྗེའི་གསུང་རབ་དཔལ་ལྡན་"@bo ;
+        :eTextHasPage       bdr:EP042E24BCAE1A1763 , bdr:EP592DA3341D8F406F , bdr:EP85449521B52107C9 , bdr:EP9E0DD4D16CDBD9FF , bdr:EPE779498E156C84E4 , bdr:EPF5B5CAF2EBDE908B ;
         :eTextInInstance    bdr:IE3JT13306 ;
         :eTextIsVolume      344 ;
         :eTextSourcePath    "GuruLamaWorks/Precious-and-Rare-Disk-01-20130424/rtfs/5_KUNL/KUNL344_དཔལ་ལྡན་ལྷ་མོ་འདོད་ཁམས་དབང་ཕྱུག་མའི་མདོས་བསྐང་།.rtf" ;

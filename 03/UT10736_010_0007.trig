@@ -16,14 +16,28 @@ bdg:UT10736_010_0007 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT10736_010_0007 ;
+        adm:facetIndex      4 ;
         adm:gitPath         "03/UT10736_010_0007.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT10736_010_0007 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP06BB194FB4103C36
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP2718E02A31A89079
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP78D4E29E63C6C8F3
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT10736_010_0007
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །ཐམསཔཅདཔམཁྱེནཔགཟིགསཔ༌དྨཔདཀརཔ༌ོཔདགུངཔལོཔབཅུཔགསུམཔགྱིཔཐོགཔརྗེཔངགཔདབངཔཆོསཔརྒྱལཔགྱིཔཞལཔརྒྱུནཔཟིནཔབྲིསཔསུཔགནངཔབཔབཞུགསཔསོ། །"@bo ;
+        :eTextHasPage       bdr:EP06BB194FB4103C36 , bdr:EP2718E02A31A89079 , bdr:EP78D4E29E63C6C8F3 ;
         :eTextInInstance    bdr:IE10736 ;
         :eTextInVolume      10 ;
         :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/10_tha/10_12_tha_thams-cad-mkhyen-gzigs-padma-dkar-po-dgung-lo-bcu-gsum-gyi-thog-rje-ngag-dbang-chos-rgyal-gyi-zhal-rgyun.rtf" ;

@@ -16,14 +16,56 @@ bdg:UT23605_001_0002 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_001_0002 ;
+        adm:facetIndex      11 ;
         adm:gitPath         "93/UT23605_001_0002.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_001_0002 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP00F4E64296EE08DA
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP18365570E4FC6B83
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP2DDF9DF9876C8FB5
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP7600788198A2EFF0
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP808EAE5C3FF23870
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP8BA865E8FEBBE21C
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPB96A9A3CEE203AE3
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPC6A3AA4117F40904
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EPE74BA17A3CB4652D
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPF226A37B090F4A01
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT23605_001_0002
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༡ན༽༄༅། །སྒྱུ་འཕྲུལ་དྲྭ་བའི་ལམ་རྣམ་པར་བཤད་པ་ཆུང་ངུ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP00F4E64296EE08DA , bdr:EP18365570E4FC6B83 , bdr:EP2DDF9DF9876C8FB5 , bdr:EP7600788198A2EFF0 , bdr:EP808EAE5C3FF23870 , bdr:EP8BA865E8FEBBE21C , bdr:EPB96A9A3CEE203AE3 , bdr:EPC6A3AA4117F40904 , bdr:EPE74BA17A3CB4652D , bdr:EPF226A37B090F4A01 ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/01_gdams-ngag-mdzod_ka/01_01_shog-lhe-1sgyu-qphrul-drva-baqi-lam-rnam-par-bshad-pa-chung-ngu.rtf" ;

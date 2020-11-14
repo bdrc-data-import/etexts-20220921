@@ -16,14 +16,52 @@ bdg:UT1KG14_052_0056 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1KG14_052_0056 ;
+        adm:facetIndex      10 ;
         adm:gitPath         "fc/UT1KG14_052_0056.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1KG14_052_0056 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP1CA046DC58B53D56
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP35DE0F250852EDF4
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP491EC1AECEE1FDD0
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP76102123856FCC04
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP91083E8A4C783832
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP98282A0CB66B4190
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPA078CC0434D3E80E
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPB7D0608AFE47ACD8
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPBF4540247B32B703
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT1KG14_052_0056
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །རྩ་གསུམ་ཚེའི་ཟབ་པ་ལས།པདྨ་མཁའ་འགྲོ་དབང་གི་ལྷ་མོའི་དབང་བསྐུར་བའི་ཆོ་གའི་ལྷ་ཐབས་ཁྲིགས་སུ་བསྡེབས་པ་པདྨ་རཱ་གའི་བུམ་པ་ཞེས་བྱ་བ་བ"@bo ;
+        :eTextHasPage       bdr:EP1CA046DC58B53D56 , bdr:EP35DE0F250852EDF4 , bdr:EP491EC1AECEE1FDD0 , bdr:EP76102123856FCC04 , bdr:EP91083E8A4C783832 , bdr:EP98282A0CB66B4190 , bdr:EPA078CC0434D3E80E , bdr:EPB7D0608AFE47ACD8 , bdr:EPBF4540247B32B703 ;
         :eTextInInstance    bdr:IE1KG14 ;
         :eTextInVolume      52 ;
         :eTextSourcePath    "Shechen/Rinchen-Terdzod-Shechen-vols-01-54/rtfs/52-ZI/TERDZO-ZI-P54.rtf" ;

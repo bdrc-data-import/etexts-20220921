@@ -16,14 +16,52 @@ bdg:UT23605_015_0010 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_015_0010 ;
+        adm:facetIndex      10 ;
         adm:gitPath         "ee/UT23605_015_0010.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_015_0010 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP05C03DE3AD590816
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP1832486208B0EAF4
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP23D08A3EF40B505B
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP283592668581C961
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP4AB22CDF48420C7C
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP52BFAFD86570B73E
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP9C952C143F18D260
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPABDD23C34BCB5EA3
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPE35801EC38683BF9
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
     bdr:UT23605_015_0010
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༣༡༥༽༄༅། །བླ་མེད་སྔགས་ཆོས་ཀྱི་སྙིང་པོའི་བཅུད་ལེན་ལམ་ཟབ་བདུད་རྩིའི་ཐིག་ལེ་ཞེས་བྱ་བ་བཞུགས་སོ། །། །"@bo ;
+        :eTextHasPage       bdr:EP05C03DE3AD590816 , bdr:EP1832486208B0EAF4 , bdr:EP23D08A3EF40B505B , bdr:EP283592668581C961 , bdr:EP4AB22CDF48420C7C , bdr:EP52BFAFD86570B73E , bdr:EP9C952C143F18D260 , bdr:EPABDD23C34BCB5EA3 , bdr:EPE35801EC38683BF9 ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      15 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/15_gdams-ngag-mdzod_ba/15_09_bla-med-sngags-chos-kyi-snying-poqi-bcud-len-lam-zab-bdud-rtsiqi-thig-le.rtf" ;

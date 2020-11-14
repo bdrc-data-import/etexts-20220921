@@ -16,14 +16,52 @@ bdg:UT1KG5988_001_0076 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1KG5988_001_0076 ;
+        adm:facetIndex      10 ;
         adm:gitPath         "53/UT1KG5988_001_0076.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1KG5988_001_0076 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP00B52F226B3CBD42
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP1BE4659821FAD978
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP3C8499EA810D48A9
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP48A1E1A79D09FB7E
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP89F03009CAEDE9CB
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPB629D58CFD6606A9
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPC973AAEE78D5E234
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPDF19F257281790E4
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPEFD11DE02E21B785
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT1KG5988_001_0076
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །ཁང་བུ་བརྩེགས་པའི་མདོ་བཞུགས་སོ། །། །"@bo ;
+        :eTextHasPage       bdr:EP00B52F226B3CBD42 , bdr:EP1BE4659821FAD978 , bdr:EP3C8499EA810D48A9 , bdr:EP48A1E1A79D09FB7E , bdr:EP89F03009CAEDE9CB , bdr:EPB629D58CFD6606A9 , bdr:EPC973AAEE78D5E234 , bdr:EPDF19F257281790E4 , bdr:EPEFD11DE02E21B785 ;
         :eTextInInstance    bdr:IE1KG5988 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "DharmaDownload/Kagyur-Zungdue/rtfs/volume-001/077_khang-bu-brstegs-paqi-mdo.rtf" ;

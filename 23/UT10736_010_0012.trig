@@ -16,14 +16,24 @@ bdg:UT10736_010_0012 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT10736_010_0012 ;
+        adm:facetIndex      3 ;
         adm:gitPath         "23/UT10736_010_0012.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT10736_010_0012 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP575FB5BA1BB706D7
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP909C53CD225BE442
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT10736_010_0012
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །ལམ་ཟབ་ཀྱི་འཁྲུལ་འཁོར་གྱི་འགྲེལ་པ་བཞུགས། །"@bo ;
+        :eTextHasPage       bdr:EP575FB5BA1BB706D7 , bdr:EP909C53CD225BE442 ;
         :eTextInInstance    bdr:IE10736 ;
         :eTextInVolume      10 ;
         :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/10_tha/10_17_tha_lam-zab-kyi-qkhrul-qkhor-gyi-qgrel-pa.rtf" ;

@@ -16,14 +16,72 @@ bdg:UT1PD45495_016_0004 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1PD45495_016_0004 ;
+        adm:facetIndex      15 ;
         adm:gitPath         "c4/UT1PD45495_016_0004.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1PD45495_016_0004 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0A10DB0E8BE5EA92
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP14794D9E006C98AB
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP1D0EFAD9F45090D5
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP21F7288649A65FC9
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP2A1AB5FEF8D5C476
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP2B4D03E6EA8DF480
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP3BFA88507E7FC990
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP47DA48883EAFF1CA
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP4B4004DE1AA111E2
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP562691524DF32F1A
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EPD01FCC6787556CB3
+        a                   :EtextPage ;
+        :seqNum             12 .
+    
+    bdr:EPE6DE9315C9B34268
+        a                   :EtextPage ;
+        :seqNum             14 .
+    
+    bdr:EPF3A95D9995848E42
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EPFFF2A72866357B7F
+        a                   :EtextPage ;
+        :seqNum             13 .
+    
     bdr:UT1PD45495_016_0004
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །དཔལ་བདེ་མཆོག་རིམ་ལྔའི་ཁྲིད་ཡིག་བཞུགས།"@bo ;
+        :eTextHasPage       bdr:EP0A10DB0E8BE5EA92 , bdr:EP14794D9E006C98AB , bdr:EP1D0EFAD9F45090D5 , bdr:EP21F7288649A65FC9 , bdr:EP2A1AB5FEF8D5C476 , bdr:EP2B4D03E6EA8DF480 , bdr:EP3BFA88507E7FC990 , bdr:EP47DA48883EAFF1CA , bdr:EP4B4004DE1AA111E2 , bdr:EP562691524DF32F1A , bdr:EPD01FCC6787556CB3 , bdr:EPE6DE9315C9B34268 , bdr:EPF3A95D9995848E42 , bdr:EPFFF2A72866357B7F ;
         :eTextInInstance    bdr:IE1PD45495 ;
         :eTextInVolume      16 ;
         :eTextSourcePath    "KarmaDelek/taranatha-gsung-qbum/rtfs/volume_016/volume_016_135.rtf" ;

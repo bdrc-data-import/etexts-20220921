@@ -16,14 +16,52 @@ bdg:UT22920_005_0003 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT22920_005_0003 ;
+        adm:facetIndex      10 ;
         adm:gitPath         "75/UT22920_005_0003.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT22920_005_0003 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP1C5AD8A91D95BFD0
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP6F6624364E3458BB
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP89AD0FD6D768B20B
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP9A7EB5755B76CA0E
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPA65C0260EF355E55
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPB91D6014E8A4BE1F
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPD46ADBE564975CFC
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPF4A6427F9DEB0221
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPFA54CC7DAA4B1197
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
     bdr:UT22920_005_0003
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །ཀུན་མཁྱེན་བླ་མའི་གསུང་རབ་ལ་བསྔགས་པ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP1C5AD8A91D95BFD0 , bdr:EP6F6624364E3458BB , bdr:EP89AD0FD6D768B20B , bdr:EP9A7EB5755B76CA0E , bdr:EPA65C0260EF355E55 , bdr:EPB91D6014E8A4BE1F , bdr:EPD46ADBE564975CFC , bdr:EPF4A6427F9DEB0221 , bdr:EPFA54CC7DAA4B1197 ;
         :eTextInInstance    bdr:IE22920 ;
         :eTextInVolume      5 ;
         :eTextSourcePath    "DharmaDownload/mdzod-bdun/rtfs/volume-005/05_3_theg-mchog-mdzod_kun-mkhyen-bla-maqi-gsung-la-bsngag-pa.rtf" ;

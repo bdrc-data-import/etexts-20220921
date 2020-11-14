@@ -16,14 +16,28 @@ bdg:UT10736_024_0009 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT10736_024_0009 ;
+        adm:facetIndex      4 ;
         adm:gitPath         "e1/UT10736_024_0009.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT10736_024_0009 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP689470E6A19C3B9C
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPB5E4BEBB2843D0FB
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPB6C5CBC5B4F009C7
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT10736_024_0009
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །རྟེན་འབྲེལ་གྱི་དཀར་ཆག་མི་ཕམ་པདྨ་དཀར་པོས་སྦྱར་བ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP689470E6A19C3B9C , bdr:EPB5E4BEBB2843D0FB , bdr:EPB6C5CBC5B4F009C7 ;
         :eTextInInstance    bdr:IE10736 ;
         :eTextInVolume      24 ;
         :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/24_ya/24_08_ya_rten-qbrel-gyi-dkar-chag-mi-pham-padma-dkar-pos-sbyar-ba.rtf" ;

@@ -16,14 +16,40 @@ bdg:UT3JT13346_001_0010 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13346_001_0010 ;
+        adm:facetIndex      7 ;
         adm:gitPath         "15/UT3JT13346_001_0010.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13346_001_0010 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP03E2119D928590B0
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP0D520779CF53CB35
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP1293603DE993F0FE
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP13F7396847767BC7
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP6036CFD2BF8525F3
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPE3056B7F1A2851E2
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
     bdr:UT3JT13346_001_0010
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །རྒྱལ་བའི་སྲས་ཀྱི་ལག་ལེན་སོ་བདུན་མ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP03E2119D928590B0 , bdr:EP0D520779CF53CB35 , bdr:EP1293603DE993F0FE , bdr:EP13F7396847767BC7 , bdr:EP6036CFD2BF8525F3 , bdr:EPE3056B7F1A2851E2 ;
         :eTextInInstance    bdr:IE3JT13346 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "DharmaDownload/text/rtfs/volume-001/T0053_37-Practices-of-a-Bodhisattva.rtf" ;

@@ -16,14 +16,60 @@ bdg:UT3JT13304_001_0021 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13304_001_0021 ;
+        adm:facetIndex      12 ;
         adm:gitPath         "d1/UT3JT13304_001_0021.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13304_001_0021 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP110CD10374C68525
+        a                   :EtextPage ;
+        :seqNum             12 .
+    
+    bdr:EP2055C5A5970ECA80
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP584CFD81047BFCCD
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EP5FFB121A53308A59
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPA633ABED699FD841
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPB75584F1684E74FD
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPD1259801FC134C26
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPE5445A8BC0F99170
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPE74891AE19912071
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPE86C16E5F0531200
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPFF63F1D4DCC0B829
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
     bdr:UT3JT13304_001_0021
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །དབུས་དང་མཐའ་རྣམ་པར་འབྱེད་པའི་ཚིག་ལེའུར་བྱས་པ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP110CD10374C68525 , bdr:EP2055C5A5970ECA80 , bdr:EP584CFD81047BFCCD , bdr:EP5FFB121A53308A59 , bdr:EPA633ABED699FD841 , bdr:EPB75584F1684E74FD , bdr:EPD1259801FC134C26 , bdr:EPE5445A8BC0F99170 , bdr:EPE74891AE19912071 , bdr:EPE86C16E5F0531200 , bdr:EPFF63F1D4DCC0B829 ;
         :eTextInInstance    bdr:IE3JT13304 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "GuruLamaWorks/PARCHIN/rtfs/volume-001/086PARCHIN.rtf" ;

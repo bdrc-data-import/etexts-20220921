@@ -16,14 +16,60 @@ bdg:UT23605_019_0005 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_019_0005 ;
+        adm:facetIndex      12 ;
         adm:gitPath         "f6/UT23605_019_0005.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_019_0005 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP165C8E815FD78AC5
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP22150D73CEF8A455
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP258DBDFA20B0E55E
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP33039F7734D5C006
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP5A2DACB888F5B685
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP7C2AD3ADC64BA89C
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP7D7CBC7277CAE020
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPA54C97DD468C029A
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPB044B58F4EB0BA4C
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPB19143D2AAE9FA07
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EPD40C56418ED3A461
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
     bdr:UT23605_019_0005
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །དྲུག་པ་དམ་ཆོས་སྡུག་བསྔལ་ཞི་བྱེད་ཀྱི་རིང་ལུགས་བཤད་པ་ལ་གཉིས།དངོས་དང༌།དེའི་ཡན་ལག་བཤད་པའོ། །དང་པོ་ལ་གཉིས།བཀའ་སྲོལ་ངོས་བཟུང་བ།"@bo ;
+        :eTextHasPage       bdr:EP165C8E815FD78AC5 , bdr:EP22150D73CEF8A455 , bdr:EP258DBDFA20B0E55E , bdr:EP33039F7734D5C006 , bdr:EP5A2DACB888F5B685 , bdr:EP7C2AD3ADC64BA89C , bdr:EP7D7CBC7277CAE020 , bdr:EPA54C97DD468C029A , bdr:EPB044B58F4EB0BA4C , bdr:EPB19143D2AAE9FA07 , bdr:EPD40C56418ED3A461 ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      19 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/History/06_Zhijed.rtf" ;

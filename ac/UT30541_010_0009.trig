@@ -16,14 +16,48 @@ bdg:UT30541_010_0009 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT30541_010_0009 ;
+        adm:facetIndex      9 ;
         adm:gitPath         "ac/UT30541_010_0009.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT30541_010_0009 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP117953A45C9F2C98
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP2ED73C626CC4E1A8
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP4A3C51FE3646938C
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP53B03B7926D17569
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP600FFEA983ED06F0
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPC25A326FD607738F
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPD3CC78E7247E2251
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPEB7C4475D2F9A22A
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
     bdr:UT30541_010_0009
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །རྡོ་རྗེ་ཤུགས་ཀྱི་བསྒྲུབ་ཐབས་བཞུགས། །"@bo ;
+        :eTextHasPage       bdr:EP117953A45C9F2C98 , bdr:EP2ED73C626CC4E1A8 , bdr:EP4A3C51FE3646938C , bdr:EP53B03B7926D17569 , bdr:EP600FFEA983ED06F0 , bdr:EPC25A326FD607738F , bdr:EPD3CC78E7247E2251 , bdr:EPEB7C4475D2F9A22A ;
         :eTextInInstance    bdr:IE30541 ;
         :eTextInVolume      10 ;
         :eTextSourcePath    "DharmaDownload/Karmapa-03/rtfs/10_3rd-karmapa-text_tdoc_tha/10_08_tha_rdo-rje-shugs-kyi-bsgrub-thabs.rtf" ;

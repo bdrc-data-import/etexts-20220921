@@ -16,14 +16,40 @@ bdg:UT1PD105890_013_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1PD105890_013_0000 ;
+        adm:facetIndex      7 ;
         adm:gitPath         "2a/UT1PD105890_013_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1PD105890_013_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP7983AAB44FB4BA95
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP8CC1F4B833C3FE30
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPB529E0E6011CF19F
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPE99A3B4D64BA5061
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPF169D5C8BD79918E
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPF6570D819153BEDC
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
     bdr:UT1PD105890_013_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །དོན་ཟབ་དགོངས་འགྲེལ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP7983AAB44FB4BA95 , bdr:EP8CC1F4B833C3FE30 , bdr:EPB529E0E6011CF19F , bdr:EPE99A3B4D64BA5061 , bdr:EPF169D5C8BD79918E , bdr:EPF6570D819153BEDC ;
         :eTextInInstance    bdr:IE1PD105890 ;
         :eTextIsVolume      13 ;
         :eTextSourcePath    "KarmaDelek/rgyal-sras-thogs-med-P1830-chos-skor/rtfs/volume_010/volume_010_094.rtf" ;

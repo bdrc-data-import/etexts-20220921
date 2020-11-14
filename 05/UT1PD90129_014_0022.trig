@@ -16,14 +16,48 @@ bdg:UT1PD90129_014_0022 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1PD90129_014_0022 ;
+        adm:facetIndex      9 ;
         adm:gitPath         "05/UT1PD90129_014_0022.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1PD90129_014_0022 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0D6FB37983E2E26F
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP1643697A9618C0A8
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP2CDABC929424AE38
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP5EC0B9C1191F1BB9
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP6FE0D1FC67A36DBE
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP712249E00D437F53
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP74167595759BD5AA
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPC47B9FC2CA7AC5A1
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
     bdr:UT1PD90129_014_0022
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །འཇམ་དབྱངས་དཀར་པོའི་སྒྲུབ་ཐབས་བློ་གྲོས་མིག་འབྱེད་ཅེས་བྱ་བ་བཞུགས།"@bo ;
+        :eTextHasPage       bdr:EP0D6FB37983E2E26F , bdr:EP1643697A9618C0A8 , bdr:EP2CDABC929424AE38 , bdr:EP5EC0B9C1191F1BB9 , bdr:EP6FE0D1FC67A36DBE , bdr:EP712249E00D437F53 , bdr:EP74167595759BD5AA , bdr:EPC47B9FC2CA7AC5A1 ;
         :eTextInInstance    bdr:IE1PD90129 ;
         :eTextInVolume      14 ;
         :eTextSourcePath    "KarmaDelek/co-ne-grags-pa-bshad-sgrub-gsung-qbum/rtfs/volume_014/volume_014_344.rtf" ;

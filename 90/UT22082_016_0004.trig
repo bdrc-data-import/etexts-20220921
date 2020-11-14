@@ -16,14 +16,32 @@ bdg:UT22082_016_0004 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT22082_016_0004 ;
+        adm:facetIndex      5 ;
         adm:gitPath         "90/UT22082_016_0004.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT22082_016_0004 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP111A1AE6F7229D01
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP2D235D8160C29981
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP76F818DD3D2FBDB2
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPD4B72DF8CB0E40B3
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT22082_016_0004
         a                   :EtextNonPaginated ;
         skos:prefLabel      "པར་སྐྲུན་གྱི་བྱུང་རིམ་བརྗོད་པ།"@bo ;
+        :eTextHasPage       bdr:EP111A1AE6F7229D01 , bdr:EP2D235D8160C29981 , bdr:EP76F818DD3D2FBDB2 , bdr:EPD4B72DF8CB0E40B3 ;
         :eTextInInstance    bdr:IE22082 ;
         :eTextInVolume      16 ;
         :eTextSourcePath    "DrikungChetsang/7__KUNKHYEN/rtfs/volume-016/LINJOU.rtf" ;

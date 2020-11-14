@@ -16,14 +16,48 @@ bdg:UT3JT13304_001_0024 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13304_001_0024 ;
+        adm:facetIndex      9 ;
         adm:gitPath         "82/UT3JT13304_001_0024.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13304_001_0024 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP24D2464691112F80
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP35471AF69286E3D8
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP835DDCE939E95259
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP8DB4CD394A317DB4
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPBD685C3AC416C1C4
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPCCBDAE67BE87192E
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPECE1A517D368CF4D
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPFE9B4CC66145CCB2
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT3JT13304_001_0024
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །ཆོས་དང་ཆོས་ཉིད་རྣམ་པར་འབྱེད་པ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP24D2464691112F80 , bdr:EP35471AF69286E3D8 , bdr:EP835DDCE939E95259 , bdr:EP8DB4CD394A317DB4 , bdr:EPBD685C3AC416C1C4 , bdr:EPCCBDAE67BE87192E , bdr:EPECE1A517D368CF4D , bdr:EPFE9B4CC66145CCB2 ;
         :eTextInInstance    bdr:IE3JT13304 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "GuruLamaWorks/PARCHIN/rtfs/volume-001/089PARCHIN.rtf" ;

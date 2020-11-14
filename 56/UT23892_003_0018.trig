@@ -16,14 +16,64 @@ bdg:UT23892_003_0018 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23892_003_0018 ;
+        adm:facetIndex      13 ;
         adm:gitPath         "56/UT23892_003_0018.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23892_003_0018 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP1D9EA0D69ADCAC22
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP28F304CA68CCE4B3
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP53251F207054DABC
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP77C2EEB7335E09F1
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP7C690A54F14FD3C6
+        a                   :EtextPage ;
+        :seqNum             12 .
+    
+    bdr:EP90572A6476EEE9FA
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP9A1B0D9A1A7A1DE1
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPAF30C5A25AFECACF
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EPB2C67AF06512CDAD
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPB5727AEDDFDA55A1
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPDE1607D08D5F86C8
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPF86D8973387749B3
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT23892_003_0018
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །དཔལ་རི་བོ་ཆེའི་སྒོམ་ཆེན་མཚོ་སྐྱེས་ལ་གདམས་པའི་ཞུས་ལན་མདོ་འགག་རིན་པོ་ཆེའི་ཕྲེང་བ་ཞེས་བྱ་བ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP1D9EA0D69ADCAC22 , bdr:EP28F304CA68CCE4B3 , bdr:EP53251F207054DABC , bdr:EP77C2EEB7335E09F1 , bdr:EP7C690A54F14FD3C6 , bdr:EP90572A6476EEE9FA , bdr:EP9A1B0D9A1A7A1DE1 , bdr:EPAF30C5A25AFECACF , bdr:EPB2C67AF06512CDAD , bdr:EPB5727AEDDFDA55A1 , bdr:EPDE1607D08D5F86C8 , bdr:EPF86D8973387749B3 ;
         :eTextInInstance    bdr:IE23892 ;
         :eTextInVolume      3 ;
         :eTextSourcePath    "DrikungChetsang/6_KUNRIN/rtfs/volume-003/GA-TS1.017.rtf" ;

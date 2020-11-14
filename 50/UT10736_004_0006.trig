@@ -16,14 +16,28 @@ bdg:UT10736_004_0006 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT10736_004_0006 ;
+        adm:facetIndex      4 ;
         adm:gitPath         "50/UT10736_004_0006.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT10736_004_0006 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP5DBF125E9006FE21
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPABDA50FABED8E3DD
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPFA26CCDCE250620F
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT10736_004_0006
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༡ན༡༽༄༅། །བགྲང་འཕྲེང་གི་མཚན་ཉིད་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP5DBF125E9006FE21 , bdr:EPABDA50FABED8E3DD , bdr:EPFA26CCDCE250620F ;
         :eTextInInstance    bdr:IE10736 ;
         :eTextInVolume      4 ;
         :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/04_nga/04_11_nga_bgrang-qphreng-gi-mtshan-nyid.rtf" ;

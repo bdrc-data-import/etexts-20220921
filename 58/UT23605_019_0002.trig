@@ -16,14 +16,36 @@ bdg:UT23605_019_0002 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_019_0002 ;
+        adm:facetIndex      6 ;
         adm:gitPath         "58/UT23605_019_0002.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_019_0002 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP05CC66FAE3B6E491
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP6EED047817A5153C
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP866BC823EC5FA2EE
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP8FF27090C88AB771
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPAC8CB8D75CA9A297
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT23605_019_0002
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །གཉིས་པ་བཀའ་གདམས་ཀྱི་རིང་ལུགས་བཤད་པ་ལ་གཉིས།ལུགས་སྲོལ་ངོས་འཛིན་པ།བརྒྱུད་པའི་རྣམ་གྲངས་བཤད་པའོ། །དང་པོ་ནི།"@bo ;
+        :eTextHasPage       bdr:EP05CC66FAE3B6E491 , bdr:EP6EED047817A5153C , bdr:EP866BC823EC5FA2EE , bdr:EP8FF27090C88AB771 , bdr:EPAC8CB8D75CA9A297 ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      19 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/History/02_Kadham.rtf" ;

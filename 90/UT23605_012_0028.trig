@@ -16,14 +16,40 @@ bdg:UT23605_012_0028 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_012_0028 ;
+        adm:facetIndex      7 ;
         adm:gitPath         "90/UT23605_012_0028.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_012_0028 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP20C5CB5A8DD87DA2
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP7DB55950093FC52A
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP7DCF4B613525CFF1
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP9D8DF23B57FDF0D8
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPA8759C844252557C
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPBF0962D15124B0FE
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
     bdr:UT23605_012_0028
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༥༦༡༽༄༅། །ཤངས་ལུགས་མཁའ་འགྲོ་སྡེ་ལྔའི་སྒུབ་ཐབས་རྗེས་གནང་དང་བཅས་པ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP20C5CB5A8DD87DA2 , bdr:EP7DB55950093FC52A , bdr:EP7DCF4B613525CFF1 , bdr:EP9D8DF23B57FDF0D8 , bdr:EPA8759C844252557C , bdr:EPBF0962D15124B0FE ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      12 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/12_gdams-ngag-mdzod_na/12_27_shangs-lugs-mkhaq-qgro-sde-lngaqi-thabs-rjes-gnang-dang-bcas-pa.rtf" ;

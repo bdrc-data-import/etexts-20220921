@@ -16,14 +16,52 @@ bdg:UT3JT13384_017_0004 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13384_017_0004 ;
+        adm:facetIndex      10 ;
         adm:gitPath         "34/UT3JT13384_017_0004.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13384_017_0004 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP184111BE4C933BAA
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP20A7B0EC1CDD5DB6
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP23774AE8E7CFB8E8
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP253ED01E15E0BE7E
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP35AB5D1CFF55D3BD
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP6B982383C40F31EB
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP7DCED13511BC51FF
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPBC602989AF26664E
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPDBB2DFCFEB56556E
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
     bdr:UT3JT13384_017_0004
         a                   :EtextNonPaginated ;
         skos:prefLabel      "སྙན་བརྒྱུད་ཕྲིན་ལས་ཕུར་པའི་གནད་ཏིག་གི་ལས་བྱང་ཕྲིན་ལས་རྣམ་རོལ་མཛེས་པར་བྱེད་པའི་རྒྱན་ཅེས་བྱ་བ་བི་ཛ་ཧ་རཾ།སྙན་བརྒྱུད་ཕུར་པའི་ལས་བྱང་"@bo ;
+        :eTextHasPage       bdr:EP184111BE4C933BAA , bdr:EP20A7B0EC1CDD5DB6 , bdr:EP23774AE8E7CFB8E8 , bdr:EP253ED01E15E0BE7E , bdr:EP35AB5D1CFF55D3BD , bdr:EP6B982383C40F31EB , bdr:EP7DCED13511BC51FF , bdr:EPBC602989AF26664E , bdr:EPDBB2DFCFEB56556E ;
         :eTextInInstance    bdr:IE3JT13384 ;
         :eTextInVolume      17 ;
         :eTextSourcePath    "Various/gsung_qbum_mkhyen_brtseqi_dbang_po_UT2MS24768/rtfs/volume-017/17-12.rtf" ;

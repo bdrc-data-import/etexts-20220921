@@ -16,14 +16,48 @@ bdg:UT23605_016_0013 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_016_0013 ;
+        adm:facetIndex      9 ;
         adm:gitPath         "35/UT23605_016_0013.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_016_0013 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP14D2E3870BFFF18D
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP42DEC521D4392300
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP5A13DF0E30BB753F
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP947FEAA73C985D44
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPAD1CE0DDA69B1100
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPCBCDBA0F66B6B3A1
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPDD43C61D0068CDF4
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPF1164C84CEAE6AD8
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
     bdr:UT23605_016_0013
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༢༧༥༽༄༅། །ཨརྻ་ཛམ་བྷ་ལའི་རྗེས་གནང་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP14D2E3870BFFF18D , bdr:EP42DEC521D4392300 , bdr:EP5A13DF0E30BB753F , bdr:EP947FEAA73C985D44 , bdr:EPAD1CE0DDA69B1100 , bdr:EPCBCDBA0F66B6B3A1 , bdr:EPDD43C61D0068CDF4 , bdr:EPF1164C84CEAE6AD8 ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      16 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/16_gdams-ngag-mdzod_ma/16_12_arya-dzam-bha-laqi-rjes-gnang.rtf" ;

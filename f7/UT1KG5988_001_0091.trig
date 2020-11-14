@@ -16,14 +16,44 @@ bdg:UT1KG5988_001_0091 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1KG5988_001_0091 ;
+        adm:facetIndex      8 ;
         adm:gitPath         "f7/UT1KG5988_001_0091.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1KG5988_001_0091 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0A400D99BF3148B8
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP146E4EB739026BD0
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP22A99DA7B2E636F9
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP231274EE9B7F58BE
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP895E21020AC2CAC8
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPA8E733F8DE216CD4
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPB92B69A4998E7FBC
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT1KG5988_001_0091
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །འཕགས་པ་དེ་བཞིན་གཤེགས་པའི་གཙུག་ཏོར་ནས་བྱུང་བའི་གདུགས་ནག་མོ་ཅན་"@bo ;
+        :eTextHasPage       bdr:EP0A400D99BF3148B8 , bdr:EP146E4EB739026BD0 , bdr:EP22A99DA7B2E636F9 , bdr:EP231274EE9B7F58BE , bdr:EP895E21020AC2CAC8 , bdr:EPA8E733F8DE216CD4 , bdr:EPB92B69A4998E7FBC ;
         :eTextInInstance    bdr:IE1KG5988 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "DharmaDownload/Kagyur-Zungdue/rtfs/volume-001/092_gtsug-tor-nag-mo.rtf" ;

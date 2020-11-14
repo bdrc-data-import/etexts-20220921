@@ -16,14 +16,36 @@ bdg:UT10736_018_0005 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT10736_018_0005 ;
+        adm:facetIndex      6 ;
         adm:gitPath         "b6/UT10736_018_0005.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT10736_018_0005 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP1B86A2B4B9E66AD9
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP4B885E72FECD8246
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPC217286649CF65AA
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPDE62CC49F1F5E943
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPE94F1F0F4C2821BC
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
     bdr:UT10736_018_0005
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །གསང་སྒྲུབ་ཀྱི་དབང་ཆོག་བྱིན་རླབས་མྱུར་འཇུག་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP1B86A2B4B9E66AD9 , bdr:EP4B885E72FECD8246 , bdr:EPC217286649CF65AA , bdr:EPDE62CC49F1F5E943 , bdr:EPE94F1F0F4C2821BC ;
         :eTextInInstance    bdr:IE10736 ;
         :eTextInVolume      18 ;
         :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/18_tsha/18_05_tsha_gsang-sgrub-kyi-dbang-chog-byin-rlabs-myur-qjug.rtf" ;

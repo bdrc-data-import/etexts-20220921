@@ -16,14 +16,44 @@ bdg:UT1PD104832_001_0016 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1PD104832_001_0016 ;
+        adm:facetIndex      8 ;
         adm:gitPath         "ed/UT1PD104832_001_0016.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1PD104832_001_0016 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP29917E29DD271ED7
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP2B824EB69A61A237
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP7056CF51EA7B70C4
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP969E751B73EF3410
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP9FC964D384E9185A
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPA93A4A0EACBEF8DA
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPB2B2148C8B175FE9
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
     bdr:UT1PD104832_001_0016
         a                   :EtextNonPaginated ;
         skos:prefLabel      "དཀར་ཆགབསྡུ་སྒྲིག་གསལ་བཤད།རྔོག་ལོ་ཆེན་པོའི་རྣམ་ཐར་མདོར་བསྡུས།མཚན་ཉིད་ཀྱི་ཆོས་ཞེས་བྱ་བ་ཚད་མ་རྣམ་ངེས་ཀྱི་བསྡུས་དོན་གྱི་དཀར་ཆག་བཞུགས"@bo ;
+        :eTextHasPage       bdr:EP29917E29DD271ED7 , bdr:EP2B824EB69A61A237 , bdr:EP7056CF51EA7B70C4 , bdr:EP969E751B73EF3410 , bdr:EP9FC964D384E9185A , bdr:EPA93A4A0EACBEF8DA , bdr:EPB2B2148C8B175FE9 ;
         :eTextInInstance    bdr:IE1PD104832 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "KarmaDelek/rngog-blo-dan-sheqs-rab/rtfs/volume_001/volume_001_016.rtf" ;

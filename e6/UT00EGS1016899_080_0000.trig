@@ -16,14 +16,44 @@ bdg:UT00EGS1016899_080_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT00EGS1016899_080_0000 ;
+        adm:facetIndex      8 ;
         adm:gitPath         "e6/UT00EGS1016899_080_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT00EGS1016899_080_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP019BF829D60A24BF
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP080346E7A46DD592
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP1ECD78E759FBC94B
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP21A3083D5E31C3FF
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPA4D2F26BE6383775
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPE5511C038D9B3056
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPEFAA4684F604A4EA
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
     bdr:UT00EGS1016899_080_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼ཙ༽༄༅། །རྗེ་བླ་མ་ཉིད་ཀྱི་ཐུགས་དམ་དུ་གསེར་གྱི་བརྒྱད་སྟོང་པ་བཞེངས་པའི་ལོ་རྒྱུས་སོགས།དཀར་ཆག་འགའ་ཞིག་བཞུགས་སོ། །ཨོཾ་སྭསྟི་སིདྡྷཾ།ལ"@bo ;
+        :eTextHasPage       bdr:EP019BF829D60A24BF , bdr:EP080346E7A46DD592 , bdr:EP1ECD78E759FBC94B , bdr:EP21A3083D5E31C3FF , bdr:EPA4D2F26BE6383775 , bdr:EPE5511C038D9B3056 , bdr:EPEFAA4684F604A4EA ;
         :eTextInInstance    bdr:IE00EGS1016899 ;
         :eTextIsVolume      80 ;
         :eTextSourcePath    "GuruLamaWorks/For-Conversion-Disk-01-20130424/rtfs/SHAKCHOG/SHAK074.rtf" ;

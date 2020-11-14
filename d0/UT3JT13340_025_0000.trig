@@ -16,14 +16,68 @@ bdg:UT3JT13340_025_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13340_025_0000 ;
+        adm:facetIndex      14 ;
         adm:gitPath         "d0/UT3JT13340_025_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13340_025_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0B5348FC062A63AC
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP116016BD4BF46075
+        a                   :EtextPage ;
+        :seqNum             13 .
+    
+    bdr:EP1A3002854CE58A66
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP499EF9EC2BCBBA8D
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP57D1349E30223D0F
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EP5C473C6A4C438F10
+        a                   :EtextPage ;
+        :seqNum             12 .
+    
+    bdr:EP9A15CAF27E519326
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPB5EE1DDFA00A5F82
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPB6414027965B5199
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPBE545541DF67B4F1
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPBE7F33E9746B3942
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPD7B22D1C04163BDD
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPE1B2B08B8699564C
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
     bdr:UT3JT13340_025_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅།ཚེ་འདས་གནས་འདྲེན་བསྡུས་པ་བཞུགས་པའི་དབུ་ཕྱོགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP0B5348FC062A63AC , bdr:EP116016BD4BF46075 , bdr:EP1A3002854CE58A66 , bdr:EP499EF9EC2BCBBA8D , bdr:EP57D1349E30223D0F , bdr:EP5C473C6A4C438F10 , bdr:EP9A15CAF27E519326 , bdr:EPB5EE1DDFA00A5F82 , bdr:EPB6414027965B5199 , bdr:EPBE545541DF67B4F1 , bdr:EPBE7F33E9746B3942 , bdr:EPD7B22D1C04163BDD , bdr:EPE1B2B08B8699564C ;
         :eTextInInstance    bdr:IE3JT13340 ;
         :eTextIsVolume      25 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/P0033_Karling-Zhithro/030-gnas-qdren-bsdus-pa.rtf" ;

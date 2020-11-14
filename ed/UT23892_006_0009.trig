@@ -16,14 +16,44 @@ bdg:UT23892_006_0009 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23892_006_0009 ;
+        adm:facetIndex      8 ;
         adm:gitPath         "ed/UT23892_006_0009.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23892_006_0009 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP08FA8198BF9B30A8
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP0A91496090C37A39
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP5AE9B10D74DA19E4
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP9149C7DA1BF4BD9B
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPA4EE8A0D3F0DB3EA
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPBC318F169AA03E68
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPEE609F47BF9828BD
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
     bdr:UT23892_006_0009
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །ཡེ་ཤེས་ཀྱི་མཁའ་འགྲོ་མ་ཨ་ཕྱི་ཆོས་ཀྱི་སྒྲོལ་མའི་དབང་ཆོག་རིན་ཆེན་ཕྲེང་བ་ཞེས་བྱ་བ་བཞུགས་སོ།"@bo ;
+        :eTextHasPage       bdr:EP08FA8198BF9B30A8 , bdr:EP0A91496090C37A39 , bdr:EP5AE9B10D74DA19E4 , bdr:EP9149C7DA1BF4BD9B , bdr:EPA4EE8A0D3F0DB3EA , bdr:EPBC318F169AA03E68 , bdr:EPEE609F47BF9828BD ;
         :eTextInInstance    bdr:IE23892 ;
         :eTextInVolume      6 ;
         :eTextSourcePath    "DrikungChetsang/6_KUNRIN/rtfs/volume-006/CHA-NYA.008.rtf" ;

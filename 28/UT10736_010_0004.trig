@@ -16,14 +16,32 @@ bdg:UT10736_010_0004 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT10736_010_0004 ;
+        adm:facetIndex      5 ;
         adm:gitPath         "28/UT10736_010_0004.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT10736_010_0004 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP3BAC0798C4AF0257
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP5BD88C953E7301EA
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPE07214CC4CC54DFA
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPF6CF3F23161AE2D2
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT10736_010_0004
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །བླ་མ་མཆོད་པའི་ཚོགས་མཆོད་ཀྱི་རིམ་པ་ལ།ཚོགས་རྫས་རྣམས་བདུད་རྩི་རིལ་བུས་བསང་གཏོར་བྱས་ནས།ལག་པ་གཡོན་གདེང༌།ཨོཾ་ཡིག་ཏུ་སོང་བས་སྦྱངས"@bo ;
+        :eTextHasPage       bdr:EP3BAC0798C4AF0257 , bdr:EP5BD88C953E7301EA , bdr:EPE07214CC4CC54DFA , bdr:EPF6CF3F23161AE2D2 ;
         :eTextInInstance    bdr:IE10736 ;
         :eTextInVolume      10 ;
         :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/10_tha/10_09_tha_bla-ma-mchod-paqi-tshogs-mchod-kyi-rim-pa.rtf" ;

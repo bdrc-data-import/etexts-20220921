@@ -16,14 +16,28 @@ bdg:UT10736_024_0008 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT10736_024_0008 ;
+        adm:facetIndex      4 ;
         adm:gitPath         "eb/UT10736_024_0008.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT10736_024_0008 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP06DD7AB6F920E80F
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP18E9C3F3F469BB52
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP95CB1494BB8F45DB
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT10736_024_0008
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །རོ་སྙོམས་ཀྱི་དཀར་ཆག་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP06DD7AB6F920E80F , bdr:EP18E9C3F3F469BB52 , bdr:EP95CB1494BB8F45DB ;
         :eTextInInstance    bdr:IE10736 ;
         :eTextInVolume      24 ;
         :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/24_ya/24_07_ya_ro-snyoms-kyi-dkar-chag.rtf" ;

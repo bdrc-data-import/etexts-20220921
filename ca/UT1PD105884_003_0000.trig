@@ -16,14 +16,52 @@ bdg:UT1PD105884_003_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1PD105884_003_0000 ;
+        adm:facetIndex      10 ;
         adm:gitPath         "ca/UT1PD105884_003_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1PD105884_003_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP034E69FC565C9366
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP4962FF89CF9E705B
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP9DDBCBFD2EB4435E
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPA2932991CEEB969E
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EPD4C52FDA31B6523B
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPE0783C9DD07B803A
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPE1BDA632CECCBC16
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPE5B15660F3D906D5
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPF0E16069FE3DE6CB
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT1PD105884_003_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །དགེ་ལྡན་བཀའ་བརྒྱུད་རིན་པོ་ཆེའི་ཕྱག་ཆེན་རྩ་བ་རྒྱལ་བའི་གཞུང་ལམ་ཞེས་བྱ་བ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP034E69FC565C9366 , bdr:EP4962FF89CF9E705B , bdr:EP9DDBCBFD2EB4435E , bdr:EPA2932991CEEB969E , bdr:EPD4C52FDA31B6523B , bdr:EPE0783C9DD07B803A , bdr:EPE1BDA632CECCBC16 , bdr:EPE5B15660F3D906D5 , bdr:EPF0E16069FE3DE6CB ;
         :eTextInInstance    bdr:IE1PD105884 ;
         :eTextIsVolume      3 ;
         :eTextSourcePath    "KarmaDelek/rgyal-sras-thogs-med-P1830-chos-skor/rtfs/volume_011/volume_011_105.rtf" ;

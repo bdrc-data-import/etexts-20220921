@@ -16,14 +16,24 @@ bdg:UT22393_001_0039 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT22393_001_0039 ;
+        adm:facetIndex      3 ;
         adm:gitPath         "d4/UT22393_001_0039.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT22393_001_0039 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0A5DBCA221F3F76B
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPC6F3A377857D35C0
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT22393_001_0039
         a                   :EtextNonPaginated ;
         skos:prefLabel      "ཨོཾ་སྭསྟི་སིདྡྷི་རསྟུ།དེང་འདིར་གསུང་རབ་རིན་ཆེན་འཕྲུལ་པར་དུ། །བཞེངས་དགེས་ལེགས་བྱས་འདིས་མཚོན་དུས་གསུམ་དུ། །བགྱིས་པའི་དགེ་ཚོགས་དྲ"@bo ;
+        :eTextHasPage       bdr:EP0A5DBCA221F3F76B , bdr:EPC6F3A377857D35C0 ;
         :eTextInInstance    bdr:IE22393 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "DharmaDownload/Dhakpo-Kabum/rtfs/volume-001/39_Parjang.rtf" ;

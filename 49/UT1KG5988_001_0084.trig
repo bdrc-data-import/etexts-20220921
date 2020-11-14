@@ -16,14 +16,36 @@ bdg:UT1KG5988_001_0084 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1KG5988_001_0084 ;
+        adm:facetIndex      6 ;
         adm:gitPath         "49/UT1KG5988_001_0084.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1KG5988_001_0084 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP2E728DB0D814F67B
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP4D8DF3BCF7E76D44
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP6B815815D90697C5
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPA55BAD1D39B06223
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPAB47B17CC922D1DC
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
     bdr:UT1KG5988_001_0084
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །སྟག་མོས་ཞུས་པ་བཞུགས་སོ། །། །"@bo ;
+        :eTextHasPage       bdr:EP2E728DB0D814F67B , bdr:EP4D8DF3BCF7E76D44 , bdr:EP6B815815D90697C5 , bdr:EPA55BAD1D39B06223 , bdr:EPAB47B17CC922D1DC ;
         :eTextInInstance    bdr:IE1KG5988 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "DharmaDownload/Kagyur-Zungdue/rtfs/volume-001/085_stag-mos-zhus-pa.rtf" ;

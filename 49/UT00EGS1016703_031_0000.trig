@@ -16,14 +16,52 @@ bdg:UT00EGS1016703_031_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT00EGS1016703_031_0000 ;
+        adm:facetIndex      10 ;
         adm:gitPath         "49/UT00EGS1016703_031_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT00EGS1016703_031_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0129E72A35009B11
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP0FC3DE11E02B9785
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP1D3E8DD5DA0914CB
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP467ED66D3FB790F8
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP5EB4F9D8B4052BAE
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP67F0149CD9BC218F
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPC3F968D1A806A179
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPDA00F8DDA1461D76
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPEE7B785F61FD6104
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
     bdr:UT00EGS1016703_031_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼ང་༽༄༅། །ཐུགས་རྗེ་ཆེན་པོ་དང་ཕྱག་རྒྱ་ཆེན་པོ་ཟུང་འཇུག་ཏུ་ཉམས་སུ་ལེན་པའི་སྔོན་འགྲོའི་རྗེས་གནང་ཐུགས་རྗེའི་ཆུ་རྒྱུན་ཞེས་བྱ་བ་བཞུགས་ས"@bo ;
+        :eTextHasPage       bdr:EP0129E72A35009B11 , bdr:EP0FC3DE11E02B9785 , bdr:EP1D3E8DD5DA0914CB , bdr:EP467ED66D3FB790F8 , bdr:EP5EB4F9D8B4052BAE , bdr:EP67F0149CD9BC218F , bdr:EPC3F968D1A806A179 , bdr:EPDA00F8DDA1461D76 , bdr:EPEE7B785F61FD6104 ;
         :eTextInInstance    bdr:IE00EGS1016703 ;
         :eTextIsVolume      31 ;
         :eTextSourcePath    "GuruLamaWorks/For-Conversion-Disk-01-20130424/rtfs/ZUCHEN/ZUCN028.rtf" ;

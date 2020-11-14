@@ -16,14 +16,24 @@ bdg:UT23605_011_0012 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_011_0012 ;
+        adm:facetIndex      3 ;
         adm:gitPath         "be/UT23605_011_0012.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_011_0012 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP1C78C5B2F905C642
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPD40364FCE8799CA0
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT23605_011_0012
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༢༤༣༽༄༅། །སྐྱབས་འགྲོ་ནི།བདག་དང་འགྲོ་བ་ནམ་མཁའི་མཐའ་དང་མཉམ་པའི་སེམས་ཅན་ཐམས་ཅད་དུས་འདི་ནས་བཟུང་སྟེ་ཇི་སྲིད་བྱང་ཆུབ་སྙིང་པོ་ལ་མཆིས་"@bo ;
+        :eTextHasPage       bdr:EP1C78C5B2F905C642 , bdr:EPD40364FCE8799CA0 ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      11 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/11_gdams-ngag-mdzod_da/11_11_skyab-qgro.rtf" ;

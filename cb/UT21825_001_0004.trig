@@ -16,14 +16,36 @@ bdg:UT21825_001_0004 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT21825_001_0004 ;
+        adm:facetIndex      6 ;
         adm:gitPath         "cb/UT21825_001_0004.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT21825_001_0004 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP217E8C63349FB994
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP34387622FB6E954E
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP7085B4FD447ADAC3
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPABCE1F0AF6FAF50C
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPBF6D4E213F099011
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT21825_001_0004
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༡༠༡༽༄༅། །རྒྱལ་དབང་དཔལ་ཡུལ་བའི་ཡབ་སྲས་རྣམས་ལ་བསྔགས་པ་དྲང་སྲོང་བདེན་ཚིག་ཞེས་བྱ་བ་བཞུགས་སོ། །མངྒ་ལམ། །༼༡༠༢༽ངེས་གསང་ཐེག་མཆོག་རྗོ"@bo ;
+        :eTextHasPage       bdr:EP217E8C63349FB994 , bdr:EP34387622FB6E954E , bdr:EP7085B4FD447ADAC3 , bdr:EPABCE1F0AF6FAF50C , bdr:EPBF6D4E213F099011 ;
         :eTextInInstance    bdr:IE21825 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "PalriParkhang/W21825-bkaq-qbum-pad-nor-02-thub-bstan-chos-kyi-glang-po/rtfs/01-penor-kabum-ka/ka_0101-0114_pecha.rtf" ;

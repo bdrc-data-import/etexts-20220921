@@ -16,14 +16,24 @@ bdg:UT3JT13324_002_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13324_002_0000 ;
+        adm:facetIndex      3 ;
         adm:gitPath         "ea/UT3JT13324_002_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13324_002_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP52629F6D843D239F
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP77F3C2CD1B7B5AD0
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT3JT13324_002_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "གནམ་ཆོས་ཐུགས་ཀྱི་གཏེར་ཀ་སྙན་བརྒྱུད་ཟབ་མོ་གུ་རུ་ཞི་བའི་སྐོར་ལས་རྩ་གསུམ་སྤྱི་ཡི་སྔོན་འགྲོ་བཞུགས༔༔མངྷ།ལ༔གུ་རུ་དྷེ་ཝ་ཌཱཀྐི་ཧཱུྃ༔ན་མོ"@bo ;
+        :eTextHasPage       bdr:EP52629F6D843D239F , bdr:EP77F3C2CD1B7B5AD0 ;
         :eTextInInstance    bdr:IE3JT13324 ;
         :eTextIsVolume      2 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/Amitabha-tdoc/002_Amitabha_Ngondro.rtf" ;

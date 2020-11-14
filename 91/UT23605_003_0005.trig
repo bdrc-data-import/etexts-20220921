@@ -16,14 +16,28 @@ bdg:UT23605_003_0005 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_003_0005 ;
+        adm:facetIndex      4 ;
         adm:gitPath         "91/UT23605_003_0005.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_003_0005 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP246C95225BE38806
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP35DEF569C9B4A5F5
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPDCCEA9CC5F3502DD
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT23605_003_0005
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༧༡༽༄༅། །བྱིན་རླབས་ཉེ་བརྒྱུད་ཀྱི་གསོལ་འདེབས་དངོས་གྲུབ་སྙེ་མ་ཞེས་བྱ་བ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP246C95225BE38806 , bdr:EP35DEF569C9B4A5F5 , bdr:EPDCCEA9CC5F3502DD ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      3 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/03_gdams-ngag-mdzod_ga/03_04_byin-rlabs-nye-brgyud-kyi-gsol-qdebs-dngos-grub-snye-ma.rtf" ;

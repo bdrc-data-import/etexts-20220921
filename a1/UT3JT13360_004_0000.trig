@@ -16,14 +16,56 @@ bdg:UT3JT13360_004_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13360_004_0000 ;
+        adm:facetIndex      11 ;
         adm:gitPath         "a1/UT3JT13360_004_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13360_004_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP1BE209242B11277E
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP1DC259EBC83C406F
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP3627D42717862CE3
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP60F4BDE5461921A5
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP6A6D945CEFBA3105
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP6B6D3626BF8B4869
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPDF0DB8B32A7BF2F4
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EPDFFD9422F7584239
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPEEF53D4A7AA9FF78
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPFEE0DD191118CFFE
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
     bdr:UT3JT13360_004_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼ཀ༽༄༅། །རྟགས་འཇུག་གི་ཊཱིཀ་བཞུགས་སོ། །མགོན་པོ་འཇམ་པའི་དབྱངས་ལ་ཕྱག་འཚལ་ལོ། །བྱཱ་ཀ་ར་ཎ་རྟགས་ཀྱི་འཇུག་པ་འདི་ལ་དོན་གསུམ་སྟེ།གསལ་བྱ"@bo ;
+        :eTextHasPage       bdr:EP1BE209242B11277E , bdr:EP1DC259EBC83C406F , bdr:EP3627D42717862CE3 , bdr:EP60F4BDE5461921A5 , bdr:EP6A6D945CEFBA3105 , bdr:EP6B6D3626BF8B4869 , bdr:EPDF0DB8B32A7BF2F4 , bdr:EPDFFD9422F7584239 , bdr:EPEEF53D4A7AA9FF78 , bdr:EPFEE0DD191118CFFE ;
         :eTextInInstance    bdr:IE3JT13360 ;
         :eTextIsVolume      4 ;
         :eTextSourcePath    "GuruLamaWorks/Precious-and-Rare-Disk-01-20130424/rtfs/27_GRAM/GRAM004_རྟགས་འཇུག་གི་ཊཱིཀ་བཞུགས།.rtf" ;

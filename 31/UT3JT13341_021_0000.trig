@@ -16,14 +16,44 @@ bdg:UT3JT13341_021_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13341_021_0000 ;
+        adm:facetIndex      8 ;
         adm:gitPath         "31/UT3JT13341_021_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13341_021_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP14F4623A04E5287C
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP15B23294BA176B06
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP2CD873FBD95A43AA
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP3763842050415781
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP5E993DCA2695CC02
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPB7708CF3CE79159F
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPD48F8BC219CF39B2
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT3JT13341_021_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །མཁའ་འགྲོའི་གཙོ་མོ་ཡེ་ཤེས་མཚོ་རྒྱལ་གྱི་རྣམ་ཐར་མདོར་བསྡུས་སྒོ་ནས་གསོལ་བ་འདེབས་པ་མོས་གུས་གདུང་བའི་ཏམྦུ་ར་ཞེས་བྱ་བ་བཞུགས་སོ།"@bo ;
+        :eTextHasPage       bdr:EP14F4623A04E5287C , bdr:EP15B23294BA176B06 , bdr:EP2CD873FBD95A43AA , bdr:EP3763842050415781 , bdr:EP5E993DCA2695CC02 , bdr:EPB7708CF3CE79159F , bdr:EPD48F8BC219CF39B2 ;
         :eTextInInstance    bdr:IE3JT13341 ;
         :eTextIsVolume      21 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/Taksham-Chochod_tdoc/020_mtsho-rgyal-rnam-thar-gsol-qdebs.rtf" ;

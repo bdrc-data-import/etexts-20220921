@@ -16,14 +16,40 @@ bdg:UT23605_015_0027 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_015_0027 ;
+        adm:facetIndex      7 ;
         adm:gitPath         "40/UT23605_015_0027.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_015_0027 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP04F7B97D0855668D
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP1A18F70EA2051435
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP319A8D01A76B7E90
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP56DE5F94C73580D9
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPC392482EF3AFBD54
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPFEDCC482D370AC3D
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT23605_015_0027
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༦༡༩༽༄༅། །ཐུན་མོང་མ་ཡིན་པའི་སྨོན་ལམ་རྒྱལ་བ་རྒྱ་མཚོ་མ་བཞུགས་སོ། །། །"@bo ;
+        :eTextHasPage       bdr:EP04F7B97D0855668D , bdr:EP1A18F70EA2051435 , bdr:EP319A8D01A76B7E90 , bdr:EP56DE5F94C73580D9 , bdr:EPC392482EF3AFBD54 , bdr:EPFEDCC482D370AC3D ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      15 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/15_gdams-ngag-mdzod_ba/15_26_thun-mong-ma-yin-paqi-smon-lam-rgyal-ba-rgya-mtsho-ma.rtf" ;

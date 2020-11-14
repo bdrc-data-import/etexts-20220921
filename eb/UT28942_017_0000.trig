@@ -16,14 +16,40 @@ bdg:UT28942_017_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT28942_017_0000 ;
+        adm:facetIndex      7 ;
         adm:gitPath         "eb/UT28942_017_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT28942_017_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP02B75639A3684FFE
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP41871D47E0259679
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP7BE58DFDA56833D7
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPD5A2F8889742C589
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPD61026A534D387F3
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPFE0B78BE44F29EFB
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT28942_017_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །སྭསྟི།ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ་ཉམས་སུ་ལེན་པའི་མན་ངག་ལམ་ལྔ་གསལ་སྒྲོན་ཞེས་བྱ་བ།ཐུབ་དབང་མཆོག་དང་བྱམས་པ་ཐོགས་མེད་ཞབས། །ཕ་རོ"@bo ;
+        :eTextHasPage       bdr:EP02B75639A3684FFE , bdr:EP41871D47E0259679 , bdr:EP7BE58DFDA56833D7 , bdr:EPD5A2F8889742C589 , bdr:EPD61026A534D387F3 , bdr:EPFE0B78BE44F29EFB ;
         :eTextInInstance    bdr:IE28942 ;
         :eTextIsVolume      17 ;
         :eTextSourcePath    "GuruLamaWorks/For-Conversion-Disk-01-20130424/rtfs/RONGTON/RONT017.rtf" ;

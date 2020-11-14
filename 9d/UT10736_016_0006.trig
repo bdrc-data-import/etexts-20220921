@@ -16,14 +16,28 @@ bdg:UT10736_016_0006 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT10736_016_0006 ;
+        adm:facetIndex      4 ;
         adm:gitPath         "9d/UT10736_016_0006.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT10736_016_0006 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP00250F585D8D72FF
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP8B2EF3C1F7168558
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPE841A99DBAA5C343
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT10736_016_0006
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །ཚེ་རྟའི་སྔོན་འགྲོ་བསྡུས་པ་གཅིག་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP00250F585D8D72FF , bdr:EP8B2EF3C1F7168558 , bdr:EPE841A99DBAA5C343 ;
         :eTextInInstance    bdr:IE10736 ;
         :eTextInVolume      16 ;
         :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/16_ma/16_06_ma_tshe-rtaqi-sngon-qgro-bsdus-pa-gcig.rtf" ;

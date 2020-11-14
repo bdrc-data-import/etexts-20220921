@@ -16,14 +16,52 @@ bdg:UT10736_010_0013 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT10736_010_0013 ;
+        adm:facetIndex      10 ;
         adm:gitPath         "74/UT10736_010_0013.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT10736_010_0013 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP04E64F375DE2F330
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP103E2751808EA774
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP3EBD459AE12D05A2
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP7897E693C60B37DE
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP7DA96958721D22F6
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP8CD5E1B80CE8E4DC
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP959350A5F1187FBE
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPB8D609AF5F842732
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EPDE5946BCA84A5C94
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT10736_010_0013
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །ལམ་ཟབ་བླ་མ་སྒྲུབ་པའི་དམིགས་རིམ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP04E64F375DE2F330 , bdr:EP103E2751808EA774 , bdr:EP3EBD459AE12D05A2 , bdr:EP7897E693C60B37DE , bdr:EP7DA96958721D22F6 , bdr:EP8CD5E1B80CE8E4DC , bdr:EP959350A5F1187FBE , bdr:EPB8D609AF5F842732 , bdr:EPDE5946BCA84A5C94 ;
         :eTextInInstance    bdr:IE10736 ;
         :eTextInVolume      10 ;
         :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/10_tha/10_18_tha_lam-zab-bla-ma-sgrub-paqi-dmigs-rim.rtf" ;

@@ -16,14 +16,28 @@ bdg:UT1KG5988_001_0067 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1KG5988_001_0067 ;
+        adm:facetIndex      4 ;
         adm:gitPath         "e6/UT1KG5988_001_0067.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1KG5988_001_0067 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP1789CC2BA4BCBC01
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP7CCF164A43AF0553
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP93B3309ADE2B4B5C
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT1KG5988_001_0067
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །བྱང་ཆུབ་ལྟུང་བཤགས་བཞུགས།ན་མོཿབྱང་ཆུབ་སེམས་དཔའི་ལྟུང་བ་བཤགས་པ།བདག་མིང་འདི་ཞེས་བགྱི་བ།བླ་མ་ལ་སྐྱབས་སུ་མཆིའོ། །སངས་རྒྱས་ལ་སྐ"@bo ;
+        :eTextHasPage       bdr:EP1789CC2BA4BCBC01 , bdr:EP7CCF164A43AF0553 , bdr:EP93B3309ADE2B4B5C ;
         :eTextInInstance    bdr:IE1KG5988 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "DharmaDownload/Kagyur-Zungdue/rtfs/volume-001/068_ltung-bshags.rtf" ;

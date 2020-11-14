@@ -16,14 +16,24 @@ bdg:UT3JT13366_016_0007 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13366_016_0007 ;
+        adm:facetIndex      3 ;
         adm:gitPath         "d8/UT3JT13366_016_0007.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13366_016_0007 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP3C041FD03BE58833
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP87BA878CCAAB58E6
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT3JT13366_016_0007
         a                   :EtextNonPaginated ;
         skos:prefLabel      "ཚད་མ་རིགས་པའི་གཏེར་ཞེས་བྱ་བའི་རྩ་བ་བཞུགས།ཀཚད་མ་རིགས་གཏེར་རང་འགྲེལ།ཁརབ་བྱེད་དང་པོའི་འགྲེལ་པ།ཁརབ་བྱེད་གཉིས་པའི་འགྲེལ་པ།ཁརབ་བྱེད་གས"@bo ;
+        :eTextHasPage       bdr:EP3C041FD03BE58833 , bdr:EP87BA878CCAAB58E6 ;
         :eTextInInstance    bdr:IE3JT13366 ;
         :eTextInVolume      16 ;
         :eTextSourcePath    "KarmaDelek/sa-skya-bkaq-qbum/rtfs/volume_016/volume_016_160.rtf" ;

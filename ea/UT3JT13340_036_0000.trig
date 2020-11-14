@@ -16,14 +16,52 @@ bdg:UT3JT13340_036_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13340_036_0000 ;
+        adm:facetIndex      10 ;
         adm:gitPath         "ea/UT3JT13340_036_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13340_036_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP091E20355BC57219
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP1ADA8D92518A0485
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP588DA1B22351B9CB
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP59D5A1C5E6FE5503
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP63B6445074C78ECB
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP97CC92367F9665F0
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPB8FF1DCB261BF2A7
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPDBFCE4023819CE26
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPFDE17EF449A48F93
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT3JT13340_036_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༁ྃ༔ཟབ་ཆོས་ཞི་ཁྲོ་དགོངས་པ་རང་གྲོལ་ལས༔བཏགས་གྲོལ་ཕུང་པོ་རང་གྲོལ་གྱི༔དོན་བསྡུས་རང་གྲོལ་སྙིང་པོ་བཞུགས༔"@bo ;
+        :eTextHasPage       bdr:EP091E20355BC57219 , bdr:EP1ADA8D92518A0485 , bdr:EP588DA1B22351B9CB , bdr:EP59D5A1C5E6FE5503 , bdr:EP63B6445074C78ECB , bdr:EP97CC92367F9665F0 , bdr:EPB8FF1DCB261BF2A7 , bdr:EPDBFCE4023819CE26 , bdr:EPFDE17EF449A48F93 ;
         :eTextInInstance    bdr:IE3JT13340 ;
         :eTextIsVolume      36 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/P0033_Karling-Zhithro/040-btags-grol.rtf" ;

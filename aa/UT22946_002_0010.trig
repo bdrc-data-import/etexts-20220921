@@ -16,14 +16,40 @@ bdg:UT22946_002_0010 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT22946_002_0010 ;
+        adm:facetIndex      7 ;
         adm:gitPath         "aa/UT22946_002_0010.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT22946_002_0010 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP4264B8DE2888903C
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP469A9E9C1A9AE5D0
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP5F2564B6652758B9
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP7865977BBC5016CA
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPB926E1389B1E03D9
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPD593EF5439FD813F
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
     bdr:UT22946_002_0010
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༥༽རྣམ་དཔྱོད་དགས་པའི་ས་བོན་ཞེས་བྱ་བ་བཞུགས་སོ།༼༦༽སངས་རྒྱས་ཀུན་ས་བཀའ་དྲིན་ཅན།བླ་མའི་ཞབས་ལ་ཕྱག་བྱས་ཏེ།རང་སེམས་གྱོང་པོ་འདུལ་བ་ལ།གསལ་"@bo ;
+        :eTextHasPage       bdr:EP4264B8DE2888903C , bdr:EP469A9E9C1A9AE5D0 , bdr:EP5F2564B6652758B9 , bdr:EP7865977BBC5016CA , bdr:EPB926E1389B1E03D9 , bdr:EPD593EF5439FD813F ;
         :eTextInInstance    bdr:IE22946 ;
         :eTextInVolume      2 ;
         :eTextSourcePath    "PalriParkhang/W22946-mkhan-po-ngag-dbang-dpal-bzang-_ngaga/rtfs/NGAGA-vol-2-KHA/kha_0005-0016_pecha.rtf" ;

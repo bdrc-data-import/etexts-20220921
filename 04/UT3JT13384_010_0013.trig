@@ -16,14 +16,52 @@ bdg:UT3JT13384_010_0013 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13384_010_0013 ;
+        adm:facetIndex      10 ;
         adm:gitPath         "04/UT3JT13384_010_0013.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13384_010_0013 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP12A600AD7F98C99D
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP3E4B13171A8A0E5E
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP6A435724C1E1EE80
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP84E2F04934753393
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPA319A592708E3B32
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPB77CDA7CDDFC44A0
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPBB4C59F60851604B
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPC8E7875CC2184104
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPF278BD4BA7D34B72
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
     bdr:UT3JT13384_010_0013
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །ཐུགས་རྗེ་ཆེན་པོ་ཡི་གེ་དྲུག་པའི་གསོལ་འདེབས་སྒྲུབ་ཐབས་དང་འབྲེལ་བའི་རིག་གཏད་ཆོ་ག་མཆོག་དམན་སྙིང་གི་བདུད་རྩི་ཞེས་བྱ་བ་བཞུགས་སོ།"@bo ;
+        :eTextHasPage       bdr:EP12A600AD7F98C99D , bdr:EP3E4B13171A8A0E5E , bdr:EP6A435724C1E1EE80 , bdr:EP84E2F04934753393 , bdr:EPA319A592708E3B32 , bdr:EPB77CDA7CDDFC44A0 , bdr:EPBB4C59F60851604B , bdr:EPC8E7875CC2184104 , bdr:EPF278BD4BA7D34B72 ;
         :eTextInInstance    bdr:IE3JT13384 ;
         :eTextInVolume      10 ;
         :eTextSourcePath    "Various/gsung_qbum_mkhyen_brtseqi_dbang_po_UT2MS24768/rtfs/volume-010/10-20.rtf" ;

@@ -16,14 +16,24 @@ bdg:UT3JT13341_069_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13341_069_0000 ;
+        adm:facetIndex      3 ;
         adm:gitPath         "7e/UT3JT13341_069_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13341_069_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EPC19E6C35DE17FD41
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPFA8FD02B772BDE86
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT3JT13341_069_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "རྒྱལ་བའི་དགོངས་པ་མ་གཡེལ་ཞིང༌། །རིག་འཛིན་བརྡ་བརྒྱུད་མ་འཆོལ་བ། །གསང་སྔགས་དགོངས་པ་འདུས་ཆེན་གྱི། །བསྟན་པ་ཕྱོགས་བཅུར་རྒྱས་གྱུར་ཅིག"@bo ;
+        :eTextHasPage       bdr:EPC19E6C35DE17FD41 , bdr:EPFA8FD02B772BDE86 ;
         :eTextInInstance    bdr:IE3JT13341 ;
         :eTextIsVolume      69 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/Taksham-Chochod_tdoc/056_rgyal-baqi-dgongs-pa.rtf" ;

@@ -16,14 +16,28 @@ bdg:UT28942_039_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT28942_039_0000 ;
+        adm:facetIndex      4 ;
         adm:gitPath         "cd/UT28942_039_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT28942_039_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP21DE05044D2953E4
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP29A289990DA703B0
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP8A13D5CE0C21F0FC
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT28942_039_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །སྭསྟི།རྣམ་པར་ཐར་པའི་སྒོ་གསུམ་ལ་འཇུག་པའི་མན་ངག་སྙིང་པོ་རབ་གསལ་ཞེས་བྱ་བ།བླ་མ་དང་ལྷག་པའི་ལྷ་ལ་ཕྱག་འཚལ་ལོ། །མཁྱེན་པ་ཉིན་བྱེད་"@bo ;
+        :eTextHasPage       bdr:EP21DE05044D2953E4 , bdr:EP29A289990DA703B0 , bdr:EP8A13D5CE0C21F0FC ;
         :eTextInInstance    bdr:IE28942 ;
         :eTextIsVolume      39 ;
         :eTextSourcePath    "GuruLamaWorks/For-Conversion-Disk-01-20130424/rtfs/RONGTON/RONT039.rtf" ;

@@ -16,14 +16,44 @@ bdg:UT10736_017_0024 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT10736_017_0024 ;
+        adm:facetIndex      8 ;
         adm:gitPath         "1a/UT10736_017_0024.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT10736_017_0024 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP04BC693127FE5C4C
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP46C4BA980CC51D61
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPC07F7A21D059BC74
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPDCA91AA7B41687F4
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPE992A23F409815A9
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPFB9E5E6636F1E91A
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPFF7937968B5B1209
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT10736_017_0024
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྤྱོད་ཡུལ་དུ་སེང་གེ་རྣམ་པར་རྩེ་བ་ཞེས་བྱ་བ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP04BC693127FE5C4C , bdr:EP46C4BA980CC51D61 , bdr:EPC07F7A21D059BC74 , bdr:EPDCA91AA7B41687F4 , bdr:EPE992A23F409815A9 , bdr:EPFB9E5E6636F1E91A , bdr:EPFF7937968B5B1209 ;
         :eTextInInstance    bdr:IE10736 ;
         :eTextInVolume      17 ;
         :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/17_tsa/17_20_tsa_shes-rab-kyi-pha-rol-tu-phyin-paqi-spyod-yul-du-seng-ge-rnam-par-rtse-ba.rtf" ;

@@ -16,14 +16,32 @@ bdg:UT3JT13337_032_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13337_032_0000 ;
+        adm:facetIndex      5 ;
         adm:gitPath         "c2/UT3JT13337_032_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13337_032_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP096570A4884BD715
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP775EC13EB9D287CF
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPD359C29DE79B1C64
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPD75F7184863277FA
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
     bdr:UT3JT13337_032_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅།སློབ་དཔོན་པདྨས་མཛད་པའི་རྒྱལ་མདོས་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP096570A4884BD715 , bdr:EP775EC13EB9D287CF , bdr:EPD359C29DE79B1C64 , bdr:EPD75F7184863277FA ;
         :eTextInInstance    bdr:IE3JT13337 ;
         :eTextIsVolume      32 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/P0025_Tobum_tdoc/038-rgyal-mdos.rtf" ;

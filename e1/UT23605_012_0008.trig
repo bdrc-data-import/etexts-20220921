@@ -16,14 +16,60 @@ bdg:UT23605_012_0008 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_012_0008 ;
+        adm:facetIndex      12 ;
         adm:gitPath         "e1/UT23605_012_0008.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_012_0008 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP29C75CD9D7AE8D97
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP6443B260C89C5D15
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EP692386525AC371E9
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP71BB4704944587AF
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EPAF97485F98EC0EF0
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPB805D044A27A5A75
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPBB03CEE199933177
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPC8A32731F3D4B9D7
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPCD3ED5834CCAD152
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPD0086E9B06338BDA
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPF3132DDA0AD59872
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
     bdr:UT23605_012_0008
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༢༣༧༽༄༅། །ཕྱག་ཆེན་གའུ་མའམ་རང་བབས་རྣམ་གསུམ་ཞེས་བྱ་བའི་ཁྲིད་ཡིག་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP29C75CD9D7AE8D97 , bdr:EP6443B260C89C5D15 , bdr:EP692386525AC371E9 , bdr:EP71BB4704944587AF , bdr:EPAF97485F98EC0EF0 , bdr:EPB805D044A27A5A75 , bdr:EPBB03CEE199933177 , bdr:EPC8A32731F3D4B9D7 , bdr:EPCD3ED5834CCAD152 , bdr:EPD0086E9B06338BDA , bdr:EPF3132DDA0AD59872 ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      12 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/12_gdams-ngag-mdzod_na/12_07_phyag-chen-gaqu-maqam-rang-babs-rnam-gsum-zhes-bya-baqi-khrid-yig.rtf" ;

@@ -16,14 +16,64 @@ bdg:UT10736_016_0012 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT10736_016_0012 ;
+        adm:facetIndex      13 ;
         adm:gitPath         "2d/UT10736_016_0012.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT10736_016_0012 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP04E688B26878B94D
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP18F28EA6B6911D1F
+        a                   :EtextPage ;
+        :seqNum             12 .
+    
+    bdr:EP252F5307241DB85D
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP54498373CE38792F
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP685A556928177254
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP8AD8343CE69D77AE
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EPCB90ACE67FA43B71
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPDABF2F760CE2EDAF
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPDEB13FC376FAFBE6
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPE1058893E53A4DDF
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EPEED502B3CA2022D0
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPFFDDD025071C6733
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
     bdr:UT10736_016_0012
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །བདེ་བ་ཅན་ལས་འོངས་པའི་བདུད་རྩིའི་ཉིང་ཁུའི་སྒྲུབ་ཐབས་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP04E688B26878B94D , bdr:EP18F28EA6B6911D1F , bdr:EP252F5307241DB85D , bdr:EP54498373CE38792F , bdr:EP685A556928177254 , bdr:EP8AD8343CE69D77AE , bdr:EPCB90ACE67FA43B71 , bdr:EPDABF2F760CE2EDAF , bdr:EPDEB13FC376FAFBE6 , bdr:EPE1058893E53A4DDF , bdr:EPEED502B3CA2022D0 , bdr:EPFFDDD025071C6733 ;
         :eTextInInstance    bdr:IE10736 ;
         :eTextInVolume      16 ;
         :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/16_ma/16_11_ma_bde-ba-can-las-qongs-paqi-bdud-rtsiqi-nying-khuqi-sgrub-thabs.rtf" ;

@@ -16,14 +16,32 @@ bdg:UT10736_021_0006 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT10736_021_0006 ;
+        adm:facetIndex      5 ;
         adm:gitPath         "49/UT10736_021_0006.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT10736_021_0006 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP01A6F93C9D451F6D
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPB68950D985660417
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPB8CA51D333AA90DD
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPBC137E942BD4881B
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
     bdr:UT10736_021_0006
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །རྣལ་འབྱོར་བཞིའི་ངེས་པ་རབ་ཏུ་དབྱེ་བ་ཕྱག་རྒྱ་ཆེན་པོའི་བཤད་པ་ཐམས་ཅད་ཀྱི་བླ་མ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP01A6F93C9D451F6D , bdr:EPB68950D985660417 , bdr:EPB8CA51D333AA90DD , bdr:EPBC137E942BD4881B ;
         :eTextInInstance    bdr:IE10736 ;
         :eTextInVolume      21 ;
         :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/21_zha/21_06_zha_rnal-qbyor-bzhiqi-nges-pa-rab-tu-dbye-ba-phyag-rgya-chen-poqi-bshad-pa-thams-cad-kyi-bla-ma.rtf" ;

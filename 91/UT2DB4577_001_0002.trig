@@ -16,14 +16,60 @@ bdg:UT2DB4577_001_0002 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT2DB4577_001_0002 ;
+        adm:facetIndex      12 ;
         adm:gitPath         "91/UT2DB4577_001_0002.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT2DB4577_001_0002 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0EDF608C039E4D94
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP2FF8218FCE2112A1
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP359D55F2D66039B5
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP3976C40A6A0FDE98
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP3DCAE363FA2F181B
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP907F5DB43A1E5949
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP95C1972FDF084224
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP996BF2EEC388FE80
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EPA3386714E38A3EE3
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EPCA86FB941133DE55
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPEB36EAB34C19F75A
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT2DB4577_001_0002
         a                   :EtextNonPaginated ;
         skos:prefLabel      "འཕགས་ཡུལ་བལ་པོའི་རྒྱལ་རབས་བཞུགས།"@bo ;
+        :eTextHasPage       bdr:EP0EDF608C039E4D94 , bdr:EP2FF8218FCE2112A1 , bdr:EP359D55F2D66039B5 , bdr:EP3976C40A6A0FDE98 , bdr:EP3DCAE363FA2F181B , bdr:EP907F5DB43A1E5949 , bdr:EP95C1972FDF084224 , bdr:EP996BF2EEC388FE80 , bdr:EPA3386714E38A3EE3 , bdr:EPCA86FB941133DE55 , bdr:EPEB36EAB34C19F75A ;
         :eTextInInstance    bdr:IE2DB4577 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "KarmaDelek/gsung-qbum _shes-rab-rin-chen/rtfs/volume_001/volume_001_002.rtf" ;

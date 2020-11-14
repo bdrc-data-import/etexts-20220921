@@ -16,14 +16,36 @@ bdg:UT3JT13373_002_0003 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13373_002_0003 ;
+        adm:facetIndex      6 ;
         adm:gitPath         "81/UT3JT13373_002_0003.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13373_002_0003 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP00F1C7121CFFCB00
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP50BEFCD953B794D2
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP84F2251D15CC6C32
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPD9AC5FB4365E1F62
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPEEB3A2DAFF1F09DA
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT3JT13373_002_0003
         a                   :EtextNonPaginated ;
         skos:prefLabel      "སོག་དབོན་རིན་ཆེན་བཟང་པོའི་ལོ་རྒྱུས།"@bo ;
+        :eTextHasPage       bdr:EP00F1C7121CFFCB00 , bdr:EP50BEFCD953B794D2 , bdr:EP84F2251D15CC6C32 , bdr:EPD9AC5FB4365E1F62 , bdr:EPEEB3A2DAFF1F09DA ;
         :eTextInInstance    bdr:IE3JT13373 ;
         :eTextInVolume      2 ;
         :eTextSourcePath    "VajraVidya/Kagyu_Sertreng/rtfs/volume-002/17_Rinchen_Sangpo.rtf" ;

@@ -16,14 +16,56 @@ bdg:UT3JT13384_006_0011 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13384_006_0011 ;
+        adm:facetIndex      11 ;
         adm:gitPath         "32/UT3JT13384_006_0011.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13384_006_0011 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP1C4ACE969DA902D3
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP265CAA450BC9E84D
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP3A8382CC5F8B52EA
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP3FE471087CE519A8
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP426B25A817FAA454
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP4EBCA55831D1CB92
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP97ACA2698CF5F6F3
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPB7132E50CA87672E
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPDEEE7EA48FE71A35
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPF09214923821F7C0
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
     bdr:UT3JT13384_006_0011
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །རྡོ་རྗེ་བདུད་རྩི་གསང་བ་ཆེན་པོའི་མན་ངག་སྙིང་ཏིག་ཟབ་མོའི་ལས་བྱང་བཀླག་ཆོག་ཏུ་བཀོད་པ་བདུད་རྩིའི་སྤྲིན་ཕུང་ཞེས་བྱ་བ་བཞུགས་སོ།"@bo ;
+        :eTextHasPage       bdr:EP1C4ACE969DA902D3 , bdr:EP265CAA450BC9E84D , bdr:EP3A8382CC5F8B52EA , bdr:EP3FE471087CE519A8 , bdr:EP426B25A817FAA454 , bdr:EP4EBCA55831D1CB92 , bdr:EP97ACA2698CF5F6F3 , bdr:EPB7132E50CA87672E , bdr:EPDEEE7EA48FE71A35 , bdr:EPF09214923821F7C0 ;
         :eTextInInstance    bdr:IE3JT13384 ;
         :eTextInVolume      6 ;
         :eTextSourcePath    "Various/gsung_qbum_mkhyen_brtseqi_dbang_po_UT2MS24768/rtfs/volume-006/6-19.rtf" ;

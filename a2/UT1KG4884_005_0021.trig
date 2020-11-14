@@ -16,14 +16,68 @@ bdg:UT1KG4884_005_0021 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1KG4884_005_0021 ;
+        adm:facetIndex      14 ;
         adm:gitPath         "a2/UT1KG4884_005_0021.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1KG4884_005_0021 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0F24C241D9B28B9C
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP206B39317757C8F3
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP31794AD515771671
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP397026F83FD1F8FA
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP3CA53B932C11DCB9
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP3F3A0D79FEB23025
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EP55122F01E5631EB3
+        a                   :EtextPage ;
+        :seqNum             12 .
+    
+    bdr:EP6EEEBEFD01165550
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP6F07859CAEA9C406
+        a                   :EtextPage ;
+        :seqNum             13 .
+    
+    bdr:EP980EB3A309D52641
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPD30812AED4728BF4
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPDF3C5D9E15BA5E6D
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPF67D5A1A214B87D9
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT1KG4884_005_0021
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །ཁྲིད་རྒྱབ་ལུང་གི་ཕྲེང་བ་བཞུགས་སོ༔"@bo ;
+        :eTextHasPage       bdr:EP0F24C241D9B28B9C , bdr:EP206B39317757C8F3 , bdr:EP31794AD515771671 , bdr:EP397026F83FD1F8FA , bdr:EP3CA53B932C11DCB9 , bdr:EP3F3A0D79FEB23025 , bdr:EP55122F01E5631EB3 , bdr:EP6EEEBEFD01165550 , bdr:EP6F07859CAEA9C406 , bdr:EP980EB3A309D52641 , bdr:EPD30812AED4728BF4 , bdr:EPDF3C5D9E15BA5E6D , bdr:EPF67D5A1A214B87D9 ;
         :eTextInInstance    bdr:IE1KG4884 ;
         :eTextInVolume      5 ;
         :eTextSourcePath    "KarmaDelek/klong-chen-rab-byams-gung-qbum/rtfs/volume_005/volume_005_118.rtf" ;

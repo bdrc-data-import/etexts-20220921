@@ -16,14 +16,64 @@ bdg:UT10736_017_0035 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT10736_017_0035 ;
+        adm:facetIndex      13 ;
         adm:gitPath         "27/UT10736_017_0035.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT10736_017_0035 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP060A33592146636C
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP07369457251B4F3C
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP291A4F69B994563F
+        a                   :EtextPage ;
+        :seqNum             12 .
+    
+    bdr:EP2977996EB4836FE5
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP5967FCB65AB6E4DF
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP6B6ACA671F67D695
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EP866D8AE2405F28F7
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP8C8E3C4C285296C9
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP8D397B4E3C621AD5
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPE1AEEF14832A4995
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EPEA281F1E67869B83
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPFB88CC5FACBA4FEA
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT10736_017_0035
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །ཕག་མོ་ཞལ་གཉིས་མ་མཆོད་པའི་ཆོ་ག་རས་ཆུང་ལུགས་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP060A33592146636C , bdr:EP07369457251B4F3C , bdr:EP291A4F69B994563F , bdr:EP2977996EB4836FE5 , bdr:EP5967FCB65AB6E4DF , bdr:EP6B6ACA671F67D695 , bdr:EP866D8AE2405F28F7 , bdr:EP8C8E3C4C285296C9 , bdr:EP8D397B4E3C621AD5 , bdr:EPE1AEEF14832A4995 , bdr:EPEA281F1E67869B83 , bdr:EPFB88CC5FACBA4FEA ;
         :eTextInInstance    bdr:IE10736 ;
         :eTextInVolume      17 ;
         :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/17_tsa/17_31_tsa_phag-mo-zhal-gnyis-ma-mchod-paqi-cho-ga-ras-chung-lugs.rtf" ;

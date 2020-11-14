@@ -16,14 +16,68 @@ bdg:UT22082_014_0003 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT22082_014_0003 ;
+        adm:facetIndex      14 ;
         adm:gitPath         "58/UT22082_014_0003.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT22082_014_0003 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP275C4A9D7002FB58
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP280191E89C9F153E
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP4B7EEF13EDE26F96
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP4F09A287DE652E79
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP5BAEFB9ACF397285
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP65BAEE33CD57F254
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP80CCF2B5AB9FDDFF
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP83A17A9786917AD7
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EP98D78FBC6F8619DB
+        a                   :EtextPage ;
+        :seqNum             12 .
+    
+    bdr:EPBC3F9710B4D20FBB
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPE55B9D943F21B4FD
+        a                   :EtextPage ;
+        :seqNum             13 .
+    
+    bdr:EPF198140B5053788C
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EPFAD49631602860D4
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT22082_014_0003
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །ལམ་ཟབ་བླ་མ་སྒྲུབ་པ་ལས།གེགས་སེལ་བདེ་བའི་རྡོ་རྗེ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP275C4A9D7002FB58 , bdr:EP280191E89C9F153E , bdr:EP4B7EEF13EDE26F96 , bdr:EP4F09A287DE652E79 , bdr:EP5BAEFB9ACF397285 , bdr:EP65BAEE33CD57F254 , bdr:EP80CCF2B5AB9FDDFF , bdr:EP83A17A9786917AD7 , bdr:EP98D78FBC6F8619DB , bdr:EPBC3F9710B4D20FBB , bdr:EPE55B9D943F21B4FD , bdr:EPF198140B5053788C , bdr:EPFAD49631602860D4 ;
         :eTextInInstance    bdr:IE22082 ;
         :eTextInVolume      14 ;
         :eTextSourcePath    "DrikungChetsang/7__KUNKHYEN/rtfs/volume-014/12PHA.NA.rtf" ;

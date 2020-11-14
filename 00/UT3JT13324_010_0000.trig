@@ -16,14 +16,56 @@ bdg:UT3JT13324_010_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13324_010_0000 ;
+        adm:facetIndex      11 ;
         adm:gitPath         "00/UT3JT13324_010_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13324_010_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP04EDEF2A01EAC18D
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP27AC53B7A9AE615E
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP6BA3E1C506F0B5AF
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP82AA2A3547313D73
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP84A329CEA83E9B9C
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP98FB17EC76F90DB8
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EPB50986323DDD831A
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPC772C7591BCD3118
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPCF1DFA75A6EE877C
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPEDC340066C58723C
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT3JT13324_010_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༁ྃཿགནམ་ཆོས་ཐུགས་ཀྱི་གཏེར་ཁ་སྙན་རྒྱུད་ཟབ་མོའི་སྐོར་ལས༔བདེ་ཆེན་ཞིང་སྒྲུབ་ཀྱི་བྱང་ཆོག་ཐར་ལམ་དཀར་པོ་བཞུགས་སོ༔"@bo ;
+        :eTextHasPage       bdr:EP04EDEF2A01EAC18D , bdr:EP27AC53B7A9AE615E , bdr:EP6BA3E1C506F0B5AF , bdr:EP82AA2A3547313D73 , bdr:EP84A329CEA83E9B9C , bdr:EP98FB17EC76F90DB8 , bdr:EPB50986323DDD831A , bdr:EPC772C7591BCD3118 , bdr:EPCF1DFA75A6EE877C , bdr:EPEDC340066C58723C ;
         :eTextInInstance    bdr:IE3JT13324 ;
         :eTextIsVolume      10 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/Amitabha-tdoc/010_Amitabha_Jangchog.rtf" ;

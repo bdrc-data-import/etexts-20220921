@@ -16,14 +16,36 @@ bdg:UT3JT13337_031_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13337_031_0000 ;
+        adm:facetIndex      6 ;
         adm:gitPath         "05/UT3JT13337_031_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13337_031_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP3D0194445962F58C
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP733E98F135978628
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPA695366E7E2F00E6
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPAADDFFA7BCB354F0
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPED0038CF94C071E2
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
     bdr:UT3JT13337_031_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅།བྱིས་པའི་གདོན་ཆེན་བཅོ་ལྔའི་མདོས་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP3D0194445962F58C , bdr:EP733E98F135978628 , bdr:EPA695366E7E2F00E6 , bdr:EPAADDFFA7BCB354F0 , bdr:EPED0038CF94C071E2 ;
         :eTextInInstance    bdr:IE3JT13337 ;
         :eTextIsVolume      31 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/P0025_Tobum_tdoc/037-byis-pai-gdon-mdos.rtf" ;

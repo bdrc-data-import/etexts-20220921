@@ -16,14 +16,24 @@ bdg:UT3JT13341_063_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13341_063_0000 ;
+        adm:facetIndex      3 ;
         adm:gitPath         "02/UT3JT13341_063_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13341_063_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EPB13954160BC467D9
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPFA934CE84173826A
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT3JT13341_063_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "གཤིན་བསྔོ་ནི།བླ་མ་དང་ཡི་དམ་དཀྱིལ་འཁོར་གྱི་ལྷ་ཚོགས་བཅོམ་ལྡན་འདས་མགོན་པོ་འོད་དཔག་མེད་ལ་སོགས་པ་ཕྱོགས་བཅུ་ན་བཞུགས་པའི་སངས་རྒྱས་དང་བྱ"@bo ;
+        :eTextHasPage       bdr:EPB13954160BC467D9 , bdr:EPFA934CE84173826A ;
         :eTextInInstance    bdr:IE3JT13341 ;
         :eTextIsVolume      63 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/Taksham-Chochod_tdoc/050b_gshin-bsngo.rtf" ;

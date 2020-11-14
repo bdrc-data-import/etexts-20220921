@@ -16,14 +16,36 @@ bdg:UT22082_001_0015 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT22082_001_0015 ;
+        adm:facetIndex      6 ;
         adm:gitPath         "17/UT22082_001_0015.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT22082_001_0015 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP1197555C31C62691
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP2327F84FAD938C08
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP98DDFEF1EA6D3614
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPE17ADC1B22ACBE8B
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPF22F0F0C097DFB52
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT22082_001_0015
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །རང་གི་གནས་ཚུལ་ཉམས་མཚར་དུ་བཀོད་པའི་ཐོ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP1197555C31C62691 , bdr:EP2327F84FAD938C08 , bdr:EP98DDFEF1EA6D3614 , bdr:EPE17ADC1B22ACBE8B , bdr:EPF22F0F0C097DFB52 ;
         :eTextInInstance    bdr:IE22082 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "DrikungChetsang/7__KUNKHYEN/rtfs/volume-001/KA.TA.rtf" ;

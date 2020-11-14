@@ -16,14 +16,40 @@ bdg:UT2DB4576_001_0035 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT2DB4576_001_0035 ;
+        adm:facetIndex      7 ;
         adm:gitPath         "3b/UT2DB4576_001_0035.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT2DB4576_001_0035 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP1F55B39750EB40EA
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP3417008BB8F40107
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP414EAC80555DAB28
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP726C98268AC07E2A
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP773F4C9248B8715D
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPAE9BAE5816935B2B
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
     bdr:UT2DB4576_001_0035
         a                   :EtextNonPaginated ;
         skos:prefLabel      "བོད་དུ་བསྟན་པ་ཕྱི་དར་དང༌།མཁས་གྲུབ་སྡཻ་དགོན་བྱུང་ཚུལ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP1F55B39750EB40EA , bdr:EP3417008BB8F40107 , bdr:EP414EAC80555DAB28 , bdr:EP726C98268AC07E2A , bdr:EP773F4C9248B8715D , bdr:EPAE9BAE5816935B2B ;
         :eTextInInstance    bdr:IE2DB4576 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "KarmaDelek/rgyal-rabs-mang-poqi-legs-bshad-rnam-grangs-yid-qdzin-nor-buqi-phreng-ba/rtfs/volume_001/volume_001_035.rtf" ;

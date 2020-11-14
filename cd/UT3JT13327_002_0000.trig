@@ -16,14 +16,32 @@ bdg:UT3JT13327_002_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13327_002_0000 ;
+        adm:facetIndex      5 ;
         adm:gitPath         "cd/UT3JT13327_002_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13327_002_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP04114576F8D9A679
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP0B55981122829019
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP9EC5F538CC0F2FBD
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPA0FAC7980A587A69
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
     bdr:UT3JT13327_002_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །ཐུགས་རྗེ་ཆེན་པོའི་བསྒོམ་བཟླས་འགྲོ་དོན་མཁའ་ཁྱབ་མ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP04114576F8D9A679 , bdr:EP0B55981122829019 , bdr:EP9EC5F538CC0F2FBD , bdr:EPA0FAC7980A587A69 ;
         :eTextInInstance    bdr:IE3JT13327 ;
         :eTextIsVolume      2 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/Chenzezig_Tdoc/002_chenrezig.rtf" ;

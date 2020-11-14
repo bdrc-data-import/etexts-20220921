@@ -16,14 +16,56 @@ bdg:UT23605_015_0022 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_015_0022 ;
+        adm:facetIndex      11 ;
         adm:gitPath         "e9/UT23605_015_0022.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_015_0022 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP1AD3E06FF1B50C87
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EP20407875747F7446
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP2732EBA182644B55
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP4C9DCB14AFDEDDD1
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP4D04F24181720B86
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP9D42A1055C3A9815
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPA3F9F17D7C66A6C3
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPB8336DA00B14C62C
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPEC623C3A97DA451C
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPED641CB35DF8F33B
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
     bdr:UT23605_015_0022
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༤༩༩༽༄༅། །གྲུབ་ཆེན་ཨོ་རྒྱན་པའི་གདམས་ངག་རྡོ་རྗེ་གསུམ་གྱི་བསྙེན་སྒྲུབ་ཀྱི་གཞུང་"@bo ;
+        :eTextHasPage       bdr:EP1AD3E06FF1B50C87 , bdr:EP20407875747F7446 , bdr:EP2732EBA182644B55 , bdr:EP4C9DCB14AFDEDDD1 , bdr:EP4D04F24181720B86 , bdr:EP9D42A1055C3A9815 , bdr:EPA3F9F17D7C66A6C3 , bdr:EPB8336DA00B14C62C , bdr:EPEC623C3A97DA451C , bdr:EPED641CB35DF8F33B ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      15 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/15_gdams-ngag-mdzod_ba/15_21_grub-chen-ao-rgyan-paqi-gdams-ngag-rdo-rje-gsum-gyi-bsnyen-sgrub-kyi-gzhung.rtf" ;

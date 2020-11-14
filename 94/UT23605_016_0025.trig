@@ -16,14 +16,36 @@ bdg:UT23605_016_0025 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_016_0025 ;
+        adm:facetIndex      6 ;
         adm:gitPath         "94/UT23605_016_0025.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_016_0025 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP03C9AF43D2F76EBE
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP662F6B91A2CAC31E
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP727E34F156A4C406
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP7DEA49E9D6799A26
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPBB4FF4631D8539DD
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
     bdr:UT23605_016_0025
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༤༨༩༽༄༅། །ཆོས་སྐྱོང་བྲག་ལྷ་མགོན་པོའི་མངོན་རྟོགས་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP03C9AF43D2F76EBE , bdr:EP662F6B91A2CAC31E , bdr:EP727E34F156A4C406 , bdr:EP7DEA49E9D6799A26 , bdr:EPBB4FF4631D8539DD ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      16 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/16_gdams-ngag-mdzod_ma/16_24_chos-skyong-brag-lha-mgon-poqi-mngon-rtogs.rtf" ;

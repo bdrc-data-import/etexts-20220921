@@ -16,14 +16,60 @@ bdg:UT23892_003_0002 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23892_003_0002 ;
+        adm:facetIndex      12 ;
         adm:gitPath         "5c/UT23892_003_0002.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23892_003_0002 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP157CA8176AEFA7C4
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP16505F903B90969F
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP1B8DEB386765096D
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP6B68D9EDAB360E81
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP82429C53223006E4
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPA6A2739D25D029F8
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPB06417E9E6D06927
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPBFC67E2C96BA8227
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EPC96AB62CD43A820A
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPDA44BA04C06459B1
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EPEBBD8FEE4A253DB4
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT23892_003_0002
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །ལྕག་གེ་དགེ་སློང་རིན་ཆེན་བཟང་པོ་ལ་གདམས་པའི་ཞུས་ལན་འོད་ཕྲེང་ཞེས་བྱ་བ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP157CA8176AEFA7C4 , bdr:EP16505F903B90969F , bdr:EP1B8DEB386765096D , bdr:EP6B68D9EDAB360E81 , bdr:EP82429C53223006E4 , bdr:EPA6A2739D25D029F8 , bdr:EPB06417E9E6D06927 , bdr:EPBFC67E2C96BA8227 , bdr:EPC96AB62CD43A820A , bdr:EPDA44BA04C06459B1 , bdr:EPEBBD8FEE4A253DB4 ;
         :eTextInInstance    bdr:IE23892 ;
         :eTextInVolume      3 ;
         :eTextSourcePath    "DrikungChetsang/6_KUNRIN/rtfs/volume-003/GA-BA1.015.rtf" ;

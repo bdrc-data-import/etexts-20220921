@@ -16,14 +16,56 @@ bdg:UT23605_014_0008 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_014_0008 ;
+        adm:facetIndex      11 ;
         adm:gitPath         "93/UT23605_014_0008.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_014_0008 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP16C37EC05C672A31
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP2768A54E91B96D20
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP6D97BF4C001F1D00
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP732C071E1B301AE4
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP80572845DD3A516A
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPA2B2578ABA5E1ACD
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPA42083A3E0394DF0
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPA61134AD638F5A7A
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EPC232C4B5B742B8AC
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EPF9087A695AAA288D
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
     bdr:UT23605_014_0008
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༡༧༣༽༄༅། །ཟབ་མོ་བདུད་ཀྱི་གཅོད་ཡུལ་གྱི་ཁྲིད་ཡིག་བཞུགས།"@bo ;
+        :eTextHasPage       bdr:EP16C37EC05C672A31 , bdr:EP2768A54E91B96D20 , bdr:EP6D97BF4C001F1D00 , bdr:EP732C071E1B301AE4 , bdr:EP80572845DD3A516A , bdr:EPA2B2578ABA5E1ACD , bdr:EPA42083A3E0394DF0 , bdr:EPA61134AD638F5A7A , bdr:EPC232C4B5B742B8AC , bdr:EPF9087A695AAA288D ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      14 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/14_gdams-ngag-mdzod_pha/14_07_zab-mo-bdud-kyi-gcod-yul-gyi-khrid-yig.rtf" ;

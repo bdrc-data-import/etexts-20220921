@@ -16,14 +16,60 @@ bdg:UT1KG11942_025_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1KG11942_025_0000 ;
+        adm:facetIndex      12 ;
         adm:gitPath         "59/UT1KG11942_025_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1KG11942_025_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP12A827B6A5849960
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP34819D2FD7F13A4C
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP551187146FB6D3EF
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP697799EA601EF516
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP6D144C689AF50204
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP900F2FACE3EC76B4
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPA4AEB47D7B73E083
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPD219D5B137432F34
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPD6A87493578E61BD
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EPE854F930773A1C1C
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EPF56DD65D53D7E4D4
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT1KG11942_025_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །རྗེ་བླ་མ་ཀུན་དགའ་ཆོས་ལྷའི་རྣམ་ཐར་བཞུགས་སོ། །༄༅། །ཀུན་ཁྱབ་ཟབ་གསལ་དབྱིངས་ནས་མ་གཡོས་བཞིན། །འགྲོ་ལ་ཕན་བདེའི་དགའ་སྟོན་སྤེལ་ས"@bo ;
+        :eTextHasPage       bdr:EP12A827B6A5849960 , bdr:EP34819D2FD7F13A4C , bdr:EP551187146FB6D3EF , bdr:EP697799EA601EF516 , bdr:EP6D144C689AF50204 , bdr:EP900F2FACE3EC76B4 , bdr:EPA4AEB47D7B73E083 , bdr:EPD219D5B137432F34 , bdr:EPD6A87493578E61BD , bdr:EPE854F930773A1C1C , bdr:EPF56DD65D53D7E4D4 ;
         :eTextInInstance    bdr:IE1KG11942 ;
         :eTextIsVolume      25 ;
         :eTextSourcePath    "GuruLamaWorks/Precious-and-Rare-Disk-01-20130424/rtfs/16_NGAL/NGAL025_རྗེ་བླ་མ་ཀུན་དགའ་ཆོས་ལྷའི་རྣམ་ཐར.rtf" ;

@@ -16,14 +16,64 @@ bdg:UT22393_001_0029 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT22393_001_0029 ;
+        adm:facetIndex      13 ;
         adm:gitPath         "05/UT22393_001_0029.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT22393_001_0029 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP029328B9BF37A47D
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP0BDD2AA691F5A05E
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP0CC5FC1DD57FA1BF
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP12FEA474E0B8DFE8
+        a                   :EtextPage ;
+        :seqNum             12 .
+    
+    bdr:EP4C884A80E2EA091B
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP55941465F7EFF2BB
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP596BD12340CFE28A
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP6A73A992DA3F8BB4
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP7B77AFB3BB093D39
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPC54D1D3124CC1CF5
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EPD435ED47D5AF818B
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPDBB6D9519E67CA45
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
     bdr:UT22393_001_0029
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༡ན༽ཆོས་རྗེ་དྭགས་པོ་ལྷ་རྗེའི་གསུང་སྒྲོས་དུམ་སྒྲིགས་མ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP029328B9BF37A47D , bdr:EP0BDD2AA691F5A05E , bdr:EP0CC5FC1DD57FA1BF , bdr:EP12FEA474E0B8DFE8 , bdr:EP4C884A80E2EA091B , bdr:EP55941465F7EFF2BB , bdr:EP596BD12340CFE28A , bdr:EP6A73A992DA3F8BB4 , bdr:EP7B77AFB3BB093D39 , bdr:EPC54D1D3124CC1CF5 , bdr:EPD435ED47D5AF818B , bdr:EPDBB6D9519E67CA45 ;
         :eTextInInstance    bdr:IE22393 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "DharmaDownload/Dhakpo-Kabum/rtfs/volume-001/29_HA.rtf" ;

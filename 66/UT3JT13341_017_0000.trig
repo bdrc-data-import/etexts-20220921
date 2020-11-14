@@ -16,14 +16,24 @@ bdg:UT3JT13341_017_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13341_017_0000 ;
+        adm:facetIndex      3 ;
         adm:gitPath         "66/UT3JT13341_017_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13341_017_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0CF6847E1210A664
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPE472F68DEC06AE39
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT3JT13341_017_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "བླ་མའི་རྣམ་ཐར་འོད་ཀྱི་དྲྭ་བ་འཇའ་ཚོན་སྤེལ་ལེགས་ཞིང་འདིར་མཛད་ཚུལ་ཞེས་བྱ་བ་བཞུགས་སོ། །ན་མོ་གུ་རུ་བཱཻ་གྷྲྀ་སིདྡྷི་ཧྲཱིཿསྐུ་གསུམ་མཐའ"@bo ;
+        :eTextHasPage       bdr:EP0CF6847E1210A664 , bdr:EPE472F68DEC06AE39 ;
         :eTextInInstance    bdr:IE3JT13341 ;
         :eTextIsVolume      17 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/Taksham-Chochod_tdoc/016_gter-chen-rnam-thar-gsol-qdebs.rtf" ;

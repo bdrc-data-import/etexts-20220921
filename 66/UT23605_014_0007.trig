@@ -16,14 +16,40 @@ bdg:UT23605_014_0007 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_014_0007 ;
+        adm:facetIndex      7 ;
         adm:gitPath         "66/UT23605_014_0007.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_014_0007 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP371150DD6D62354B
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP3EE47A435F977326
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP6B46535ACF2EACF6
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPA8BA55B9E97AFEA3
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPB525FA83DC3ADA44
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPFBA1790A9F73869F
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
     bdr:UT23605_014_0007
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༡༦༥༽༄༅། །རྒྱལ་ཐང་ལུགས་ཀྱི་གཅོད་དབང་ནམ་མཁའ་སྒོ་འབྱེད་ཀྱི་ཆོ་ག་རྗེ་བཙུན་ཏཱ་ར་ནཱ་ཐས་མཛད་པའི་སྐབས་སུ་ཉེ་བར་མཁོ་བའི་འདོན་ཆ།བགེགས་གཏ"@bo ;
+        :eTextHasPage       bdr:EP371150DD6D62354B , bdr:EP3EE47A435F977326 , bdr:EP6B46535ACF2EACF6 , bdr:EPA8BA55B9E97AFEA3 , bdr:EPB525FA83DC3ADA44 , bdr:EPFBA1790A9F73869F ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      14 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/14_gdams-ngag-mdzod_pha/14_06_rgyal-thang-lugs-kyi-gcod-dbang-nam-mkhaq-sgo-qbyed-kyi-cho-ga.rtf" ;

@@ -16,14 +16,40 @@ bdg:UT00EGS1016703_134_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT00EGS1016703_134_0000 ;
+        adm:facetIndex      7 ;
         adm:gitPath         "93/UT00EGS1016703_134_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT00EGS1016703_134_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP13CEC019C233A2AE
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP5B764097698FA500
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP78952240E34242C4
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP7A357C785C532EDE
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP9D4417CA41ECC94F
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPB61341EF60C5F6DF
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
     bdr:UT00EGS1016703_134_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼ཉ༽༄༅། །ཡིད་ལྷུང་ལྷ་རྒྱལ་སྲང་གི་གཙུག་ལག་ཁང་སྲིད་གསུམ་དགེ་ལེགས་ཡོངས་འདུ་ཞེས་བྱ་བའི་ཕྱི་ནང་གི་གཏན་འཇོག་དངོས་པོའི་དེབ་ཐེར་རང་གཞན་ཡ"@bo ;
+        :eTextHasPage       bdr:EP13CEC019C233A2AE , bdr:EP5B764097698FA500 , bdr:EP78952240E34242C4 , bdr:EP7A357C785C532EDE , bdr:EP9D4417CA41ECC94F , bdr:EPB61341EF60C5F6DF ;
         :eTextInInstance    bdr:IE00EGS1016703 ;
         :eTextIsVolume      134 ;
         :eTextSourcePath    "GuruLamaWorks/For-Conversion-Disk-01-20130424/rtfs/ZUCHEN/ZUCN131.rtf" ;

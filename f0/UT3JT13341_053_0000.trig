@@ -16,14 +16,24 @@ bdg:UT3JT13341_053_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13341_053_0000 ;
+        adm:facetIndex      3 ;
         adm:gitPath         "f0/UT3JT13341_053_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13341_053_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0CD3A920CC356719
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP2B8F0F3C611EB9FC
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT3JT13341_053_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "གུ་རུ་མི་ཏྲ་སྙིང་ཐིག་ལས༔རྣམ་དག་བདེ་ཆེན་སྨོན་ལམ་བཞུགས་སོ༔འཕགས་པ་འཇིག་རྟེན་དབང་ཕྱུག་ལ་ཕྱག་འཚལ་ལོ༔མི་ཏྲ་སྙིང་ཐིག་ལས༔རྣམ་དག་བདེ་ཆེན་"@bo ;
+        :eTextHasPage       bdr:EP0CD3A920CC356719 , bdr:EP2B8F0F3C611EB9FC ;
         :eTextInInstance    bdr:IE3JT13341 ;
         :eTextIsVolume      53 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/Taksham-Chochod_tdoc/042_mi-tra-smon-lam.rtf" ;

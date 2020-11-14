@@ -16,14 +16,28 @@ bdg:UT23605_008_0020 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_008_0020 ;
+        adm:facetIndex      4 ;
         adm:gitPath         "04/UT23605_008_0020.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_008_0020 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP1678C213E341D69D
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP1D0D9D7D1F7B1BB0
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPA0FC54E4B6A67724
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT23605_008_0020
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༣༩༧༽༄༅། །དྭགས་པོ་རིན་པོ་ཆེའི་ཆོས་བཞི་མདོར་བསྡུས་པ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP1678C213E341D69D , bdr:EP1D0D9D7D1F7B1BB0 , bdr:EPA0FC54E4B6A67724 ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      8 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/08_gdams-ngag-mdzod_nya/08_19_dvags-po-rin-po-cheqi-chos-bzhi-mdor-bsdus-pa.rtf" ;

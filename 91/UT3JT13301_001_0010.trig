@@ -16,14 +16,40 @@ bdg:UT3JT13301_001_0010 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13301_001_0010 ;
+        adm:facetIndex      7 ;
         adm:gitPath         "91/UT3JT13301_001_0010.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13301_001_0010 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP81FA2DE50EA0331F
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP8E1353F9B5903631
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPA756AA4E2FDB5C0D
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPBB4F94FDDFFD0481
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPD3DB7A350C713CD6
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPFC6F17469B88A4CC
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT3JT13301_001_0010
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །འཕགས་པ་གཞི་ཐམས་ཅད་ཡོད་པར་སྨྲ་བའི་དགེ་ཚུལ་གྱི་ཚིག་ལེའུར་བྱས་པ་བཞུགས། །"@bo ;
+        :eTextHasPage       bdr:EP81FA2DE50EA0331F , bdr:EP8E1353F9B5903631 , bdr:EPA756AA4E2FDB5C0D , bdr:EPBB4F94FDDFFD0481 , bdr:EPD3DB7A350C713CD6 , bdr:EPFC6F17469B88A4CC ;
         :eTextInInstance    bdr:IE3JT13301 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "GuruLamaWorks/DULWA/rtfs/volume-001/058DULWA.rtf" ;

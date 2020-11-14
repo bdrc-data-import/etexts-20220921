@@ -16,14 +16,40 @@ bdg:UT3JT13344_013_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13344_013_0000 ;
+        adm:facetIndex      7 ;
         adm:gitPath         "39/UT3JT13344_013_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13344_013_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP31F641CAC6F13475
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP34F3139FA0FDE646
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP3684739C00843673
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP46D129864BB64C7B
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP863526EC6C8D2E00
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP976A93AAFBED4BB8
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT3JT13344_013_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "ན་མོ་གུ་རུ་དྷེ་ཝ་ཌཱཀྐི་ནཱི་ཡེ།འདུས་བྱས་ཀྱི་དགེ་རྩ་མཆིས་སོ་ཅོག་ལས་ཕན་ཡོན་ཁྱད་པར་དུ་ཆེ་བ་སེམས་ཅན་གྱི་སྲོག་བསླུ་ཞིང་སྐྱོབ་པ་ཉིད་ཡིན"@bo ;
+        :eTextHasPage       bdr:EP31F641CAC6F13475 , bdr:EP34F3139FA0FDE646 , bdr:EP3684739C00843673 , bdr:EP46D129864BB64C7B , bdr:EP863526EC6C8D2E00 , bdr:EP976A93AAFBED4BB8 ;
         :eTextInInstance    bdr:IE3JT13344 ;
         :eTextIsVolume      13 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/various/P0042_Tsethar-(release-animals).rtf" ;

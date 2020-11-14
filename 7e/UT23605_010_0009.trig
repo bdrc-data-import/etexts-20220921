@@ -16,14 +16,40 @@ bdg:UT23605_010_0009 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_010_0009 ;
+        adm:facetIndex      7 ;
         adm:gitPath         "7e/UT23605_010_0009.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_010_0009 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP122F2040857B84B5
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP2300E7006A013096
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP31E7B796AF7E720C
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP9763AAD83D3F5DF1
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPA19C83EDD8FD136F
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPAC77F78B5387A086
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
     bdr:UT23605_010_0009
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༡༠༧༽༄༅། །དཔལ་མཁའ་སྤྱོད་དབང་པོས་མཛད་པའི་རོ་སྙོམས་སྐོར་དྲུག་གི་ཁྲིད་ཡིག་"@bo ;
+        :eTextHasPage       bdr:EP122F2040857B84B5 , bdr:EP2300E7006A013096 , bdr:EP31E7B796AF7E720C , bdr:EP9763AAD83D3F5DF1 , bdr:EPA19C83EDD8FD136F , bdr:EPAC77F78B5387A086 ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      10 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/10_gdams-ngag-mdzod_tha/10_08_dpal-mkhaq-spyod-dbang-pos-mdzad-paqi-ro-snyoms-skor-drug-gi-khrid-yig.rtf" ;

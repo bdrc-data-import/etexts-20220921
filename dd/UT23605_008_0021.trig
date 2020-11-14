@@ -16,14 +16,36 @@ bdg:UT23605_008_0021 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_008_0021 ;
+        adm:facetIndex      6 ;
         adm:gitPath         "dd/UT23605_008_0021.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_008_0021 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP07C2A8C635FD10EC
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP216FF9AADC47CF13
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP2573B52B4DD31E4C
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP6E37C63254CA6B6D
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPD726BB42DF9AA1AD
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
     bdr:UT23605_008_0021
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༤༠༡༽སྒམ་པོ་པ་བཀྲ་ཤིས་རྣམ་རྒྱལ་གྱིས་མཛད་པ་སྒྲུབ་པའི་ཞལ་བསྐོས་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP07C2A8C635FD10EC , bdr:EP216FF9AADC47CF13 , bdr:EP2573B52B4DD31E4C , bdr:EP6E37C63254CA6B6D , bdr:EPD726BB42DF9AA1AD ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      8 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/08_gdams-ngag-mdzod_nya/08_20_sgam-po-pa-bkra-shis-rnam-rgyal-gyis-mdzad-pa-sgrub-paqi-zhal-bskos.rtf" ;

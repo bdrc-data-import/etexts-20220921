@@ -16,14 +16,44 @@ bdg:UT10736_017_0027 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT10736_017_0027 ;
+        adm:facetIndex      8 ;
         adm:gitPath         "3d/UT10736_017_0027.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT10736_017_0027 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP1A9E60A569DEB956
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP229F5603905C4CC8
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP3A382A087A67E1A4
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP43D53A49AC83593B
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPAA7EE869B13744A4
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPC4A210704EC2354B
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPE1FD0A73988FA883
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
     bdr:UT10736_017_0027
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །ཞལ་གདམས་སྙིང་གི་ནོར་བུའི་འཁྲུལ་འཁོར་ཟིན་བྲིས་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP1A9E60A569DEB956 , bdr:EP229F5603905C4CC8 , bdr:EP3A382A087A67E1A4 , bdr:EP43D53A49AC83593B , bdr:EPAA7EE869B13744A4 , bdr:EPC4A210704EC2354B , bdr:EPE1FD0A73988FA883 ;
         :eTextInInstance    bdr:IE10736 ;
         :eTextInVolume      17 ;
         :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/17_tsa/17_23_tsa_zhal-gdams-snying-gi-nor-buqi-qkhrul-qkhor-zin-bris.rtf" ;

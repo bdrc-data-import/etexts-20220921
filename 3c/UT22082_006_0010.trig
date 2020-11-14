@@ -16,14 +16,32 @@ bdg:UT22082_006_0010 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT22082_006_0010 ;
+        adm:facetIndex      5 ;
         adm:gitPath         "3c/UT22082_006_0010.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT22082_006_0010 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP4DDBE2796A7C2CE7
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP8C3337C359A8F20E
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPA6FA90CEFB860B6A
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPBFDFC417F6EA2855
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT22082_006_0010
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །མ་མགོན་གཉིས་ཀྱི་གཏོར་བསྔོས་བསྡུས་པ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP4DDBE2796A7C2CE7 , bdr:EP8C3337C359A8F20E , bdr:EPA6FA90CEFB860B6A , bdr:EPBFDFC417F6EA2855 ;
         :eTextInInstance    bdr:IE22082 ;
         :eTextInVolume      6 ;
         :eTextSourcePath    "DrikungChetsang/7__KUNKHYEN/rtfs/volume-006/19CHA.ZSA.rtf" ;

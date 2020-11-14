@@ -16,14 +16,60 @@ bdg:UT3JT13365_001_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13365_001_0000 ;
+        adm:facetIndex      12 ;
         adm:gitPath         "02/UT3JT13365_001_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13365_001_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP082D562FD8A3A39D
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP0B804CD44E893A6D
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP0F9DFCBF6A7B6770
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP3AD79CDFE12B6A40
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP409444BCF53AEC69
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP5C22029C43089E3E
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP5D3BF3D542479269
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EP679FC5AFC80B75DF
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP845F3FC0B7C0CDDD
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP8CEC7D57CD59A475
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPE5FFA6BEEB5244D9
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT3JT13365_001_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །དྲན་པ་ཉེ་བར་བཞག་པའི་བསྡུས་དོན་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP082D562FD8A3A39D , bdr:EP0B804CD44E893A6D , bdr:EP0F9DFCBF6A7B6770 , bdr:EP3AD79CDFE12B6A40 , bdr:EP409444BCF53AEC69 , bdr:EP5C22029C43089E3E , bdr:EP5D3BF3D542479269 , bdr:EP679FC5AFC80B75DF , bdr:EP845F3FC0B7C0CDDD , bdr:EP8CEC7D57CD59A475 , bdr:EPE5FFA6BEEB5244D9 ;
         :eTextInInstance    bdr:IE3JT13365 ;
         :eTextIsVolume      1 ;
         :eTextSourcePath    "KarmaDelek/rgyal-sras-thogs-med-P1830-chos-skor/rtfs/volume_009/volume_009_071.rtf" ;

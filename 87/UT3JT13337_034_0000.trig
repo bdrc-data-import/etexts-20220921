@@ -16,14 +16,20 @@ bdg:UT3JT13337_034_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13337_034_0000 ;
+        adm:facetIndex      2 ;
         adm:gitPath         "87/UT3JT13337_034_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13337_034_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP436591690FE1D31B
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT3JT13337_034_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "ཐུན་བར་གཏོར་འབུལ་གྲུབ་གཉིས་འདོད་འབྱུང་ཞེས་བྱ་བ་བཞུགས་སོ། །ན་མོ་གུ་རུ་དྷེ་ཝ་ཌཱ་ཀི་ནཱི་ཡེ།ཐུན་མཚམས་སུ་གཏོར་མ་འབུལ་བའི་རིམ་པ་མདོར་"@bo ;
+        :eTextHasPage       bdr:EP436591690FE1D31B ;
         :eTextInInstance    bdr:IE3JT13337 ;
         :eTextIsVolume      34 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/P0025_Tobum_tdoc/04-thun-gtor.rtf" ;

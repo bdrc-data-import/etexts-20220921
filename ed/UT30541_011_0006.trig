@@ -16,14 +16,28 @@ bdg:UT30541_011_0006 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT30541_011_0006 ;
+        adm:facetIndex      4 ;
         adm:gitPath         "ed/UT30541_011_0006.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT30541_011_0006 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP63B23DB85BDD4C54
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP82AA4844B7F87479
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPA521FADE8B8A2BE8
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT30541_011_0006
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །རྣལ་འབྱོར་གསུམ་གྱི་སྙིང་པོ་གསལ་བ་ཞེས་བྱ་བ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP63B23DB85BDD4C54 , bdr:EP82AA4844B7F87479 , bdr:EPA521FADE8B8A2BE8 ;
         :eTextInInstance    bdr:IE30541 ;
         :eTextInVolume      11 ;
         :eTextSourcePath    "DharmaDownload/Karmapa-03/rtfs/11_3rd-karmapa-text_tdoc_Aa/11_05_Aa_rnal-qbyor-gsum-gyi-snying-po-gsal-ba.rtf" ;

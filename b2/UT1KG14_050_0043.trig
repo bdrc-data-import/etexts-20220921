@@ -16,14 +16,52 @@ bdg:UT1KG14_050_0043 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1KG14_050_0043 ;
+        adm:facetIndex      10 ;
         adm:gitPath         "b2/UT1KG14_050_0043.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1KG14_050_0043 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP3D9F9167663072E3
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP40E76AEE427F6FA0
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP80709DA1E46C97A4
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP8DA4F2D347BEB599
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP8EE4E09FBC7057BB
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP9128D5A854202EB8
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP9574BA0A7597A157
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPAAAE37C566A5C42E
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPB935B0F9F0A70D58
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
     bdr:UT1KG14_050_0043
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །འཕགས་པ་ཛམ་བྷ་ལ་དཀར་པོ་འབྲུག་ཞོན་གཙོ་བོའི་ཕྱི་ནང་གསང་བ་དང༌།འཁོར་བཀའ་སྡོད་དུ་དང༌།གསང་བ་གནད་ཀྱི་སྒྲུབ་ཐབས་བཅས་པ་རིན་ཆེན་སྤུངས"@bo ;
+        :eTextHasPage       bdr:EP3D9F9167663072E3 , bdr:EP40E76AEE427F6FA0 , bdr:EP80709DA1E46C97A4 , bdr:EP8DA4F2D347BEB599 , bdr:EP8EE4E09FBC7057BB , bdr:EP9128D5A854202EB8 , bdr:EP9574BA0A7597A157 , bdr:EPAAAE37C566A5C42E , bdr:EPB935B0F9F0A70D58 ;
         :eTextInInstance    bdr:IE1KG14 ;
         :eTextInVolume      50 ;
         :eTextSourcePath    "Shechen/Rinchen-Terdzod-Shechen-vols-01-54/rtfs/50-WI/TERDZO-WI-P42.rtf" ;

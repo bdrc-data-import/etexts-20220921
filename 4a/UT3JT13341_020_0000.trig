@@ -16,14 +16,32 @@ bdg:UT3JT13341_020_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13341_020_0000 ;
+        adm:facetIndex      5 ;
         adm:gitPath         "4a/UT3JT13341_020_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13341_020_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP2F74713A9D598630
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP5FD6C1333B78FD0A
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP793A0E74CFBE202B
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPF78A1421D69622D6
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT3JT13341_020_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "གུ་རུ་རིན་པོ་ཆེའི་ཚེས་བཅུའི་རྣམ་ཐར་གསོལ་འདེབས་བྱིན་རླབས་ཐིག་ལེ་ཞེས་བྱ་བ་ནི།ཨོཾ་ཨཱཿཧཱུྂ་བཛྲ་གུ་རུ་པདྨ་སིདྡྷི་ཧཱུྂ།སངས་རྒྱས་སྣང་བ་"@bo ;
+        :eTextHasPage       bdr:EP2F74713A9D598630 , bdr:EP5FD6C1333B78FD0A , bdr:EP793A0E74CFBE202B , bdr:EPF78A1421D69622D6 ;
         :eTextInInstance    bdr:IE3JT13341 ;
         :eTextIsVolume      20 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/Taksham-Chochod_tdoc/019_tshes-bcu-gsol-qdebs.rtf" ;

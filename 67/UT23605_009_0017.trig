@@ -16,14 +16,44 @@ bdg:UT23605_009_0017 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_009_0017 ;
+        adm:facetIndex      8 ;
         adm:gitPath         "67/UT23605_009_0017.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_009_0017 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP1874FBDD26023F02
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP3A78C3F06892BD48
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP678B0AE9B787BBA7
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPAFB6F7822183E1CD
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPC696585014179099
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPDE983D09E5EAD708
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPECBEE7BE567689F7
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT23605_009_0017
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༣༡༥༽༄༅། །རི་ཆོས་བཻ་ཌཱུརྻའི་ཕྲེང་བ་ཞེས་བྱ་བ་ཐར་འདོད་ཀྱི་མགུལ་རྒྱན་བཞུགས་སོ། །། །"@bo ;
+        :eTextHasPage       bdr:EP1874FBDD26023F02 , bdr:EP3A78C3F06892BD48 , bdr:EP678B0AE9B787BBA7 , bdr:EPAFB6F7822183E1CD , bdr:EPC696585014179099 , bdr:EPDE983D09E5EAD708 , bdr:EPECBEE7BE567689F7 ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      9 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/09_gdams-ngag-mdzod_ta/09_16_ri-chos-bai-Duryaqi-phreng-ba-zhes-bya-ba-thar-qdod-kyi-mgul-rgyan.rtf" ;

@@ -16,14 +16,24 @@ bdg:UT23681_001_0252 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23681_001_0252 ;
+        adm:facetIndex      3 ;
         adm:gitPath         "71/UT23681_001_0252.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23681_001_0252 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP4B43DB7529520760
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP612416EA30274958
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT23681_001_0252
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼ཏ༽༄༅། །གནས་དང་མཆོད་པའི་ཡོ་བྱད་བྱིན་གྱིས་བརླབ་པ་ནི།རྡོ་རྗེའི་རྩེས་ནང་མཆོད་འཐོར་ལ།ཨོཾ་བཛྲ་ཨ་མྲྀ་ཏ་ཀུཎྜ་ལི་ཧ་ན་ཧ་ན་ཧཱུྃ་ཧཱུྃ་ཧཱུྃ"@bo ;
+        :eTextHasPage       bdr:EP4B43DB7529520760 , bdr:EP612416EA30274958 ;
         :eTextInInstance    bdr:IE23681 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "GuruLamaWorks/Drub-thab-kuntu/rtfs/volume-001-014/DBTU252.rtf" ;

@@ -16,14 +16,32 @@ bdg:UT3JT13371_001_0002 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13371_001_0002 ;
+        adm:facetIndex      5 ;
         adm:gitPath         "ca/UT3JT13371_001_0002.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13371_001_0002 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP4BBF8E4EC5829CD2
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP5E7C608F8AF88A2F
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP872F0B29954C63F3
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPBF840400EED71AB8
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT3JT13371_001_0002
         a                   :EtextNonPaginated ;
         skos:prefLabel      "པར་སྐྲུན་གསལ་བཤད།"@bo ;
+        :eTextHasPage       bdr:EP4BBF8E4EC5829CD2 , bdr:EP5E7C608F8AF88A2F , bdr:EP872F0B29954C63F3 , bdr:EPBF840400EED71AB8 ;
         :eTextInInstance    bdr:IE3JT13371 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "VajraVidya/Dulwa_Metok_Treng_gyud/rtfs/volume-001/00a_me_tog_phreng_rgyud_Library_foreword.rtf" ;

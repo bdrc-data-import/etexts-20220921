@@ -16,14 +16,56 @@ bdg:UT23605_002_0012 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_002_0012 ;
+        adm:facetIndex      11 ;
         adm:gitPath         "52/UT23605_002_0012.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_002_0012 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP369D6DBB9ABB0A5E
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP691615F12F297CAC
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP69F8D2E4F1AC75C9
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP78E8604A582A26D1
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP7F56921EC5723478
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP8E772660F6F647A7
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP90C976E62AC19757
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPC6CBAAAEE37554DD
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPD020DFCD0ABED53E
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPD59372D09DF98546
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
     bdr:UT23605_002_0012
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༢༣༣༽༄༅།གསང་སྐོར་གྱི་དབང་གི་ལག་ལེན་གསལ་བའི་སྒྲོན་མེ་བཞུགས་སོ།"@bo ;
+        :eTextHasPage       bdr:EP369D6DBB9ABB0A5E , bdr:EP691615F12F297CAC , bdr:EP69F8D2E4F1AC75C9 , bdr:EP78E8604A582A26D1 , bdr:EP7F56921EC5723478 , bdr:EP8E772660F6F647A7 , bdr:EP90C976E62AC19757 , bdr:EPC6CBAAAEE37554DD , bdr:EPD020DFCD0ABED53E , bdr:EPD59372D09DF98546 ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      2 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/02_gdams-ngag-mdzod_kha/02_11_gsang-skor-gyi-dbang-gi-lag-len-gsal-baqi-sgron-me.rtf" ;

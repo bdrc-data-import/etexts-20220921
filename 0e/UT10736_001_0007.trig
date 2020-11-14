@@ -16,14 +16,48 @@ bdg:UT10736_001_0007 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT10736_001_0007 ;
+        adm:facetIndex      9 ;
         adm:gitPath         "0e/UT10736_001_0007.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT10736_001_0007 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP1A33E6C1B2EAEE52
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP4BC585CD0BADD704
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP78C1422BF532D671
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP7DD5F62BBB439975
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPB83DE2987429D783
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPB98934CC3FD4C53F
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPCF4DFA105A6C5DCA
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPF9B848A67E001053
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT10736_001_0007
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །ལི་མ་བརྟག་པའི་རབ་བྱེད་སྨྲ་བ་འདོད་པའི་ཁ་རྒྱན་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP1A33E6C1B2EAEE52 , bdr:EP4BC585CD0BADD704 , bdr:EP78C1422BF532D671 , bdr:EP7DD5F62BBB439975 , bdr:EPB83DE2987429D783 , bdr:EPB98934CC3FD4C53F , bdr:EPCF4DFA105A6C5DCA , bdr:EPF9B848A67E001053 ;
         :eTextInInstance    bdr:IE10736 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/01_ka/01_07_ka_li-ma-brtag-paqi-rab-byed-smra-ba-qdod-paqi-kha-rgyan.rtf" ;

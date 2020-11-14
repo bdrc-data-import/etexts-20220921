@@ -16,14 +16,68 @@ bdg:UT22082_001_0002 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT22082_001_0002 ;
+        adm:facetIndex      14 ;
         adm:gitPath         "22/UT22082_001_0002.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT22082_001_0002 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP14830446E28CCE60
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP1DCCF4283280ADC8
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP2FBCB363FD063C37
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP6D1DFDAB7E4F6C22
+        a                   :EtextPage ;
+        :seqNum             13 .
+    
+    bdr:EP6DA8B283A033BD2A
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP803B2C601579233B
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP97690320766E41F5
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP9CE8B69840F78EB4
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPB739F4F4B753E199
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EPE32D2AF2461DBE86
+        a                   :EtextPage ;
+        :seqNum             12 .
+    
+    bdr:EPEA4A515DDD2EB69E
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPF56427E8ED16477C
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EPFC78B2CB806197D9
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT22082_001_0002
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །རང་གི་སྐྱེས་པའི་རབས་ཀྱི་གཏམ་བརྗོད་པ་བསིལ་ཟེར་འོད་ཀྱི་ཕྲེང་བ་ཞེས་བྱ་བ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP14830446E28CCE60 , bdr:EP1DCCF4283280ADC8 , bdr:EP2FBCB363FD063C37 , bdr:EP6D1DFDAB7E4F6C22 , bdr:EP6DA8B283A033BD2A , bdr:EP803B2C601579233B , bdr:EP97690320766E41F5 , bdr:EP9CE8B69840F78EB4 , bdr:EPB739F4F4B753E199 , bdr:EPE32D2AF2461DBE86 , bdr:EPEA4A515DDD2EB69E , bdr:EPF56427E8ED16477C , bdr:EPFC78B2CB806197D9 ;
         :eTextInInstance    bdr:IE22082 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "DrikungChetsang/7__KUNKHYEN/rtfs/volume-001/KA.CH.rtf" ;

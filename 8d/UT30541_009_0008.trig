@@ -16,14 +16,56 @@ bdg:UT30541_009_0008 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT30541_009_0008 ;
+        adm:facetIndex      11 ;
         adm:gitPath         "8d/UT30541_009_0008.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT30541_009_0008 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0B6F7A29A2E55CDB
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP46896040C578C99F
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP67B75AAAE4EE7120
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP89CF00894BD3166E
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP9958DD034F3A9337
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPCC5E72A42C3860E2
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EPE47CC7E7D953D571
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPEFA13B99215C1220
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPF1EB8C9BA1BBD7CF
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPF5931351B4F97D16
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
     bdr:UT30541_009_0008
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །སྤྱན་རས་གཟིགས་ཀྱི་སྒོ་ནས་སྒྲིབ་པ་སྦྱོང་བ་བཞུགས། །"@bo ;
+        :eTextHasPage       bdr:EP0B6F7A29A2E55CDB , bdr:EP46896040C578C99F , bdr:EP67B75AAAE4EE7120 , bdr:EP89CF00894BD3166E , bdr:EP9958DD034F3A9337 , bdr:EPCC5E72A42C3860E2 , bdr:EPE47CC7E7D953D571 , bdr:EPEFA13B99215C1220 , bdr:EPF1EB8C9BA1BBD7CF , bdr:EPF5931351B4F97D16 ;
         :eTextInInstance    bdr:IE30541 ;
         :eTextInVolume      9 ;
         :eTextSourcePath    "DharmaDownload/Karmapa-03/rtfs/09_3rd-karmapa-text_tdoc_ta/09_07_ta_spyan-ras-gzigs-kyi-sgo-nas-sgrib-pa-sbyong-wa.rtf" ;

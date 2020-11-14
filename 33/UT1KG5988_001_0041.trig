@@ -16,14 +16,36 @@ bdg:UT1KG5988_001_0041 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1KG5988_001_0041 ;
+        adm:facetIndex      6 ;
         adm:gitPath         "33/UT1KG5988_001_0041.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1KG5988_001_0041 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP5B13D15F06C6A1B6
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP72F7B589D3DD4359
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP8660C6181891016E
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPA180F4C90FBF8AB7
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPF14B996A80E875D7
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT1KG5988_001_0041
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །སྐར་མའི་ཡུམ་ཞེས་བྱ་བའི་གཟུངས་བཞུགས།"@bo ;
+        :eTextHasPage       bdr:EP5B13D15F06C6A1B6 , bdr:EP72F7B589D3DD4359 , bdr:EP8660C6181891016E , bdr:EPA180F4C90FBF8AB7 , bdr:EPF14B996A80E875D7 ;
         :eTextInInstance    bdr:IE1KG5988 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "DharmaDownload/Kagyur-Zungdue/rtfs/volume-001/042_skar-yum.rtf" ;

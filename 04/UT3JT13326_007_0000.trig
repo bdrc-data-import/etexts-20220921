@@ -16,14 +16,32 @@ bdg:UT3JT13326_007_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13326_007_0000 ;
+        adm:facetIndex      5 ;
         adm:gitPath         "04/UT3JT13326_007_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13326_007_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0C843530918B60FF
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP860FF65CBA33A7B1
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP9DEC6E112A221C89
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPB99CC6428944E1E2
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT3JT13326_007_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །རྣལ་འབྱོར་བཞིའི་ངེས་པ་རབ་ཏུ་དབྱེ་བ་ཕྱག་རྒྱ་ཆེན་པོའི་བཤད་པ་ཐམས་ཅད་ཀྱི་བླ་མ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP0C843530918B60FF , bdr:EP860FF65CBA33A7B1 , bdr:EP9DEC6E112A221C89 , bdr:EPB99CC6428944E1E2 ;
         :eTextInInstance    bdr:IE3JT13326 ;
         :eTextIsVolume      7 ;
         :eTextSourcePath    "DharmaDownload/Mahamudra/rtfs/05_Drukpa/007_drukpa_tdoc.rtf" ;

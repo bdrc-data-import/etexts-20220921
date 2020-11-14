@@ -16,14 +16,44 @@ bdg:UT21019_002_0003 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT21019_002_0003 ;
+        adm:facetIndex      8 ;
         adm:gitPath         "53/UT21019_002_0003.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT21019_002_0003 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP2C3BD2F662B425BB
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP2F0A2011F33CF2D5
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP67DCEBD9EA085810
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPB14354E5E2111EAE
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPB3D91930611101A5
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPB675AE7DE3D6C30F
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPBEB537EEC370819A
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
     bdr:UT21019_002_0003
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༣༠༧༽༄༅།བདག་དོན་གཞན་དོན་གང་ལའང་སྦྱོར་རུང་བའི་བླ་མའི་རྣལ་འབྱོར་བྱིན་རླབས་འབྱུང་གནས་བཞུགས་སོ། །༣༠༨༽ནམ་མཁའ་དང་མཉམ་པའི་སེམས་ཅན་ཐམས་ཅ"@bo ;
+        :eTextHasPage       bdr:EP2C3BD2F662B425BB , bdr:EP2F0A2011F33CF2D5 , bdr:EP67DCEBD9EA085810 , bdr:EPB14354E5E2111EAE , bdr:EPB3D91930611101A5 , bdr:EPB675AE7DE3D6C30F , bdr:EPBEB537EEC370819A ;
         :eTextInInstance    bdr:IE21019 ;
         :eTextInVolume      2 ;
         :eTextSourcePath    "PalriParkhang/W21019-rtse-le-sna-tshogs-rang-grol/rtfs/Tseley-Natsog-Rangdrol-Volume-2/Tseley-Natsog-Rangdrol-2-_307-320_.rtf" ;

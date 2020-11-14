@@ -16,14 +16,40 @@ bdg:UT23636_003_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23636_003_0000 ;
+        adm:facetIndex      7 ;
         adm:gitPath         "90/UT23636_003_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23636_003_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP6977C4A89369E588
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP6C9CEA6A9C09011F
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP7B96E7E49C141065
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP7C4724BD3E4C480A
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPACC1A0E019739D39
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPB6A076D9403B0ACA
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT23636_003_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །སྐྱབས་འགྲོའི་སྡོམ་པ་དང་དགེ་བསྙེན་འབོགས་པའི་ཆོ་ག་སྙིང་པོ་རབ་གསལ་བཞུགས་སོ། །སོ་ཐར་གསེར་གྱི་འཁྲི་ཤིང་ལ་ཆིབས་གནང་བཀག་འོད་དཀར་"@bo ;
+        :eTextHasPage       bdr:EP6977C4A89369E588 , bdr:EP6C9CEA6A9C09011F , bdr:EP7B96E7E49C141065 , bdr:EP7C4724BD3E4C480A , bdr:EPACC1A0E019739D39 , bdr:EPB6A076D9403B0ACA ;
         :eTextInInstance    bdr:IE23636 ;
         :eTextIsVolume      3 ;
         :eTextSourcePath    "GuruLamaWorks/Precious-and-Rare-Disk-01-20130424/rtfs/13_MANG/MANG003_སྐྱབས་འགྲོ་དང་དགེ་བསྙེན་གྱི་སྡོམ་པ་འབོགས་ཆོག.rtf" ;

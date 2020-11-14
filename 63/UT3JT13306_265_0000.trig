@@ -16,14 +16,52 @@ bdg:UT3JT13306_265_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13306_265_0000 ;
+        adm:facetIndex      10 ;
         adm:gitPath         "63/UT3JT13306_265_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13306_265_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0AEA16D854B9C255
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP161CABD2B6AF8985
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP1DDE6D388CDEE1D9
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP337C4DD6F81AE466
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP412275DF5BF98395
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP7CCD59F9C8C08606
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPA04D14930941E2FE
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPBA6E74CA1E8F1A11
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPDACE74D50CE546A8
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
     bdr:UT3JT13306_265_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །རྗེ་བཙུན་ས་སྐྱ་པའི་ཐུན་མོང་མ་ཡིན་པའི་སྲུང་མ་དཀར་བདུད་ལྕམ་དྲལ་ཕུར་སྲུང་དང་བཅས་པ་ལ་བསྟོད་པ་དཔལ་འབར་ལྷའི་རྔ་སྒྲ་ཞེས་བྱ་བ་བཞུག"@bo ;
+        :eTextHasPage       bdr:EP0AEA16D854B9C255 , bdr:EP161CABD2B6AF8985 , bdr:EP1DDE6D388CDEE1D9 , bdr:EP337C4DD6F81AE466 , bdr:EP412275DF5BF98395 , bdr:EP7CCD59F9C8C08606 , bdr:EPA04D14930941E2FE , bdr:EPBA6E74CA1E8F1A11 , bdr:EPDACE74D50CE546A8 ;
         :eTextInInstance    bdr:IE3JT13306 ;
         :eTextIsVolume      265 ;
         :eTextSourcePath    "GuruLamaWorks/Precious-and-Rare-Disk-01-20130424/rtfs/5_KUNL/KUNL265_དཀར་བདུད་ལྕམ་དྲལ་ཕུར་སྲུང་དང་བཅས་པ་ལ་བསྟོད་པ།.rtf" ;

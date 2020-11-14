@@ -16,14 +16,40 @@ bdg:UT22082_005_0016 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT22082_005_0016 ;
+        adm:facetIndex      7 ;
         adm:gitPath         "ff/UT22082_005_0016.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT22082_005_0016 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP2471AB5ECC263111
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP34A59AA086E384D6
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP5EB5710B63045882
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP786B99081DD69CBA
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPC5CDCF48F59D7CD8
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPEAE0C2AEBEE01964
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
     bdr:UT22082_005_0016
         a                   :EtextNonPaginated ;
         skos:prefLabel      "།ལོ་མ་གྱོན་མའི་གཟུངས་ཆོག་ཤིན་ཏུ་ཟབ་པ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP2471AB5ECC263111 , bdr:EP34A59AA086E384D6 , bdr:EP5EB5710B63045882 , bdr:EP786B99081DD69CBA , bdr:EPC5CDCF48F59D7CD8 , bdr:EPEAE0C2AEBEE01964 ;
         :eTextInInstance    bdr:IE22082 ;
         :eTextInVolume      5 ;
         :eTextSourcePath    "DrikungChetsang/7__KUNKHYEN/rtfs/volume-005/24CA.YA.rtf" ;

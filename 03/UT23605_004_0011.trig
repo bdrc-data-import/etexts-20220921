@@ -16,14 +16,36 @@ bdg:UT23605_004_0011 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_004_0011 ;
+        adm:facetIndex      6 ;
         adm:gitPath         "03/UT23605_004_0011.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_004_0011 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0E17ABCDD0DAD83A
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP39693BC8A7181EBF
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP93BD15DB4AA7D7F3
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPA274F4F7BB00235A
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPC9A9742703CB6B10
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT23605_004_0011
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༢༧༩༽༄༅། །བློ་སྦྱོང་སྨོན་ལམ་བྱང་སེམས་རྒྱ་མཚོའི་འཇུག་ངོགས་ཞེས་བྱ་བ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP0E17ABCDD0DAD83A , bdr:EP39693BC8A7181EBF , bdr:EP93BD15DB4AA7D7F3 , bdr:EPA274F4F7BB00235A , bdr:EPC9A9742703CB6B10 ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      4 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/04_gdams-ngag-mdzod_nga/04_10_blo-sbyong-smon-lam-byang-sems-rgya-mtshoqi-qjug-ngogs.rtf" ;

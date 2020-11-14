@@ -16,14 +16,24 @@ bdg:UT3JT13341_057_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13341_057_0000 ;
+        adm:facetIndex      3 ;
         adm:gitPath         "f4/UT3JT13341_057_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13341_057_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP50FEA1180082B97C
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP56FA5D1356834354
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT3JT13341_057_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "འཇམ་དཔལ་དབྱངས་ཀྱི་སྨོན་ལམ་བཞུགས་སོ། །ན་མོ་མཉྫུ་ཤྲཱི་ཡེ།ཤེས་བྱའི་མཁའ་དབྱིངས་ཟབ་ཅིང་ཡངས་པ་ལ། །བློ་གྲོས་དཀྱིལ་འཁོར་རྒྱས་པའི་འོད་ཟ"@bo ;
+        :eTextHasPage       bdr:EP50FEA1180082B97C , bdr:EP56FA5D1356834354 ;
         :eTextInInstance    bdr:IE3JT13341 ;
         :eTextIsVolume      57 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/Taksham-Chochod_tdoc/046_qjam-dbyang-smon-lam.rtf" ;

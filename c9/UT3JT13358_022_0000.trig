@@ -16,14 +16,48 @@ bdg:UT3JT13358_022_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13358_022_0000 ;
+        adm:facetIndex      9 ;
         adm:gitPath         "c9/UT3JT13358_022_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13358_022_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0997AA77DF199859
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP2F0F913AB2C6672A
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP3769993BEBC98539
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP5DD695D5482CF3EB
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP883FA12D9135F384
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP919FA3F5EFD3D878
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPE37DD987214A8961
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPE741759CD20182FF
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
     bdr:UT3JT13358_022_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །རྒྱ་གར་སྐད་དུ།མ་དྷྱཱ་མི་ཀ་ཨ་ལཾ་ཀཱ་ར་ཀཱ་རི་ཀཱ།བོད་སྐད་དུ།དབུ་མ་རྒྱན་གྱི་ཚིག་ལེའུར་བྱས་པ།འཇམ་དཔལ་གཞོན་ནུར་གྱུར་པ་ལ་ཕྱག་འཚལ་ལ"@bo ;
+        :eTextHasPage       bdr:EP0997AA77DF199859 , bdr:EP2F0F913AB2C6672A , bdr:EP3769993BEBC98539 , bdr:EP5DD695D5482CF3EB , bdr:EP883FA12D9135F384 , bdr:EP919FA3F5EFD3D878 , bdr:EPE37DD987214A8961 , bdr:EPE741759CD20182FF ;
         :eTextInInstance    bdr:IE3JT13358 ;
         :eTextIsVolume      22 ;
         :eTextSourcePath    "GuruLamaWorks/Precious-and-Rare-Disk-01-20130424/rtfs/25_ZTSA/ZTSA022_དབུ་མ་རྒྱན།.rtf" ;

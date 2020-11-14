@@ -16,14 +16,36 @@ bdg:UT10736_011_0015 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT10736_011_0015 ;
+        adm:facetIndex      6 ;
         adm:gitPath         "05/UT10736_011_0015.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT10736_011_0015 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP2DFB17998A14AD6E
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP4826B74D696CF931
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP5AD554C3E4E3CED4
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP94614083F7E275D5
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPA05D74704B7A9EE7
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT10736_011_0015
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །འཕགས་པ་སེང་གེ་སྒྲའི་ལོ་རྒྱུས་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP2DFB17998A14AD6E , bdr:EP4826B74D696CF931 , bdr:EP5AD554C3E4E3CED4 , bdr:EP94614083F7E275D5 , bdr:EPA05D74704B7A9EE7 ;
         :eTextInInstance    bdr:IE10736 ;
         :eTextInVolume      11 ;
         :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/11_da/11_13_da_qphags-pa-seng-ge-sgraqi-lo-rgyus.rtf" ;

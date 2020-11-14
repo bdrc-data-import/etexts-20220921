@@ -16,14 +16,48 @@ bdg:UT23605_017_0015 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_017_0015 ;
+        adm:facetIndex      9 ;
         adm:gitPath         "12/UT23605_017_0015.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_017_0015 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP17998B5BB497C08D
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP35DAB4AFFFC010BD
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP4DA14332992EAE2C
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP9CD28EF79BC31D60
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP9F57DC2B70DDE234
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPB1F63DCC627FC49C
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPB5200FF15728BDAE
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPB5DC1FFDFF3733D5
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
     bdr:UT23605_017_0015
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༡༧༥༽༄༅། །རས་ཆེན་དཔལ་འབྱོར་བཟང་པོ་ནས་བརྒྱུད་པའི་འཕོ་བའི་ལོ་རྒྱུས་གདམས་ངག་དང་བཅས་པ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP17998B5BB497C08D , bdr:EP35DAB4AFFFC010BD , bdr:EP4DA14332992EAE2C , bdr:EP9CD28EF79BC31D60 , bdr:EP9F57DC2B70DDE234 , bdr:EPB1F63DCC627FC49C , bdr:EPB5200FF15728BDAE , bdr:EPB5DC1FFDFF3733D5 ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      17 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/17_gdams-ngag-mdzod_tsa/17_14_ras-chen-dpal-qbyor-bzang-po-nas-brgyud-paqi-qpho-baqi-lo-rgyus-gdams-ngag-dang-bcas-pa.rtf" ;

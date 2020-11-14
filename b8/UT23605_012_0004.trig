@@ -16,14 +16,48 @@ bdg:UT23605_012_0004 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_012_0004 ;
+        adm:facetIndex      9 ;
         adm:gitPath         "b8/UT23605_012_0004.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_012_0004 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP60B8050B181A3416
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP9514E087B855D2FC
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPB28024B5C32D28C4
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPB5D1AF6CC995EFEE
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPDB4EF817ACD37973
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPDB622A70B59645ED
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPF6509ED916E8F8AE
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPF8A449F71CC0DFA6
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT23605_012_0004
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༡༣༧༽༄༅། །ནི་གུའི་འཁྲུལ་འཁོར་རྩ་འགྲེལ་བཞུགས།"@bo ;
+        :eTextHasPage       bdr:EP60B8050B181A3416 , bdr:EP9514E087B855D2FC , bdr:EPB28024B5C32D28C4 , bdr:EPB5D1AF6CC995EFEE , bdr:EPDB4EF817ACD37973 , bdr:EPDB622A70B59645ED , bdr:EPF6509ED916E8F8AE , bdr:EPF8A449F71CC0DFA6 ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      12 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/12_gdams-ngag-mdzod_na/12_03_ni-guqi-qkhrul-qkhor-rtsa-qgrel.rtf" ;

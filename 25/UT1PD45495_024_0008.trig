@@ -16,14 +16,60 @@ bdg:UT1PD45495_024_0008 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1PD45495_024_0008 ;
+        adm:facetIndex      12 ;
         adm:gitPath         "25/UT1PD45495_024_0008.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1PD45495_024_0008 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP1375F26870C34B6A
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP26BD9D6881508FA3
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP27F24FF91B190E20
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP54EDDE180F5E4772
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP5661C5D75CD1640E
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP666F62BEF5F58B5C
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EP7518CB2BB02D9625
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP838EBB92BBCD77D6
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP8A3995DB966CEF80
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP8E12E59A0A106479
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPE8EAB4B4825E3D6C
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
     bdr:UT1PD45495_024_0008
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །ནི་གུ་ལུགས་ཀྱི་བདེ་མཆོག་ལྷ་ལྔའི་མངོན་རྟོགས་བཞུགས།"@bo ;
+        :eTextHasPage       bdr:EP1375F26870C34B6A , bdr:EP26BD9D6881508FA3 , bdr:EP27F24FF91B190E20 , bdr:EP54EDDE180F5E4772 , bdr:EP5661C5D75CD1640E , bdr:EP666F62BEF5F58B5C , bdr:EP7518CB2BB02D9625 , bdr:EP838EBB92BBCD77D6 , bdr:EP8A3995DB966CEF80 , bdr:EP8E12E59A0A106479 , bdr:EPE8EAB4B4825E3D6C ;
         :eTextInInstance    bdr:IE1PD45495 ;
         :eTextInVolume      24 ;
         :eTextSourcePath    "KarmaDelek/taranatha-gsung-qbum/rtfs/volume_024/volume_024_227.rtf" ;

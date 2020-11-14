@@ -16,14 +16,56 @@ bdg:UT30541_005_0006 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT30541_005_0006 ;
+        adm:facetIndex      11 ;
         adm:gitPath         "36/UT30541_005_0006.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT30541_005_0006 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP06BC27F0A6CE3B00
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP1B2765D0D79F1B9E
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP2A7A61FFD6359A87
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP39910E9E7C6325FA
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP3B96594C1C83BD64
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP41993EFA64F66A71
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP57A1B7959986475C
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP7450C801A90459CB
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP8CD54841EC69D61F
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP998A3CDA2DD35F8F
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
     bdr:UT30541_005_0006
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །དྲན་པ་ཉེར་བར་བཞག་པའི་བསྡུས་དོན་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP06BC27F0A6CE3B00 , bdr:EP1B2765D0D79F1B9E , bdr:EP2A7A61FFD6359A87 , bdr:EP39910E9E7C6325FA , bdr:EP3B96594C1C83BD64 , bdr:EP41993EFA64F66A71 , bdr:EP57A1B7959986475C , bdr:EP7450C801A90459CB , bdr:EP8CD54841EC69D61F , bdr:EP998A3CDA2DD35F8F ;
         :eTextInInstance    bdr:IE30541 ;
         :eTextInVolume      5 ;
         :eTextSourcePath    "DharmaDownload/Karmapa-03/rtfs/05_3rd-karmapa-text_tdoc_ca/05_05_ca_dran-pa-nye-bar-bzhag-paqi-bsdus-don.rtf" ;

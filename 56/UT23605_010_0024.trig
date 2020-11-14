@@ -16,14 +16,52 @@ bdg:UT23605_010_0024 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_010_0024 ;
+        adm:facetIndex      10 ;
         adm:gitPath         "56/UT23605_010_0024.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_010_0024 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP2496C21AD9BD96FB
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP37A33D9276148253
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP4A99B691E5695AA8
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP7BA83D39A1E8BB76
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP8BB17D8B602AEEA6
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPB91F0AE2003E6BD5
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPBB9987BA9E534A55
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPC33AFE6F71084CC9
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EPF97C78FE5232169E
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT23605_010_0024
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༣༨༣༽༄༅། །གནས་ལུགས་ཕྱག་རྒྱ་ཆེན་པོའི་ཁྲིད་ཡིག་བཞུགས་སོ། །། །"@bo ;
+        :eTextHasPage       bdr:EP2496C21AD9BD96FB , bdr:EP37A33D9276148253 , bdr:EP4A99B691E5695AA8 , bdr:EP7BA83D39A1E8BB76 , bdr:EP8BB17D8B602AEEA6 , bdr:EPB91F0AE2003E6BD5 , bdr:EPBB9987BA9E534A55 , bdr:EPC33AFE6F71084CC9 , bdr:EPF97C78FE5232169E ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      10 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/10_gdams-ngag-mdzod_tha/10_23_gnas-lugs-phyag-rgya-chen-poqi-khrid-yig.rtf" ;

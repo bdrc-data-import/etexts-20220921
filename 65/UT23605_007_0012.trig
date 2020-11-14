@@ -16,14 +16,44 @@ bdg:UT23605_007_0012 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_007_0012 ;
+        adm:facetIndex      8 ;
         adm:gitPath         "65/UT23605_007_0012.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_007_0012 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP26A27B4F3C23EEA7
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP2ABCF88901775A5C
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP393D4E474C8E1128
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP42F19FBAB5201C51
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP43203C0851E6B90D
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPCA8644973F58ADE0
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPE349C98668DCF66F
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT23605_007_0012
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༤༦༧༽༄༅། །རྗེ་བཙུན་རས་ཆུང་པའི་ལུགས་ཀྱི་དཔལ་འཁོར་ལོ་སྡོམ་པ་སྙན་བརྒྱུད་ཀྱི་གཞུང་ཆུང་ཏིལླི་པས་མཛད་པ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP26A27B4F3C23EEA7 , bdr:EP2ABCF88901775A5C , bdr:EP393D4E474C8E1128 , bdr:EP42F19FBAB5201C51 , bdr:EP43203C0851E6B90D , bdr:EPCA8644973F58ADE0 , bdr:EPE349C98668DCF66F ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      7 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/07_gdams-ngag-mdzod_ja/07_11_rje-btsun-ras-chung-paqi-lugs-kyi-dpal-qkhor-lo-sdom-pa-snyan-brgyud-kyi-gzhung-chung.rtf" ;

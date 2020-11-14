@@ -16,14 +16,48 @@ bdg:UT3JT13337_036_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13337_036_0000 ;
+        adm:facetIndex      9 ;
         adm:gitPath         "fe/UT3JT13337_036_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13337_036_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP12DC8F069826DD21
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP28F8FB401F67AC1E
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP513245DB84D282C1
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP679E16D8EF223305
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP6CFD0E50DF3BD1C5
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP7568FB31CF6BBE9D
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPA2CD5173665FA851
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPA6A8444E59AA788D
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
     bdr:UT3JT13337_036_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅།ཤ་བརྒྱ་ཟན་བརྒྱའི་གླུད་བསྔོ་བའི་ཆོ་ག་ཟངས་ཡག་བྲག་གི་གཏེར་མ་བཞུགས་སོ༔གུ་རུ་ཇོ་ཙེའི་གཏེར་བྱོན་༔"@bo ;
+        :eTextHasPage       bdr:EP12DC8F069826DD21 , bdr:EP28F8FB401F67AC1E , bdr:EP513245DB84D282C1 , bdr:EP679E16D8EF223305 , bdr:EP6CFD0E50DF3BD1C5 , bdr:EP7568FB31CF6BBE9D , bdr:EPA2CD5173665FA851 , bdr:EPA6A8444E59AA788D ;
         :eTextInInstance    bdr:IE3JT13337 ;
         :eTextIsVolume      36 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/P0025_Tobum_tdoc/041-sha-brgya-zen-brgya.rtf" ;

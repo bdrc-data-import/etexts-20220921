@@ -16,14 +16,20 @@ bdg:UT3JT13337_009_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13337_009_0000 ;
+        adm:facetIndex      2 ;
         adm:gitPath         "cd/UT3JT13337_009_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13337_009_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EPF47BA96B0945E09C
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT3JT13337_009_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "གང་ཞིག་མཚན་མོར་རྒྱུ་བ་ཡི། །འབྱུང་པོ་རྣམས་དང་ཤ་ཟ་དང༌། །སྲིན་པོ་ཤ་རྗེན་ཟ་བ་དང༌། །སེམས་ཅན་རྣམ་པ་སྣ་ཚོགས་པ། །ལྗོན་ཤིང་གེལ་པ་སོགས"@bo ;
+        :eTextHasPage       bdr:EPF47BA96B0945E09C ;
         :eTextInInstance    bdr:IE3JT13337 ;
         :eTextIsVolume      9 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/P0025_Tobum_tdoc/017-kha-sab.rtf" ;

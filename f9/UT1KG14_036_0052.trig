@@ -16,14 +16,64 @@ bdg:UT1KG14_036_0052 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1KG14_036_0052 ;
+        adm:facetIndex      13 ;
         adm:gitPath         "f9/UT1KG14_036_0052.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1KG14_036_0052 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP00CD4CB5403BC22F
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP0BFF6B60B1823D53
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP4232047E8937C22F
+        a                   :EtextPage ;
+        :seqNum             12 .
+    
+    bdr:EP8DB2B7AC1ED48258
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP9FC0983936A99902
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EPA412173D08B87C6E
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPAAB97582D20F6E88
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPB5BDB8789B573A53
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EPB9B09CF498D9336A
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPC3E659200C2F5AC9
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPE09EACCEEDE2D5E0
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPE4EE0B404688AA85
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
     bdr:UT1KG14_036_0052
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །གཅོད་ཡུལ་གྱི་དབང་ཆོག་འཁོར་འདས་གཞི་གྲོལ་ཞེས་བྱ་བ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP00CD4CB5403BC22F , bdr:EP0BFF6B60B1823D53 , bdr:EP4232047E8937C22F , bdr:EP8DB2B7AC1ED48258 , bdr:EP9FC0983936A99902 , bdr:EPA412173D08B87C6E , bdr:EPAAB97582D20F6E88 , bdr:EPB5BDB8789B573A53 , bdr:EPB9B09CF498D9336A , bdr:EPC3E659200C2F5AC9 , bdr:EPE09EACCEEDE2D5E0 , bdr:EPE4EE0B404688AA85 ;
         :eTextInInstance    bdr:IE1KG14 ;
         :eTextInVolume      36 ;
         :eTextSourcePath    "Shechen/Rinchen-Terdzod-Shechen-vols-01-54/rtfs/36-CHI/TERDZO-CHI-P51.rtf" ;

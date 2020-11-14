@@ -16,14 +16,20 @@ bdg:UT3JT13333_006_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13333_006_0000 ;
+        adm:facetIndex      2 ;
         adm:gitPath         "83/UT3JT13333_006_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13333_006_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP2E83F822AEB054A9
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT3JT13333_006_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "སངས་རྒྱས་ཐམས་ཅད་འདུས་པའི་སྐུ། །རྡོ་རྗེ་འཛིན་པའི་ངོ་བོ་ཉིད། །དཀོན་མཆོག་གསུམ་གྱི་རྩ་བ་སྟེ། །བླ་མ་རྣམས་ལ་ཕྱག་འཚལ་ལོ། །མགོན་པོ་ཐ"@bo ;
+        :eTextHasPage       bdr:EP2E83F822AEB054A9 ;
         :eTextInInstance    bdr:IE3JT13333 ;
         :eTextIsVolume      6 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/P0009_Gyaljam_tdoc/06_Khakong.rtf" ;

@@ -16,14 +16,40 @@ bdg:UT3JT13302_059_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13302_059_0000 ;
+        adm:facetIndex      7 ;
         adm:gitPath         "be/UT3JT13302_059_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13302_059_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0785E77611A88809
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP395363B6C7C16B6A
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP704128170B01EFFC
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP96CCB22DCAAA85DA
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP9FE7804C6179FCA5
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPEEA9B71A3A72E729
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT3JT13302_059_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །རྗེ་བཙུན་བིརྺ་པའི་སྲུང་བའི་མན་ངག་བར་ཆད་ཀུན་སེལ་ཞེས་བྱ་བ་བཞུགས་སོ། །༈།རྗེ་བཙུན་བིརྺ་པའི་སྲུང་བའི་མན་ངག་བར་ཆད་ཀུན་སེལ་ཞེས་བ"@bo ;
+        :eTextHasPage       bdr:EP0785E77611A88809 , bdr:EP395363B6C7C16B6A , bdr:EP704128170B01EFFC , bdr:EP96CCB22DCAAA85DA , bdr:EP9FE7804C6179FCA5 , bdr:EPEEA9B71A3A72E729 ;
         :eTextInInstance    bdr:IE3JT13302 ;
         :eTextIsVolume      59 ;
         :eTextSourcePath    "GuruLamaWorks/For-Conversion-Disk-01-20130424/rtfs/KHADON/KHAD059.rtf" ;

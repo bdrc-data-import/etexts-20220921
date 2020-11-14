@@ -16,14 +16,36 @@ bdg:UT29307_041_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT29307_041_0000 ;
+        adm:facetIndex      6 ;
         adm:gitPath         "5c/UT29307_041_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT29307_041_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP24BDABCEFAB49D36
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP4D55ADAF3FBE3D58
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP7F349E7A3AB94E9D
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP89EBC9985E41D30B
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPB4D2E2E8E16E731C
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT29307_041_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །འོ་སྐོལ་གྱི་སྟོན་པ་ཐམས་ཅད་མཁྱེན་པས་ཆོ་འཕྲུལ་བསྟན་ཚུལ་མདོ་ཙམ་བཤད་པ་དད་པའི་སྙེ་མ་ཞེས་བྱ་བཞུགས་སོ། །༄༅། །ན་མོ་གུ་རུ་བུདྡྷ་ད"@bo ;
+        :eTextHasPage       bdr:EP24BDABCEFAB49D36 , bdr:EP4D55ADAF3FBE3D58 , bdr:EP7F349E7A3AB94E9D , bdr:EP89EBC9985E41D30B , bdr:EPB4D2E2E8E16E731C ;
         :eTextInInstance    bdr:IE29307 ;
         :eTextIsVolume      41 ;
         :eTextSourcePath    "GuruLamaWorks/Precious-and-Rare-Disk-01-20130424/rtfs/4_AMAI/AMAI041_འོ་སྐོལ་གྱི་སྟོན་པ་ཐམས་ཅད་མཁྱེན་པས་ཆོ་འཕྲུལ་བསྟན་ཚུལ་མདོ་ཙམ་བཤད།.rtf" ;

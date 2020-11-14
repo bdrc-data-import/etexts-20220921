@@ -16,14 +16,24 @@ bdg:UT3JT13328_002_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13328_002_0000 ;
+        adm:facetIndex      3 ;
         adm:gitPath         "f6/UT3JT13328_002_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13328_002_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0A52D2C914230FE2
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPE029FF45E7CA182A
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT3JT13328_002_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "གསེར་ཞུན་མདངས་ལ་འཁུ་བའི་མེའི་ནང་དུ། །ཕང་ཕུང་ལོ་འདབ་འབྲས་བུའི་ཁུར་དུད་པའི། །ལྷ་ཤིང་བཟང་དགུ་བཏུལ་བའི་སྤོས་ཀྱི་སྤྲིན། །དམེ་འཁྲུག"@bo ;
+        :eTextHasPage       bdr:EP0A52D2C914230FE2 , bdr:EPE029FF45E7CA182A ;
         :eTextInInstance    bdr:IE3JT13328 ;
         :eTextIsVolume      2 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/Jalan-by-17-Karmapa_tdoc/02_mngaq-gsol.rtf" ;

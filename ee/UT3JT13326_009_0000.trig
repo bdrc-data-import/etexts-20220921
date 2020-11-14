@@ -16,14 +16,40 @@ bdg:UT3JT13326_009_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13326_009_0000 ;
+        adm:facetIndex      7 ;
         adm:gitPath         "ee/UT3JT13326_009_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13326_009_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP8CCB98F3E21CB08C
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP99E2FB4C89182E22
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPACADD7866604F0EB
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPD82AE21CB9DB97E6
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPD864BD6D7F4B3316
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPF489A43BD5B7590E
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT3JT13326_009_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །ཕྱག་རྒྱ་ཆེན་པོའི་མན་ངག་གི་གནད་བསྡུས་སྒྲོན་མེ་ཞེས་བྱ་བ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP8CCB98F3E21CB08C , bdr:EP99E2FB4C89182E22 , bdr:EPACADD7866604F0EB , bdr:EPD82AE21CB9DB97E6 , bdr:EPD864BD6D7F4B3316 , bdr:EPF489A43BD5B7590E ;
         :eTextInInstance    bdr:IE3JT13326 ;
         :eTextIsVolume      9 ;
         :eTextSourcePath    "DharmaDownload/Mahamudra/rtfs/05_Drukpa/009_drukpa_tdoc.rtf" ;

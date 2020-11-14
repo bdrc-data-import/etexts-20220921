@@ -16,14 +16,52 @@ bdg:UT1KG14_007_0002 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1KG14_007_0002 ;
+        adm:facetIndex      10 ;
         adm:gitPath         "da/UT1KG14_007_0002.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1KG14_007_0002 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0BD3C4BE2C8DD8F4
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP1A046C9FCE78964D
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP5D4177029F253126
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP83AD6930A638BAFE
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP8FD1708BC5B5064D
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP92F9E37B38385678
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP982E95352E61A9D1
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPB9865EFE725A4A0B
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPDFECA38810080DD5
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT1KG14_007_0002
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༁ྃ༔བླ་མ་དགོངས་པ་འདུས་པ་ལས༔བླ་མ་ཡི་དམ་མཁའ་འགྲོ་གསུམ་གྱི་ཡང་གསང་རྩ་བའི་ཐུགས་སྒྲུབ་གསལ་བྱེད་ཐུགས་ཀྱི་ནོར་བུ་བཞུགས་སོ༔"@bo ;
+        :eTextHasPage       bdr:EP0BD3C4BE2C8DD8F4 , bdr:EP1A046C9FCE78964D , bdr:EP5D4177029F253126 , bdr:EP83AD6930A638BAFE , bdr:EP8FD1708BC5B5064D , bdr:EP92F9E37B38385678 , bdr:EP982E95352E61A9D1 , bdr:EPB9865EFE725A4A0B , bdr:EPDFECA38810080DD5 ;
         :eTextInInstance    bdr:IE1KG14 ;
         :eTextInVolume      7 ;
         :eTextSourcePath    "Shechen/Rinchen-Terdzod-Shechen-vols-01-54/rtfs/07-JA/Terdzo-ja.-P-01.rtf" ;

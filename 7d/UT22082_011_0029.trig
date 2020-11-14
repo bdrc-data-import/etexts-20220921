@@ -16,14 +16,60 @@ bdg:UT22082_011_0029 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT22082_011_0029 ;
+        adm:facetIndex      12 ;
         adm:gitPath         "7d/UT22082_011_0029.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT22082_011_0029 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0B34C8228B7B9F37
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP3904B712E886B635
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP4A1C094A6C4EDB47
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP573EBD3DB54108AE
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP6AE7B4C1A616FFA4
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP709282578524FFBF
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP87178337D71C0E33
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP8969E3B00EA3E5E3
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPA2079B1E28747868
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPDECE6833354DA98D
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EPF17D995EC605297D
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT22082_011_0029
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །འཇམ་དཔལ་གཤིན་རྗེ་ཟླ་གསང་གི་ཚེ་སྒྲུབ་འཆི་བདག་འཇོམས་པ་ཞེས་བྱ་བ་བཞུགས་"@bo ;
+        :eTextHasPage       bdr:EP0B34C8228B7B9F37 , bdr:EP3904B712E886B635 , bdr:EP4A1C094A6C4EDB47 , bdr:EP573EBD3DB54108AE , bdr:EP6AE7B4C1A616FFA4 , bdr:EP709282578524FFBF , bdr:EP87178337D71C0E33 , bdr:EP8969E3B00EA3E5E3 , bdr:EPA2079B1E28747868 , bdr:EPDECE6833354DA98D , bdr:EPF17D995EC605297D ;
         :eTextInInstance    bdr:IE22082 ;
         :eTextInVolume      11 ;
         :eTextSourcePath    "DrikungChetsang/7__KUNKHYEN/rtfs/volume-011/33DA.KE.rtf" ;

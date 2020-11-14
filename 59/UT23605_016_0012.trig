@@ -16,14 +16,36 @@ bdg:UT23605_016_0012 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_016_0012 ;
+        adm:facetIndex      6 ;
         adm:gitPath         "59/UT23605_016_0012.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_016_0012 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP29425F1501B5E2B5
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP4B259637D84C5FA2
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPB20FACFC0B0F12F3
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPDCB9D9E70431BD65
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPE3B82DD563FA350D
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
     bdr:UT23605_016_0012
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༢༦༩༽༄༅། །སྒྲོམ་མ་འཇིགས་པ་བརྒྱད་སྐྱོབ་འཁོར་བ་འཕྲང་སྒྲོལ་གྱི་རྗེས་གནང་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP29425F1501B5E2B5 , bdr:EP4B259637D84C5FA2 , bdr:EPB20FACFC0B0F12F3 , bdr:EPDCB9D9E70431BD65 , bdr:EPE3B82DD563FA350D ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      16 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/16_gdams-ngag-mdzod_ma/16_11_sgrol-ma-qjigs-pa-brgyad-skyob-qkhor-ba-qphrang-sgrol-gyi-rjes-gnang.rtf" ;

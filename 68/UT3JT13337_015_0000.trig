@@ -16,14 +16,28 @@ bdg:UT3JT13337_015_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13337_015_0000 ;
+        adm:facetIndex      4 ;
         adm:gitPath         "68/UT3JT13337_015_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13337_015_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP1214C3B98EDF4F1B
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP3A5D6853AFD0588C
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPA030781642D6D3AD
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT3JT13337_015_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "སློབ་དཔོན་ཆེན་པོ་སྒེག་པའི་རྡོ་རྗེའི་ལུགས་ཀྱི་བླ་བསླུའི་གླུད་བསྔོ་བཞུགས་སོ།ན་མོ་གུ་རུ།ནད་པའི་བླ་ཚེ་བསླུ་བའི་གླུད་ནི།རིན་པོ་ཆེའི་ས"@bo ;
+        :eTextHasPage       bdr:EP1214C3B98EDF4F1B , bdr:EP3A5D6853AFD0588C , bdr:EPA030781642D6D3AD ;
         :eTextInInstance    bdr:IE3JT13337 ;
         :eTextIsVolume      15 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/P0025_Tobum_tdoc/022-bla-bslu.rtf" ;

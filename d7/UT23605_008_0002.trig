@@ -16,14 +16,40 @@ bdg:UT23605_008_0002 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_008_0002 ;
+        adm:facetIndex      7 ;
         adm:gitPath         "d7/UT23605_008_0002.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_008_0002 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0991F0F5F975E91B
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP30E0765774250DBC
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP42F1CAF9FF16983A
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP8A85FCBADFFABC88
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPA2B2EE4FC1EDF958
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPA3671A00D64929DB
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
     bdr:UT23605_008_0002
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༡༽༄༅། །བདེ་མཆོག་སྙན་བརྒྱུད་ཀྱི་འོག་སྒོ་བདེ་བ་ཆེན་པོ་གཞན་ལུས་ཕྱག་རྒྱ་མ་བསྟེན་པའི་གདམས་པ་ཡེ་ཤེས་གསལ་བའི་སྒྲོན་མེ་ཞེས་བྱ་བ་བཞུགས་"@bo ;
+        :eTextHasPage       bdr:EP0991F0F5F975E91B , bdr:EP30E0765774250DBC , bdr:EP42F1CAF9FF16983A , bdr:EP8A85FCBADFFABC88 , bdr:EPA2B2EE4FC1EDF958 , bdr:EPA3671A00D64929DB ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      8 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/08_gdams-ngag-mdzod_nya/08_01_~1.rtf" ;

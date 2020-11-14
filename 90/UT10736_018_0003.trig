@@ -16,14 +16,48 @@ bdg:UT10736_018_0003 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT10736_018_0003 ;
+        adm:facetIndex      9 ;
         adm:gitPath         "90/UT10736_018_0003.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT10736_018_0003 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP21686D6E115D03A4
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP764A969E93C5164D
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP7BBD3A582285617F
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP7E3D80C7D29D55B3
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP9EF4DC282E162428
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPC17506B028A7FA49
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPC3C73DD907B0ED81
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPCD63E3C7EAEF9F18
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
     bdr:UT10736_018_0003
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །དཔལ་ཡེ་ཤེས་ཀྱི་མགོན་པོ་བསྙེན་པའི་ཚེ་དགོས་པའི་གོང་གནོན་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP21686D6E115D03A4 , bdr:EP764A969E93C5164D , bdr:EP7BBD3A582285617F , bdr:EP7E3D80C7D29D55B3 , bdr:EP9EF4DC282E162428 , bdr:EPC17506B028A7FA49 , bdr:EPC3C73DD907B0ED81 , bdr:EPCD63E3C7EAEF9F18 ;
         :eTextInInstance    bdr:IE10736 ;
         :eTextInVolume      18 ;
         :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/18_tsha/18_03_tsha_dpal-ye-shes-kyi-mgon-po-bsnyen-paqi-tshe-dgos-paqi-gong-gnon.rtf" ;

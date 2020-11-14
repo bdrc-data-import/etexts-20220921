@@ -16,14 +16,32 @@ bdg:UT3JT13302_015_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13302_015_0000 ;
+        adm:facetIndex      5 ;
         adm:gitPath         "46/UT3JT13302_015_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13302_015_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP01DD9E9B06FF5778
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP18CCC3779BB1666B
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPDB4044320644341B
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPF97999FC2578FA8E
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
     bdr:UT3JT13302_015_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །བླ་མ་རིན་ཆེན་འབྱུང་ལྡན་གྱི་ཉམས་ལེན་བཞུགས་སོ། །༈།ན་མོ་གུ་རུ་བྷྱཿདཔལ་ལྡན་བླ་མ་དམ་པ་ཡོན་ཏན་རིན་ཆེན་འབྱུང་ལྡན་གྱི་རྣལ་འབྱོར་ཉ"@bo ;
+        :eTextHasPage       bdr:EP01DD9E9B06FF5778 , bdr:EP18CCC3779BB1666B , bdr:EPDB4044320644341B , bdr:EPF97999FC2578FA8E ;
         :eTextInInstance    bdr:IE3JT13302 ;
         :eTextIsVolume      15 ;
         :eTextSourcePath    "GuruLamaWorks/For-Conversion-Disk-01-20130424/rtfs/KHADON/KHAD015.rtf" ;

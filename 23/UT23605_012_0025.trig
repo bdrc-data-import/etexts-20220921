@@ -16,14 +16,28 @@ bdg:UT23605_012_0025 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_012_0025 ;
+        adm:facetIndex      4 ;
         adm:gitPath         "23/UT23605_012_0025.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_012_0025 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP68761848DF9C406D
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP6F6BEC818CD0732C
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPEDA299B7BF693490
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT23605_012_0025
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༤༥༧༽༄༅། །ཟབ་ཆོས་ནི་གུ་ཆོས་དྲུག་གི་བརྒྱུད་འདེབས་ཉུང་འདུས་བདེ་ཆེན་འབེབས་པ་ཞེས་བྱ་བ་བཞུགས་སོ། །ཀུན་ཁྱབ་ཐམས་ཅད་བདག་ཉིད་རྡོ་རྗེ་འཆ"@bo ;
+        :eTextHasPage       bdr:EP68761848DF9C406D , bdr:EP6F6BEC818CD0732C , bdr:EPEDA299B7BF693490 ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      12 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/12_gdams-ngag-mdzod_na/12_24_zab-chos-ni-gu-chos-drug-gi-brgyud-qdebs-nyung-qdus-bde-chen-qbebs-pa.rtf" ;

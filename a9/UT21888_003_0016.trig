@@ -16,14 +16,28 @@ bdg:UT21888_003_0016 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT21888_003_0016 ;
+        adm:facetIndex      4 ;
         adm:gitPath         "a9/UT21888_003_0016.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT21888_003_0016 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP05445252C2B7DE18
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP3AB4A1F714B9BC52
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP4627559B5F6272C4
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT21888_003_0016
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༢༥༧༽སྙན་བརྒྱུད་ལས་མཁའ་འགྲོ་དགོངས་འདུས་ཆ་ལག་མཁའ་འགྲོའི་ཚོགས་མཆོད་སྤྲོས་མེད་རྒྱུན་ཁྱེར་ཚོགས་གཉིས་མྱུར་རྫོགས་བཞུགས༔ཨོཾ་ཨཱཿཧཱུྃ༔འཁོར"@bo ;
+        :eTextHasPage       bdr:EP05445252C2B7DE18 , bdr:EP3AB4A1F714B9BC52 , bdr:EP4627559B5F6272C4 ;
         :eTextInInstance    bdr:IE21888 ;
         :eTextInVolume      3 ;
         :eTextSourcePath    "PalriParkhang/W21888-se-ra-mkhaq-qgro-bkaq-qbum/rtfs/3-Ma-Serakhagro-Kabum/Ma-Serakhagro-257-260.rtf" ;

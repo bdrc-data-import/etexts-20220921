@@ -16,14 +16,40 @@ bdg:UT3JT13366_023_0003 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13366_023_0003 ;
+        adm:facetIndex      7 ;
         adm:gitPath         "e6/UT3JT13366_023_0003.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13366_023_0003 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP1B54504DDBC23813
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP4D594D1311D7894C
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP733613EFE038EC88
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP8D000D1046DCA9A4
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPB9D4102F6E2D18F7
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPFB98571E1FE6FBE3
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT3JT13366_023_0003
         a                   :EtextNonPaginated ;
         skos:prefLabel      "གསུངས་པ། །རྡོ་རྗེ་ཁྲོ་བོ་ཨག་ཚར་ཆེ་ཟེར།སྐྱེས་བུ་ཆེ། །ཐམས་ཅད་ཞལ་གཅིག་ཕྱག་གཉིས་པ། །སྙིང་གཡོན།ཁར་མནན་པའི་ཁུ་ཚུར་འཛུག།གཡས་ན་རང་གི་"@bo ;
+        :eTextHasPage       bdr:EP1B54504DDBC23813 , bdr:EP4D594D1311D7894C , bdr:EP733613EFE038EC88 , bdr:EP8D000D1046DCA9A4 , bdr:EPB9D4102F6E2D18F7 , bdr:EPFB98571E1FE6FBE3 ;
         :eTextInInstance    bdr:IE3JT13366 ;
         :eTextInVolume      23 ;
         :eTextSourcePath    "KarmaDelek/sa-skya-bkaq-qbum/rtfs/volume_023/volume_023_213.rtf" ;

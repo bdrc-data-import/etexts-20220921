@@ -16,14 +16,60 @@ bdg:UT2DB4577_006_0017 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT2DB4577_006_0017 ;
+        adm:facetIndex      12 ;
         adm:gitPath         "99/UT2DB4577_006_0017.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT2DB4577_006_0017 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP1639C0C97A2A1D5B
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP32067D668C411A02
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP458C9CAE508189BD
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EP60B6FD17EDB18E22
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP775C08BC16C920F7
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPA2B168252ED77AB2
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EPAA7AA91261BE3535
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPB896395AD500E6B9
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EPD1501CF079E7DFAF
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPF4622B9F21A51CED
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPFF0F7E01DC8965ED
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
     bdr:UT2DB4577_006_0017
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །གཙང་སྟག་ཚང་ལོ་ཙཱ་བ་ཤེས་རབ་རིན་ཆེན་རྒྱལ་མཚན་དཔལ་བཟང་པོའི་རྣམ་པར་ཐར་པའི་ཁ་སྐོང་ཡིད་ཆེས་གསེར་གྱི་ལྗོན་པ་ཞེས་བྱ་བ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP1639C0C97A2A1D5B , bdr:EP32067D668C411A02 , bdr:EP458C9CAE508189BD , bdr:EP60B6FD17EDB18E22 , bdr:EP775C08BC16C920F7 , bdr:EPA2B168252ED77AB2 , bdr:EPAA7AA91261BE3535 , bdr:EPB896395AD500E6B9 , bdr:EPD1501CF079E7DFAF , bdr:EPF4622B9F21A51CED , bdr:EPFF0F7E01DC8965ED ;
         :eTextInInstance    bdr:IE2DB4577 ;
         :eTextInVolume      6 ;
         :eTextSourcePath    "KarmaDelek/gsung-qbum _shes-rab-rin-chen/rtfs/volume_006/volume_006_080.rtf" ;

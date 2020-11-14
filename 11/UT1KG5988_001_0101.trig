@@ -16,14 +16,48 @@ bdg:UT1KG5988_001_0101 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1KG5988_001_0101 ;
+        adm:facetIndex      9 ;
         adm:gitPath         "11/UT1KG5988_001_0101.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1KG5988_001_0101 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP741D513A0B869B18
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP7B45489134B5F4A8
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP92E6EF5934C5F5AB
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP9EE8C680A3AD4853
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPA095D128601325AD
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPA3F2DB0A439825DB
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPB23D52D82DB63D2E
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPE8EE3ADF75CB55DF
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
     bdr:UT1KG5988_001_0101
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །སྨེ་བདུན་ཞེས་པའི་སྐར་མའི་མདོ་ཚེ་དང་བསོད་ནམས་སྤེལ་བ་བཞུགས་སོ། །། །"@bo ;
+        :eTextHasPage       bdr:EP741D513A0B869B18 , bdr:EP7B45489134B5F4A8 , bdr:EP92E6EF5934C5F5AB , bdr:EP9EE8C680A3AD4853 , bdr:EPA095D128601325AD , bdr:EPA3F2DB0A439825DB , bdr:EPB23D52D82DB63D2E , bdr:EPE8EE3ADF75CB55DF ;
         :eTextInInstance    bdr:IE1KG5988 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "DharmaDownload/Kagyur-Zungdue/rtfs/volume-001/102_sme-bdun-&26;-skar-maqi-mdo.rtf" ;

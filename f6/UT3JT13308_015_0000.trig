@@ -16,14 +16,40 @@ bdg:UT3JT13308_015_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13308_015_0000 ;
+        adm:facetIndex      7 ;
         adm:gitPath         "f6/UT3JT13308_015_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13308_015_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP207676E4EC36A8A4
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP29BEBF4C9FB69A41
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP2B4EDC3D2C13519D
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP4F2755AD5FD5B342
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPC7F989D2412E1230
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPCD059EA7A4876162
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
     bdr:UT3JT13308_015_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །རེད་མདའ་བའི་གསུང་ཐོར་བུ་ལས་ཞལ་གདམས་འགའ་ཞིག་ཟུར་དུ་བཀོལ་བ། །༈།གང་ཞིག་ལེགས་གསུང་དམ་ཆོས་འདུལ་བ་ལ། །རབ་ཏུ་བྱུང་ནས་ལེགས་པར་མི"@bo ;
+        :eTextHasPage       bdr:EP207676E4EC36A8A4 , bdr:EP29BEBF4C9FB69A41 , bdr:EP2B4EDC3D2C13519D , bdr:EP4F2755AD5FD5B342 , bdr:EPC7F989D2412E1230 , bdr:EPCD059EA7A4876162 ;
         :eTextInInstance    bdr:IE3JT13308 ;
         :eTextIsVolume      15 ;
         :eTextSourcePath    "GuruLamaWorks/Precious-and-Rare-Disk-01-20130424/rtfs/9_REDA/REDA015_རེད་མདའ་བའི་གསུང་ཐོར་བུ་ལས་ཞལ་གདམས་འགའ་ཞིག་ཟུར་དུ་བཀོལ་བ.rtf" ;

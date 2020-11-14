@@ -16,14 +16,36 @@ bdg:UT10736_017_0021 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT10736_017_0021 ;
+        adm:facetIndex      6 ;
         adm:gitPath         "1d/UT10736_017_0021.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT10736_017_0021 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP2CC4E3FFB8CCD095
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP68583550EF15E699
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPCAD8E0F2804D15A1
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPCB505565077E7B7B
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPDEEFC2EDC1BF94D8
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
     bdr:UT10736_017_0021
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །དཔའ་བོ་འབྲུ་གཅིག་པའི་རྫོགས་རིམ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP2CC4E3FFB8CCD095 , bdr:EP68583550EF15E699 , bdr:EPCAD8E0F2804D15A1 , bdr:EPCB505565077E7B7B , bdr:EPDEEFC2EDC1BF94D8 ;
         :eTextInInstance    bdr:IE10736 ;
         :eTextInVolume      17 ;
         :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/17_tsa/17_17_tsa_dpaq-bo-qbru-gcig-paqi-rdzogs-rim.rtf" ;

@@ -16,14 +16,20 @@ bdg:UT3JT13337_020_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13337_020_0000 ;
+        adm:facetIndex      2 ;
         adm:gitPath         "50/UT3JT13337_020_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13337_020_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EPAF0BFF0838DD5EC0
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT3JT13337_020_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "ཨོཾ་ཨཱཿཧཱུྃ།གནས་འདི་ནས་ནུབ་ཕྱོགས་བདེ་བ་ཅན། །མགོན་ཆོས་སྐུ་སྣང་བ་མཐའ་ཡས་ལ། །སེམས་མོས་གུས་གདུང་བས་གསོལ་བ་འདེབས། །བདག་སྣང་སེམས་རོ"@bo ;
+        :eTextHasPage       bdr:EPAF0BFF0838DD5EC0 ;
         :eTextInInstance    bdr:IE3JT13337 ;
         :eTextIsVolume      20 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/P0025_Tobum_tdoc/027-gsol-qdebs.rtf" ;

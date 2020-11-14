@@ -16,14 +16,52 @@ bdg:UT10736_019_0008 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT10736_019_0008 ;
+        adm:facetIndex      10 ;
         adm:gitPath         "4d/UT10736_019_0008.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT10736_019_0008 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP43DC483A375A5ED0
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP66858E4EF5A56E71
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP6F39289265C2F3A8
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPA7B4427EEE68AAE7
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPB7E55641888E4E1B
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EPE5D1A2AF57730ED2
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPEC3ACEB5FA79DFE5
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPF1E2B953F40FF737
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPFD6A9C1F257D6D8D
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
     bdr:UT10736_019_0008
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །དུད་པའི་སོལ་བ་མའི་རྫོགས་རིམ་དེ་ཁོ་ན་ཉིད་བཞིའི་སྒྲུབ་པ་ཞེས་བྱ་བ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP43DC483A375A5ED0 , bdr:EP66858E4EF5A56E71 , bdr:EP6F39289265C2F3A8 , bdr:EPA7B4427EEE68AAE7 , bdr:EPB7E55641888E4E1B , bdr:EPE5D1A2AF57730ED2 , bdr:EPEC3ACEB5FA79DFE5 , bdr:EPF1E2B953F40FF737 , bdr:EPFD6A9C1F257D6D8D ;
         :eTextInInstance    bdr:IE10736 ;
         :eTextInVolume      19 ;
         :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/19_dza/19_09_dza_dud-paqi-sol-ba-maqi-rdzogs-rim-de-kho-na-nyid-bzhiqi-sgrub-pa.rtf" ;

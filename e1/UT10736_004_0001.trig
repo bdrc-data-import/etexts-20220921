@@ -16,14 +16,56 @@ bdg:UT10736_004_0001 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT10736_004_0001 ;
+        adm:facetIndex      11 ;
         adm:gitPath         "e1/UT10736_004_0001.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT10736_004_0001 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP4A2D7502927B0364
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP50D45114B9A8E6AF
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP6720D6036F33EB11
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP7E6684C125928FFA
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP813F5BF750C7030B
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP8384BF4C0A666318
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP98DF42420CAB9D7D
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPBA10C23AA9470C68
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EPD65FC688D41A6A26
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPFCF186C491E8CF55
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
     bdr:UT10736_004_0001
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༡ན༡༽༄༅། །རྒྱལ་སྲས་གཞོན་ནུ་པདྨ་དཀར་པོའི་རྟོགས་བརྗོད་དོ། །"@bo ;
+        :eTextHasPage       bdr:EP4A2D7502927B0364 , bdr:EP50D45114B9A8E6AF , bdr:EP6720D6036F33EB11 , bdr:EP7E6684C125928FFA , bdr:EP813F5BF750C7030B , bdr:EP8384BF4C0A666318 , bdr:EP98DF42420CAB9D7D , bdr:EPBA10C23AA9470C68 , bdr:EPD65FC688D41A6A26 , bdr:EPFCF186C491E8CF55 ;
         :eTextInInstance    bdr:IE10736 ;
         :eTextInVolume      4 ;
         :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/04_nga/04_02_nga_rgyal-sras-gzhon-nu-padma-dkar-poqi-rtogs-brjod.rtf" ;

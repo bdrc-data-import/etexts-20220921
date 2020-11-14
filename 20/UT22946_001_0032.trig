@@ -16,14 +16,44 @@ bdg:UT22946_001_0032 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT22946_001_0032 ;
+        adm:facetIndex      8 ;
         adm:gitPath         "20/UT22946_001_0032.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT22946_001_0032 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP13443F67D3847C16
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP19AF69098CCD7A04
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP3AA90BED155A21FE
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP778E2FFEFFEACE38
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP92306EC6E04A76F6
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP9CAE21531E22FDBE
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPA03652C1A15032BF
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
     bdr:UT22946_001_0032
         a                   :EtextNonPaginated ;
         skos:prefLabel      "བདག་ཁྲི་སྲོང་ལྡེའུ་བཙན་དང༌།ཇོ་མོ་མཁར་ཆེན་མཚོ་རྒྱལ་གྱིས་ཞུས་པ།མ་འོངས་པའི་དུས་སྙིགས་མ་ལ།ནང་ངན་འོང་བའི་རྒྱུ་ཅི་ལགས།བདུད་རྩི་ལྟ་བུའི"@bo ;
+        :eTextHasPage       bdr:EP13443F67D3847C16 , bdr:EP19AF69098CCD7A04 , bdr:EP3AA90BED155A21FE , bdr:EP778E2FFEFFEACE38 , bdr:EP92306EC6E04A76F6 , bdr:EP9CAE21531E22FDBE , bdr:EPA03652C1A15032BF ;
         :eTextInInstance    bdr:IE22946 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "PalriParkhang/W22946-mkhan-po-ngag-dbang-dpal-bzang-_ngaga/rtfs/NGAGA-vol-1-KA/kaq_0323-0338_pecha.rtf" ;

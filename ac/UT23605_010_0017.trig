@@ -16,14 +16,64 @@ bdg:UT23605_010_0017 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_010_0017 ;
+        adm:facetIndex      13 ;
         adm:gitPath         "ac/UT23605_010_0017.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_010_0017 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0597C32D263A01E7
+        a                   :EtextPage ;
+        :seqNum             12 .
+    
+    bdr:EP1DBBAEC77EC05CD0
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP3D694A2B2B373064
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP4FFE17E9871D575D
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP5A6A6DE3FAE8823D
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP783431ACDA694C50
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP82C7E727C9497C38
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPC025C5379EFB563B
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPC47DAFB5591870F7
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EPE39881419EB8712F
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPE4167BE2CFB92199
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPF1F3EB91C0E0DD70
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT23605_010_0017
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༢༠༩༽༄༅། །དགེ་སྦྱོར་བདུན་པའི་ཉམས་ལེན་སྒང་དུ་བསྒྲིལ་བ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP0597C32D263A01E7 , bdr:EP1DBBAEC77EC05CD0 , bdr:EP3D694A2B2B373064 , bdr:EP4FFE17E9871D575D , bdr:EP5A6A6DE3FAE8823D , bdr:EP783431ACDA694C50 , bdr:EP82C7E727C9497C38 , bdr:EPC025C5379EFB563B , bdr:EPC47DAFB5591870F7 , bdr:EPE39881419EB8712F , bdr:EPE4167BE2CFB92199 , bdr:EPF1F3EB91C0E0DD70 ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      10 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/10_gdams-ngag-mdzod_tha/10_16_dge-sbyor-bdun-paqi-nyams-len-sgang-du-bsgril-ba.rtf" ;

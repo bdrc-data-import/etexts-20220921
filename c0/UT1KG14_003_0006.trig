@@ -16,14 +16,32 @@ bdg:UT1KG14_003_0006 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1KG14_003_0006 ;
+        adm:facetIndex      5 ;
         adm:gitPath         "c0/UT1KG14_003_0006.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1KG14_003_0006 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP404142AF6A656B29
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP52C70BD58274D860
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPD72711F01571ECBE
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPFF769CBA262B6285
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
     bdr:UT1KG14_003_0006
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །རྡོར་སེམས་ཐུགས་ཀྱི་སྒྲུབ་པ་ལས།རྒྱུན་གྱི་རྣལ་འབྱོར་ཁོལ་ཕྱུང་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP404142AF6A656B29 , bdr:EP52C70BD58274D860 , bdr:EPD72711F01571ECBE , bdr:EPFF769CBA262B6285 ;
         :eTextInInstance    bdr:IE1KG14 ;
         :eTextInVolume      3 ;
         :eTextSourcePath    "Shechen/Rinchen-Terdzod-Shechen-vols-01-54/rtfs/03-GA/TERZOD-GA-P04bGunkhyer.rtf" ;

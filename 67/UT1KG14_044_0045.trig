@@ -16,14 +16,60 @@ bdg:UT1KG14_044_0045 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1KG14_044_0045 ;
+        adm:facetIndex      12 ;
         adm:gitPath         "67/UT1KG14_044_0045.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1KG14_044_0045 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0D89295FBEAB8403
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP16518644B11EF391
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP55AD0E095E7CA156
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP8285C4FE4B404688
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPAEF7C65040B7EF9E
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EPBACFFC498EF4B9C9
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPC8CDFEAB922708C0
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EPCD5CD9DC654DEFA8
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPE43F67BEF199BC2B
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPEE4090BB8DA0AA5F
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPFF4842B1D80579A9
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT1KG14_044_0045
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །འགོ་བའི་ལྷ་ལྔའི་གསོལ་མཆོད་བསང་དང་བཅས་པ་ཡར་ངོའི་ཟླ་རྒྱས་ཞེས་བྱ་བ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP0D89295FBEAB8403 , bdr:EP16518644B11EF391 , bdr:EP55AD0E095E7CA156 , bdr:EP8285C4FE4B404688 , bdr:EPAEF7C65040B7EF9E , bdr:EPBACFFC498EF4B9C9 , bdr:EPC8CDFEAB922708C0 , bdr:EPCD5CD9DC654DEFA8 , bdr:EPE43F67BEF199BC2B , bdr:EPEE4090BB8DA0AA5F , bdr:EPFF4842B1D80579A9 ;
         :eTextInInstance    bdr:IE1KG14 ;
         :eTextInVolume      44 ;
         :eTextSourcePath    "Shechen/Rinchen-Terdzod-Shechen-vols-01-54/rtfs/44-PHI/Terzod-phi-P44.rtf" ;

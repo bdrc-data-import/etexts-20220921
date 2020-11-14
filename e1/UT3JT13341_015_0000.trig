@@ -16,14 +16,20 @@ bdg:UT3JT13341_015_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13341_015_0000 ;
+        adm:facetIndex      2 ;
         adm:gitPath         "e1/UT3JT13341_015_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13341_015_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EPBE0B564DF6DC7FDE
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT3JT13341_015_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "ཨོ་རྒྱན་རིན་པོ་ཆེའི་ཞལ་ཆེམས་གསོལ་འདེབས་བཞུགས༔ཨེ་མ་ཧོཿཆོས་སྐུ་ཀུན་བཟང་དྲུག་པ་རྡོ་རྗེ་འཆང་༔སྟོན་པ་རྡོར་སེམས་བཅོམ་ལྡན་ཤཱཀྱའི་རྒྱལ༔མ"@bo ;
+        :eTextHasPage       bdr:EPBE0B564DF6DC7FDE ;
         :eTextInInstance    bdr:IE3JT13341 ;
         :eTextIsVolume      15 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/Taksham-Chochod_tdoc/014_zhal-chems-gsol-qdebs.rtf" ;

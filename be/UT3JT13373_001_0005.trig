@@ -16,14 +16,56 @@ bdg:UT3JT13373_001_0005 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13373_001_0005 ;
+        adm:facetIndex      11 ;
         adm:gitPath         "be/UT3JT13373_001_0005.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13373_001_0005 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0A9D631240C3CCEC
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP5735F4D7E59E9A95
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP6DE55DEA9715E8ED
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP773BC2B1F7619EAE
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP7BDD7ACA35FE0E67
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPA82B2D1ABE5C3104
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPB779A84C06BABCA9
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPD0AB8245930819A2
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EPF5BE700404FB3C13
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPFA59FA813FF86D0E
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
     bdr:UT3JT13373_001_0005
         a                   :EtextNonPaginated ;
         skos:prefLabel      "རྗེ་བཙུན་ནཱ་རོ་པའི་ལོ་རྒྱུས།"@bo ;
+        :eTextHasPage       bdr:EP0A9D631240C3CCEC , bdr:EP5735F4D7E59E9A95 , bdr:EP6DE55DEA9715E8ED , bdr:EP773BC2B1F7619EAE , bdr:EP7BDD7ACA35FE0E67 , bdr:EPA82B2D1ABE5C3104 , bdr:EPB779A84C06BABCA9 , bdr:EPD0AB8245930819A2 , bdr:EPF5BE700404FB3C13 , bdr:EPFA59FA813FF86D0E ;
         :eTextInInstance    bdr:IE3JT13373 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "VajraVidya/Kagyu_Sertreng/rtfs/volume-001/03_Naro.rtf" ;

@@ -16,14 +16,52 @@ bdg:UT3JT13302_060_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13302_060_0000 ;
+        adm:facetIndex      10 ;
         adm:gitPath         "d8/UT3JT13302_060_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13302_060_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP01DFE641A8B7030B
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP1A1B5F4D5D0E9986
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP1D44B14733E1186D
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP508E32D5C978D7ED
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP641EF1316B88DCD2
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPBA053BC16F9C2501
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPBD0D24CAB14E79D3
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPCC2A2CBE817182F5
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPDF4B973728422732
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT3JT13302_060_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །གསུང་ངག་རིན་པོ་ཆེ་བརྒྱུད་པ་གསུམ་འདུས་ཀྱི་བླ་མ་ལ་གསོལ་བ་འདེབས་པ་ལམ་རིམ་སྨོན་ལམ་དང་བཅས་པ་བཞུགས་སོ། །་་་་་ནཱ་ལེནྡྲའི་བརྒྱུད་"@bo ;
+        :eTextHasPage       bdr:EP01DFE641A8B7030B , bdr:EP1A1B5F4D5D0E9986 , bdr:EP1D44B14733E1186D , bdr:EP508E32D5C978D7ED , bdr:EP641EF1316B88DCD2 , bdr:EPBA053BC16F9C2501 , bdr:EPBD0D24CAB14E79D3 , bdr:EPCC2A2CBE817182F5 , bdr:EPDF4B973728422732 ;
         :eTextInInstance    bdr:IE3JT13302 ;
         :eTextIsVolume      60 ;
         :eTextSourcePath    "GuruLamaWorks/For-Conversion-Disk-01-20130424/rtfs/KHADON/KHAD060.rtf" ;

@@ -16,14 +16,60 @@ bdg:UT23605_002_0010 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_002_0010 ;
+        adm:facetIndex      12 ;
         adm:gitPath         "49/UT23605_002_0010.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_002_0010 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP5171CD1768D2E25F
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP811B68B1D120FCA2
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP8D95715525E56654
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP93324AAF1C905603
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP9A72D92E0401BA21
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EPA6F5623785ACE273
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPB68EE60EEA626A78
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPB8EB1CD2D2B79A1B
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EPD7B71477EAAF9FDB
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPEA3BC5497E7D45A8
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPEE827F2ECD875DE2
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
     bdr:UT23605_002_0010
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༡༠༣༽༄༅། །ཚོགས་མཆོད་ཀྱི་རིམ་པ་ཡིད་བཞིན་རྒྱ་མཚོ་བཞུགས་སོ། །། །"@bo ;
+        :eTextHasPage       bdr:EP5171CD1768D2E25F , bdr:EP811B68B1D120FCA2 , bdr:EP8D95715525E56654 , bdr:EP93324AAF1C905603 , bdr:EP9A72D92E0401BA21 , bdr:EPA6F5623785ACE273 , bdr:EPB68EE60EEA626A78 , bdr:EPB8EB1CD2D2B79A1B , bdr:EPD7B71477EAAF9FDB , bdr:EPEA3BC5497E7D45A8 , bdr:EPEE827F2ECD875DE2 ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      2 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/02_gdams-ngag-mdzod_kha/02_09_tshogs-mchod-kyi-rim-pa-yid-bzhin-rgya-mtsho.rtf" ;

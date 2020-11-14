@@ -16,14 +16,60 @@ bdg:UT1PD45495_039_0021 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1PD45495_039_0021 ;
+        adm:facetIndex      12 ;
         adm:gitPath         "aa/UT1PD45495_039_0021.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1PD45495_039_0021 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP00147E686586DD6D
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP10ED3389B2DA1903
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP28BB0B9A03610477
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP93BE19F6FCA11769
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP999153F00DBE3AEA
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EPB95026F704141DD8
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPBFE1EFFEEEA01CB6
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPC0FF05DB0C20F7F6
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EPC610600EA6BD46EB
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPD4A8D2437A77AC48
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPE9AFA02DA58AFC51
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
     bdr:UT1PD45495_039_0021
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །ཡེ་ཤེས་མཁའ་འགྲོ་ནཻ་གུའི་དབང་བཀའ་ཆེ་ཆུང་རྣམས་ཀྱི་སྔོན་དུ་འགྲོ་བའི་ཆོས་བཅུ་དང་ལྔར་དབྱེ་བའི་ཁྱད་པར་བཞུགས།"@bo ;
+        :eTextHasPage       bdr:EP00147E686586DD6D , bdr:EP10ED3389B2DA1903 , bdr:EP28BB0B9A03610477 , bdr:EP93BE19F6FCA11769 , bdr:EP999153F00DBE3AEA , bdr:EPB95026F704141DD8 , bdr:EPBFE1EFFEEEA01CB6 , bdr:EPC0FF05DB0C20F7F6 , bdr:EPC610600EA6BD46EB , bdr:EPD4A8D2437A77AC48 , bdr:EPE9AFA02DA58AFC51 ;
         :eTextInInstance    bdr:IE1PD45495 ;
         :eTextInVolume      39 ;
         :eTextSourcePath    "KarmaDelek/taranatha-gsung-qbum/rtfs/volume_039/volume_039_374.rtf" ;

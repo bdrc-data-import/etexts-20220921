@@ -16,14 +16,48 @@ bdg:UT10736_015_0003 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT10736_015_0003 ;
+        adm:facetIndex      9 ;
         adm:gitPath         "8b/UT10736_015_0003.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT10736_015_0003 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP09CCBC6EBCD9760E
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP1C96693E70C6CDEE
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP437F63A36E26F0E0
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP44E3A2451302A21F
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP8401C0693A98261C
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP9163A2B9707190AA
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPE32BF0EE03341ADB
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPFAA25872AE107288
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
     bdr:UT10736_015_0003
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །སྙན་རྒྱུད་ལས་ལུས་དཀྱིལ་གྱི་དབང་ཆོག་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP09CCBC6EBCD9760E , bdr:EP1C96693E70C6CDEE , bdr:EP437F63A36E26F0E0 , bdr:EP44E3A2451302A21F , bdr:EP8401C0693A98261C , bdr:EP9163A2B9707190AA , bdr:EPE32BF0EE03341ADB , bdr:EPFAA25872AE107288 ;
         :eTextInInstance    bdr:IE10736 ;
         :eTextInVolume      15 ;
         :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/15_ba/15_03_ba_snyan-rgyud-las-lus-dkyil-gyi-dbang-chog.rtf" ;

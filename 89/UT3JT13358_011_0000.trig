@@ -16,14 +16,40 @@ bdg:UT3JT13358_011_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13358_011_0000 ;
+        adm:facetIndex      7 ;
         adm:gitPath         "89/UT3JT13358_011_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13358_011_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP31E42B127B1CF751
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP99F551A8A20199D4
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPB18AD55063964ED4
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPCF965365DEABA658
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPD00F564D294D659B
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPF41B602198C824D1
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
     bdr:UT3JT13358_011_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །རྩོད་པ་བཟློག་པའི་ཚིག་ལེའུར་བྱས་པ་ཞེས་བྱ་བ་བཞུགས་སོ། །༄༅། །རྒྱ་གར་སྐད་དུ།བི་གྲ་ཧ་བྱ་བརྟ་ནི་ཀཱ་རི་ཀཱ་ནཱ་མ།བོད་སྐད་དུ།རྩོད་"@bo ;
+        :eTextHasPage       bdr:EP31E42B127B1CF751 , bdr:EP99F551A8A20199D4 , bdr:EPB18AD55063964ED4 , bdr:EPCF965365DEABA658 , bdr:EPD00F564D294D659B , bdr:EPF41B602198C824D1 ;
         :eTextInInstance    bdr:IE3JT13358 ;
         :eTextIsVolume      11 ;
         :eTextSourcePath    "GuruLamaWorks/Precious-and-Rare-Disk-01-20130424/rtfs/25_ZTSA/ZTSA011_རྩོད་པ་བཟློག་པ།.rtf" ;

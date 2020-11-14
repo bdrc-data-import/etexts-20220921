@@ -16,14 +16,32 @@ bdg:UT2CZ8049_001_0008 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT2CZ8049_001_0008 ;
+        adm:facetIndex      5 ;
         adm:gitPath         "75/UT2CZ8049_001_0008.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT2CZ8049_001_0008 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP22F92F802480209B
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP5173D3418CAE4367
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP678FB5F7144A1961
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPD11B0C1A168F2138
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT2CZ8049_001_0008
         a                   :EtextNonPaginated ;
         skos:prefLabel      "སྐབས་བདུན་པ་སྐད་ཅིག་མའི་སྦྱོར་བ།"@bo ;
+        :eTextHasPage       bdr:EP22F92F802480209B , bdr:EP5173D3418CAE4367 , bdr:EP678FB5F7144A1961 , bdr:EPD11B0C1A168F2138 ;
         :eTextInInstance    bdr:IE2CZ8049 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "VajraVidya/Shamar_Konchog_Yenlak_Sherchin/rtfs/volume-001/Shamar_Konchok_Yenlag_Serchin_7.rtf" ;

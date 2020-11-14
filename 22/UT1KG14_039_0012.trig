@@ -16,14 +16,56 @@ bdg:UT1KG14_039_0012 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1KG14_039_0012 ;
+        adm:facetIndex      11 ;
         adm:gitPath         "22/UT1KG14_039_0012.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1KG14_039_0012 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0354F1F50464D9C7
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP1E0230402B760F71
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP2BE3C584DF7F5797
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP2BEA4A9637EAD6F7
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP4B4E49122CE7D02F
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP635D8D11E728593A
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP8F90E141425A6AC3
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPB75F16589E4E0FC1
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPC0D6BAA2134DBB84
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPCA8C7E8A3064D87D
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
     bdr:UT1KG14_039_0012
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །ཞིང་སྐྱོང་དུར་ཁྲོད་བདག་མོའི་ཐུགས་དམ་སྐོང་བའི་མདོས་ཆོག་ནམ་མཁའ་མཛོད་ཅེས་བྱ་བ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP0354F1F50464D9C7 , bdr:EP1E0230402B760F71 , bdr:EP2BE3C584DF7F5797 , bdr:EP2BEA4A9637EAD6F7 , bdr:EP4B4E49122CE7D02F , bdr:EP635D8D11E728593A , bdr:EP8F90E141425A6AC3 , bdr:EPB75F16589E4E0FC1 , bdr:EPC0D6BAA2134DBB84 , bdr:EPCA8C7E8A3064D87D ;
         :eTextInInstance    bdr:IE1KG14 ;
         :eTextInVolume      39 ;
         :eTextSourcePath    "Shechen/Rinchen-Terdzod-Shechen-vols-01-54/rtfs/39-TI/TERDZO-TI-P10.rtf" ;

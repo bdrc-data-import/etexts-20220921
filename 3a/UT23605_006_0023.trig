@@ -16,14 +16,64 @@ bdg:UT23605_006_0023 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT23605_006_0023 ;
+        adm:facetIndex      13 ;
         adm:gitPath         "3a/UT23605_006_0023.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT23605_006_0023 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP3CCBA1F8BE268E84
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP3F9855FEE699607C
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP4721F85A210A88BB
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP6E50BCD809091A34
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP7911409933A97E76
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP7E16D68DCD81DF48
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP7F616A9F676D7C68
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EP974426E6F673F88E
+        a                   :EtextPage ;
+        :seqNum             12 .
+    
+    bdr:EP97C2D0ECCAC14186
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP9FC964EC972C1CE2
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EPE92BF5BB641FF5B5
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPEB5CBA8AB8FB74D8
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT23605_006_0023
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༣༨༧༽༄༅། །དཔལ་བདེ་མཆོག་སྡོམ་འབྱུང་ནས་ཀྱི་ཆང་གི་ཆོ་ག་བཞུགས་སོ། །། །"@bo ;
+        :eTextHasPage       bdr:EP3CCBA1F8BE268E84 , bdr:EP3F9855FEE699607C , bdr:EP4721F85A210A88BB , bdr:EP6E50BCD809091A34 , bdr:EP7911409933A97E76 , bdr:EP7E16D68DCD81DF48 , bdr:EP7F616A9F676D7C68 , bdr:EP974426E6F673F88E , bdr:EP97C2D0ECCAC14186 , bdr:EP9FC964EC972C1CE2 , bdr:EPE92BF5BB641FF5B5 , bdr:EPEB5CBA8AB8FB74D8 ;
         :eTextInInstance    bdr:IE23605 ;
         :eTextInVolume      6 ;
         :eTextSourcePath    "DharmaDownload/gdams-ngag-mdzod/rtfs/06_gdams-ngag-mdzod_cha/06_22_dpal-bde-mchog-sdom-qbyung-nas-kyi-chang-gi-cho-ga.rtf" ;

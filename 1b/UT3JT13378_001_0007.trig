@@ -16,14 +16,60 @@ bdg:UT3JT13378_001_0007 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13378_001_0007 ;
+        adm:facetIndex      12 ;
         adm:gitPath         "1b/UT3JT13378_001_0007.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13378_001_0007 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP34235A1A8D078532
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP4DF1CF9D5EF0AAC6
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP5E0DAF15097E3E0A
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP5E35770A591B0C5A
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP667B80EB4F50AC19
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP794A1CFA3CF8B676
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP8E63D02AB0DF1E53
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP906F56C89EE09E5B
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EPB8C270BA8AE2658B
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EPC571AD959425B027
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPDB49FCB67A29F079
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
     bdr:UT3JT13378_001_0007
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །ཆོས་ཀྱི་དབྱིངས་སུ་བསྟོད་པ།"@bo ;
+        :eTextHasPage       bdr:EP34235A1A8D078532 , bdr:EP4DF1CF9D5EF0AAC6 , bdr:EP5E0DAF15097E3E0A , bdr:EP5E35770A591B0C5A , bdr:EP667B80EB4F50AC19 , bdr:EP794A1CFA3CF8B676 , bdr:EP8E63D02AB0DF1E53 , bdr:EP906F56C89EE09E5B , bdr:EPB8C270BA8AE2658B , bdr:EPC571AD959425B027 , bdr:EPDB49FCB67A29F079 ;
         :eTextInInstance    bdr:IE3JT13378 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "VajraVidya/Rangjung_Dorje_3_works/rtfs/volume-001/Rangjung_Dorje_3_texts_04_chos_dbyings_bstod_pa_rtsa_ba.rtf" ;

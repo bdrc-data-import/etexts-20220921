@@ -16,14 +16,60 @@ bdg:UT2DB4576_001_0007 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT2DB4576_001_0007 ;
+        adm:facetIndex      12 ;
         adm:gitPath         "f5/UT2DB4576_001_0007.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT2DB4576_001_0007 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP042A99CB8956898A
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP1883E171109D00D3
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP241BD691D566760C
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EP42876B202AA2C094
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP64C94285E4BA412D
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP67AC43F221084E20
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP69CF9C7D2AF94973
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP8310C011C165CE45
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPBE538131375B3ABB
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPF07B0873363641DB
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPF2F42353FF328498
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
     bdr:UT2DB4576_001_0007
         a                   :EtextNonPaginated ;
         skos:prefLabel      "འཕགས་ཡུལ་བལ་པོའི་རྒྱལ་རབས་བཞུགས།"@bo ;
+        :eTextHasPage       bdr:EP042A99CB8956898A , bdr:EP1883E171109D00D3 , bdr:EP241BD691D566760C , bdr:EP42876B202AA2C094 , bdr:EP64C94285E4BA412D , bdr:EP67AC43F221084E20 , bdr:EP69CF9C7D2AF94973 , bdr:EP8310C011C165CE45 , bdr:EPBE538131375B3ABB , bdr:EPF07B0873363641DB , bdr:EPF2F42353FF328498 ;
         :eTextInInstance    bdr:IE2DB4576 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "KarmaDelek/rgyal-rabs-mang-poqi-legs-bshad-rnam-grangs-yid-qdzin-nor-buqi-phreng-ba/rtfs/volume_001/volume_001_007.rtf" ;

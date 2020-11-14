@@ -16,14 +16,40 @@ bdg:UT3JT13341_018_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13341_018_0000 ;
+        adm:facetIndex      7 ;
         adm:gitPath         "3a/UT3JT13341_018_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13341_018_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP22D9163E13BB1CF4
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP32D54B90C2252189
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP351DA5F8BE039D36
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP638FBA6C0C336B17
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP797E8CF0A59497B3
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP8F8F61A009F57C54
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT3JT13341_018_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "བླ་མ་རྒྱང་འབོད་བྱིན་རླབས་སྤྲིན་ཕུང་དངོས་གྲུབ་ཆར་འབེབས་ཐུགས་རྗེའི་ལྕགས་ཀྱུ་གདོད་མའི་མྱུར་ལམ་བཞུགས་སོ། །ཨེ་མ་སྐྱབས་མེད་བདག་གི་སྐྱ"@bo ;
+        :eTextHasPage       bdr:EP22D9163E13BB1CF4 , bdr:EP32D54B90C2252189 , bdr:EP351DA5F8BE039D36 , bdr:EP638FBA6C0C336B17 , bdr:EP797E8CF0A59497B3 , bdr:EP8F8F61A009F57C54 ;
         :eTextInInstance    bdr:IE3JT13341 ;
         :eTextIsVolume      18 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/Taksham-Chochod_tdoc/017_thun-bzhi-gsol-qdebs.rtf" ;

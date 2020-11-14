@@ -16,14 +16,36 @@ bdg:UT1KG5988_001_0010 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1KG5988_001_0010 ;
+        adm:facetIndex      6 ;
         adm:gitPath         "f7/UT1KG5988_001_0010.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1KG5988_001_0010 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0E1A469164439948
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP2BAC1AB195ABBC23
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP84B956D673964DFA
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPA3EC53058D212B5D
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPA79E4AF235306F09
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT1KG5988_001_0010
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །བྱམས་པ།འཇམ་དབྱངས།སྒྲོལ་མ་བཅས་ཀྱིས་དམ་བཅས་པའི་གཟུངས་དང༌།ཤེས་རབ་བློ་འཕེལ་མ།ཉིས་ཁྲིའི་སྙིང་པོ་བཅས་བཞུགས།"@bo ;
+        :eTextHasPage       bdr:EP0E1A469164439948 , bdr:EP2BAC1AB195ABBC23 , bdr:EP84B956D673964DFA , bdr:EPA3EC53058D212B5D , bdr:EPA79E4AF235306F09 ;
         :eTextInInstance    bdr:IE1KG5988 ;
         :eTextInVolume      1 ;
         :eTextSourcePath    "DharmaDownload/Kagyur-Zungdue/rtfs/volume-001/010_byams-pa-qjam-dbyang-sgrol-ma-and-etc.rtf" ;

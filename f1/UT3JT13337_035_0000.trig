@@ -16,14 +16,56 @@ bdg:UT3JT13337_035_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13337_035_0000 ;
+        adm:facetIndex      11 ;
         adm:gitPath         "f1/UT3JT13337_035_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13337_035_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP05BB0B1FB97F34E7
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP4D680D5318F1B209
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP631E838E455FD024
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP82587FF55BD7BDC8
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP87B46D54091288A2
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP938BA755C8CC68E5
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP9548A383F342685E
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPA6EB84A260BF00C9
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EPB03A2213441D2739
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPB9DEC50EB821BD70
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
     bdr:UT3JT13337_035_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅།གནམ་ཆོས་ས་སྙིང་སྒྲུབ་ཐབས་ཀྱི་མདུན་བསྐྱེད་ལས་ས་བདག་འཁྲུག་བཅོས་བསྡུས་པ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP05BB0B1FB97F34E7 , bdr:EP4D680D5318F1B209 , bdr:EP631E838E455FD024 , bdr:EP82587FF55BD7BDC8 , bdr:EP87B46D54091288A2 , bdr:EP938BA755C8CC68E5 , bdr:EP9548A383F342685E , bdr:EPA6EB84A260BF00C9 , bdr:EPB03A2213441D2739 , bdr:EPB9DEC50EB821BD70 ;
         :eTextInInstance    bdr:IE3JT13337 ;
         :eTextIsVolume      35 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/P0025_Tobum_tdoc/040-sa-bdag-qkhrugs-bcos.rtf" ;

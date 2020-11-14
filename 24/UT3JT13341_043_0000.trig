@@ -16,14 +16,28 @@ bdg:UT3JT13341_043_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13341_043_0000 ;
+        adm:facetIndex      4 ;
         adm:gitPath         "24/UT3JT13341_043_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13341_043_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP28BC374062F85ABA
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP98955416B09429E3
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPDC60C1C420F3E5B5
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT3JT13341_043_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "ཌཱཀྐིའི་སྙན་བརྒྱུད་བདུལ་འདུལ་དྲག་མོ་ལས༔ཡང་བཟློག་རྡོ་རྗེ་ཕ་ལམ་བཞུགས་སོ༔བདུད་འདུལ་དྲག་མོའི་ཚོགས་ལ་ཕྱག་འཚལ་ལོ༔མཁའ་འགྲོའི་མན་ངག་ཟབ་མ"@bo ;
+        :eTextHasPage       bdr:EP28BC374062F85ABA , bdr:EP98955416B09429E3 , bdr:EPDC60C1C420F3E5B5 ;
         :eTextInInstance    bdr:IE3JT13341 ;
         :eTextIsVolume      43 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/Taksham-Chochod_tdoc/033a_yang-zlog.rtf" ;

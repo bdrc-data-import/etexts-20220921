@@ -16,14 +16,36 @@ bdg:UT10736_017_0020 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT10736_017_0020 ;
+        adm:facetIndex      6 ;
         adm:gitPath         "66/UT10736_017_0020.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT10736_017_0020 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP222D2FD91899E38A
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP65B2BE59533165C0
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP7F6802C115F272E4
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP973E1E8FF0A93C9C
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPD6EC03DA0DE4DC93
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT10736_017_0020
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །རྟེན་ཅན་གྱི་རྫོགས་རིམ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP222D2FD91899E38A , bdr:EP65B2BE59533165C0 , bdr:EP7F6802C115F272E4 , bdr:EP973E1E8FF0A93C9C , bdr:EPD6EC03DA0DE4DC93 ;
         :eTextInInstance    bdr:IE10736 ;
         :eTextInVolume      17 ;
         :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/17_tsa/17_16_tsa_rten-can-gyi-rdzogs-rim.rtf" ;

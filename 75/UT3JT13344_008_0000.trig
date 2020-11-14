@@ -16,14 +16,48 @@ bdg:UT3JT13344_008_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13344_008_0000 ;
+        adm:facetIndex      9 ;
         adm:gitPath         "75/UT3JT13344_008_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13344_008_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP0811FD1460CA0516
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP0DFCDEE1254FC9C5
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP16F09C0445DBFEE9
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP2D8BD8662A82CEAB
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP33B5C5F64399186C
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP50C4E207CACF7343
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPA5CA0D4C833574D6
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EPB1CF94BA12F9E647
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
     bdr:UT3JT13344_008_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "གཉིས་པ་མིང་བྱང་གི་ཆོ་ག་ནི།ཤོག་བུ་དང་གྲོ་ག་ལ་སོགས་པ་ལ།ཚེ་འདས་ཀྱི་གཟུགས་ཀྱི་སྙིང་གར་ས་བོན་ནྲྀའི་འོག་ཏུ་མིང་བྱང་དང་བཅས་པ་བྲི་བའམ།བས"@bo ;
+        :eTextHasPage       bdr:EP0811FD1460CA0516 , bdr:EP0DFCDEE1254FC9C5 , bdr:EP16F09C0445DBFEE9 , bdr:EP2D8BD8662A82CEAB , bdr:EP33B5C5F64399186C , bdr:EP50C4E207CACF7343 , bdr:EPA5CA0D4C833574D6 , bdr:EPB1CF94BA12F9E647 ;
         :eTextInInstance    bdr:IE3JT13344 ;
         :eTextIsVolume      8 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/various/P0039_02_mi-qkhrugs-pa-ming-byang-gi-cho-ga-nag-qgros-su-bsdebs-pa.rtf" ;

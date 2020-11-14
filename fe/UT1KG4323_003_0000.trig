@@ -16,14 +16,56 @@ bdg:UT1KG4323_003_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1KG4323_003_0000 ;
+        adm:facetIndex      11 ;
         adm:gitPath         "fe/UT1KG4323_003_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1KG4323_003_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP3932503247295016
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP5325738D6AF22666
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP5A90EAFC98C16840
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EP7C850AB20E0B9FD7
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPAA12914AB8382A90
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPCB09CAF2383C756C
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EPDC6D11E5F74496F3
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPE3EAE3DA05A201DB
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPE9D0F09D7296B681
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPF6BD5D97824901BE
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
     bdr:UT1KG4323_003_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །བདེ་མཆོག་མཁའ་འགྲོ་རྒྱ་མཚོའི་དབང་གི་བླ་མ་བརྒྱུད་པའི་གསོལ་འདེབས་བཞུགས་སོ། །སྭ་སྟི།ཁྱབ་བདག་སྐུ་བཞིའི་དབང་ཕྱུག་རྡོ་རྗེ་འཆང་།ས"@bo ;
+        :eTextHasPage       bdr:EP3932503247295016 , bdr:EP5325738D6AF22666 , bdr:EP5A90EAFC98C16840 , bdr:EP7C850AB20E0B9FD7 , bdr:EPAA12914AB8382A90 , bdr:EPCB09CAF2383C756C , bdr:EPDC6D11E5F74496F3 , bdr:EPE3EAE3DA05A201DB , bdr:EPE9D0F09D7296B681 , bdr:EPF6BD5D97824901BE ;
         :eTextInInstance    bdr:IE1KG4323 ;
         :eTextIsVolume      3 ;
         :eTextSourcePath    "GuruLamaWorks/Precious-and-Rare-Disk-01-20130424/rtfs/15_SPUN/SPUN003_བདེ་མཆོག་མཁའ་འགྲོ་རྒྱ་མཚོའི་བླ་བརྒྱུད་གསོལ་འདེབས་སོགས།.rtf" ;

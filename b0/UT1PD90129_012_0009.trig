@@ -16,14 +16,52 @@ bdg:UT1PD90129_012_0009 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1PD90129_012_0009 ;
+        adm:facetIndex      10 ;
         adm:gitPath         "b0/UT1PD90129_012_0009.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1PD90129_012_0009 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP12F20BEA47121A15
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP1CF5DC221D901731
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP2506A15448341E88
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EP583C841CE6277980
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP5E93825A7CBA74DF
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EPAB85459EB32AD89F
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPC15EBF2F9A84B58D
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPEF7BBC415D8472D6
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EPFE6DAC29ABE3E48A
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
     bdr:UT1PD90129_012_0009
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །ལས་ཀྱི་སྒྲིབ་པ་རྒྱུན་གཅོད་པའི་མདོའི་དོན་ཉམས་སུ་ལེན་ཚུལ་བསོད་ནམས་ཀྱི་འབྱུང་གནས་ཆེན་པོ་ཞེས་བྱ་བ་བཞུགས།"@bo ;
+        :eTextHasPage       bdr:EP12F20BEA47121A15 , bdr:EP1CF5DC221D901731 , bdr:EP2506A15448341E88 , bdr:EP583C841CE6277980 , bdr:EP5E93825A7CBA74DF , bdr:EPAB85459EB32AD89F , bdr:EPC15EBF2F9A84B58D , bdr:EPEF7BBC415D8472D6 , bdr:EPFE6DAC29ABE3E48A ;
         :eTextInInstance    bdr:IE1PD90129 ;
         :eTextInVolume      12 ;
         :eTextSourcePath    "KarmaDelek/co-ne-grags-pa-bshad-sgrub-gsung-qbum/rtfs/volume_012/volume_012_278.rtf" ;

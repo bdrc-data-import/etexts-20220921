@@ -16,14 +16,52 @@ bdg:UT22946_003_0028 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT22946_003_0028 ;
+        adm:facetIndex      10 ;
         adm:gitPath         "a2/UT22946_003_0028.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT22946_003_0028 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP383F015936D569C0
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP41696D4DCB80F888
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP455BA391C952E795
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP4B082BCA8CFEDE87
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP97D0219366D5F229
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EPB9BFA8E0824EE83B
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPDAA29D9C5329F9BB
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPDD889E11BEB55FD2
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPFB39DC683ACDF956
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT22946_003_0028
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༼༣༣༡༽འོད་གསལ་སྙིང་གི་ཐིག་ལེ་ལས༔འཇམ་དཔལ་རྡོ་རྗེ་རྣོན་པོ་བཞུགས༔༼༣༣༢༽འཇམ་དཔལ་ཞི་བའི་སྒྲུབ་པ་ལ༔སྦྱོར་དངོས་རྗེས་དང་གསུམ་ལྡན་པས།སྦྱོར་"@bo ;
+        :eTextHasPage       bdr:EP383F015936D569C0 , bdr:EP41696D4DCB80F888 , bdr:EP455BA391C952E795 , bdr:EP4B082BCA8CFEDE87 , bdr:EP97D0219366D5F229 , bdr:EPB9BFA8E0824EE83B , bdr:EPDAA29D9C5329F9BB , bdr:EPDD889E11BEB55FD2 , bdr:EPFB39DC683ACDF956 ;
         :eTextInInstance    bdr:IE22946 ;
         :eTextInVolume      3 ;
         :eTextSourcePath    "PalriParkhang/W22946-mkhan-po-ngag-dbang-dpal-bzang-_ngaga/rtfs/NGAGA-vol-3-GA/ga_0331-0346_pecha.rtf" ;

@@ -16,14 +16,52 @@ bdg:UT1KG14_035_0045 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT1KG14_035_0045 ;
+        adm:facetIndex      10 ;
         adm:gitPath         "10/UT1KG14_035_0045.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT1KG14_035_0045 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP034A912614ADF326
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP2D849AEEB163A303
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EP650CBB15A2FF6F86
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP71590FB913FFBD37
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP7ACB9FE5589633F2
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP7C671243D6860BE4
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EPA4D8822ABE7FE503
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPB26386090D5015A0
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPCD40D337B6E6985E
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
     bdr:UT1KG14_035_0045
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༁ྃ༔བླ་མ་དགོངས་པ་འདུས་པ་ལས༔ཞྭ་ཆོས་རིན་ཆེན་པད་སྤུངས་ཞེས་བྱ་བ་བཞུགས་སོ༔རང་གཞན་སྤྱི་ལ་གཅེས་པའི་ཆོས་དྲུག༔"@bo ;
+        :eTextHasPage       bdr:EP034A912614ADF326 , bdr:EP2D849AEEB163A303 , bdr:EP650CBB15A2FF6F86 , bdr:EP71590FB913FFBD37 , bdr:EP7ACB9FE5589633F2 , bdr:EP7C671243D6860BE4 , bdr:EPA4D8822ABE7FE503 , bdr:EPB26386090D5015A0 , bdr:EPCD40D337B6E6985E ;
         :eTextInInstance    bdr:IE1KG14 ;
         :eTextInVolume      35 ;
         :eTextSourcePath    "Shechen/Rinchen-Terdzod-Shechen-vols-01-54/rtfs/40-THI/Terdzo-thi-P48.rtf" ;

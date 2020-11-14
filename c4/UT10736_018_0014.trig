@@ -16,14 +16,64 @@ bdg:UT10736_018_0014 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT10736_018_0014 ;
+        adm:facetIndex      13 ;
         adm:gitPath         "c4/UT10736_018_0014.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT10736_018_0014 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP07A8EE27D9096E49
+        a                   :EtextPage ;
+        :seqNum             12 .
+    
+    bdr:EP3E8853582E0A5318
+        a                   :EtextPage ;
+        :seqNum             9 .
+    
+    bdr:EP48C8CF7010CC11D7
+        a                   :EtextPage ;
+        :seqNum             11 .
+    
+    bdr:EP4ACA4200DDC36943
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
+    bdr:EP5C02E7146404F51E
+        a                   :EtextPage ;
+        :seqNum             10 .
+    
+    bdr:EP607EE6A9F49D04FB
+        a                   :EtextPage ;
+        :seqNum             6 .
+    
+    bdr:EP708D8AF5E1121095
+        a                   :EtextPage ;
+        :seqNum             8 .
+    
+    bdr:EP83DEEDCC5648AF96
+        a                   :EtextPage ;
+        :seqNum             7 .
+    
+    bdr:EPB2071095207DE7CE
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPC2B0DE668650B4DA
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPDA5E68FB5DFC05AC
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPF43B42A566EB4F6A
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT10736_018_0014
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །འཇིག་རྟེན་གསུམ་སྣང་བར་བྱེད་པའི་ལྕགས་ཀྱུ་མགོན་པོ་ཆགས་པའི་རྡོ་རྗེའི་མན་ངག་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP07A8EE27D9096E49 , bdr:EP3E8853582E0A5318 , bdr:EP48C8CF7010CC11D7 , bdr:EP4ACA4200DDC36943 , bdr:EP5C02E7146404F51E , bdr:EP607EE6A9F49D04FB , bdr:EP708D8AF5E1121095 , bdr:EP83DEEDCC5648AF96 , bdr:EPB2071095207DE7CE , bdr:EPC2B0DE668650B4DA , bdr:EPDA5E68FB5DFC05AC , bdr:EPF43B42A566EB4F6A ;
         :eTextInInstance    bdr:IE10736 ;
         :eTextInVolume      18 ;
         :eTextSourcePath    "DharmaDownload/Padma-Karpo/rtfs/18_tsha/18_14_tsha_qjig-rten-gsum-snang-bar-byed-paqi-lcags-kyu-mgon-po-chags-paqi-rdo-rjeqi-man-ngag.rtf" ;

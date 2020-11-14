@@ -16,14 +16,36 @@ bdg:UT30541_011_0025 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT30541_011_0025 ;
+        adm:facetIndex      6 ;
         adm:gitPath         "89/UT30541_011_0025.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT30541_011_0025 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP067CC4918D8587A1
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP0AD7CCEB5FD40446
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EP1E3707E7CEE61B82
+        a                   :EtextPage ;
+        :seqNum             4 .
+    
+    bdr:EPC1D36790F7F5F59D
+        a                   :EtextPage ;
+        :seqNum             5 .
+    
+    bdr:EPF6D1F8B59B4A727F
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT30541_011_0025
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །ར་མོ་ཤག་གི་བཅུད་ལེན་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP067CC4918D8587A1 , bdr:EP0AD7CCEB5FD40446 , bdr:EP1E3707E7CEE61B82 , bdr:EPC1D36790F7F5F59D , bdr:EPF6D1F8B59B4A727F ;
         :eTextInInstance    bdr:IE30541 ;
         :eTextInVolume      11 ;
         :eTextSourcePath    "DharmaDownload/Karmapa-03/rtfs/11_3rd-karmapa-text_tdoc_Aa/11_24_Aa_ra-mo-shag-gi-bcud-len.rtf" ;

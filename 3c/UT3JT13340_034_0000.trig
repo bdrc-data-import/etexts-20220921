@@ -16,14 +16,24 @@ bdg:UT3JT13340_034_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13340_034_0000 ;
+        adm:facetIndex      3 ;
         adm:gitPath         "3c/UT3JT13340_034_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13340_034_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP194D48D695664AFD
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EPF8131A0B7929D292
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
     bdr:UT3JT13340_034_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "ཕྱག་འཚལ་བསྡུས་པ་ནི།ཨེ་མ་ཧོ༔ཆོས་རྣམས་རྣམ་དག་ཡེ་ནས་ལྷུན་གྲུབ་ཅིང་༔བྱ་བ་བྱེད་དང་ཡིད་ཆོས་རྣམ་པར་དག༔ཆོས་དབྱིངས་ཡེ་ཤེས་མཆོག་ལ་མངའ་བརྙེ"@bo ;
+        :eTextHasPage       bdr:EP194D48D695664AFD , bdr:EPF8131A0B7929D292 ;
         :eTextInInstance    bdr:IE3JT13340 ;
         :eTextIsVolume      34 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/P0033_Karling-Zhithro/039-phyag-qtsal.rtf" ;

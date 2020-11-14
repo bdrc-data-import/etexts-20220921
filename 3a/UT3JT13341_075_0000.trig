@@ -16,14 +16,28 @@ bdg:UT3JT13341_075_0000 {
         a                   adm:AdminData ;
         :isRoot             true ;
         adm:adminAbout      bdr:UT3JT13341_075_0000 ;
+        adm:facetIndex      4 ;
         adm:gitPath         "3a/UT3JT13341_075_0000.trig" ;
         adm:gitRepo         bda:GR0002 ;
         adm:graphId         bdg:UT3JT13341_075_0000 ;
         adm:status          bda:StatusReleased .
     
+    bdr:EP593A772EF70BECF5
+        a                   :EtextPage ;
+        :seqNum             2 .
+    
+    bdr:EP6A93B54996140823
+        a                   :EtextPage ;
+        :seqNum             1 .
+    
+    bdr:EPF4EEB1EE9310FF41
+        a                   :EtextPage ;
+        :seqNum             3 .
+    
     bdr:UT3JT13341_075_0000
         a                   :EtextNonPaginated ;
         skos:prefLabel      "༄༅། །རྒྱལ་མཆོག་ཐམས་ཅད་མཁྱེན་པ་ཆེན་པོ་སྐུ་ཕྲེང་བཅུ་བཞི་པར་ཞབས་བརྟན་དུ་གསོལ་བ་འཆི་མེད་བདུད་རྩིའི་དབྱངས་སྙན་ཞེས་བྱ་བ་བཞུགས་སོ། །"@bo ;
+        :eTextHasPage       bdr:EP593A772EF70BECF5 , bdr:EP6A93B54996140823 , bdr:EPF4EEB1EE9310FF41 ;
         :eTextInInstance    bdr:IE3JT13341 ;
         :eTextIsVolume      75 ;
         :eTextSourcePath    "DharmaDownload/pecha/rtfs/Taksham-Chochod_tdoc/062_rgyal-baqi-zhabs-brtan.rtf" ;
