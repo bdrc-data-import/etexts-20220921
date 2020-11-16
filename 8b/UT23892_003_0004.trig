@@ -24,11 +24,15 @@ bdg:UT23892_003_0004 {
     
     bdr:EPB5FBB1786DF6BBE1
         a                   :EtextPage ;
-        :seqNum             1 .
+        :seqNum             1 ;
+        :sliceEndChar       1 ;
+        :sliceStartChar     0 .
     
     bdr:EPCB067221B32CE294
         a                   :EtextPage ;
-        :seqNum             2 .
+        :seqNum             2 ;
+        :sliceEndChar       885 ;
+        :sliceStartChar     3 .
     
     bdr:UT23892_003_0004
         a                   :EtextNonPaginated ;

@@ -24,11 +24,15 @@ bdg:UT1KG4326_024_0000 {
     
     bdr:EP5D9F4758468FF914
         a                   :EtextPage ;
-        :seqNum             2 .
+        :seqNum             2 ;
+        :sliceEndChar       2038 ;
+        :sliceStartChar     1513 .
     
     bdr:EPCBB7203F40B00CCB
         a                   :EtextPage ;
-        :seqNum             1 .
+        :seqNum             1 ;
+        :sliceEndChar       1511 ;
+        :sliceStartChar     0 .
     
     bdr:UT1KG4326_024_0000
         a                   :EtextNonPaginated ;

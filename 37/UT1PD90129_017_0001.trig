@@ -24,11 +24,15 @@ bdg:UT1PD90129_017_0001 {
     
     bdr:EPAC019A8D81466CF4
         a                   :EtextPage ;
-        :seqNum             1 .
+        :seqNum             1 ;
+        :sliceEndChar       65 ;
+        :sliceStartChar     0 .
     
     bdr:EPD6A980BA3CA3BA63
         a                   :EtextPage ;
-        :seqNum             2 .
+        :seqNum             2 ;
+        :sliceEndChar       179 ;
+        :sliceStartChar     67 .
     
     bdr:UT1PD90129_017_0001
         a                   :EtextNonPaginated ;

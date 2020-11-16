@@ -24,11 +24,15 @@ bdg:UT2DB4577_007_0001 {
     
     bdr:EPC0D36ED9D8AF25C2
         a                   :EtextPage ;
-        :seqNum             1 .
+        :seqNum             1 ;
+        :sliceEndChar       6 ;
+        :sliceStartChar     0 .
     
     bdr:EPF8668E91284F8F0D
         a                   :EtextPage ;
-        :seqNum             2 .
+        :seqNum             2 ;
+        :sliceEndChar       655 ;
+        :sliceStartChar     8 .
     
     bdr:UT2DB4577_007_0001
         a                   :EtextNonPaginated ;
